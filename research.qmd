@@ -1,0 +1,54 @@
+---
+title: "Research"
+---
+
+Working papers and policy writing on carbon pricing, fiscal policy, and climate finance. Papers are available on request — please get in touch via the [contact](contact.qmd) page.
+
+## Carbon Pricing
+
+### Total Effective Carbon Price (TECP): A Framework
+*Working paper, 2026*
+
+A framework for measuring the total effective carbon price across direct and indirect policy instruments — combining explicit carbon prices (taxes, ETS), implicit prices (fuel excises, fossil fuel subsidies), and the carbon-equivalent value of non-price instruments. The framework provides a comparable metric for assessing the stringency of climate policy across countries with heterogeneous instrument mixes.
+
+*Available on request.*
+
+### A Carbon Consumption Tax for the EU
+*Working paper, 2026*
+
+On the design and political economy of a consumption-side carbon tax as a complement to the EU ETS and CBAM. The paper develops the rationale for taxing embedded carbon at the point of final consumption, the interaction with existing carbon pricing instruments, and the distributional and trade implications of consumption-based carbon taxation.
+
+*Available on request.*
+
+## Green Growth
+
+### Green Structural Transformation Policy (GSTP) Framework
+*Working paper, 2026*
+
+A diagnostic framework for green structural transformation in developing economies. The paper sets out the analytical architecture for identifying green growth opportunities, sequencing reforms, and aligning industrial, fiscal, and climate policy in middle- and low-income country contexts.
+
+*Available on request.*
+
+### Green Growth Policy — Lite (GGP-Lite)
+*Working paper, 2026*
+
+A streamlined diagnostic toolkit for green growth analysis, designed for application in country engagements with limited time and data. GGP-Lite distills the core analytical content of broader green growth diagnostics into a tractable applied tool.
+
+*Available on request.*
+
+## Climate Finance & Fiscal Policy
+
+### Operationalizing Sustainability-Linked Lending
+*Working paper, 2026*
+
+On the design and operational architecture of sustainability-linked sovereign lending — including the selection of key performance indicators, the calibration of step-ups and step-downs, verification arrangements, and the broader institutional conditions under which sustainability-linked instruments can credibly shift sovereign behavior.
+
+*Available on request.*
+
+## Country and Policy Notes
+
+Selected policy notes and country briefings on carbon pricing implementation, carbon border adjustments, fuel excise reform, and climate-fiscal policy across Europe, Africa, and Asia. *Available on request.*
+
+## Other Writing
+
+Longer-form writing on institutional economics, cooperative system design, and the philosophy of policy is occasionally collected here. See [about](about.qmd) for context.

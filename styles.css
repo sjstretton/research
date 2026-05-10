@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+a {
+  color: #1a5490;
+}
+
+a:hover {
+  color: #0d3a6b;
+}
+
+.dark a {
+  color: #6db3f0;
+}
+
+.dark a:hover {
+  color: #9dcbf5;
+}

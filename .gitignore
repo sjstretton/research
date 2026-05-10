@@ -1,0 +1,7 @@
+_freeze/
+.quarto/
+*.html~
+.Rhistory
+.Rproj.user
+.DS_Store
+Thumbs.db

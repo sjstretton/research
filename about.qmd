@@ -1,0 +1,28 @@
+---
+title: "About"
+---
+
+I am an economist working on climate, fiscal policy, and finance. My research focuses on the design of effective carbon pricing instruments, green growth diagnostics, and the fiscal and financial architecture of climate transitions.
+
+## Background
+
+I hold master's degrees in philosophy, economics, and physics. My current work at the World Bank covers carbon pricing policy design, sustainability-linked sovereign lending, and country-level fiscal and climate policy engagements across Europe, Africa, and Asia.
+
+## Research Interests
+
+My work sits at the intersection of climate, fiscal, and financial policy:
+
+- **Effective carbon pricing** — measuring the total effective carbon price across direct and indirect policy instruments
+- **Green growth diagnostics** — frameworks for green structural transformation in developing economies
+- **Sustainability-linked finance** — the operational architecture of sustainability-linked sovereign lending
+- **Fiscal policy for climate** — carbon consumption taxes, border adjustments, and the political economy of climate fiscal reform
+
+Alongside the technical work, I write on institutional economics, cooperative system design, and the philosophy of policy — drawing on game theory, Indian and Western philosophy, and the broader question of how durable collective arrangements emerge and sustain themselves.
+
+## Writing
+
+In addition to research papers, I write shorter pieces on policy, economics, and adjacent topics. Selected writing is collected in the [research](research.qmd) section.
+
+## Contact
+
+For correspondence, see [contact](contact.qmd).

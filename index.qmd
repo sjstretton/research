@@ -1,0 +1,10 @@
+---
+title: "Stephen Stretton"
+subtitle: "Climate, Fiscal Policy & Finance"
+---
+
+Economist working on climate, fiscal policy, and finance. Research focuses on effective carbon pricing, green growth diagnostics, and sustainability-linked finance.
+
+Three master's degrees in philosophy, economics, and physics. Currently at the World Bank, working on climate policy instruments and country engagements.
+
+[Browse the research →](research.qmd) | [Get in touch →](contact.qmd)
