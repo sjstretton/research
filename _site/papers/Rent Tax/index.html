@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="">
+<meta name="dcterms.date" content="2026-04-01">
+
+<title>Taxing Rent, Not Effort: A Simple Design for Land and Corporate Taxation Consistent with Free Movement of Capital and People – Climate, Fiscal &amp; Finance</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-efeb281f759ced3cb3a251b8fba2fd43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-643ef0cbfdda6ca9576a6d2fb58ed353.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-efeb281f759ced3cb3a251b8fba2fd43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Climate, Fiscal &amp; Finance</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem"><span class="header-section-number">1</span> The Problem</a></li>
+  <li><a href="#the-reverse-wealth-tax-on-land-simplified" id="toc-the-reverse-wealth-tax-on-land-simplified" class="nav-link" data-scroll-target="#the-reverse-wealth-tax-on-land-simplified"><span class="header-section-number">2</span> The Reverse Wealth Tax on Land (Simplified)</a></li>
+  <li><a href="#the-core-claim-market-power-is-the-default" id="toc-the-core-claim-market-power-is-the-default" class="nav-link" data-scroll-target="#the-core-claim-market-power-is-the-default"><span class="header-section-number">3</span> The Core Claim: Market Power Is the Default</a></li>
+  <li><a href="#three-corporate-instruments" id="toc-three-corporate-instruments" class="nav-link" data-scroll-target="#three-corporate-instruments"><span class="header-section-number">4</span> Three Corporate Instruments</a>
+  <ul class="collapse">
+  <li><a href="#layer-one-allowance-for-corporate-equity-high-rate-on-residual" id="toc-layer-one-allowance-for-corporate-equity-high-rate-on-residual" class="nav-link" data-scroll-target="#layer-one-allowance-for-corporate-equity-high-rate-on-residual"><span class="header-section-number">4.1</span> Layer One: Allowance for Corporate Equity, High Rate on Residual</a></li>
+  <li><a href="#layer-two-narrow-destination-basis-tax-on-mobile-rent-sectors" id="toc-layer-two-narrow-destination-basis-tax-on-mobile-rent-sectors" class="nav-link" data-scroll-target="#layer-two-narrow-destination-basis-tax-on-mobile-rent-sectors"><span class="header-section-number">4.2</span> Layer Two: Narrow Destination-Basis Tax on Mobile Rent Sectors</a></li>
+  <li><a href="#layer-three-simple-sales-tax-with-presence-deductions" id="toc-layer-three-simple-sales-tax-with-presence-deductions" class="nav-link" data-scroll-target="#layer-three-simple-sales-tax-with-presence-deductions"><span class="header-section-number">4.3</span> Layer Three: Simple Sales Tax with Presence Deductions</a></li>
+  </ul></li>
+  <li><a href="#why-the-market-power-default-implies-this-structure" id="toc-why-the-market-power-default-implies-this-structure" class="nav-link" data-scroll-target="#why-the-market-power-default-implies-this-structure"><span class="header-section-number">5</span> Why the Market-Power Default Implies This Structure</a></li>
+  <li><a href="#a-simple-algorithm" id="toc-a-simple-algorithm" class="nav-link" data-scroll-target="#a-simple-algorithm"><span class="header-section-number">6</span> A Simple Algorithm</a></li>
+  <li><a href="#what-this-achieves" id="toc-what-this-achieves" class="nav-link" data-scroll-target="#what-this-achieves"><span class="header-section-number">7</span> What This Achieves</a></li>
+  <li><a href="#free-movement-compatibility" id="toc-free-movement-compatibility" class="nav-link" data-scroll-target="#free-movement-compatibility"><span class="header-section-number">8</span> Free Movement Compatibility</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">9</span> Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Taxing Rent, Not Effort: A Simple Design for Land and Corporate Taxation Consistent with Free Movement of Capital and People</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="abstract" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="abstract">Abstract</h2>
+<p>This paper sketches a tax design that reaches high effective rates on economic rent while preserving free movement of capital and people. It rests on two instruments. First, a simplified <em>reverse wealth tax</em> on land: an allowance below a threshold, then a standard land value tax above it. Second, a corporate package built around the principle that <em>market power is the default</em>. Large firms in most sectors hold market power; the burden of proof should sit on them to show otherwise. This flips the usual economic presumption and justifies three complementary instruments: a high rate on supernormal profits (identified via an allowance for corporate equity), a narrow destination-basis tax on mobile rent-bearing sectors, and a simple sales tax with deductions for genuine in-country presence. Each instrument taxes a different form of rent; together they reach effective rates on the capital income of the top 0.1% well above what origin-basis corporate taxation alone can sustain. A simple algorithm is given.</p>
+</section>
+<section id="the-problem" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> The Problem</h1>
+<p>Free movement of capital and people, established across the OECD after 1970 and codified within the EU by the Maastricht Treaty, makes high tax rates on mobile bases difficult to sustain. A country that tries to tax capital income at 80% under an origin-basis corporate tax will watch the capital leave. A country that tries to tax personal wealth at 5% without exit controls will watch the wealthy follow the capital out.</p>
+<p>The usual response is to give up on high rates. This paper argues the usual response is wrong, but that getting high rates requires choosing the base carefully. The base must be rent: returns above what the marginal investor requires, or income flowing to factors that cannot relocate. Rent can be taxed at high rates because, by definition, taxing it does not change behaviour at the margin.</p>
+<p>Two bases meet this requirement cleanly. The first is land, whose supply is fixed and whose value reflects location — neither of which the owner created. The second is corporate market power, whose value reflects network effects, brand, scale, regulatory moats, and incumbency — again, largely not attributable to current effort or marginal investment.</p>
+<p>This paper offers a narrow design covering these two bases. It treats the personal-side instrument on land briefly, as a simplified reverse wealth tax, and focuses the main discussion on the corporate side.</p>
+</section>
+<section id="the-reverse-wealth-tax-on-land-simplified" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> The Reverse Wealth Tax on Land (Simplified)</h1>
+<p>The personal-side instrument is simple. Every household receives an allowance of landholding value — call it <span class="math inline">\(A\)</span> — which is fully exempt from tax. Above that allowance, the household pays land value tax at rate <span class="math inline">\(\tau_L\)</span> on the assessed unimproved site value.</p>
+<p><span class="math display">\[
+T_{\text{land}} = \tau_L \cdot \max(0, \, V_{\text{land}} - A)
+\]</span></p>
+<p>For illustration, setting <span class="math inline">\(A\)</span> at the median household’s land value (roughly the site value of an ordinary home in a modest neighbourhood) and <span class="math inline">\(\tau_L\)</span> at 2–3% per year produces a system in which most households pay nothing or very little, while households holding land valued at several multiples of the allowance face meaningful rates on the excess.</p>
+<p>The design has three properties. First, it is progressive in land wealth without being progressive in effort or earned income. Second, it taxes a base whose supply is fixed, so the incidence falls on landowners and cannot be passed through. Third, because land cannot move, there is no exit problem. The owner can leave; the tax stays.</p>
+<p>The rest of this paper sets aside land and focuses on the corporate side.</p>
+</section>
+<section id="the-core-claim-market-power-is-the-default" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> The Core Claim: Market Power Is the Default</h1>
+<p>Standard tax analysis treats market power as an exception — something that has to be identified and proven before it can be taxed. This paper reverses the presumption. For firms above a reasonable size threshold, the default assumption should be that substantial rents are being earned, and the burden of proof should sit on the firm to show otherwise.</p>
+<p>The reasoning is straightforward. In a genuinely competitive market, firms earn approximately the normal return on capital. Profits above this level attract entry, which drives them back down. If a firm is large and sustained, one of two things must be true: either it is earning rent of some kind (from network effects, brand, scale economies, regulatory protection, patents, or customer lock-in), or its sector has a minimum efficient scale so large that only a few firms can operate at all.</p>
+<p>The second category is narrow. Civil aviation manufacturing (Boeing, Airbus), leading-edge semiconductor fabrication (TSMC), and a handful of other sectors fit. In most of the economy, large firm size reflects rent, not the technical necessity of scale.</p>
+<p>This matters for tax design because it tells us where to look for rent and how to draw the line. Rather than trying to identify rent firm by firm — which requires defining routine returns, arguing about transfer prices, and running endless administrative battles — we can use size as a presumptive filter, with a narrow carve-out for genuine scale-driven sectors. The economic justification is clean: we are taxing the incumbent advantage that network effects, brand, and scale create, not productive investment.</p>
+</section>
+<section id="three-corporate-instruments" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Three Corporate Instruments</h1>
+<p>The corporate package has three layers. Each one addresses rent in a different form, and each one is designed to survive capital mobility.</p>
+<section id="layer-one-allowance-for-corporate-equity-high-rate-on-residual" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="layer-one-allowance-for-corporate-equity-high-rate-on-residual"><span class="header-section-number">4.1</span> Layer One: Allowance for Corporate Equity, High Rate on Residual</h2>
+<p>The first instrument is an Allowance for Corporate Equity (ACE). Under an ACE, the firm deducts a notional normal return on equity from its tax base — typically the long-term government bond rate applied to book equity. Only the residual, which corresponds economically to supernormal profit or rent, enters the tax base.</p>
+<p><span class="math display">\[
+\text{ACE base} = \text{Profit} - r_{\text{normal}} \cdot E
+\]</span></p>
+<p>where <span class="math inline">\(E\)</span> is book equity and <span class="math inline">\(r_{\text{normal}}\)</span> is the notional normal return rate.</p>
+<p>Because only rent enters the base, the rate can be high without distorting the marginal investment decision. A firm deciding whether to invest an extra euro faces the same after-tax return whether the rate is 30% or 55%, because the tax falls only on returns above what that euro needed to earn to be worth investing in the first place. Belgium ran a version from 2006 to 2018; Italy ran one from 2011 to 2023; the Mirrlees Review endorsed ACE as the theoretically best corporate tax structure.</p>
+<p>The proposed rate on the ACE residual is 45–55%. This is high enough to generate substantial revenue from rent-bearing firms, and the normal-return exemption means it does not punish firms that are simply large without being rent-extractive.</p>
+</section>
+<section id="layer-two-narrow-destination-basis-tax-on-mobile-rent-sectors" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="layer-two-narrow-destination-basis-tax-on-mobile-rent-sectors"><span class="header-section-number">4.2</span> Layer Two: Narrow Destination-Basis Tax on Mobile Rent Sectors</h2>
+<p>The second instrument addresses the problem that some rent is extracted by firms whose legal, financial, and intellectual property structures are located elsewhere. Digital platforms, pharmaceutical IP holders, certain financial service providers, and streaming services can route revenue through low-tax jurisdictions in ways that leave very little to be taxed at origin, no matter how well-designed the ACE.</p>
+<p>For these sectors, a separate destination-basis tax is layered on top. The rate is 20–25% on in-country revenue from identified mobile-rent sectors. The destination basis means that the tax base is where the customer is, which cannot be shifted. The rate must be kept moderate — far below the ACE rate — because destination-basis taxes at high rates generate strong incentives to relocate production physically into the taxing country to harvest the border-adjustment subsidy. At 20–25%, this distortion is manageable; at 50% it swamps the anti-shifting benefit.</p>
+<p>The sectoral scope is deliberately narrow: only sectors where rent clearly accrues to mobile intangibles and where origin-basis taxation demonstrably fails. This keeps the instrument targeted and politically defensible.</p>
+</section>
+<section id="layer-three-simple-sales-tax-with-presence-deductions" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="layer-three-simple-sales-tax-with-presence-deductions"><span class="header-section-number">4.3</span> Layer Three: Simple Sales Tax with Presence Deductions</h2>
+<p>The third instrument is the workhorse. It is a sales-based tax that applies to any large firm operating in the country, with deductions that approximate a subsidy for genuine economic presence.</p>
+<p>The base is in-country sales of any corporate group above a turnover threshold. From that base, the firm deducts a notional return on in-country tangible assets (at a rate above the normal cost of capital, parallel to the personal-side reverse wealth tax allowance) and a percentage of in-country payroll. What remains is, approximately, rent extracted from in-country customers by a firm whose productive base is elsewhere or whose margin reflects market power.</p>
+<p><span class="math display">\[
+T_{\text{MPT}} = \tau_s \cdot S - d_K \cdot K_{\text{in}} - d_W \cdot W_{\text{in}}
+\]</span></p>
+<p>where <span class="math inline">\(S\)</span> is in-country sales, <span class="math inline">\(K_{\text{in}}\)</span> is in-country tangible assets, <span class="math inline">\(W_{\text{in}}\)</span> is in-country payroll, and <span class="math inline">\(\tau_s, d_K, d_W\)</span> are the sales rate and deduction rates respectively.</p>
+<p>The design is parallel to the personal-side reverse wealth tax. Both instruments reward productive capital accumulation with a lower (or zero, or negative) effective rate, and tax unproductive rent extraction at a higher rate. A multinational with heavy in-country investment and employment pays little; a multinational extracting rent from in-country customers without corresponding in-country investment pays a lot.</p>
+<p>Illustrative calibration: <span class="math inline">\(\tau_s = 4\%\)</span>, <span class="math inline">\(d_K = 8\%\)</span>, <span class="math inline">\(d_W = 25\%\)</span>. A firm with EUR 1B in sales, EUR 50M in-country assets, and EUR 100M in-country payroll pays EUR 11M (about 1.1% of sales). A firm with the same sales but EUR 500M in-country assets and EUR 400M payroll pays nothing. The system is self-adjusting.</p>
+</section>
+</section>
+<section id="why-the-market-power-default-implies-this-structure" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Why the Market-Power Default Implies This Structure</h1>
+<p>If the presumption is that large firms earn rent unless they can show otherwise, three design choices follow directly.</p>
+<p><strong>First, the threshold matters more than the definition.</strong> Rather than trying to define market power case by case, the threshold — a turnover level above which the instruments apply — acts as the filter. Firms below the threshold are treated as competitive by presumption. Firms above it are treated as rent-bearing by presumption. This mirrors the Pillar Two threshold (EUR 750M global turnover) and uses the same compliance infrastructure.</p>
+<p><strong>Second, carve-outs should be narrow and sectoral.</strong> The scale-driven exceptions — civil aviation, leading-edge chips, perhaps a few others — are identifiable ex ante and can be handled through sector-specific provisions. The default presumption handles everything else.</p>
+<p><strong>Third, the instruments should reward genuine productive activity and punish rent extraction separately.</strong> The ACE rewards productive investment through the normal-return allowance. The sales tax with presence deductions rewards in-country real activity. Neither instrument asks whether a firm is “really” competitive; both instruments make the tax bill low when real activity is high and high when rent extraction is high, regardless of classification.</p>
+<p>The economic justification is clean: incumbent advantage, network effects, and scale-based market power generate returns that the incumbent did not earn in any meaningful marginal sense. Taxing those returns has no effect on the decisions that generated them (they were generated in the past, or by factors outside the firm’s control) and only mild effects on new entry (since potential entrants were not getting those returns anyway). The tax falls on pure rent.</p>
+</section>
+<section id="a-simple-algorithm" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> A Simple Algorithm</h1>
+<p>The corporate tax calculation for a large firm under this design proceeds as follows.</p>
+<ol type="1">
+<li><p><strong>Check the size threshold.</strong> If global group turnover is below EUR 750M, the firm is treated as competitive by default and pays only standard corporate tax at a conventional rate (say 25%). Skip the rest.</p></li>
+<li><p><strong>Apply Layer One (ACE).</strong> Compute book equity <span class="math inline">\(E\)</span>. Compute the notional normal return <span class="math inline">\(r_{\text{normal}} \cdot E\)</span>. Subtract from profit. Tax the residual at the high rate (say 50%).</p></li>
+<li><p><strong>Check for mobile-rent sector classification.</strong> If the firm is in a designated mobile-rent sector (digital platforms, pharma IP, streaming, certain financial services), apply Layer Two. Compute in-country revenue. Tax at the destination rate (say 22%). Credit against Layer One liability to avoid double taxation on the same underlying activity.</p></li>
+<li><p><strong>Apply Layer Three (presence-deducted sales tax) to all large firms.</strong> Compute in-country sales <span class="math inline">\(S\)</span>. Compute the asset deduction <span class="math inline">\(d_K \cdot K_{\text{in}}\)</span> and the payroll deduction <span class="math inline">\(d_W \cdot W_{\text{in}}\)</span>. The liability is <span class="math inline">\(\max(0, \, \tau_s \cdot S - d_K \cdot K_{\text{in}} - d_W \cdot W_{\text{in}})\)</span>.</p></li>
+<li><p><strong>Apply the narrow scale-driven carve-out.</strong> For firms in designated scale-driven sectors (civil aviation, leading-edge chips), apply a reduced rate structure acknowledging that their scale is technically necessary rather than rent-derived.</p></li>
+</ol>
+<p>The total corporate tax liability is the sum across layers, with appropriate credits to avoid double-counting. The algorithm is administratively tractable because each layer uses data that already exists in consolidated financial statements under Pillar Two reporting.</p>
+</section>
+<section id="what-this-achieves" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> What This Achieves</h1>
+<p>Consider a rent-extractive multinational: asset-light, high margin, foreign-parented, large in-country sales. Under the origin-basis CIT, it pays little because declared profit is booked elsewhere. Under this design, the ACE catches whatever rent is declared at origin; the destination-basis layer catches rent routed through intangibles; and the sales-based layer catches anything left over, because sales are in-country and hard to hide. Combined effective rate on the rent it extracts from in-country customers: 40–60%.</p>
+<p>Consider a productive, capital-intensive domestic firm: heavy in-country investment, substantial employment, competitive margins. The ACE exempts its normal return; the sales-based layer’s asset and payroll deductions roughly offset the sales tax. Effective rate on its normal return: close to zero. Effective rate on any residual rent it earns: the high ACE rate.</p>
+<p>Consider a genuine scale-driven firm (civil aviation manufacturer): large, capital-intensive, not rent-extractive in the conventional sense. The sectoral carve-out reduces its rate; the ACE exempts its normal return. Tax bill: moderate.</p>
+<p>The system discriminates between rent and effort. That is its purpose.</p>
+</section>
+<section id="free-movement-compatibility" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Free Movement Compatibility</h1>
+<p>Each instrument was chosen with the free-movement constraint in mind.</p>
+<p>The land tax is unproblematic because land cannot move. The ACE does not distort the marginal investment decision, so capital has no reason to leave beyond what it would do under any corporate tax; and the exemption of normal returns means the distortion relative to zero corporate tax is confined to rent, which is inelastic. The destination-basis layer is designed to be narrow enough that its border-adjustment distortion remains within the range that exchange-rate adjustment can absorb. The sales-based layer applies equally to domestic and foreign firms by construction; the Hungarian turnover-tax cases at the European Court of Justice (Vodafone and Tesco, 2020) established that such structures survive free-movement review when the rate structure is objectively grounded.</p>
+<p>None of these instruments requires exit controls to function, which distinguishes them from the post-1945 US high-rate regime that relied on Bretton Woods capital controls.</p>
+</section>
+<section id="conclusion" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Conclusion</h1>
+<p>High effective tax rates on the capital income of the top 0.1% are achievable under post-1970 capital mobility, provided the base is rent. The design sketched here combines a simplified reverse wealth tax on land with three corporate instruments — an ACE with a high rate on supernormal profits, a narrow destination-basis tax on mobile rent sectors, and a simple sales tax with deductions for genuine in-country presence. The unifying principle is that market power is the default assumption for large firms, which justifies treating their returns as presumptively rent-bearing and taxing them accordingly, with narrow carve-outs for genuinely scale-driven sectors.</p>
+<p>The system is administratively simple, consistent with free-movement law, and theoretically grounded. It reaches the rates that classical origin-basis corporate taxation cannot.</p>
+</section>
+<div class="appendix">
+
+
+
+
+
+
+</div>
+
+
+
+<div id="quarto-appendix" class="default"><section id="ace-mechanics-in-detail" class="level1 appendix" data-number="10"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">10</span> ACE Mechanics in Detail</h2><div class="quarto-appendix-contents">
+
+<p>The Allowance for Corporate Equity deducts a notional return on book equity from the corporate tax base. Formally, the tax base is</p>
+<p><span class="math display">\[
+B_{\text{ACE}} = \pi - r_{\text{normal}} \cdot E
+\]</span></p>
+<p>where <span class="math inline">\(\pi\)</span> is accounting profit (adjusted for tax purposes in the conventional way), <span class="math inline">\(E\)</span> is book equity, and <span class="math inline">\(r_{\text{normal}}\)</span> is the allowance rate, typically set at the long-term government bond rate.</p>
+<section id="why-normal-returns-should-be-exempt" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="why-normal-returns-should-be-exempt"><span class="header-section-number">10.1</span> Why Normal Returns Should Be Exempt</h2>
+<p>A marginal investment project returns exactly the cost of capital. If the firm is taxed on this return, the project becomes unprofitable after tax, and the firm does not undertake it. If the firm is not taxed on this return (as under an ACE), the marginal investment decision is unchanged. Intra-marginal projects — those earning more than the cost of capital — are taxed on the excess, but these projects would have been undertaken anyway. The ACE therefore collects revenue from rent without distorting investment.</p>
+</section>
+<section id="setting-the-allowance-rate" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="setting-the-allowance-rate"><span class="header-section-number">10.2</span> Setting the Allowance Rate</h2>
+<p>Theoretically, the allowance rate should equal the firm’s cost of capital. Practically, this is unobservable and varies by firm. The workable approximation is the long-term government bond rate, on the grounds that (i) it is observable, (ii) it is a reasonable proxy for the risk-free component of the cost of capital, and (iii) the risk premium is already reflected in the firm’s willingness to undertake the investment (if the investment’s expected return covers the risk, no further adjustment is needed for tax purposes). Belgium used the 10-year government bond rate plus a small premium for small firms. Italy used a fixed statutory rate.</p>
+</section>
+<section id="losses-and-carry-forwards" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="losses-and-carry-forwards"><span class="header-section-number">10.3</span> Losses and Carry-Forwards</h2>
+<p>For the ACE to work symmetrically, negative tax bases (losses) must be treated properly. Either they are refunded (rare in practice), or they are carried forward with interest at the allowance rate to preserve present value. The latter is administratively standard.</p>
+</section>
+<section id="handling-debt" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="handling-debt"><span class="header-section-number">10.4</span> Handling Debt</h2>
+<p>Under a standard corporate tax, interest is deductible but dividends are not, creating a debt bias. The ACE removes this bias by making the return on equity deductible at the normal rate. One consequence is that the tax base is narrower than under a classical CIT, which is why the rate can be higher without reducing revenue below what the classical system would collect.</p>
+</section>
+</div></section><section id="destination-basis-tax-rate-selection-and-border-effects" class="level1 appendix" data-number="11"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">11</span> Destination-Basis Tax: Rate Selection and Border Effects</h2><div class="quarto-appendix-contents">
+
+<p>A destination-basis tax at rate <span class="math inline">\(\tau_d\)</span> on sales, with full deductibility of purchases, acts as a tax on net imports at rate <span class="math inline">\(\tau_d / (1 + \tau_d)\)</span> in tax-exclusive terms. At <span class="math inline">\(\tau_d = 25\%\)</span>, the implicit import tax and export subsidy is 20%. At <span class="math inline">\(\tau_d = 50\%\)</span>, it is 33%. At <span class="math inline">\(\tau_d = 60\%\)</span>, it is 37.5%.</p>
+<p>In theory, the real exchange rate appreciates to offset this, leaving relative prices unchanged. In practice, the appreciation is incomplete and slow, and high-rate destination-basis taxes generate strong incentives to physically relocate production into the taxing country. This is the reverse of the usual concern — the distortion is too strong, not too weak, at high rates.</p>
+<p>The design response is to keep the destination-basis layer narrow (applying only to identified mobile-rent sectors) and at a moderate rate (20–25%). The anti-shifting benefit is preserved where it is most needed (intangible-heavy sectors where origin-basis taxation fails) without imposing the border-adjustment distortion across the whole economy.</p>
+<section id="residual-profit-allocation-as-an-alternative" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="residual-profit-allocation-as-an-alternative"><span class="header-section-number">11.1</span> Residual Profit Allocation as an Alternative</h2>
+<p>An alternative design taxes only the residual profit (above normal return) on a destination basis, keeping routine returns on an origin basis. This is the Devereux–Auerbach–Oosterhuis Residual Profit Allocation by Income approach. It is more theoretically elegant but administratively heavier, as it requires defining routine returns across all sectors. The sectoral mobile-rent approach in the main text is a simpler approximation targeting the same economic base.</p>
+</section>
+</div></section><section id="sales-tax-with-presence-deductions-calibration" class="level1 appendix" data-number="12"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">12</span> Sales Tax with Presence Deductions: Calibration</h2><div class="quarto-appendix-contents">
+
+<p>The presence-deducted sales tax has three parameters: the sales rate <span class="math inline">\(\tau_s\)</span>, the asset deduction rate <span class="math inline">\(d_K\)</span>, and the payroll deduction rate <span class="math inline">\(d_W\)</span>. The calibration should satisfy several criteria.</p>
+<section id="break-even-for-productive-firms" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="break-even-for-productive-firms"><span class="header-section-number">12.1</span> Break-Even for Productive Firms</h2>
+<p>A firm with typical capital intensity and typical labour intensity for its sector should pay approximately zero under this layer. Let <span class="math inline">\(k = K_{\text{in}} / S\)</span> be the capital-output ratio and <span class="math inline">\(w = W_{\text{in}} / S\)</span> be the labour share in sales. The break-even condition is</p>
+<p><span class="math display">\[
+\tau_s = d_K \cdot k + d_W \cdot w
+\]</span></p>
+<p>For a typical firm with <span class="math inline">\(k = 0.5\)</span> and <span class="math inline">\(w = 0.3\)</span>, setting <span class="math inline">\(d_K = 8\%\)</span> and <span class="math inline">\(d_W = 25\%\)</span> gives a break-even sales rate of <span class="math inline">\(0.04 + 0.075 = 11.5\%\)</span>. At the proposed <span class="math inline">\(\tau_s = 4\%\)</span>, the typical firm comfortably escapes the tax. Only firms with sales much larger than their in-country factor base — i.e., firms extracting rent from in-country customers without corresponding in-country investment — pay substantial amounts.</p>
+</section>
+<section id="asset-deduction-rate-above-normal-return" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="asset-deduction-rate-above-normal-return"><span class="header-section-number">12.2</span> Asset Deduction Rate Above Normal Return</h2>
+<p>Setting <span class="math inline">\(d_K\)</span> above the normal return on capital (which might be 5–6%) creates an implicit subsidy for in-country productive investment. At <span class="math inline">\(d_K = 8\%\)</span>, a firm earns an extra 2–3% after-tax return on in-country tangible assets through the deduction alone. This is the corporate analogue of the personal-side reverse wealth tax allowance: productive capital accumulation is rewarded; unproductive rent extraction is taxed.</p>
+</section>
+<section id="incidence" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="incidence"><span class="header-section-number">12.3</span> Incidence</h2>
+<p>Sales-based taxes pass through partially to consumers, with empirical pass-through rates from VAT studies in the range of 40–70%. Firms with market power can pass through less because they were already pricing at the top of the demand curve; firms in competitive markets can pass through more because they were pricing at the bottom. The incidence profile is therefore self-correcting: the tax falls more heavily on rent-extracting firms (low pass-through, high markup) and less heavily on consumers of products from competitive firms (high pass-through, low markup). If distributional effects remain a concern, a progressive VAT rebate or equivalent instrument can offset residual consumer incidence.</p>
+</section>
+</div></section><section id="free-movement-legal-geography" class="level1 appendix" data-number="13"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">13</span> Free Movement Legal Geography</h2><div class="quarto-appendix-contents">
+
+<p>The European Court of Justice has developed a consistent line on free movement of capital and establishment as it applies to direct taxation. The main points:</p>
+<ul>
+<li><p><strong>Formal non-discrimination suffices in most cases.</strong> Taxes that apply equally by their terms to domestic and foreign firms generally survive free-movement review, even when their incidence falls disproportionately on foreign firms, provided the structural basis is objective. The Hungarian turnover-tax cases (<em>Vodafone Magyarorszag</em>, C-75/18, and <em>Tesco-Global</em>, C-323/18, both 2020) established this clearly.</p></li>
+<li><p><strong>Exit taxes are permitted with deferral.</strong> The <em>National Grid Indus</em> line (C-371/10) permits Member States to impose exit taxes on unrealised gains at corporate redomiciliation, provided the taxpayer may elect deferred payment.</p></li>
+<li><p><strong>ACE is unproblematic.</strong> The ACE structure does not discriminate by residence and has been implemented by multiple Member States without EU law challenge.</p></li>
+<li><p><strong>Destination-basis taxes require careful design.</strong> The DST family of taxes faced challenge but survived when structured as indirect taxes on specified activities rather than as discriminatory direct taxes.</p></li>
+</ul>
+<p>For non-EU OECD members, the WTO General Agreement on Tariffs and Trade and the Agreement on Subsidies and Countervailing Measures constrain border-adjustment design. Narrowly-scoped destination-basis taxes on services (rather than goods) face less WTO risk than broad destination-basis taxation of manufacturing.</p>
+</div></section><section id="revenue-scale-estimates" class="level1 appendix" data-number="14"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">14</span> Revenue Scale Estimates</h2><div class="quarto-appendix-contents">
+
+<p>Rough order-of-magnitude estimates for a medium-sized European economy (GDP approximately EUR 2 trillion):</p>
+<ul>
+<li><strong>ACE at 50% on residual.</strong> Corporate rent share of GDP is conventionally estimated at 4–8%. Revenue: 2–4% of GDP.</li>
+<li><strong>Destination-basis layer at 22% on mobile rent sectors.</strong> Mobile-rent sector revenue approximately 8–12% of GDP. Revenue: 1–2% of GDP, with credit against Layer One.</li>
+<li><strong>Sales-based layer at 4% with deductions.</strong> Net revenue after deductions: 0.5–1.5% of GDP.</li>
+<li><strong>Land value tax above allowance.</strong> Depends heavily on allowance level. At a median-household allowance and 2.5% rate: 2–4% of GDP.</li>
+</ul>
+<p>Aggregate: 5.5–11.5% of GDP, net of credits. This is substantial relative to existing corporate and capital-income tax revenue in most OECD countries (typically 3–6% of GDP combined).</p>
+</div></section><section id="notes-on-further-reading" class="level1 appendix" data-number="15"><h2 class="anchored quarto-appendix-heading"><span class="header-section-number">15</span> Notes on Further Reading</h2><div class="quarto-appendix-contents">
+
+<p>The intellectual foundations of this design draw on several distinct literatures.</p>
+<p>For the rent-tax tradition generally: Henry George’s <em>Progress and Poverty</em> (1879) on land; James Mirrlees et al., <em>Tax by Design</em> (the Mirrlees Review, 2011), chapters on corporate taxation; Michael Devereux, Alan Auerbach, Michael Keen, Paul Oosterhuis, Wolfgang Schon, and John Vella, <em>Taxing Profit in a Global Economy</em> (Oxford, 2021).</p>
+<p>For ACE specifically: the Institute for Fiscal Studies (IFS) Capital Taxes Group, <em>Equity for Companies: A Corporation Tax for the 1990s</em> (1991); subsequent empirical work on Belgium and Italy.</p>
+<p>For destination-basis approaches: Alan Auerbach and Michael Devereux, “Cash Flow Taxes in an International Setting,” <em>American Economic Journal: Economic Policy</em> (2018).</p>
+<p>For market power as default: the empirical literature on rising markups (Jan De Loecker, Jan Eeckhout, and Gabriel Unger, <em>Quarterly Journal of Economics</em>, 2020) and on concentration in digital platforms (Jean Tirole’s Nobel lecture and subsequent work).</p>
+<p>For the Hungarian turnover-tax cases and their free-movement implications: Wolfgang Schon’s commentary in <em>Intertax</em> (2021).</p>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - "papers/**/*.pdf"
 
 website:
   title: "Climate, Fiscal & Finance"
@@ -29,5 +33,6 @@ format:
     mainfont: "Source Serif Pro"
     monofont: "JetBrains Mono"
     fontsize: 1.05em
+    linkcolor: "#1a5490"
     grid:
       body-width: 800px
