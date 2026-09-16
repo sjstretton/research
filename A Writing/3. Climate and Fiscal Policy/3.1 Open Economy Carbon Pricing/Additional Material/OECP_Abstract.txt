@@ -1,0 +1,60 @@
+OECP 
+This paper aims to contribute to the argument about policy mixes, by arguing that two different types of carbon pricing are needed respectively to transition production (the supply side) and to reduce the ecological impact of consumption behavior.
+Context: Traditional Carbon Pricing and Scale Down Versus Scale Up Incentives
+1. Why carbon pricing
+1.	What is Traditional Carbon Pricing
+2. Approaches to carbon pricing
+3. Why we need to separate the supply side and demand side
+Three basic arguments
+Argument one: forward looking cross-sectoral optimization cannot see long-term expected carbon prices surely.
+2.	Arguing for Different Incentives for Scale Up and Scale Down 
+3.	Three different Incentive Sets
+a.	Scale Up Green
+b.	Transition Green to Brown without increasing net costs
+
+Argument One: Relative Incentives between clean and dirty technologies are in national self-interest and also plausibly an approach that government can get behind.
+Argument Two: Political feasibility depends on the level of price changes
+
+
+
+
+
+Abstract (Short Form)
+
+This paper proposes a new Open Economy Carbon Pricing (OECP) framework that aligns carbon pricing with the realities of global trade and its underlying justice principles. Standard carbon pricing taxes emissions on a production basis, blending two functions—transition incentives and polluter-pays revenue—and leaving major gaps for imports, exports, and consumer responsibility. The OECP approach separates these functions into two complementary systems: a revenue-neutral production-side feebate system that strengthens incentives to produce low-carbon goods without raising export prices, and a revenue-raising consumption-based carbon charge that includes imports and fully applies the polluter-pays principle to consumers. Together, these mechanisms reduce leakage, improve competitiveness, and provide clearer economic and moral incentives for countries to adopt carbon pricing.
+
+
+Abstract (Long Form)
+Carbon pricing must simultaneously address three domains: the economic logic of efficient decarbonization instruments, the political-economy dynamics that determine feasibility, and the legal-moral foundations that justify state action. Conventional policy discussions tend to focus on the incentive properties of carbon pricing—particularly under closed-economy assumptions—while overlooking two essential features. First, modern economies are highly open, with cross-border trade shaping both emissions and competitiveness. Second, the normative justification for carbon pricing has two distinct dimensions: the classic polluter pays principle and the often-neglected duty of remediation or compensation for those harmed by emissions or by the transition itself.
+
+This paper proposes a new Open Economy Carbon Pricing (OECP) framework that restructures carbon pricing to better align with global economic integration, trade patterns, and justice considerations. Standard carbon taxes and emissions trading schemes operate primarily on a production basis, analogous to source-based income taxation. This creates leakage risks, forces policymakers to rely on complex Border Carbon Adjustments (BCAs) such as the CBAM, and conflates two fundamentally different roles of carbon pricing:
+- a transition mechanism, designed to shift production toward low-carbon technologies, and
+- a polluter-pays revenue instrument, which grounds the moral legitimacy of carbon pricing.
+
+Moreover, because traditional systems inadequately cover imports—and often over-burden exports—they fail to provide a complete polluter-pays signal for consumers, and they risk undermining domestic producers.
+
+The OECP framework separates and clarifies these functions. It introduces two complementary systems: a revenue-neutral feebate-based production system and a revenue-raising consumption-based carbon price.
+
+1. Production-Side Feebate System (Revenue Neutral).
+This system treats the economy as a producer. It provides strong relative incentives for low-carbon production—through purchase and usage feebates—while preventing large increases in export prices. Because revenue neutrality cancels the tax-raising component, the policy preserves competitiveness while fostering technological upgrading. With concessional support (e.g., from the World Bank), net costs could be zero or even negative, enhancing incentives for countries—especially developing ones—to adopt the system.
+
+2. Consumption-Based Carbon Pricing (Revenue Raising).
+This mechanism prices carbon where it is consumed, not produced. It therefore includes imports and excludes exports, paralleling destination-based VAT systems. It captures the emissions embodied in increasingly globalized supply chains and aligns with the legal-moral principle that consumers bear responsibility for their carbon footprint. Large enterprises dominate domestic energy-intensive consumption, making the system administratively tractable.
+– Imports: Energy-intensive goods could be addressed through existing CBAM-like tools, while general goods could be covered by applying an economy-wide emissions intensity metric (tCO₂ per unit of economic value).
+– Exports: Would benefit from enhanced competitiveness, as they would no longer bear domestic carbon charges.
+
+Domestic Sectoral Design.
+For domestic production consumed domestically, the framework layers two systems:
+– Feebates (both purchase-based and usage-based) provide relative incentives for households and firms (e.g., vehicle purchases, heating system upgrades, electricity generation rebates).
+– Legal liability through carbon pricing provides long-term pressure on planners and infrastructure developers to internalize climate damages.
+
+Implementation Pathways.
+Two main routes exist: Tariff Reform, particularly feasible in regimes like the EU with a common external tariff, and Consumption-Based Carbon Charges, implemented via dominant commercial and utility platforms (energy providers, fuel distributors, vehicle platforms, large online marketplaces such as Amazon).
+
+Both approaches can be made compatible with WTO rules, which already tolerate destination-based adjustments analogous to VAT systems.
+
+Conclusion.
+Open Economy Carbon Pricing restructures climate policy to match the realities of global trade. It creates two reinforcing effects:
+- Production incentives increase as rebating, feebates, and international support shift manufacturing toward cleaner producers.
+- Consumption incentives tighten as all goods consumed—domestic or imported—bear an appropriate carbon charge.
+Together, these mechanisms strengthen both the economic efficiency and the moral legitimacy of carbon pricing, provide clearer incentives for global adoption, and reduce leakage without resorting to blunt trade restrictions.
