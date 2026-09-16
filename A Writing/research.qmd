@@ -1,0 +1,116 @@
+---
+title: "Research"
+author: "Stephen Stretton"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+---
+
+## Overview
+
+This research portfolio focuses on climate policy, climate finance, applied modelling, taxation, and sovereign incentives. The common thread is practical climate statecraft: making climate strategy operational for finance ministries, multilateral development banks, and country teams through better models, diagnostics, policy instruments, and financing structures.
+
+**Key:** early stage / short concept paper (+) · in development or full draft, AI-assisted, with known flaws (++) · good draft available (+++) · largely complete (++++)  
+
+---
+
+# Research Papers
+
+## Modelling and  Analytics
+
+### Policy-Equivalent Carbon Price and Constant Elasticity of Substitution Energy Consumption (++++)
+
+Nominal carbon prices often misstate what climate policies actually do to emissions. This paper develops a common carbon-price-equivalent metric for comparing carbon taxes, feebates, subsidies, and other policies based on their emissions effects. It is supported by a nested constant elasticity of substitution demand framework that separates conservation, fuel switching, and heterogeneity within fuels or technologies, providing a low-parameter structure for static comparison and dynamic simulation.
+
+### Automated Excise-Fiscal Reports: Instruments, Externalities, and Policy Pathways (++)
+
+Finance ministries often read excise systems instrument by instrument, without seeing whether the tax system as a whole addresses externalities. This paper proposes a standardized three-part diagnostic: an excise diagnostic that categorizes each schedule line and scales rates comparably; an externality diagnostic that brings carbon, air pollution, accidents, congestion, and road damage onto a common spine; and a policy pathways section that converts findings into sequenced reform options.
+
+
+---
+
+## Climate Policy
+
+### Open Economy Carbon Pricing: Production Incentives, Consumption Pricing, and VAT-Based Implementation (++)
+
+Carbon pricing in open economies faces a trade-off between strong incentives and competitiveness concerns. This paper separates production-side green incentives from consumption-side carbon pricing. Production incentives could use feebates or benchmarked emissions trading, while destination-based consumption pricing could be implemented pragmatically through VAT-style mechanisms and border rebates. The aim is a more realistic route to comprehensive carbon pricing in open economies.
+
+### Iron and Steel, CBAM, and the Limits of Point-Source Carbon Pricing (++)
+
+CBAM-style border carbon charges can favour scrap-based production in ways that reduce reported emissions without necessarily reducing global emissions. This paper examines the problem in iron and steel, with possible relevance to aluminium, and proposes an opportunity-cost adjustment for scrap-based production. The contribution is to identify a potentially material flaw in point-source carbon pricing and its treatment of primary versus secondary production.
+
+---
+
+## Guarantees & Finance
+
+### 9. Climate Finance Intermediation for Clean Power (+++)
+
+Clean power investment is often blocked by weak payment chains between distribution companies and independent power producers. This paper proposes two routes to payment security: immediate use of World Bank power purchase agreement guarantees, and a more institutional SECI-style intermediary that sits between buyer and producer. The benefit is lower cost of capital and the creation of standardized, high-grade assets backed by secure clean-power cash flows.
+
+### 10. Standardized Two-Stage Climate Project Finance for High-Risk Contexts (+++)
+
+Clean-energy projects often face high early-stage construction risk, while public money captures too little of the upside. This paper proposes a standardized two-stage structure in which blended early finance is followed by refinancing or securitization of guaranteed future cash flows. The model is designed as a repeatable MDB financial service that can work in high-risk contexts, increase leverage, and create long-term assets for institutional investors.
+
+### 11. Guarantee-Based International Incentives for the Delivery of Strong NDCs (+)
+
+Current climate finance mainly rewards marginal emissions reductions, but says too little about absolute emissions, long-term stock-flow performance, and the value of preserving carbon stocks. This paper proposes a sovereign incentive framework in which countries receive a notional climate balance linked to carbon stocks and long-run emissions performance, translated into guarantee-based support that is gradually used up by business-as-usual emissions.
+
+### 12. The Climate Incentives Trust: Equity Funds for Climate- and Sovereign Lending Collateral (+++)
+
+Public interventions often support projects one by one without creating reusable collateral or wider financial leverage. This paper proposes leveraged equity funds that invest in projects while also serving as collateral for risk reduction and credit enhancement, including for climate and sovereign lending structures. The benefit is a recyclable public balance-sheet instrument that lowers the cost of capital and multiplies scarce concessional resources.
+
+
+
+## In Development: Modelling and Analytics 
+
+### 1. The Climate Policy Assessment Tool: Applied Mitigation Modelling for Power and System Investment (++)
+
+Policymakers need mitigation models that are detailed enough to capture sectoral policy interactions, but simple enough for real country work. This paper sets out the core mitigation architecture of the Climate Policy Assessment Tool, with particular attention to the power sector, policy interaction, and country applications. It also develops a softer replacement for CPAT’s hard renewable-energy investment-flow constraint, using system-adjusted marginal costs and shadow prices to represent realistic power-sector adjustment.
+
+### 2. A Fiscal Long-Term Strategy for Climate Mitigation (+)
+
+Climate strategies often say where emissions should go, but not how a finance ministry can fund the transition. This paper develops a SiSePuede–CCDR–CPAT framework linking long-term mitigation pathways to public and private investment, fiscal policy, and debt sustainability. The aim is to translate decarbonization pathways into a practical fiscal strategy for investment, revenues, fiscal risks, and public balance-sheet management.
+
+### 3. An Instrument Diagnostic for Climate Policy: A Six-Driver Framework for Matching Tools to Country Contexts (++)
+
+Climate policy instruments succeed or fail not only because of economic design, but because of political economy fit. This paper develops a six-driver diagnostic — fiscal pressure, political salience, vested interests, distributive design, institutional quality, and energy structure — to match instruments to country contexts. Applied to carbon taxes, emissions trading, feebates, long-term contracts, standards, and green public investment, it produces a sequencing logic for country-level advice.
+
+### 4. Green Sectoral Total Factor Productivity Potential for Industrial Policy (++)
+
+Countries are increasingly interested in green growth and green industrial policy, but often lack a structured way to identify promising sectors. This paper proposes a scoring framework for assessing which green sectors are feasible and useful targets for industrial policy in a given country. It then links those scores to total factor productivity accounting, creating a bridge between green industrial strategy and macroeconomic modelling frameworks.
+
+
+### 13. Sustainability-Linked Lending and Related Structures at the World Bank (++++)  
+
+The World Bank has developed several sustainability-linked loans and related structures, but they remain bespoke and hard to replicate. This paper proposes a codified approach with standard key performance indicator menus, simpler verification, and workable pricing. The benefit is a path from one-off transactions to a scalable sovereign incentive instrument.
+
+---
+
+# Maturity List
+
+## Largely complete (++++)  
+
+- **Policy-Equivalent Carbon Price and Constant Elasticity of Substitution Energy Consumption (3)**
+- **Sustainability-Linked Lending and Related Structures at the World Bank (13)**
+
+## Good draft available (+++)  
+
+- **Climate Finance Intermediation for Clean Power (9)**
+- **Standardized Two-Stage Climate Project Finance for High-Risk Contexts (10)**
+- **The Climate Incentives Trust: Equity Funds for Climate- and Sovereign Lending Collateral (12)**
+
+## In development or full draft, AI-assisted, with known flaws (++)  
+
+- **The Climate Policy Assessment Tool: Applied Mitigation Modelling for Power and System Investment (1)**
+- **Automated Excise-Fiscal Reports: Instruments, Externalities, and Policy Pathways (4)**
+- **An Instrument Diagnostic for Climate Policy: A Six-Driver Framework for Matching Tools to Country Contexts (5)**
+- **Green Sectoral Total Factor Productivity Potential for Industrial Policy (6)**
+- **Open Economy Carbon Pricing: Production Incentives, Consumption Pricing, and VAT-Based Implementation (7)**
+- **Iron and Steel, CBAM, and the Limits of Point-Source Carbon Pricing (8)**
+
+## Early stage / short concept paper (+)  
+
+- **A Fiscal Long-Term Strategy for Climate Mitigation (2)**
+- **Guarantee-Based International Incentives for the Delivery of Strong NDCs (11)**
