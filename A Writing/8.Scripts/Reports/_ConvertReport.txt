@@ -1,0 +1,26 @@
+﻿=== Convert documents   2026-09-17 19:53 ===
+Base   : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Pandoc : C:\Users\sjstr\AppData\Local\Programs\Quarto\bin\tools\pandoc.exe
+Mode   : APPLY - files will be written
+Media  : extracted to media\ beside the .qmd
+
+10 conversions to do.
+
+    made : 6.Additional\6.Books\Archive\Combined_Manuscript_Archive.qmd   [docx -> qmd]
+    made : 6.Additional\6.Books\Archive\Peer_Review_Time_and_Chance.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\Response_to_Peer_Review.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\The_Right_Policy_TOC.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\Time_and_Chance_TOC.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\Time_and_Chance_Working_Papers.qmd   [docx -> qmd]
+    made : 6.Additional\6.Books\Archive\Peer_Review_Time_and_Chance.docx   [qmd -> docx (new)]
+    made : 6.Additional\6.Books\Archive\Response_to_Peer_Review.docx   [qmd -> docx (new)]
+    made : 6.Additional\6.Books\Archive\The_Right_Policy_TOC.docx   [qmd -> docx (new)]
+    made : 6.Additional\6.Books\Archive\Time_and_Chance_TOC.docx   [qmd -> docx (new)]
+
+================================================================
+Created : 10
+Skipped : 0   (pair already there)
+Failed  : 0
+
+Nothing was overwritten. Re-running only picks up what is still missing.
+=== Done ===

@@ -1,0 +1,68 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260917194425
+Username: STEPHENGRAM\sjstr
+RunAs User: STEPHENGRAM\sjstr
+Configuration Name: 
+Machine: STEPHENGRAM (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Run\..\Engine\End-Day.ps1 -NoPause
+Process ID: 6096
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+======================================================================
+  Run-Website  [APPLY]   2026-09-17 19:44
+======================================================================
+
+-- prerequisites
+   Word     : not probed - Build-Pdfs reports per document
+   found  : quarto
+   MISSING: pandoc
+
+-- step 1  PDFs not built. The site publishes the master .docx.
+   Pass -Pdf to build PDFs with Word instead.
+
+======================================================================
+  step 2 of 2   Publish-Site.ps1   -   copy, render, check
+======================================================================
+=== Publish site  [APPLY]   2026-09-17 19:44 ===
+Website : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Website
+
+--- publish
+    (PDF-only paper: SustainabilityLinkedLending.pdf)
+0 file(s) copied, 31 paper(s) published in total.
+
+--- papers folder
+    nothing stale
+
+--- link targets
+    already correct
+
+--- research index
+
+    0.Overview\ResearchOverview.docx written, links pointing at https://climatefiscalfinance.org
+
+--- render
+PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+
+======================================================================
+  Summary  [APPLY]
+======================================================================
+  #  Step             Result       Secs  Note
+---  ---------------- ----------  -----  --------------------
+  1  Build-Pdfs       not wanted      0  site uses .docx
+  2  Publish-Site     ok             11
+
+Both steps completed. Read _PdfReport.txt and _SiteReport.txt for the detail.
+**********************
+Windows PowerShell transcript end
+End time: 20260917194436
+**********************

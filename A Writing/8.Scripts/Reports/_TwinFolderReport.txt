@@ -1,0 +1,11 @@
+﻿=== Remove twin folders  [APPLY]   2026-09-17 19:23 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+
+--- "0. Overview"   against   "0.Overview"
+    2 file(s) in "0. Overview"
+    in both  : CV-UnpublishedWorks.docx
+    in both  : ResearchOverview.pptx
+    BIN      : "0. Overview"   [every file in it is already in "0.Overview"]
+
+================================================================
+Removed 1, held back 0.

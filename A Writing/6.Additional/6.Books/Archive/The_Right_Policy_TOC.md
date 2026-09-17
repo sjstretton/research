@@ -1,0 +1,35 @@
+# The Right Policy at the Wrong Time
+
+*Table of contents — final*
+
+
+**Preface**
+
+
+**A Note on Terms**
+
+
+**Part I — Pricing Without the Politics**
+
+- 1. Why Feebates Beat Carbon Taxes
+- 2. What a Feebate Is
+- 3. The Energy Price Crisis and the Case for Feebates
+- 4. Scarcity Rent: Prices, Taxes, and Rationing
+- 5. Pricing Across Borders
+
+**Part II — What Carbon Should Cost**
+
+- 6. The Price Set by a Technology Competition
+- 7. Carbon Markets Under Net Zero
+- 8. Positive Framing
+
+**Part III — Transitioning Pricing**
+
+- 9. Innovation in Waves
+- 10. Three Phases of Collective Action
+- 11. The Sequence
+- 12. Dynamic Incentives
+- 13. The Order of Things
+
+**References**
+

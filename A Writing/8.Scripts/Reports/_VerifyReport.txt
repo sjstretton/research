@@ -1,0 +1,53 @@
+﻿=== Final check   2026-09-17 19:53 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Report only. Nothing is changed.
+
+--- 1  the tree
+   OK      Overview folder : 0.Overview
+   OK      Website folder  : 7.Website
+   OK      Scripts folder  : 8.Scripts
+   OK      6 section folder(s): 1.ClimateAndFiscalPolicy, 2.FinanceAndRisk, 3.SovereignIncentives, 4.Modelling, 5.Analytics, 6.Additional
+   OK      no folder name at the root has a space in it
+   OK      no .0 overview folder left - every section overview is a single Word file
+
+--- 2  the papers
+   OK      25 paper folder(s), 22 with a master document
+   NOTE    no master yet : 4.Modelling\4.2.CPATArchitectureRecodingAndFiscalApplication
+   NOTE    no master yet : 6.Additional\1.ClimateAndFiscalPolicy\1.5.StrandedByContractReformingLegacyCoalPPAs
+   NOTE    no master yet : 6.Additional\5.Analytics\5.2.ClimateFiscalFinancial
+
+--- 3  the site
+   OK      research.qmd found
+   OK      8 paper link(s) in research.qmd, 0 broken, 0 awaiting a render
+   OK      31 file(s) in papers\ - every paper in the tree gets one, linked or not
+
+--- 4  the scripts folder
+   OK      Run\
+   OK      Engine\
+   OK      Steps\
+   OK      Reference\
+   OK      Reports\
+   OK      nothing loose at the top of the scripts folder
+   NOTE    spent one-off : Steps\Flatten-Overviews.ps1   (Spring-Clean will bin it)
+   NOTE    spent one-off : Steps\Remove-TwinFolders.ps1   (Spring-Clean will bin it)
+   NOTE    spent one-off : Run\Flatten-Overviews.bat   (Spring-Clean will bin it)
+   NOTE    spent one-off : Run\Remove-TwinFolders.bat   (Spring-Clean will bin it)
+
+--- 5  the tools
+   OK      git     : C:\Program Files\Git\cmd\git.exe
+   OK      quarto  : C:\Users\sjstr\AppData\Local\Programs\Quarto\bin\quarto.exe
+   PROBLEM pandoc  : not on PATH - documents cannot be converted
+   OK      WinSCP  : C:\Program Files (x86)\WinSCP\WinSCP.com
+   NOTE    FTP     : no _ftp.txt - falling back to 7.Website\deploy.bat, which holds the password inline
+
+--- 6  the repository
+   OK      repository : C:\Users\sjstr\Documents\OneDrive\Documents\A Research
+   OK      remote     : https://github.com/sjstretton/research.git
+   OK      branch     : main
+   OK      54 uncommitted change(s)
+   NOTE    deploy.bat is still tracked and holds the FTP password:
+              git rm --cached "A Writing/7.Website/deploy.bat"
+           and change the password on the server - the old one is in the history.
+
+================================================================
+1 PROBLEM(s) and 9 note(s). Fix the problems before End-Day.bat.

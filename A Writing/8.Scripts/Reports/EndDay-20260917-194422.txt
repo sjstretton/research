@@ -1,0 +1,548 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260917194422
+Username: STEPHENGRAM\sjstr
+RunAs User: STEPHENGRAM\sjstr
+Configuration Name: 
+Machine: STEPHENGRAM (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Run\..\Engine\End-Day.ps1 -NoPause
+Process ID: 6096
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+======================================================================
+  End of day   2026-09-17 19:44
+======================================================================
+  C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+
+======================================================================
+  step 1 of 3   Run-All.ps1
+======================================================================
+
+======================================================================
+  Run-All  [APPLY]   2026-09-17 19:44
+======================================================================
+  C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+
+-- prerequisites
+   MISSING: pandoc  (steps that need it will report and be skipped)
+   found  : quarto
+
+======================================================================
+  step 1 of 5   Rename-Folders.ps1   -   folder names to <number>.CamelCase
+======================================================================
+=== Rename folders   separator '.'   2026-09-17 19:44 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Mode : APPLY - folders will be renamed
+
+Nothing to rename - every folder already matches the convention.
+
+--- folders
+
+================================================================
+Folders renamed  : 0
+Skipped (target exists)  : 0
+Failed                   : 0
+Files with paths rewritten: 0
+
+NOTE: this script cannot rename its own folder while it is running.
+If the folder holding these scripts still has a space in its name,
+rename it in Explorer. Nothing depends on what it is called.
+
+=== Done ===
+
+Report : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Reports\_RenameReport.txt
+
+Now run Preview-Reorganize.bat to confirm the layout still reads correctly.
+
+Press Enter to close...
+
+======================================================================
+  step 2 of 5   Sync-Masters.ps1   -   retire derivatives older than their master
+======================================================================
+=== Sync masters   2026-09-17 19:44 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Mode : APPLY
+
+
+================================================================
+Derivatives retired : 0
+Papers already current : 7
+
+Next: Run\Master-All.bat rebuilds the .docx from the edited .qmd,
+then Run-Website.bat rebuilds the PDF and republishes the site.
+=== Done ===
+
+Press Enter to close...
+
+======================================================================
+  step 3 of 5   Convert-Documents.ps1   -   give every paper a .qmd and a .docx
+======================================================================
+=== Convert documents   2026-09-17 19:44 ===
+Base   : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Pandoc : C:\Users\sjstr\AppData\Local\Programs\Quarto\bin\tools\pandoc.exe
+Mode   : APPLY - files will be written
+Media  : extracted to media\ beside the .qmd
+
+0 conversions to do.
+
+
+================================================================
+Created : 0
+Skipped : 0   (pair already there)
+Failed  : 0
+
+Nothing was overwritten. Re-running only picks up what is still missing.
+=== Done ===
+
+Report : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Reports\_ConvertReport.txt
+CSV    : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Reports\_ConvertIndex.csv
+
+Press Enter to close...
+
+======================================================================
+  step 4 of 5   Run-Website.ps1   -   publish, render, link check
+======================================================================
+
+======================================================================
+  Run-Website  [APPLY]   2026-09-17 19:44
+======================================================================
+
+-- prerequisites
+   Word     : not probed - Build-Pdfs reports per document
+   found  : quarto
+   MISSING: pandoc
+
+-- step 1  PDFs not built. The site publishes the master .docx.
+   Pass -Pdf to build PDFs with Word instead.
+
+======================================================================
+  step 2 of 2   Publish-Site.ps1   -   copy, render, check
+======================================================================
+=== Publish site  [APPLY]   2026-09-17 19:44 ===
+Website : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Website
+
+--- publish
+    (PDF-only paper: SustainabilityLinkedLending.pdf)
+0 file(s) copied, 31 paper(s) published in total.
+
+--- papers folder
+    nothing stale
+
+--- link targets
+    already correct
+
+--- research index
+
+    0.Overview\ResearchOverview.docx written, links pointing at https://climatefiscalfinance.org
+
+--- render
+PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+
+======================================================================
+  Summary  [APPLY]
+======================================================================
+  #  Step             Result       Secs  Note
+---  ---------------- ----------  -----  --------------------
+  1  Build-Pdfs       not wanted      0  site uses .docx
+  2  Publish-Site     ok             11
+
+Both steps completed. Read _PdfReport.txt and _SiteReport.txt for the detail.
+
+Log: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Reports\RunWebsite-APPLY-20260917-194425.txt
+
+======================================================================
+  step 5 of 5   Tidy-Scripts.ps1   -   put the scripts folder back in order
+======================================================================
+
+Spring clean: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts
+
+  BIN    Reports\_FlattenReport-preview.txt   [report older than the newest few]
+  BIN    Reports\RunWebsite-APPLY-20260917-190452.txt   [report older than the newest few]
+  BIN    Reports\_StrayFolderReport.txt   [report older than the newest few]
+  BIN    Reports\_StrayFolderReport-preview.txt   [report older than the newest few]
+  BIN    Reports\RunWebsite-APPLY-20260917-184017.txt   [report older than the newest few]
+  BIN    Reports\RunAll-APPLY-20260917-182106.txt   [report older than the newest few]
+  BIN    Reports\RunWebsite-APPLY-20260917-182116.txt   [report older than the newest few]
+
+7 item(s) to the Recycle Bin, 0 moved to Reference\.
+Deleted items are recoverable from the Recycle Bin.
+
+  binned: _FlattenReport-preview.txt
+  binned: RunWebsite-APPLY-20260917-190452.txt
+  binned: _StrayFolderReport.txt
+  binned: _StrayFolderReport-preview.txt
+  binned: RunWebsite-APPLY-20260917-184017.txt
+  binned: RunAll-APPLY-20260917-182106.txt
+  binned: RunWebsite-APPLY-20260917-182116.txt
+
+Kept 0, binned 7, failed 0.
+
+<number>.Scripts now holds:
+   Engine\
+   Reference\
+   Reports\
+   Run\
+   Steps\
+
+======================================================================
+  Summary  [APPLY]
+======================================================================
+  #  Step                   Result         Secs  Note
+---  ---------------------- ------------  -----  --------------------
+  1  Rename-Folders.ps1     ok                1
+  2  Sync-Masters.ps1       ok                0
+  3  Convert-Documents.ps1  ok                1
+  4  Run-Website            ok               12
+  5  Tidy-Scripts           ok                0
+
+Every step completed.
+
+Each step's own report is in C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Reports
+Log: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Reports\RunAll-APPLY-20260917-194422.txt
+
+======================================================================
+  step 2 of 3   commit, pull, push
+======================================================================
+   repository : C:\Users\sjstr\Documents\OneDrive\Documents\A Research
+   branch     : main
+
+-- 249 change(s) to commit
+    M .gitignore
+    M "A Writing/0.Overview/CV-UnpublishedWorks.docx"
+    M "A Writing/0.Overview/ResearchOverview.docx"
+    M "A Writing/0.Overview/ResearchOverview.pptx"
+    D "A Writing/1.ClimateAndFiscalPolicy/1.1.OpenEconomyCarbonPricing/9.Archive/Reorganize-OECP.bat"
+    D "A Writing/1.ClimateAndFiscalPolicy/1.1.OpenEconomyCarbonPricing/9.Archive/Reorganize-OECP.ps1"
+    D "A Writing/1.ClimateAndFiscalPolicy/1.1.OpenEconomyCarbonPricing/9.Archive/_ReorganizeLog.txt"
+    D "A Writing/1.ClimateAndFiscalPolicy/1.3.IronSteelCBAM/8.PreviousVersions/IronSteelCBAM-2026-09-17-new.docx"
+    D "A Writing/1.ClimateAndFiscalPolicy/1.3.IronSteelCBAM/8.PreviousVersions/IronSteelCBAM-2026-09-17-new.qmd"
+    D "A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds-previous.docx"
+    D "A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds-previous.qmd"
+    D "A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds.docx"
+    D "A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds.qmd"
+    D "A Writing/2.FinanceAndRisk/2.2.ClimateInvestmentTrust/2.Source/EquityDeRiskingForCleanEnergy.docx"
+    D "A Writing/2.FinanceAndRisk/2.2.ClimateInvestmentTrust/8.PreviousVersions/StandardizedTwoStage/StandardizedTwoStageClimateProjectFinance.docx"
+    D "A Writing/2.FinanceAndRisk/2.2.ClimateInvestmentTrust/8.PreviousVersions/StandardizedTwoStage/StandardizedTwoStageClimateProjectFinance.qmd"
+    D "A Writing/3.SovereignIncentivesAndMDBs/3.0.OverviewSovereignIncentives.docx"
+    D "A Writing/3.SovereignIncentivesAndMDBs/3.1.NotionalCapitalisedValueAndGuarantees/README.md"
+    D "A Writing/3.SovereignIncentivesAndMDBs/3.2.SustainabilityLinkedLending/SustainabilityLinkedLending.pdf"
+    D "A Writing/4.Modelling/4.2.CPATArchitectureRecodingAndFiscalApplication/3.BackgroundPapers/PowerInvestmentEquations/Background-PowerInvestmentEquations.tex"
+   ... and 229 more
+   warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Engine/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Engine/Run-All.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/Master-All.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Steps/Publish-Site.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Steps/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/0.Overview/8.GeoprosperityIntro/GeoprosperityIntro.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/3.SovereignIncentives/3.1.NotionalCapitalisedValueAndGuarantees/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/1.ClimateAndFiscalPolicy/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-India.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/1.ClimateAndFiscalPolicy/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-ShortIndiaNote.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/2.FinanceAndRisk/2.3.TheSollar/8.PreviousVersions/TheSollar-previous.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/2.FinanceAndRisk/2.3.TheSollar/TheSollar.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.3.SLIDIs/1.Presentation/Briefing-SLIDIs.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.3.SLIDIs/SLIDIs.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ClimateRelatedPriorActions9222023002EFIRDReview.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-DirkCourse.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ExamplesOfRecentDPOsWithClimateReformsJA.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-FiscalPolicyInstruments.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-FiscalReformsBMZworkshop.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ProgramDocumentSerbia.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ScalingUpPolicyLendingAndPolicyIncentivesNoteForEFI.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.5.ReformingMDBs/1.Presentation/Briefing-MDB.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/3.SovereignIncentives/3.5.ReformingMDBs/3.BackgroundPapers/Background-MDBsMandate.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/4.Modelling/4.3.CBAMDashboardAndEmissionFactors/CBAM_policy_dashboard_v1.0_guide.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/4.Modelling/4.3.CBAMDashboardAndEmissionFactors/Egypt_CBAM_EF_v1.1_guide.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/5.Analytics/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesInvestmentAppraisalOptions.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/5.Analytics/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesOtherFiscalInstrumentsBackup.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/5.Analytics/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/Background-TrillionsToBillions.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/5.Analytics/5.2.ClimateFiscalFinancial/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/5.Analytics/5.3.GreenGrowthAndSectoralTFPDiagnostic/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/5.Analytics/5.4.CarbonPricingPoliticalEconomyAndOptimality/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Engine/End-Day.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Engine/Start-Day.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Reference/_ftp.txt.example', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/Audit-Papers.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/End-Day.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/Organise.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/Purge-Strays.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/Remove-TwinFolders.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Run/Start-Day.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Steps/Audit-Papers.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Steps/Publish-Ftp.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Steps/Purge-Strays.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/9.Scripts/Steps/Remove-TwinFolders.ps1', LF will be replaced by CRLF the next time Git touches it
+   [main 2018e22] Update 2026-09-17
+    241 files changed, 1814 insertions(+), 4468 deletions(-)
+    rename A Writing/{ => 0.Overview}/8.GeoprosperityIntro/GeoprosperityIntro.docx (100%)
+    rename A Writing/{ => 0.Overview}/8.GeoprosperityIntro/GeoprosperityIntro.qmd (100%)
+    delete mode 100644 A Writing/1.ClimateAndFiscalPolicy/1.1.OpenEconomyCarbonPricing/9.Archive/Reorganize-OECP.bat
+    delete mode 100644 A Writing/1.ClimateAndFiscalPolicy/1.1.OpenEconomyCarbonPricing/9.Archive/Reorganize-OECP.ps1
+    delete mode 100644 A Writing/1.ClimateAndFiscalPolicy/1.1.OpenEconomyCarbonPricing/9.Archive/_ReorganizeLog.txt
+    delete mode 100644 A Writing/1.ClimateAndFiscalPolicy/1.3.IronSteelCBAM/8.PreviousVersions/IronSteelCBAM-2026-09-17-new.docx
+    delete mode 100644 A Writing/1.ClimateAndFiscalPolicy/1.3.IronSteelCBAM/8.PreviousVersions/IronSteelCBAM-2026-09-17-new.qmd
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds-previous.docx
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds-previous.qmd
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds.docx
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.1.ClimateFinanceIntermediationForCleanPower/8.PreviousVersions/SyntheticSovereignBonds/SyntheticSovereignBonds.qmd
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.2.ClimateInvestmentTrust/2.Source/EquityDeRiskingForCleanEnergy.docx
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.2.ClimateInvestmentTrust/8.PreviousVersions/StandardizedTwoStage/StandardizedTwoStageClimateProjectFinance.docx
+    delete mode 100644 A Writing/2.FinanceAndRisk/2.2.ClimateInvestmentTrust/8.PreviousVersions/StandardizedTwoStage/StandardizedTwoStageClimateProjectFinance.qmd
+    rename A Writing/{3.SovereignIncentivesAndMDBs => 3.SovereignIncentives}/3.0.OverviewSovereignIncentives.docx (100%)
+    rename A Writing/{3.SovereignIncentivesAndMDBs => 3.SovereignIncentives}/3.1.NotionalCapitalisedValueAndGuarantees/README.md (100%)
+    rename A Writing/{3.SovereignIncentivesAndMDBs => 3.SovereignIncentives}/3.2.SustainabilityLinkedLending/SustainabilityLinkedLending.pdf (100%)
+    delete mode 100644 A Writing/4.Modelling/4.2.CPATArchitectureRecodingAndFiscalApplication/3.BackgroundPapers/PowerInvestmentEquations/Background-PowerInvestmentEquations.tex
+    delete mode 100644 A Writing/5.Analytics/5.1.ExciseFiscalDiagnostic/3.BackgroundPapers/SLE-ExciseDiagnostic.docx
+    delete mode 100644 A Writing/5.Analytics/5.1.ExciseFiscalDiagnostic/3.BackgroundPapers/SLE-ExciseDiagnostic.qmd
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.4.RentTax/2.Source/RentTax.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.4.RentTax/2.Source/RentTax.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.4.RentTax/2.Source/RentTax.tex (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.4.RentTax/RentTax.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.4.RentTax/RentTax.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-India.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-India.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-IndiaNote.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-IndiaNote.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-IndiaPaperBrief.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-ShortIndiaNote.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/Background-ShortIndiaNote.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image1.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image10.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image11.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image12.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image13.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image14.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image15.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image16.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image17.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image18.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image19.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image2.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image20.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image21.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image22.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image23.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image3.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image3.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image4.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image5.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image6.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image7.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image8.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 1.ClimateAndFiscalPolicy}/1.5.StrandedByContractReformingLegacyCoalPPAs/3.BackgroundPapers/media/image9.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 2.FinanceAndRisk}/2.3.TheSollar/2.Source/TheSollar.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 2.FinanceAndRisk}/2.3.TheSollar/8.PreviousVersions/TheSollar-previous.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 2.FinanceAndRisk}/2.3.TheSollar/8.PreviousVersions/TheSollar-previous.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 2.FinanceAndRisk}/2.3.TheSollar/TheSollar.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 2.FinanceAndRisk}/2.3.TheSollar/TheSollar.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/Briefing-SLIDI.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/Briefing-SLIDIs.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/Briefing-SLIDIs.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/Pres-SLIDIsPDM.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/media/image1.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/media/image2.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/media/image3.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/media/image4.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/1.Presentation/media/image5.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/SLIDIs.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/media/4b0a30ca7c549a641bf3c9f30f2f399d18545033.jpg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/media/image1.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/media/image3.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/media/image4.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/media/image5.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/2.Source/media/image6.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/3.BackgroundPapers/Background-SLIDISept2024Final.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/3.BackgroundPapers/Background-SLIDISept2024Final.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/3.BackgroundPapers/media/image1.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/3.BackgroundPapers/media/image2.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/3.BackgroundPapers/media/image3.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/4.ExternalPapers/Brookings on MIGA and MDB and Roadmap (Feb 2023).pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/4.ExternalPapers/Funding low-carbon investments in the absence of a carbon tax.pdf (100%)
+    rename "A Writing/6.Additional/9.AdditionalPapers/3.3.SLIDIs/4.ExternalPapers/K\303\266lbel & Lambillon_2022_SLBs do investors pay for sustainbility.pdf" => "A Writing/6.Additional/3.SovereignIncentives/3.3.SLIDIs/4.ExternalPapers/K\303\266lbel & Lambillon_2022_SLBs do investors pay for sustainbility.pdf" (100%)
+    rename "A Writing/6.Additional/9.AdditionalPapers/3.3.SLIDIs/4.ExternalPapers/L\303\266fqvist et al_2023_private finance barriers for forest and landscape restoration.pdf" => "A Writing/6.Additional/3.SovereignIncentives/3.3.SLIDIs/4.ExternalPapers/L\303\266fqvist et al_2023_private finance barriers for forest and landscape restoration.pdf" (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/4.ExternalPapers/MIGA - ED Engagement Jan 11th 2023 (final for distribution).pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/4.ExternalPapers/MobilisingPrivateCapitalForSDGs.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/4.ExternalPapers/Moixa-Funding-Net-Zero-20-11-20.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/4.ExternalPapers/Rojas-Marchini & Carmona_2024_problems of biodiversity offsets and credits.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/AdditionalWork/KPI Bonds shorter version.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/AdditionalWork/v2 Trusted HDC Backed Intermediaries Can Finance Sustainable Instrastructure in LMICs.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Background Info for Paper.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/BackupVersions/KPI Bonds outline Aug 2024 -SS - Clean.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/BackupVersions/KPI Bonds outline Aug 2024 -SS.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/BackupVersions/KPI Bonds outline Aug 2024.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/KPI Bonds.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Literature Review.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/EFI Staff Discussion Note Proposing Mechanism for GPG Climate Policy Financing under Evolution Roadmap - Copy.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/KPI Bonds.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/MarcelloComments.txt (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/SLIDIs-NZ.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/SLIDIs-NZ2.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/SLIDIs-NZ3.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/Trusted Intermediaries Can Channel Concessional Finance for LMIC Green Development - for discussion.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/bonds with kpi - for discussion.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Older/bonds with kpi.zip (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Outline/OUTLINE-Moredetail.msg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Outline/Outline.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/Outline/Outline.txt (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/SLIDI Sep 2024 v3.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/SLIDI Sept 2024 final2.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/SLIDIs-AsPresented.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/SLIDIs-Summary.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/SLIDIs-origi.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/WP1_SLIDI.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/9.Archive/bonds with kpi.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/SLIDIs.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.3.SLIDIs/SLIDIs.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/MDBClimateEnvelope.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image10.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image11.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image12.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image13.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image14.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image15.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image16.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image17.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image18.jpg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image4.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image5.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image6.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image7.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image8.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/2.Source/media/image9.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ClimateRelatedDPLPAs.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ClimateRelatedPriorActions9222023002EFIRDReview.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ClimateRelatedPriorActions9222023002EFIRDReview.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-DirkCourse.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-DirkCourse.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-DownloadFromDbOnClimatePriorActions.csv (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-DraftListOfTransformationalClimatePolicyReformsBacked.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-DraftListOfTransformationalClimatePolicyReformsBacked.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ExamplesOfRecentDPOsWithClimateReformsJA.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ExamplesOfRecentDPOsWithClimateReformsJA.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-FiscalPolicyInstruments.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-FiscalPolicyInstruments.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-FiscalReformsBMZworkshop.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-FiscalReformsBMZworkshop.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-IndiaPDSecondLowCarbonEnergyProgrammaticDPFP1811951.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-IndonesiaFiscalReformDPL.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-PhilippinesPDSecondSustainableRecoveryDPLP1803362.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ProgramDocumentSerbia.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ProgramDocumentSerbia.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ScalingUpPolicyLendingAndPolicyIncentivesNoteForEFI.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-ScalingUpPolicyLendingAndPolicyIncentivesNoteForEFI.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-StructureAndCorrespondenceTable.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/Background-UZBEKISTANIPF.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/3.BackgroundPapers/media/image2.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/MDBClimateEnvelope.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.4.MDBClimateEnvelope/MDBClimateEnvelope.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/1.Presentation/Briefing-MDB.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/1.Presentation/Briefing-MDB.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/1.Presentation/Briefing-Reform.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/1.Presentation/media/image1.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/1.Presentation/media/image2.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/1.Presentation/media/image3.jpeg (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/2.Source/ReformingMDBs.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/2.Source/media/image10.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/3.BackgroundPapers/Background-MDBsMandate.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/3.BackgroundPapers/Background-MDBsMandate.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/4.ExternalPapers/FDL_2024_BridgingProgram.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/4.ExternalPapers/FDL_2024_BridgingProgramUpdates.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/4.ExternalPapers/Fankhauser_2023_NZFinanceInstitutions.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/4.ExternalPapers/Gregory_2023_MDBandDFIInnovations.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/4.ExternalPapers/Lee_2023_IdealClimateMDB.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/4.ExternalPapers/Strand_2023_InternationalClimateMitigationFinanceSP.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/ReformingMDBs.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 3.SovereignIncentives}/3.5.ReformingMDBs/ReformingMDBs.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/CBAM_dash_v1.6.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/CBAM_policy_dashboard_v1.0_guide.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/CBAM_policy_dashboard_v1.0_guide.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/DVs as adopted_v20260204_.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/Egypt_CBAM_EF_v1.1_guide.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/Egypt_CBAM_EF_v1.1_guide.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/Egypt_CBAM_EF_v1.2.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/Egypt_CBAM_EmissionsFactors_v1.1.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/cbam_data.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 4.Modelling}/4.3.CBAMDashboardAndEmissionFactors/cbam_global_data.xlsx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/2.Source/Background-TrillionsToBillions.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/2.Source/media/image2.png (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesClimateFinanceNeeds.txt (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesInvestmentAppraisalOptions.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesInvestmentAppraisalOptions.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesOtherFiscalInstrumentsBackup.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesOtherFiscalInstrumentsBackup.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesScalingUpFinance.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/5.Notes/Background-NotesTheElementsOfScaleMaster.pptx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/Background-TrillionsToBillions.docx (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/3.BackgroundPapers/TrillionsToBillions/Background-TrillionsToBillions.qmd (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.2.ClimateFiscalFinancial/README.md (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.3.GreenGrowthAndSectoralTFPDiagnostic/README.md (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.4.CarbonPricingPoliticalEconomyAndOptimality/Policy_Framework_Tables.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.4.CarbonPricingPoliticalEconomyAndOptimality/README.md (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => 5.Analytics}/5.4.CarbonPricingPoliticalEconomyAndOptimality/Toy_Model_Global_Mitigation.pdf (100%)
+    rename A Writing/6.Additional/{9.AdditionalPapers => }/9.0.OverviewAdditional.docx (100%)
+    delete mode 100644 A Writing/6.Additional/Research Paper Abstracts-SStretton.docx
+    delete mode 100644 A Writing/6.Additional/Research Paper Abstracts-SStretton.qmd
+    create mode 100644 A Writing/9.Scripts/Engine/End-Day.ps1
+    create mode 100644 A Writing/9.Scripts/Engine/Start-Day.ps1
+    create mode 100644 A Writing/9.Scripts/Reference/_ftp.txt.example
+    delete mode 100644 A Writing/9.Scripts/Reports/RunAll-APPLY-20260917-182106.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/RunWebsite-APPLY-20260917-182116.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/RunWebsite-APPLY-20260917-184017.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/RunWebsite-APPLY-20260917-190452.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/_FlattenReport-preview.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/_StrayFolderReport-preview.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/_StrayFolderReport.txt
+    create mode 100644 A Writing/9.Scripts/Run/Audit-Papers.bat
+    create mode 100644 A Writing/9.Scripts/Run/End-Day.bat
+    create mode 100644 A Writing/9.Scripts/Run/Organise.bat
+    create mode 100644 A Writing/9.Scripts/Run/Purge-Strays.bat
+    create mode 100644 A Writing/9.Scripts/Run/Remove-TwinFolders.bat
+    create mode 100644 A Writing/9.Scripts/Run/Start-Day.bat
+    create mode 100644 A Writing/9.Scripts/Steps/Audit-Papers.ps1
+    create mode 100644 A Writing/9.Scripts/Steps/Publish-Ftp.ps1
+    create mode 100644 A Writing/9.Scripts/Steps/Purge-Strays.ps1
+    create mode 100644 A Writing/9.Scripts/Steps/Remove-TwinFolders.ps1
+
+-- pulling before pushing
+   Current branch main is up to date.
+
+-- pushing
+   To https://github.com/sjstretton/research.git
+      7f08eda..2018e22  main -> main
+
+======================================================================
+  step 3 of 3   upload the site
+======================================================================
+   source : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Website\_site   (57 file(s))
+   winscp : C:\Program Files (x86)\WinSCP\WinSCP.com
+
+   Reference\_ftp.txt not found - falling back to 7.Website\deploy.bat
+   (that file holds the password inline and is inside the repository;
+    moving it to Reference\_ftp.txt is worth doing)
+
+   deploy.bat finished.
+
+======================================================================
+  Summary
+======================================================================
+Step       Result     Note
+---------- ---------- ------------------------------
+Workflow   ok
+Git        ok         committed and pushed
+FTP        ok
+
+Done for the day: built, committed and pushed, uploaded.
+**********************
+Windows PowerShell transcript end
+End time: 20260917194510
+**********************

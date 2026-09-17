@@ -1,0 +1,202 @@
+---
+title: "Response_to_Peer_Review"
+---
+
+# Response to Peer Review — *Time and Chance*
+
+Response to the five gaps the review ranked highest. Each entry states what the review said, what was changed in the manuscript, and what the response does not concede.
+
+------------------------------------------------------------------------
+
+## 1. Where does the risk go?
+
+**The review.** Chapter 3 states that transfer strategies fail together in the tail and that a structure which only transfers risk has hidden it. The later chapters never answer this about their own three-layer stack. Diversification does nothing in the correlated case, which is exactly when the buffer exhausts and the AAA guarantor pays.
+
+**What was done.** A new Chapter 15, “Where the Risk Goes,” opens Part IV. It makes three cases and then confronts the correlated shock directly.
+
+The first case characterizes solar’s risk precisely rather than treating it as a single premium. Roughly half of required generation investment is solar. A solar project has a two-year construction phase carrying genuine project-specific risk, and a twenty-three-year operating phase whose remaining risk is almost entirely the offtaker’s credit. Two-stage financing confines the first to the parties and period in which it exists; relationship structures — SECI’s central bank credit lines and state indemnities, Eskom’s Treasury-backed PPAs, Zambia’s IDA partial risk guarantee — move the second to a party for whom it is cheap. The chapter therefore does not claim the risk vanishes. It shows that it is smaller, shorter and more specific than the premium implies, and that each component has a known home.
+
+The second case concedes the review’s central point and turns it into the argument. Guarantees buy a lower cost of capital *with flexibility*. The government surrenders the ability to change its mind; the offtaker surrenders dispatch flexibility; the developer surrenders upside; the guarantor commits balance sheet in the tail. South Africa’s 2017 attempt to renegotiate its fourth-round contracts is used to show that the flexibility reclaimed was exactly the flexibility whose surrender had made the low bids possible. This replaces the “engineered away” framing with a transaction framing, which is more defensible and, I think, more interesting.
+
+The correlated shock is then sized. A \$100 billion guaranteed portfolio, a 5 percent equity buffer, 15 percent of offtakers in simultaneous arrears and a quarter lost on the currency component: roughly \$15 billion of loss, \$5 billion absorbed by the buffer, \$10 billion falling on the guarantor with recovery rights against sovereign ledgers. The chapter states plainly that “used but not used up” is true in expectation and false in the tail, and that a guarantor must reserve against the tail as a reinsurer does. Three mitigants are then given without overstatement: hedged currency exposure moves to the hedge counterparty; the sovereign first-loss layer is a debt with a strong repayment record rather than a default; and the physical asset keeps generating through a payment crisis, which a defaulted coal plant does not.
+
+**Not conceded.** That the structures are therefore no better than unguaranteed lending. The difference between a \$10 billion tail exposure reserved against and a \$100 billion portfolio that cannot be financed at all is the entire case for the book.
+
+------------------------------------------------------------------------
+
+## 2. The fiscal-space claim contradicts the first-loss design
+
+**The review.** Chapter 11 says the structure “does not increase developing country government liabilities.” Chapter 21 makes the government first-loss guarantor. These are contingent liabilities, which debt sustainability frameworks are increasingly built to capture.
+
+**What was done.** The Chapter 11 sentence has been retired and replaced with the conditional-liability argument: the government’s exposure is a contingent liability that crystallizes only if it reverses its own policy or lets its own offtaker default — a liability it controls rather than one it is exposed to. Chapter 15 states the same distinction in its section on the correlated shock and says explicitly that debt sustainability frameworks are right to count contingent liabilities, and should further distinguish those a government can avoid by keeping its word from those that fall on it regardless. Chapter 25’s argument on the frameworks now has that hook.
+
+**Not conceded.** That a conditional liability of this kind should be scored identically to hard-currency commercial debt. The book’s position is that a liability whose trigger is the sovereign’s own conduct is a different instrument, and that treating it as equivalent produces the perverse result Chapter 24 describes — the safer choice looking more dangerous.
+
+------------------------------------------------------------------------
+
+## 3. Currency risk is named as unsolvable and then set aside
+
+**The review.** Chapter 9 calls currency mismatch the risk that cannot be guaranteed away; Chapter 21 says the fund would be “structured to absorb” it without saying how; the Sollar is speculative; the green numéraire gets 500 words. The hardest problem gets the thinnest treatment.
+
+**What was done.** Chapter 15’s third case is currency, and it revises Chapter 9’s formulation: the risk cannot be *guaranteed* away but it can be *hedged*, at a known price, in most of the relevant markets. The evidence is The Currency Exchange Fund — hedges in more than 140 frontier and emerging market currencies, over \$10 billion of local currency funding enabled by 2024 on a capital base of around \$1.8 billion, and \$3.5 billion of exposure laid off to private counterparties, which means the risk is progressively finding private buyers rather than being warehoused by donors. The price is stated honestly: commercial hedging in frontier currencies runs 600 to 1,200 basis points, which in the LCOE table is the whole distance between the 6 percent and 12 percent rows.
+
+The chapter then sets out what the book’s structures should require: that currency exposure be *priced* rather than hidden, so a government knows what a dollar PPA costs it; that the price be *shared and reduced* through donor capital in the hedge, partial indexation of the tariff to the imported cost share, and the declining tariff; and that it be *avoided* where the domestic savings pool is deep enough — half the South African projects in the IEA survey were local-currency financed, and the green savings accounts of Chapter 20 do the same job in smaller markets without any hedge. Chapter 21’s “structured to absorb” now points to this treatment.
+
+**Not conceded.** That the book should solve currency risk. It is the largest component of the emerging market premium after sovereign risk, the structures do not abolish it, and the chapter says so. What they can do — hedge, price, or avoid — is better than current practice, which is to denominate the liability in dollars and hope.
+
+------------------------------------------------------------------------
+
+## 4. The load-bearing numbers are asserted, not derived
+
+**The review.** The preface says solar costs roughly twice as much at 12 percent as at 4, but no LCOE is ever computed. One table would do more than a dozen restatements. The LSE 70-versus-10 figure is cited from a single study without discussion of assumptions.
+
+**What was done.** Chapter 15 opens with the calculation: a representative project at \$800/kW, 20 percent capacity factor, \$12/kW/yr operating cost, twenty-five-year life, levelized across discount rates from 4 to 15 percent. The result is 3.6 cents at 4 percent, 6.5 cents at 12 percent, 7.8 cents at 15 — 80 percent more, and 115 percent more, respectively. The preface’s “roughly twice” has been corrected to “around 80 percent more at 12 percent, and more than twice at 15,” with a pointer to the table.
+
+The table also gives the financing share of LCOE, rising from 30 percent at 4 percent to 61 percent at 12. This is then checked against independent evidence: the IEA’s Cost of Capital Observatory found financing at around half of solar LCOE in emerging economies against 25 to 30 percent in advanced economies, which is what the table produces at 8–10 percent against 4. The model and the survey agree, which is the strongest available validation of the book’s arithmetic.
+
+The Chapter 20 refinancing example is rerun at 4, 6 and 8 percent in Chapter 15, showing the return-on-equity gain of 89 percent, 44 percent and zero respectively, so the reader can see how the mechanism degrades with the spread.
+
+**Not conceded.** The LSE figure remains cited from one source. The review is right that its assumptions deserve discussion; that is a paragraph for the next revision rather than this one, and I have not pretended otherwise by adding a gloss I cannot support.
+
+------------------------------------------------------------------------
+
+## 5. Interest rates have moved
+
+**The review.** The refinancing arithmetic assumes AAA paper at around 4 percent, and Chapter 11 still refers to “a low-interest environment.” In 2026 that is a live question. The argument survives because the gap is what matters, not the level — but the book should say so and rerun its example.
+
+**What was done.** Chapter 15 has a section, “Interest Rates Have Moved, and the Argument Survives,” which reruns the Chapter 20 example twice. First at developed-country rates: refinancing 8 percent debt at 4 percent nearly doubles equity income; at 6 percent it rises 44 percent; at 8 percent there is no gain, because there was no gap. Then where the example belongs, in a developing country: at 12 percent construction debt the \$1 million project leaves \$4,000 for equity and is barely viable; refinanced at 8 percent it leaves \$36,000; at 6 percent, \$52,000. The gain from derisking is the same four points of spread whether the world’s safe rate is 2 percent or 5.
+
+The section concedes one real effect of higher rates and turns it: the financing share of solar’s cost rises with the safe rate — from 30 to 41 percent between the 4 and 6 percent rows — so a given reduction in spread is worth more, not less. Higher rates make the argument more urgent without making it less true.
+
+**Not conceded.** That the manuscript should be rewritten around a higher assumed base rate. The examples are deliberately shown at several rates rather than repegged to one, because the point is that the conclusion does not depend on the choice.
+
+------------------------------------------------------------------------
+
+## Consolidation
+
+Not one of the five, but done alongside them because the review’s read- quality section made it the priority.
+
+The equity buffer fund appeared under five names across Chapters 11, 12, 20, 21 and 22. Chapter 15 now closes with “One Structure, Several Views,” which states the single idea — a pool of loss-absorbing equity that co-invests in construction, sells out on completion, stands as second loss, and shares profits with early movers — and then locates each chapter’s version as a view of it: the worked example, the procurement framing, the policy-lending application, the institutional form, and the incentive extension.
+
+Chapter 18, “Five Mechanisms,” which pre-summarized Chapters 20–23, has been removed and its five mechanisms folded into that map as the lending side, the equity side, the investment function and the guarantee stack of one architecture. Its two footnotes are preserved in Chapter 15. Chapter 12’s bullet-point restatement of the fund has been reduced to a paragraph that locates it against Chapter 11 and Part IV.
+
+The chapter ends with the full risk stack in seven numbered layers, intended to be read once and referred to thereafter. The manuscript is now 27 chapters and 42,011 words. Evidence added draws on the IEA Cost of Capital Observatory, South Africa’s REIPPPP through its seventh bid window, the IFC’s Scaling Solar programme in Zambia, Senegal and Uzbekistan, and The Currency Exchange Fund.
+
+------------------------------------------------------------------------
+
+## Still open, from the review’s list
+
+The conclusion chapter (recommendation 2) has not been written. The evidence on auction programmes now appears in Chapter 15 but a dedicated evidence chapter (recommendation 4) has not; Chapter 10’s title remains more promising than its content. Chapter 19 is still in memo register. Chapter 8 has not been merged into Chapter 27. These are the next revision.
+
+# Second Round: Remaining Points
+
+Responses to the review’s remaining recommendations, its lower-ranked gaps, and its minor points. The reader is now taken to be an intelligent layman rather than a specialist, and several changes follow from that. Decisions taken are marked as such; the few that need the author are listed at the end.
+
+The manuscript is now 26 chapters, 46,159 words, 94 pages.
+
+------------------------------------------------------------------------
+
+## Read Quality
+
+### The ending (recommendation 2)
+
+**Done.** A new closing chapter, “Two Worlds,” returns to the two countries and one solar panel of the preface and walks through what happens in each: at 4 percent, the programme compounds and the intervention becomes unnecessary; at 12 percent, nothing catches and the subsidy stays a subsidy. It then restates the argument in its four layers — contract, guarantee, structure, institution — says plainly what each costs, and closes on the threshold evidence and the title. The book now ends rather than stops.
+
+### Register and acronyms (recommendation 9)
+
+**Done, two ways.** A “Note on Terms” now sits between the preface and Part I, explaining in plain language the seventeen terms a layman will meet repeatedly: cost of capital, PPA, offtaker, reverse auction, CfD, guarantee, MDB and its three arms, preferred creditor status, SPV, tranche, first and second loss, concessional finance, DPF, PforR, FIF, LCOE. And the chapter on the World Bank’s role — the one the review singled out as memo register — has been rewritten as “Why the World Bank.” It now answers the question a layman would ask (why this institution rather than a new one, a regional bank, or the market) and explains development policy financing in a sentence instead of assuming it.
+
+### Thin chapters (recommendation 10)
+
+**Chapter 8, coal and PPAs — merged.** It is now the closing section of the coal retirement chapter, “Even When a PPA Is in Place,” where the review said it belonged.
+
+**The FAQ — folded.** Its four questions now close the Safe Intermediary chapter as “Four Questions a Finance Minister Would Ask,” each answered at slightly greater length than before. A layman benefits from the questions being asked; they did not need their own chapter.
+
+**Green Policy as Growth Policy — moved and expanded.** It now precedes the Sollar rather than following it, so that the reader meets the macroeconomic thesis (a green safe asset changes how monetary policy transmits) before its most speculative application. It has roughly doubled in length, with the post-2008 decade used as the illustration of what happens when easing flows into asset prices rather than investment, and with the dilemma it resolves — dollar debt is cheap but dangerous, local debt safe but dear — stated explicitly.
+
+### Chapter 15’s title (minor)
+
+**Renamed.** “The Elements of Scale” is now “Overcoming the Balance Sheet Limit,” which is what the chapter argues. The subtitle no longer echoes a chapter heading. The “work in progress” note was removed in the first round.
+
+------------------------------------------------------------------------
+
+## Gaps 6 to 10
+
+### 6. The evidence base is one case
+
+**Done.** Chapter 9, formerly “Key Insights from Existing Structures,” is rewritten as “What the Record Shows” and now earns its title. Each of its five lessons has evidence behind it:
+
+- The cost-of-capital lesson is grounded in the IEA Observatory’s survey figures: financing at around half of solar LCOE in emerging economies against 25–30 percent in advanced ones; median WACCs from just under 10 percent in India and Mexico to 13 percent in Brazil; merchant projects priced higher than contracted ones.
+- The auction lesson uses South Africa’s programme — tariffs down 70 percent across three windows, over 256 billion rand and 7,300 MW procured, Treasury-guaranteed PPAs — and Scaling Solar in Zambia (6.02 cents against 12-cent unsolicited proposals), Senegal (3.8 euro cents) and Uzbekistan (2.7 cents).
+- The SECI account is now honest in both directions. The mechanisms are described — the Payment Security Fund, the 2017 tripartite agreement letting the centre withhold state transfers, the 2019 letter-of-credit requirement — and so is the record: Discom dues of 1.32 trillion rupees in 2022 and 779 billion in 2024, two central liquidity injections, and the change-in-law episode that left lenders questioning SECI’s own balance sheet. The chapter’s conclusion is that the risk was moved, as the book says it should be, and not eliminated, and that the party it was moved to has needed support from the party behind it.
+- The debt-equity lesson uses the South African equity-return compression from 17 to 9.5 percent as the picture of what track record looks like in data.
+
+Two cautions are included that a purely favourable account would omit: Scaling Solar did not scale beyond three countries, and a later analysis found the programme’s messaging understated the concessional finance that produced the Zambian tariff, with the consequence that a neighbouring government cancelled fourteen projects on a false comparison. The book’s position — that derisking should be visible, priced and replicated — is stronger for having the counter-example in it.
+
+### 7. The “chance” claim is not decomposed
+
+**Done, in the same chapter.** The IEA’s Kenya and Senegal analysis splits the cost of capital into the sovereign base rate and sector-specific premiums, and finds the base rate accounts for 60 to 90 percent in Africa against 35 percent in China and 10 percent in advanced economies, with the sector premium driven by regulation, offtaker reliability and transmission. Read against the auction records, the decomposition the preface promised now exists: between a third and a half of the premium in a typical emerging market, and less in the poorest, is the kind of risk that track record and guarantees dissolve; the rest is sovereign, and yields only to the safe-intermediary structures of Part IV. The conclusion carries the same figure.
+
+**Not conceded:** that the informational share is larger than this. The data do not support a claim that most of the premium is ignorance, and the preface’s wording — “a large part,” not “most” — stands.
+
+### 8. The declining PPA shifts risk without saying to whom
+
+**Done.** Chapter 8 now has a paragraph stating that a tariff declining on a fixed schedule is a bet that solar costs fall at least as fast, that the developer carries the risk if they do not, and that the developer charges for it. The design is defended — the offtaker is the party least able to bear an open-ended real commitment — but the saving is acknowledged to be smaller than the headline decline, and the schedule is recommended to follow a conservative cost path.
+
+### 9. Grid, curtailment and storage
+
+**Partly done.** Chapter 8 now explains curtailment as a revenue risk inside the contract, and the single clause that decides who bears it — take-or-pay against take-and-pay — with the observation that in a weak grid the difference is several points on the cost of capital and is why transmission appears alongside offtaker reliability in every investor survey. A full treatment of grids and storage remains beyond this book, and the Safe Intermediary chapter still says so.
+
+### 10. Distribution of the gains
+
+**Done.** Chapter 10’s worked example now has a paragraph quantifying the split: in any single deal roughly three-quarters of the equity uplift goes to the developer and a quarter to the public fund; the consumer’s share comes not from that deal but from the next auction, where developers who know the structure exists bid lower — which is what the South African tariff and equity-return series show over time. The public fund’s stake is defended as the device that recycles some of the early excess rather than leaving it all with the developer.
+
+------------------------------------------------------------------------
+
+## Minor Points
+
+**CIT governance.** A new section, “Who Speaks for 2050,” states the three conditions for the trust to be legitimate: rules written in advance and hard to change, with the super-majority provision applied; transparent published accounts; and a standing seat for the beneficiary country on rules and audit, but not on investment decisions. Capture by managers is named as the hazard and the standard endowment protections as the answer.
+
+**The ten recommendations.** Now introduced as the literature’s list, not the book’s, with a sentence saying which of the ten the book argues for directly (the second, seventh and ninth) and which it treats as its own equity pool in another guise (the first).
+
+**Adaptation.** The preface now states the scope: the book is about mitigation, adaptation assets rarely generate a contracted revenue stream, and the argument depends on that stream existing.
+
+**The LSE figure.** Glossed in the preface as an illustrative simulation depending on the size of the push and the country’s starting point, cited as a demonstration of scale rather than a forecast.
+
+**References.** A references section now closes the book with the twenty-odd works cited or drawn on in the text. The wider bibliography stays in the working papers.
+
+------------------------------------------------------------------------
+
+## Decisions Taken Without Consultation
+
+Merging Chapter 8 into the coal chapter; folding the FAQ; moving and expanding Green Policy as Growth Policy; renaming Chapter 15; rewriting the World Bank chapter in a layman’s register; adding the glossary; and including the critical evidence on SECI and Scaling Solar alongside the favourable. Each seemed clear enough not to need asking.
+
+## Decisions That Need the Author
+
+1.  **The LSE 70/10 figure.** I have glossed it but could not verify the underlying assumptions from the IHLEG report. If you have the source passage, the gloss can be made specific; if not, the figure should either stay as an illustration, as now, or be replaced by the LCOE table’s own arithmetic, which is derived and needs no citation.
+
+2.  **SECI arrears figures.** These are drawn from Indian press and ministry portal reporting and are indicative. A specialist reader will want them tied to the PRAAPTI portal directly. Decide whether the level of precision in Chapter 9 is right for the intended reader or whether it should be rounded further.
+
+3.  **The companion volume cross-references.** Several chapters now say “the companion volume” where they once cited a chapter number. If the pricing book is to be published, those references should name it and, ideally, its chapter. If it is not, they should be softened to “elsewhere.”
+
+4.  **The grid chapter.** The review’s ninth gap is only partly closed. A short chapter on grids, curtailment and storage — probably in Part V, alongside coal — would complete it. It is the one remaining gap I would not close without asking, because it opens a subject the book has so far deliberately kept out.
+
+# Third Round: Filling the Remaining Gaps
+
+The manuscript is now 29 chapters, 50,433 words, 104 pages, with four figures.
+
+**The offtaker’s own economics.** New Chapter 22 opens the final part. It follows the money to the utility’s balance sheet: the retail tariff set below cost, the gap the treasury funds or does not, and why a guarantee makes the generator whole without making the utility solvent. It then argues that cheap solar shrinks the gap from the cost side, that the structures require the utility to be on a credible path to cost recovery as a precondition, and that development policy lending is the instrument that ties the two together. It closes on the distributional point: below-cost tariffs mostly subsidize the better-off, and a fall in the cost of supply turns a tariff reform that raises prices into one that lowers them.
+
+**The other half.** New Chapter 23 extends the contracted-revenue logic to wind (fully), storage (largely, through capacity and availability contracts, with South Africa’s first solar-plus-storage close as the example), hydro (partially) and transmission (only where the wire can be contracted or bundled). For backbone grids it concedes that the argument reverts to conventional public-infrastructure finance through the safe-intermediary structures, and it states plainly that the cheap financing of generation buys nothing unless the grid keeps pace.
+
+**Why the World Bank hasn’t done it.** Folded into Chapter 17 as a second half: the capital adequacy framework and the G20 panel’s finding; shareholder politics and why additionality is the condition of consent; risk culture and the reason a first-loss vehicle has to be separately capitalized and measured; and the missing functions at IFC and MIGA. Each obstacle is turned into a design principle for the funds that follow.
+
+**The sum.** Chapter 15 now has a sizing table: \$2–2.5 trillion of solar in EMDEs excluding China over a decade, \$1.6–2 trillion of investment-grade debt, an equity buffer under \$100 billion, a tail reserve of \$160–200 billion, twenty to thirty SECI-scale intermediaries, and — the line that does not yet exist at scale — \$300–400 billion of hedging capacity against TCX’s \$5 billion balance sheet.
+
+**One country.** New Chapter 28 walks Vietnam from 2017 to 2025: the 9.35-cent feed-in tariff that created an asset; 21 gigawatts in six years, 58 percent domestically financed; the PPA that lenders called unbankable in 2017 for lacking arbitration, termination compensation and a curtailment cap; the curtailment that followed when the grid saturated; the BB-rated utility buying above the price it sold at; the retroactive tariff cut on 173 projects; and the \$15.5 billion JETP that stalled because the government would not guarantee the offtaker. It ends with the counterfactual under the book’s structures, and notes that every element was proposed to Vietnam at the time and declined.
+
+**Figures.** Four, all generated from the book’s own numbers: the LCOE curve with the Observatory’s medians marked; the two-stage financing timeline; the seven-layer risk stack; and the two-worlds divergence.
+
+Part V is retitled “The Hard Cases: Utilities, Grids, Debt, and Coal.”
+
+**Not done.** China as a competing financier, and adaptation. Both are excluded by choice and the preface says so for the second. The LSE figure remains glossed as illustrative pending the source.

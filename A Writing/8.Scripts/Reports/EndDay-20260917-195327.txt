@@ -1,0 +1,158 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260917195327
+Username: STEPHENGRAM\sjstr
+RunAs User: STEPHENGRAM\sjstr
+Configuration Name: 
+Machine: STEPHENGRAM (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Run\..\Engine\End-Day.ps1 -NoPause
+Process ID: 11224
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+======================================================================
+  End of day   2026-09-17 19:53
+======================================================================
+  C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+
+======================================================================
+  step 1 of 3   Run-All.ps1
+======================================================================
+
+======================================================================
+  Run-All  [APPLY]   2026-09-17 19:53
+======================================================================
+  C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+
+-- prerequisites
+   MISSING: pandoc  (steps that need it will report and be skipped)
+   found  : quarto
+
+======================================================================
+  step 1 of 5   Rename-Folders.ps1   -   folder names to <number>.CamelCase
+======================================================================
+=== Rename folders   separator '.'   2026-09-17 19:53 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Mode : APPLY - folders will be renamed
+
+Nothing to rename - every folder already matches the convention.
+
+--- folders
+
+================================================================
+Folders renamed  : 0
+Skipped (target exists)  : 0
+Failed                   : 0
+Files with paths rewritten: 0
+
+NOTE: this script cannot rename its own folder while it is running.
+If the folder holding these scripts still has a space in its name,
+rename it in Explorer. Nothing depends on what it is called.
+
+=== Done ===
+
+Report : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Reports\_RenameReport.txt
+
+Now run Preview-Reorganize.bat to confirm the layout still reads correctly.
+
+Press Enter to close...
+
+======================================================================
+  step 2 of 5   Sync-Masters.ps1   -   retire derivatives older than their master
+======================================================================
+=== Sync masters   2026-09-17 19:53 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Mode : APPLY
+
+
+================================================================
+Derivatives retired : 0
+Papers already current : 7
+
+Next: Run\Master-All.bat rebuilds the .docx from the edited .qmd,
+then Run-Website.bat rebuilds the PDF and republishes the site.
+=== Done ===
+
+Press Enter to close...
+
+======================================================================
+  step 3 of 5   Convert-Documents.ps1   -   give every paper a .qmd and a .docx
+======================================================================
+=== Convert documents   2026-09-17 19:53 ===
+Base   : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Pandoc : C:\Users\sjstr\AppData\Local\Programs\Quarto\bin\tools\pandoc.exe
+Mode   : APPLY - files will be written
+Media  : extracted to media\ beside the .qmd
+
+10 conversions to do.
+
+    made : 6.Additional\6.Books\Archive\Combined_Manuscript_Archive.qmd   [docx -> qmd]
+    made : 6.Additional\6.Books\Archive\Peer_Review_Time_and_Chance.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\Response_to_Peer_Review.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\The_Right_Policy_TOC.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\Time_and_Chance_TOC.qmd   [md -> qmd]
+    made : 6.Additional\6.Books\Archive\Time_and_Chance_Working_Papers.qmd   [docx -> qmd]
+    made : 6.Additional\6.Books\Archive\Peer_Review_Time_and_Chance.docx   [qmd -> docx (new)]
+    made : 6.Additional\6.Books\Archive\Response_to_Peer_Review.docx   [qmd -> docx (new)]
+    made : 6.Additional\6.Books\Archive\The_Right_Policy_TOC.docx   [qmd -> docx (new)]
+    made : 6.Additional\6.Books\Archive\Time_and_Chance_TOC.docx   [qmd -> docx (new)]
+
+================================================================
+Created : 10
+Skipped : 0   (pair already there)
+Failed  : 0
+
+Nothing was overwritten. Re-running only picks up what is still missing.
+=== Done ===
+
+Report : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Reports\_ConvertReport.txt
+CSV    : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Reports\_ConvertIndex.csv
+
+Press Enter to close...
+
+======================================================================
+  step 4 of 5   Run-Website.ps1   -   publish, render, link check
+======================================================================
+
+======================================================================
+  Run-Website  [APPLY]   2026-09-17 19:53
+======================================================================
+
+-- prerequisites
+   Word     : not probed - Build-Pdfs reports per document
+   found  : quarto
+   MISSING: pandoc
+
+-- step 1  PDFs not built. The site publishes the master .docx.
+   Pass -Pdf to build PDFs with Word instead.
+
+======================================================================
+  step 2 of 2   Publish-Site.ps1   -   copy, render, check
+======================================================================
+=== Publish site  [APPLY]   2026-09-17 19:53 ===
+Website : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Website
+
+--- publish
+    (PDF-only paper: SustainabilityLinkedLending.pdf)
+    -> papers\CombinedOverview.docx   (section overview)
+    -> papers\OverviewAdditional.docx   (section overview)
+2 file(s) copied, 32 paper(s) published in total.
+
+--- papers folder
+    nothing stale
+
+--- link targets
+    already correct
+
+--- research index
+
+    0.Overview\ResearchOverview.docx written, links pointing at https://climatefiscalfinance.org
+
+--- render
