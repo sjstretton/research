@@ -1,4 +1,4 @@
-﻿=== Convert documents   2026-09-17 19:14 ===
+﻿=== Convert documents   2026-09-17 19:44 ===
 Base   : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
 Pandoc : C:\Users\sjstr\AppData\Local\Programs\Quarto\bin\tools\pandoc.exe
 Mode   : APPLY - files will be written

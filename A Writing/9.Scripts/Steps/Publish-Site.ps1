@@ -141,12 +141,20 @@ function Find-PaperFolders([string]$root) {
     $stack = New-Object System.Collections.Stack
     foreach ($d in (Get-ChildItem -LiteralPath $root -Directory -EA SilentlyContinue)) {
         if ($d.Name -match '[.\s_-]*Scripts$' -or $d.Name -match 'Website$') { continue }
-        if ($d.Name -match $OverviewFolderPattern) { continue }
         $stack.Push($d)
     }
     while ($stack.Count -gt 0) {
         $d = $stack.Pop()
         if ($SkipDirs -contains $d.Name) { continue }
+        # The Overview folder holds finished deliverables - the tracker, the CV
+        # extract, the deck - so it is never a paper itself. A numbered paper
+        # folder parked inside it still is one, so we descend rather than skip.
+        if ($d.Name -match $OverviewFolderPattern) {
+            foreach ($s in (Get-ChildItem -LiteralPath $d.FullName -Directory -EA SilentlyContinue)) {
+                if ($SkipDirs -notcontains $s.Name) { $stack.Push($s) }
+            }
+            continue
+        }
         $core = Core-Name $d.Name
         $isPaper = $false
         foreach ($e in @('.docx', '.pdf', '.qmd')) {
@@ -180,13 +188,13 @@ function Find-LooseOverviews([string]$root) {
     $stack = New-Object System.Collections.Stack
     foreach ($d in (Get-ChildItem -LiteralPath $root -Directory -EA SilentlyContinue)) {
         if ($d.Name -match '[.\s_-]*Scripts$' -or $d.Name -match 'Website$') { continue }
-        if ($d.Name -match $OverviewFolderPattern) { continue }
         $stack.Push($d)
     }
     while ($stack.Count -gt 0) {
         $d = $stack.Pop()
         if ($SkipDirs -contains $d.Name) { continue }
-        foreach ($f in (Get-ChildItem -LiteralPath $d.FullName -File -EA SilentlyContinue)) {
+        $isOverviewFolder = ($d.Name -match $OverviewFolderPattern)
+        foreach ($f in $(if ($isOverviewFolder) { @() } else { Get-ChildItem -LiteralPath $d.FullName -File -EA SilentlyContinue })) {
             if ($f.Name -match '^\d+\.0[.\s_-]' -and $f.Extension.ToLower() -in @('.docx', '.pdf')) {
                 $found.Add($f) | Out-Null
             }

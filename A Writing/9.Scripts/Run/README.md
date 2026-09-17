@@ -2,10 +2,21 @@
 
 The only files you double-click.
 
-- `Master-All.bat` — the whole workflow: organise, convert, PDFs, website, tidy.
+**Every day**
+
+- `Start-Day.bat` — first thing: fetch and pull from GitHub so this copy is current. Commits nothing.
+- `End-Day.bat` — last thing: the full workflow, then commit / pull / push, then upload `_site` to the web server. In that order, because the site has to be built before it is committed and committed before it goes live.
+
+**When you need them**
+
+- `Master-All.bat` — the workflow on its own, without the git and FTP steps: folder names, stale derivatives, convert, website, tidy.
 - `Master-Website.bat` — PDFs and website only. This is the one to use after editing papers.
 - `Preview-All.bat`, `Preview-Website.bat` — the same two, reporting without changing anything.
+- `Organise.bat` — `Master-All` with the three structural steps put back (Reorganize-Papers, Rename-Files, Repair-Encoding). After importing a batch of new material, not otherwise.
 - `Spring-Clean.bat` — puts `9.Scripts` back to its five folders and bins the rest. It asks first.
+- `Audit-Papers.bat` — reads the paper folders and reports duplicates, twins and files in the wrong place. It changes nothing.
+- `Purge-Strays.bat` — acts on what the audit found. Deliberately aggressive: where there are two of something it keeps one and bins the rest, and moves loose files into their slot. Previews, then asks you to type PURGE. Everything removed is in the Recycle Bin.
+- `Remove-TwinFolders.bat` — bins a `0. Overview` sitting beside a `0.Overview`, once it has checked nothing in it is unique. A no-op when there are no twins.
 - `Flatten-Overviews.bat` — replaces any `<n>.0` overview folder with the single Word file beside it. A no-op once there are none. It asks first.
 
 Nothing else in `9.Scripts` is meant to be run by hand.

@@ -1,18 +1,13 @@
-﻿=== Rename folders   separator '.'   2026-09-17 19:14 ===
+﻿=== Rename folders   separator '.'   2026-09-17 19:44 ===
 Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
 Mode : APPLY - folders will be renamed
 
-2 folders to rename.
-
---- references
-    no path references needed changing
+Nothing to rename - every folder already matches the convention.
 
 --- folders
-    0. Overview   ->   0.Overview
-    8. Geoprosperity Intro   ->   8.GeoprosperityIntro
 
 ================================================================
-Folders renamed  : 2
+Folders renamed  : 0
 Skipped (target exists)  : 0
 Failed                   : 0
 Files with paths rewritten: 0

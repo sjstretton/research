@@ -1,4 +1,0 @@
-﻿=== Remove the stray 6. folder  [APPLY]   2026-09-17 19:04 ===
-Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
-
-   done   : "6. Overview and Additional" is not there - nothing to do.

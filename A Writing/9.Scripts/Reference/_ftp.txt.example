@@ -1,0 +1,12 @@
+# Rename this file to _ftp.txt and fill it in. It is excluded by .gitignore,
+# so what you put here never reaches GitHub.
+#
+# Take the values from 7.Website\deploy.bat - and once this file works, change
+# the password on the server. The old one is in the repository's history and
+# rewriting history is not worth the trouble; a new password costs a minute.
+
+host     = ftp.example.com
+user     = someone
+password = 
+remote   = /public_html
+protocol = ftp

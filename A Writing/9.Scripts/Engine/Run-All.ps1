@@ -1,22 +1,29 @@
 #requires -Version 5.1
 <#
     Run-All.ps1
-    The whole maintenance workflow, in the order the steps depend on each other.
+    The maintenance workflow, in the order the steps depend on each other.
 
       1  Rename-Folders      folder names to <number>.CamelCase
-      2  Reorganize-Papers   files into the standard slots, rebuild the index
-      3  Rename-Files        filename convention, flatten media folders
-      4  Repair-Encoding     undo double-encoded UTF-8
-      5  Sync-Masters        retire derivatives older than their master
-      6  Convert-Documents   every paper gets a .qmd and a .docx
-      7  Run-Website         PDFs, publish, render, link check
-      8  Tidy-Scripts        put the scripts folder back to the layout
+      2  Sync-Masters        retire derivatives older than their master
+      3  Convert-Documents   every paper gets a .qmd and a .docx
+      4  Run-Website         publish, render, link check
+      5  Tidy-Scripts        put the scripts folder back to the layout
 
-    1 to 6 are in Steps\, 7 and 8 are here in Engine\.
+    That is the daily run. Three more steps exist and are not in it:
 
-    Steps 1-3 are structural: if one fails the run stops, because the later
-    steps would act on a half-moved tree. Steps 4-7 are recorded and the run
-    carries on.
+        Reorganize-Papers   files into the standard slots, rebuild the index
+        Rename-Files        filename convention, flatten media folders
+        Repair-Encoding     undo double-encoded UTF-8
+
+    They did their work when the tree was first put in order. On a settled tree
+    they are no-ops that still walk every file and can still move one, which is
+    the wrong trade for a run you do every day. -Full puts them back, and
+    Run\Organise.bat is that run: worth doing after importing a batch of new
+    material, and not otherwise.
+
+    Rename-Folders is structural: if it fails the run stops, because the later
+    steps would act on a half-moved tree. Everything after it is recorded and
+    the run carries on.
 
     Every step lives in Steps\ as a .ps1. This file and Run-Website.ps1 are
     the only orchestrators; nothing else calls the steps.
@@ -24,6 +31,7 @@
     Usage
         Run\Master-All.bat     the real run, after one confirmation
         Run\Preview-All.bat    the same in preview - changes nothing
+        Run\Organise.bat       the long run, with the three structural steps
 #>
 
 [CmdletBinding()]
@@ -31,6 +39,7 @@ param(
     [switch]$Apply,
     [switch]$SkipWebsite,
     [switch]$NoTidy,
+    [switch]$Full,
     [int]$TimeoutSeconds = 180
 )
 
@@ -46,14 +55,21 @@ if (-not (Test-Path -LiteralPath $reportDir)) { New-Item -ItemType Directory -Pa
 $transcript = Join-Path $reportDir ("RunAll-{0}-{1}.txt" -f $mode, (Get-Date -Format 'yyyyMMdd-HHmmss'))
 try { Start-Transcript -LiteralPath $transcript -Force | Out-Null } catch { }
 
-$Steps = @(
-    [pscustomobject]@{ N=1; Rel='Steps\Rename-Folders.ps1';    Critical=$true;  What='folder names to <number>.CamelCase' }
-    [pscustomobject]@{ N=2; Rel='Steps\Reorganize-Papers.ps1'; Critical=$true;  What='files into the standard slots, rebuild the index' }
-    [pscustomobject]@{ N=3; Rel='Steps\Rename-Files.ps1';      Critical=$true;  What='filename convention, flatten media folders' }
-    [pscustomobject]@{ N=4; Rel='Steps\Repair-Encoding.ps1';   Critical=$false; What='undo double-encoded characters' }
-    [pscustomobject]@{ N=5; Rel='Steps\Sync-Masters.ps1';      Critical=$false; What='retire derivatives older than their master' }
-    [pscustomobject]@{ N=6; Rel='Steps\Convert-Documents.ps1'; Critical=$false; What='give every paper a .qmd and a .docx' }
-)
+$Steps = New-Object System.Collections.Generic.List[object]
+$Steps.Add([pscustomobject]@{ Rel='Steps\Rename-Folders.ps1';    Critical=$true;  What='folder names to <number>.CamelCase' }) | Out-Null
+if ($Full) {
+    $Steps.Add([pscustomobject]@{ Rel='Steps\Reorganize-Papers.ps1'; Critical=$true;  What='files into the standard slots, rebuild the index' }) | Out-Null
+    $Steps.Add([pscustomobject]@{ Rel='Steps\Rename-Files.ps1';      Critical=$true;  What='filename convention, flatten media folders' }) | Out-Null
+    $Steps.Add([pscustomobject]@{ Rel='Steps\Repair-Encoding.ps1';   Critical=$false; What='undo double-encoded characters' }) | Out-Null
+}
+$Steps.Add([pscustomobject]@{ Rel='Steps\Sync-Masters.ps1';      Critical=$false; What='retire derivatives older than their master' }) | Out-Null
+$Steps.Add([pscustomobject]@{ Rel='Steps\Convert-Documents.ps1'; Critical=$false; What='give every paper a .qmd and a .docx' }) | Out-Null
+
+$n = 0
+foreach ($s in $Steps) { $n++; $s | Add-Member -NotePropertyName N -NotePropertyValue $n -Force }
+$Total = $Steps.Count + 2          # + Run-Website + Tidy-Scripts
+$WebN  = $Steps.Count + 1
+$TidyN = $Steps.Count + 2
 
 $results = New-Object System.Collections.Generic.List[object]
 $stopped = $false
@@ -67,6 +83,7 @@ function Banner([string]$t) {
 
 Banner ("Run-All  [{0}]   {1}" -f $mode, (Get-Date -Format 'yyyy-MM-dd HH:mm'))
 Write-Host ("  {0}" -f $base)
+if ($Full) { Write-Host '  FULL - the three structural steps are included.' }
 if (-not $Apply) {
     Write-Host ''
     Write-Host '  PREVIEW. Nothing is changed. A later step previewed against an'
@@ -100,7 +117,7 @@ foreach ($s in $Steps) {
         continue
     }
 
-    Banner ("step {0} of 8   {1}   -   {2}" -f $s.N, (Split-Path -Leaf $s.Rel), $s.What)
+    Banner ("step {0} of {1}   {2}   -   {3}" -f $s.N, $Total, (Split-Path -Leaf $s.Rel), $s.What)
     $sw = [System.Diagnostics.Stopwatch]::StartNew()
     $err = $null
     try {
@@ -122,13 +139,13 @@ foreach ($s in $Steps) {
 
 $runWeb = Join-Path $me 'Run-Website.ps1'
 if ($SkipWebsite) {
-    $results.Add([pscustomobject]@{ Step=7; Name='Run-Website'; Status='skipped'; Seconds=0; Note='-SkipWebsite' }) | Out-Null
+    $results.Add([pscustomobject]@{ Step=$WebN; Name='Run-Website'; Status='skipped'; Seconds=0; Note='-SkipWebsite' }) | Out-Null
 } elseif ($stopped) {
-    $results.Add([pscustomobject]@{ Step=7; Name='Run-Website'; Status='not run'; Seconds=0; Note='an earlier structural step failed' }) | Out-Null
+    $results.Add([pscustomobject]@{ Step=$WebN; Name='Run-Website'; Status='not run'; Seconds=0; Note='an earlier structural step failed' }) | Out-Null
 } elseif (-not (Test-Path -LiteralPath $runWeb)) {
-    $results.Add([pscustomobject]@{ Step=7; Name='Run-Website'; Status='missing'; Seconds=0; Note='not in Engine\' }) | Out-Null
+    $results.Add([pscustomobject]@{ Step=$WebN; Name='Run-Website'; Status='missing'; Seconds=0; Note='not in Engine\' }) | Out-Null
 } else {
-    Banner 'step 7 of 8   Run-Website.ps1   -   PDFs, publish, render, link check'
+    Banner ("step {0} of {1}   Run-Website.ps1   -   publish, render, link check" -f $WebN, $Total)
     $sw = [System.Diagnostics.Stopwatch]::StartNew()
     $err = $null
     try {
@@ -138,7 +155,7 @@ if ($SkipWebsite) {
     } catch { $err = $_.Exception.Message }
     $sw.Stop()
     $results.Add([pscustomobject]@{
-        Step=7; Name='Run-Website'
+        Step=$WebN; Name='Run-Website'
         Status=$(if ($err) { 'FAILED' } else { 'ok' })
         Seconds=[int]$sw.Elapsed.TotalSeconds; Note=$err }) | Out-Null
 }
@@ -156,13 +173,13 @@ if ($NoTidy) {
     Write-Host ''
     Write-Host '-- tidy skipped: Tidy-Scripts.ps1 not found'
 } else {
-    Banner 'step 8 of 8   Tidy-Scripts.ps1   -   put the scripts folder back in order'
+    Banner ("step {0} of {1}   Tidy-Scripts.ps1   -   put the scripts folder back in order" -f $TidyN, $Total)
     try {
         if ($Apply) { & $tidy -Apply -NoPause } else { & $tidy -NoPause }
-        $results.Add([pscustomobject]@{ Step=8; Name='Tidy-Scripts'; Status='ok'; Seconds=0; Note='' }) | Out-Null
+        $results.Add([pscustomobject]@{ Step=$TidyN; Name='Tidy-Scripts'; Status='ok'; Seconds=0; Note='' }) | Out-Null
     } catch {
         Write-Host ("   FAILED: {0}" -f $_.Exception.Message)
-        $results.Add([pscustomobject]@{ Step=8; Name='Tidy-Scripts'; Status='FAILED'; Seconds=0; Note=$_.Exception.Message }) | Out-Null
+        $results.Add([pscustomobject]@{ Step=$TidyN; Name='Tidy-Scripts'; Status='FAILED'; Seconds=0; Note=$_.Exception.Message }) | Out-Null
     }
 }
 
