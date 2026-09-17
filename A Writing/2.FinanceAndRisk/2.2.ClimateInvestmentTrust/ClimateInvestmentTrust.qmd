@@ -1,0 +1,186 @@
+---
+title: "The Climate Investment Trust"
+subtitle: "Equity funds as collateral for climate and sovereign lending"
+author: "Stephen J. Stretton"
+abstract: |
+  Public money for climate mitigation is spent project by project and leaves nothing behind that can be used again. This paper proposes a trust that holds capital rather than disbursing it, and puts the same pool to work three times: as insurance behind the policy guarantees governments make, as equity in the development stage of clean energy projects where participation by a credible institution crowds others in, and as collateral in national accounts that lowers the cost of a country's own borrowing. Control rests with the donors; the beneficiaries are the post-2050 populations of participating countries, whose accounts accumulate according to what their governments actually do. Because the accounts are assets rather than payments, they can be lent against immediately and withdrawn only later, which resolves the objection that has defeated every large climate transfer proposed so far. Organised regionally alongside the multilateral and regional development banks, such funds also supply the layer every other de-risking instrument silently assumes: loss-absorbing equity in countries that have almost none. Three design questions decide whether it works — governance, the price at which first loss is taken, and whether capital may be recycled or must be held to maturity.
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  docx:
+    toc: true
+    number-sections: true
+---
+
+*One of the mechanism papers in section 2; the overview in 2.0 places it among the others. This paper consolidates two lines of work: the Climate Incentives Trust proposal of May 2024, which supplies the trust structure, the beneficiary-account mechanism and the financial arithmetic; and the equity de-risking work developed from the two-stage climate project finance material with Jasper Zimmermann, which supplies the regional fund design in section 4 and the design questions in section 6. The sovereign incentive instruments it interacts with are in section 3.*
+
+# Executive summary
+
+**Public climate money is spent once and leaves nothing reusable behind.** A concessional loan to one solar plant supports one solar plant. When it is repaid the money can be lent again, but nothing has been built that makes the next transaction cheaper. At the scale the transition requires — clean energy investment above a trillion dollars a year in emerging markets — spending capital rather than holding it is the difference between a programme and a rounding error.
+
+**The proposal is a trust that holds capital and lends its strength out three times.** It insures the policy guarantees governments give, so that a guarantee from a development bank is itself protected. It invests equity in the development stage of clean energy projects, where the money is scarcest and the crowding-in effect largest. And it holds national-scale accounts that participating countries can pledge as collateral, lowering the rate at which they borrow for the transition.
+
+**Separating control from benefit is what makes the transfer politically possible.** Donors hold the voting shares. The formal beneficiaries are the post-2050 populations of participating countries. Nothing is paid out now, so nothing has to be justified now as a transfer; what the country gets immediately is the use of a growing asset as collateral. This is the structural answer to the objection that has sunk every large climate transfer proposal: a global carbon charge at $100 per tonne would move roughly a trillion dollars a year out of China alone, and no sovereign signs that.
+
+**Making the reward an account rather than a payment also fixes the incentive.** Beneficiary accounts grow when a government does what it committed to and can be debited when commitments are reversed. Taxation between sovereigns is not feasible; a deduction from a balance held in trust is. That asymmetry is the whole design.
+
+**The equity layer is the constraint that binds after the guarantees are in place.** Payment intermediation, tiered guarantees and two-stage financing all reduce the risk a lender bears, and every one of them assumes loss-absorbing capital sitting underneath. In the countries that most need the investment, that capital barely exists. A structure that improves the terms of debt without creating the equity beneath it improves terms on deals that do not happen.
+
+**Organised regionally, the fund does three jobs that make each other cheaper.** Development-stage co-investment gives it information about how projects in its region fail. That information prices the first-loss position it takes in portfolios of completed assets. And the diversification it earns across a regional portfolio lets it cross-guarantee bonds of projects it does not own, for a fee, without deploying further capital.
+
+**High returns are not a side benefit; they are how the fund grows without further donations.** Early-stage project equity, refinanced once the plant is connected and selling, earns returns that let stakes be sold on and the capital redeployed. A fund that recycles finances a pipeline. A fund that holds to maturity finances a programme once.
+
+**The indicative arithmetic reaches the required order of magnitude.** A trust of $5 billion — $1 billion donor funds and $4 billion of country co-investment financed by long-term policy lending — alongside $95 billion of institutional equity, supports roughly $400 billion of debt. Seven regional child funds on the same pattern reach around $2 trillion a year of investment against an $800 billion equity base, of which $40 billion is the trust's own beneficiary accounts. These figures are indicative and need formal modelling; the point is the leverage ratio, not the decimal places.
+
+**Three design questions decide whether any of this works.** Governance, because a fund that absorbs first loss on politically visible assets will be pressed to do so on assets that should not be financed. The price of first loss, because a fund that underprices it subsidises lenders who would have lent anyway. And the recycling rule, because it determines whether the capital is used once or many times.
+
+# 1. Three gaps
+
+**Incentives for national policy action cannot be created by international taxation.** The benefits of mitigation accrue globally while the costs are national, so incentives have to come from outside. But sovereignty rules out a global carbon tax, and the arithmetic makes the point concrete: an incentive of $100 per tonne applied worldwide raises close to $5 trillion and implies net transfers out of China of around $1 trillion a year. Direct global subsidy is no easier — a $100 per tonne positive incentive that cut emissions a tenth in the first year costs some $500 billion, rising as emissions fall, and immediately raises the baseline question.
+
+**Baselines are where existing carbon market institutions break down.** Additionality requires a counterfactual, the counterfactual is negotiated rather than observed, and the requirement rewards a country for having had a worse plan. Worse, it creates an incentive to delay: a government that acts now forfeits the payment it would have received for acting later. Universal incentives, defined in advance for all countries, avoid that trap, but only if the pot behind them is credible.
+
+**The second gap is risk-absorbing capital, and it is larger than it looks.** Equity is needed to invest in projects, to protect institutions such as the World Bank against the guarantees they issue, and to serve as collateral at national scale. These uses are interchangeable in the way capital and insurance generally are — a bank can hold capital against credit loss or buy protection against it, and the protection seller then holds the capital. What cannot be avoided is that someone holds it.
+
+**Scaling the multilateral balance sheet is right and insufficient.** The needs of the transition exceed current multilateral lending capacity by more than an order of magnitude. An increase of that size is possible in principle and unlikely in practice, given shareholder politics and institutional conservatism. The alternative is to issue guarantees from an AAA-rated entity and then protect that entity against everything it has guaranteed — which is what this proposal does.
+
+**The third gap is a source of return.** A pot of public capital that merely sits is limited to what donors give it. A pot that earns can grow, and the prospect of growth is what attracts the donors in the first place. The insurance model is the precedent: a well-capitalised insurer earns on its underwriting and on the float it invests, and at sufficient scale the investment return dominates. The same structure applied to climate risk turns a fund into an institution.
+
+# 2. What the trust is
+
+**Funding is separated from control, and control from benefit.** Donor countries fund the trust and hold the voting shares. The World Bank Group manages it. The formal beneficiaries — the point at which the assets become liquid and withdrawable — are the post-2050 populations of participating recipient countries.
+
+**Countries benefit long before 2050, through the collateral rather than the cash.** A national beneficiary account that is growing and cannot yet be withdrawn is still an asset, and an asset can be pledged. That is the mechanism by which a country's borrowing costs fall for climate-related investment, and it operates from the first year of participation.
+
+**A portion of the accounts is held globally and unallocated.** Not everything needs a national owner immediately; an unallocated global account provides the buffer from which early guarantees are met and gives the structure somewhere to put returns that no country has yet earned.
+
+**Developing countries can be donors to their own future populations.** Nothing in the structure requires the donor and the beneficiary to be different states, and a middle-income country contributing to an account whose beneficiary is its own mid-century population is making a straightforward intertemporal transfer with better collateral properties than a sovereign wealth fund.
+
+**Private capital is admitted on terms that keep control with the public side.** Pension funds and sovereign wealth funds may invest in the investment activities, paying a fee of roughly a quarter of investment returns to the trust, and carrying voting rights in the investment function only — not in the fee, insurance or incentive functions.
+
+# 3. Three functions
+
+## 3.1 Insurance of policy guarantees
+
+**Governments give guarantees; the question is who stands behind the guarantee.** A renewable auction backed by a guaranteed price is a contractual commitment, and its value to an investor depends on the probability the state honours it. Layering protection lets that probability be priced rather than feared.
+
+**The structure is dual, or triple, indemnification.** The government takes first loss, as it does under existing multilateral guarantees. The trust's accounts take second loss. A AAA-rated entity stands behind both. The effect is that a guarantee carries the credit of the strongest party in the chain while the incentive to perform stays with the weakest.
+
+**This is the function to start with, because it requires no deployment.** A fund acting purely as a buffer, invested in nothing and holding its capital against calls, is already useful and is the simplest thing to capitalise and explain. The investment function can be added once the insurance function is established.
+
+## 3.2 Investment in the development stage
+
+**Among all the financiers of a project, the initial equity investors are the ones who determine whether it happens.** Between site identification and financial close there are costs, no revenue, and a material probability the project never reaches construction. Commercial equity prices that stage accordingly or avoids it.
+
+**Participation by a fund linked to the World Bank Group does more than supply the money.** It is a statement that the project has passed a credible screen, which lowers the diligence burden for everyone else and makes co-investment possible for institutions that could not originate the deal themselves. Co-investment should be open to public and private, domestic and international participants on the same terms, so that the crowding-in is not confined to one class of investor.
+
+**Development-stage equity is also where the return is.** A stake taken before financial close and sold after the plant is connected and selling under a guaranteed contract captures the whole of the de-risking premium. Over time competition will compete that premium away, which is itself the objective: the transition gets cheaper.
+
+**And it is where the information is.** A fund that has sat on the development-stage capital table of a hundred projects in a region knows more about how those projects fail than any external guarantor can. That knowledge is exactly what is required to price first loss on their operating successors, which is the subject of the next section.
+
+## 3.3 Incentives through beneficiary allocation
+
+**Allocation of profit to national accounts is the incentive, and it is dynamic by construction.** A country's account grows with participation and with performance against agreed measures. Because allocation is periodic rather than once, and because accounts can be debited when commitments are reversed, the incentive to act persists rather than being discharged at signature.
+
+**Starting sectorally keeps the sums tractable.** Global coal phase-out and rainforest protection are the natural first scope. An incentive of $100 per tonne on emissions of around ten billion tonnes, aimed at a ten per cent annual reduction, implies roughly $100 billion of allocation — large, but an order of magnitude below a universal scheme.
+
+**Two features are required of any allocation rule.** There must be an incentive to join, meaning net national returns are always positive for a participant. And there must be an incentive to perform inside the scheme, meaning a country that does better than its counterparts receives more. A rule that satisfies only the first produces participation without action.
+
+**Where incentives must exceed available profit, notional capitalised value extends the reach.** The remaining Amazon might be assigned a notional value of, say, a trillion dollars, with the interest on that number — not the capital — paid into the beneficiary account. A country would then hold two accounts: the real beneficiary account and the notional capitalised value account. That mechanism is developed as a paper in its own right at 3.1 and is not pursued further here.
+
+# 4. The regional funds and the equity layer
+
+**Every de-risking instrument in this section makes debt cheaper, and debt has to be leveraged against equity that developing countries do not have.** Payment guarantees, tiered bond structures and two-stage financing all reduce the risk a lender bears. None of them creates the loss-absorbing capital that must sit beneath the lender for the structure to be rated at all. This is the constraint that binds after the others have been addressed, and it is why de-risking programmes that assume a well-capitalised sponsor achieve less than their design implies.
+
+**Regional funds, established with the multilateral and regional development banks, are where the trust meets the ground.** The global trust supplies the buffer and the incentive architecture; regional child funds do the investing, take the first-loss positions, and hold the relationships with national development banks. The same pattern can be replicated at national scale as climate investment pension funds.
+
+## 4.1 First loss on operating portfolios
+
+**Once a plant is operating and selling under a guaranteed contract its residual risk is small but not zero, and the last increment of risk is what prices the debt.** Holding companies that acquire and hold portfolios of completed assets are the natural owners of operating infrastructure, and their cost of debt determines what they can pay for the assets — which in turn determines the return available to the developers who built them.
+
+**A fund holding the core equity in such a holding company insures the lenders against loss.** The lender's exposure begins only after the equity is exhausted. Where the equity layer is substantial and the underlying contracts are guaranteed, the debt approaches risk-free and can be priced accordingly. This is the mechanism by which the payment guarantee described in 2.1 is converted into a low borrowing rate rather than merely a lower risk.
+
+**The interaction is where the saving actually arises.** A guaranteed contract without an equity buffer still leaves lenders exposed to the residual; an equity buffer without a guaranteed contract is absorbing a much larger and less predictable risk. Together they produce paper that institutional investors can hold.
+
+## 4.2 Cross-guarantee and diversification
+
+**Guaranteeing a portfolio costs less per unit of risk than guaranteeing its components, and that difference is a resource.** Project failures in a region are imperfectly correlated: a grid connection problem in one country, a developer insolvency in another, a tariff dispute in a third. A guarantor holding exposure across all of them needs less capital against the aggregate than the sum of what each would need alone.
+
+**The fund can sell that diversification as a service.** Acting as cross-guarantor to holding companies it does not own generates fee income without requiring capital deployment, and extends the fund's risk-absorbing effect well beyond the projects it has invested in. This is what lets a fund of a given size support a far larger volume of investment than direct equity alone would allow.
+
+## 4.3 What the layer makes possible
+
+**Leverage in markets with no local capital market.** Once the fund exists, cheaper debt becomes available to the fund itself, from domestic and international sources, and through it to the developers and holding companies it supports. The fund substitutes for the institutional investor base the country does not have.
+
+**A deposit-equivalent green instrument for domestic savers.** Bonds issued against portfolios the fund backs can be structured for retail and small institutional holders in local currency. This is the only route to long-term finance that carries no currency mismatch, and in most of these countries it does not currently exist in any form.
+
+**Capital that returns rather than capital that is spent.** A developed-country government investing in a regional fund on behalf of a less-developed region is providing climate finance that comes back and can be recycled. That is a materially different proposition from a grant, both politically and in the volume it can reach.
+
+# 5. Scale and financial structure
+
+**The comparator is the IMF's Resilience and Sustainability Trust.** In both cases the donation comes from wealthy countries — SDR allocations there, direct donor funds here — and in both the structure is designed so that the contribution is an investment rather than an expenditure. The difference is that this trust's insurance and blended equity functions are built to earn, which is what makes the donor proposition attractive rather than merely worthy.
+
+**The indicative capital structure.** A trust of $5 billion, composed of $1 billion in donor funds and $4 billion of developing-country co-investment financed through long-term policy lending, alongside $95 billion of equity investment from sovereign wealth and pension funds, supporting a further $400 billion of debt. Total leveraged private investment of roughly $500 billion.
+
+**Recycling multiplies that by the construction period.** Because the fund invests only in the early stages and sells its stakes once projects are complete, capital turns over. On a two-year average construction phase, $500 billion of balance sheet supports around $250 billion a year of new investment.
+
+**Seven regional child funds take it to the required order of magnitude.** Built on the same pattern and managed centrally at first, regional funds covering China, South Asia, Europe and Central Asia, East Asia and Pacific, Africa, North America and South America add roughly $1.75 trillion a year, for a total around $2 trillion a year against an equity base of some $800 billion, of which $40 billion is the trust's own beneficiary accounts.
+
+**The growth rate is the point of the structure.** A 10 per cent total return on $800 billion of equity, with 2.5 per cent accruing to the trust, is around $20 billion a year into the beneficiary accounts — enough to double the trust component, and with it the whole structure, on a multi-year cycle without further donation.
+
+**These numbers are indicative.** The leverage factors in particular need formal modelling before they are defended anywhere that matters. What the arithmetic establishes is that a structure of this shape can reach the required scale, which no grant-funded proposal does.
+
+# 6. Design questions
+
+## 6.1 Governance
+
+**A fund that absorbs first loss on politically visible assets will be asked to do so on assets that should not be financed.** The pressure will not arrive as an instruction; it will arrive as a succession of individually plausible requests. The defence is structural: multilateral development bank and credible regional asset-manager participation on the investment committee, transparent published criteria, and due diligence standards that are the same for every applicant.
+
+**Supervision should be proportionate to the fund's systemic weight in its region,** which will be considerable. A regional fund of meaningful size becomes the marginal investor in its market, and its standards become the market's standards, for good or otherwise.
+
+## 6.2 The price of first loss
+
+**A fund that takes first loss too cheaply subsidises lenders instead of crowding them in.** If the fee for absorbing the first tranche is below the risk being absorbed, the structure transfers value to debt investors who would have lent anyway at a slightly higher rate, and the fund's capital is consumed faster than the investment it induces.
+
+**Pricing should be explicit and published,** both so that the subsidy element is visible and so that the fund can be evaluated on whether its capital induced investment that would not otherwise have happened.
+
+## 6.3 Recycling
+
+**Whether the fund may sell down matured positions determines whether it supports a stock or a flow.** A fund that must hold to maturity backs a fixed portfolio: its capacity is used once. A fund that can sell seasoned operating assets into the secondary market — precisely the assets that have become attractive to conventional investors — and redeploy into new development-stage projects recycles the same capital repeatedly.
+
+**Recycling requires a secondary market deep enough to absorb the sales,** which is itself something the fund's early activity helps to create.
+
+# 7. Where this sits
+
+**Against the other mechanisms in section 2.** The payment intermediary in 2.1 removes the risk that the offtaker fails to pay. This paper supplies the capital that sits beneath the lender once that risk is removed, and the collateral that lets a sovereign borrow against its own participation. The Sollar in 2.3 takes the opposite route, financing construction without creating a credit at all.
+
+**Against the incentive instruments in section 3.** A risk mechanism decides who bears a loss; an incentive instrument changes whether the loss happens. This paper straddles the line deliberately: the insurance and equity functions are risk mechanisms, the beneficiary accounts are an incentive instrument, and the reason to hold them in one structure is that the returns from the first fund the second. The notional capitalised value mechanism in 3.1 extends the incentive beyond what profit-sharing alone can reach.
+
+**Against what already exists.** Scaling Solar, the Energy Transition Partnerships and similar initiatives supply project pipeline, country relationships and implementation capacity that this proposal does not attempt to build. The trust is a capital structure, and it should partner rather than duplicate.
+
+# 8. Conclusion
+
+**The gap is not a shortage of good projects but a shortage of capital that can be used more than once.** Grant finance is spent. Concessional lending recycles slowly and creates nothing that lowers the cost of the next transaction. A trust that holds its capital and lends its strength out — as insurance, as equity, as collateral — is doing the only thing that reaches the required scale.
+
+**Separating control from benefit is what makes the transfer survivable politically.** Donors keep the votes; the beneficiaries are populations who cannot draw on the accounts for decades. Nothing is given away now, and the recipient country nonetheless gets something of immediate value.
+
+**The design questions matter more than the structure.** Governance determines whether the fund finances good projects; the price of first loss determines whether it crowds investment in or substitutes for it; and the recycling rule determines whether its capital is used once or many times. A fund that gets the structure right and these three wrong will disburse its capital and change little.
+
+# Appendix A. Supporting capabilities
+
+**The trust is a capital structure and needs operating partners.** Project finance capacity, blended finance experience, standing relationships with governments, and the planning and grid-connection reforms that make projects buildable are all required and none of them is in the proposal. Existing initiatives — Scaling Solar, the Energy Transition Partnerships, national solar programmes — supply them, with the IFC filling gaps.
+
+**The deal offered to a government is a broader form of a renewable auction.** Rather than committing only to a price for renewable energy, a participating government commits to a schedule and sequence for net zero, with the associated procurement auctions and sectoral pricing policy — feebates and fuel taxation — that make the schedule credible. The trust's guarantees attach to that package.
+
+# Appendix B. Naming and lineage
+
+**The proposal was originally written as the Climate Incentives Trust in May 2024,** with an appendix sketching a companion "Climate Investment Trust" as a for-public-benefit equity fund. The two have been consolidated here under the Investment name, matching the folder, because the equity function turned out to be the part that carries the scale argument. The incentive function is unchanged and remains central.
+
+**The regional fund design in section 4 and the design questions in section 6** come from the equity de-risking work developed out of the standardised two-stage climate project finance material. That paper no longer stands separately; its guarantee half became section 3.4 of 2.1.
+
+# References
+
+IEA, 2021. *World Energy Outlook 2021.* <https://www.iea.org/reports/world-energy-outlook-2021/mobilising-investment-and-finance>
+
+Estevao, M., 2023. Proposal for KPI-linked bonds.

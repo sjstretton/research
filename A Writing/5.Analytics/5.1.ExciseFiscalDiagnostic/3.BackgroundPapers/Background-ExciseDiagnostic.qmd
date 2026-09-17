@@ -1,0 +1,571 @@
+---
+title: "excise_diagnostic"
+---
+
+**Excise diagnostic**
+
+*A simple framework for reading a country's excise schedule, with worked diagnostics for Uganda and Sierra Leone*
+
+1\. What an excise diagnostic is, and what it is for
+
+An excise diagnostic is a structured snapshot of a country's excise duty schedule, organised so that the schedule's underlying logic — and where that logic strains — becomes visible at a glance. It is not a revenue forecast, an incidence study, or a fiscal-impact assessment. It is a diagnostic in the medical sense: a clinician's first-pass examination, designed to surface what is there, what is missing, and what is moving.
+
+Most excise schedules in low- and middle-income countries are accretive documents. They begin life narrow, organised around a small set of products that were easy to tax at the factory gate or the port a generation ago — alcohol, tobacco, fuel, perhaps a handful of luxury goods. They then grow line by line as Finance Ministries hunt for revenue, as health ministries push for tobacco and alcohol increases, as environment ministries discover plastics, and as digital and financial-services regulators try to drag mobile money and over-the-top services into the net. The result, after a decade or two of annual amendments, is a schedule that nobody fully owns and that few can read end-to-end.
+
+The diagnostic addresses that legibility problem. It does five things.
+
+**Categorises.** It groups every line in the schedule into a small set of policy categories — energy and environment, health (tobacco, alcohol, sugar-sweetened beverages), luxury, telecommunications, financial transactions, and industrial-input residuals. The categorisation forces an answer to the question "what is this excise for?" — a question schedules rarely answer for themselves.
+
+**Standardises.** It records each line on a consistent set of dimensions: rate, structure (specific, ad valorem, hybrid), differentiation (by origin, content, user, ABV band), and recent changes. This makes the schedule comparable across countries, across time, and across categories.
+
+**Surfaces erosion.** Specific rates that are not indexed to inflation lose real value year by year. The diagnostic tracks the catch-up amendments and makes the erosion-and-restoration cycle visible.
+
+**Surfaces gaps.** When the typology is laid alongside the schedule, missing categories become obvious. A country with no plastics excise, no SSB excise, or no e-cigarette line in 2026 is making a policy choice — and the diagnostic puts that choice on the page.
+
+**Surfaces incoherence.** Differentiation devices often accumulate without coordination. Local-content discounts, ABV bands, origin distinctions, user carve-outs — when stacked, they can produce rate inversions, arbitrage opportunities, and administrative friction. The diagnostic does not solve these problems but makes them visible.
+
+The diagnostic is intentionally pre-analytical. It does not say whether a rate is too high or too low, whether a category is justified, or whether a reform is desirable. It produces a clean, comparable, structured representation of the schedule, on which subsequent analysis — revenue projections, incidence work, behavioural-response modelling, country-engagement advice — can build. In Hayek's sense, it is a way of organising tacit knowledge that already exists in the schedule but is not yet usable.
+
+2\. Three measures for comparability
+
+The schedule on its own — a list of rates, in local-currency units, against locally defined products — is not directly comparable across countries, across time, or across sectors. To make excise lines comparable, this paper uses three measures that scale each rate in a different way.
+
+2.1 Excise per standardised physical unit (USD)
+
+The rate, converted to US dollars, expressed per physical unit appropriate to the line: per litre for fuel, per litre of pure alcohol for alcoholic beverages, per pack of 20 sticks for cigarettes, per kilogram for cement and tobacco leaf. This is the most robust comparator and the easiest to cross-reference against international benchmarks (OECD averages, regional peers, WHO recommendations). It is unaffected by the differentiation structure — a hybrid higher-of rate is converted to the binding rate at typical product prices, an ABV-banded rate is evaluated at a representative ABV — and so cuts through architectural differences between schedules. Its weakness is that it loses information about whether the rate is specific or ad valorem, which matters for inflation behaviour.
+
+2.2 Excise as a percentage of consumer price
+
+The rate divided by the typical retail price of the taxed good — pump price for fuel, retail pack price for cigarettes, retail bottle price for alcohol and SSBs. This measure speaks directly to affordability and to pass-through: it is the share of what the consumer pays that goes to excise. It is the standard health-policy comparator (the WHO benchmark for tobacco is ≥75 % of retail price as excise) and the standard energy-policy comparator (OECD fuel excise typically runs 30–50 % of pump price). Its weakness is that it depends on the chosen reference price, which moves materially within a year, between regions of a country, and between branded and unbranded segments.
+
+2.3 Implied excise revenue as a percentage of GDP
+
+Rate × estimated annual consumption volume, divided by nominal GDP. This is the macroeconomic comparator — the measure that tells the Finance Ministry how much revenue the line generates relative to the size of the economy. It is the most informative measure for international fiscal comparisons (regional excise revenue ratios, IMF tax-effort benchmarks) but also the most error-prone, because it depends on consumption volumes that are usually not published at the tariff-line level. Implied figures are sensitive to volume assumptions; ranges are reported where the volume is uncertain. Where reported revenue is available, it should be preferred over implied figures; this paper uses implied figures throughout because line-level revenue is not published in either Uganda or Sierra Leone.
+
+The three measures are complementary. The \$/unit measure is best for international comparison; the % of consumer price measure is best for domestic policy debate; the % of GDP measure is best for macro-fiscal framing. Read together they triangulate the policy intensity of an excise line: a rate that looks low in \$/unit terms but high in % of consumer price terms tells a different story than one that looks the opposite way around.
+
+3\. Methodology
+
+3.1 Coverage
+
+The diagnostic covers two countries — Uganda and Sierra Leone — at a single point in time, the law in force on 27 April 2026. For Uganda this is the Excise Duty Act, 2014 as amended through the Excise Duty (Amendment) Acts (No. 1) and (No. 2), 2025, both effective from 1 July 2025. The Excise Duty (Amendment) Bill, 2026 had been passed by Parliament but, as of the cut-off date, had not received presidential assent and is therefore not in force. For Sierra Leone the position is the Excise Act, 1982 as amended through the Finance Act, 2026 — assented on 29 December 2025, gazetted 7 January 2026, effective from 1 January 2026.
+
+Within each schedule, every excisable line is included. Where lines have been administratively grouped (e.g. tobacco substitutes alongside cigars), the grouping in the schedule is preserved. The diagnostic also notes adjacent fiscal instruments that function as excises in economic substance — Sierra Leone's regulatory cellular levy under the Finance Act, 2023, and the FA2026 vehicle annual circulation levy — even where they sit outside the Excise Act.
+
+3.2 Typology
+
+Each line is assigned to one of seven categories: energy and environment; health (tobacco, alcohol, sugar-sweetened beverages); luxury; telecommunications and digital; financial transactions; industrial-input and "nuisance" residuals; and resource / extractive. The categorisation is by stated or implicit policy rationale, not by HS code or schedule placement. Lines that could fit two categories are assigned to the dominant rationale (a vehicle registration levy goes under transport / energy rather than under luxury; a gambling excise goes under health rather than under luxury). A small number of lines — procedural framework provisions, payment-window rules — are categorised separately as "procedural".
+
+3.3 Recording each line
+
+Each line is recorded on five fields: *category* (per the typology above); *item* (the name of the excisable good or service as it appears in the schedule); *current rate* (in local currency units, at the cut-off date); *structure and differentiation* (specific / ad valorem / hybrid; differentiation by origin, content, user, ABV band, etc.); and *recent changes* (the trajectory of the line since 2020, with each amendment cycle noted, plus any pending bill).
+
+3.4 Computing the three measures
+
+3.4.1 Currency conversion
+
+Rates are converted to US dollars at working exchange rates: UGX 3,750 / USD for Uganda, NLe 22 / USD for Sierra Leone. Both are mid-rates in force around the cut-off date and align with central-bank reference rates within ±3 %. Sierra Leone redenominated the Leone in April 2022 at 1,000 Old Leones to 1 New Leone; rates quoted in the schedule in Old Leones (Le) are converted on the assumption that the redenomination has not yet been formally applied to those lines (so Le X / litre is treated as nominally NLe X / 1,000 / litre and explicitly flagged where the result is anomalous).
+
+3.4.2 Standardising physical units
+
+Where the schedule uses a non-standard unit, the rate is converted to a standard one. Cigarettes per 1,000 sticks are converted to per pack of 20 (multiply by 0.02). Specific alcohol rates per litre of product are converted to per litre of pure alcohol (LPA) by dividing by the representative ABV (5 % for beer, 12 % for wine, 40 % for spirits). Hybrid higher-of rates are evaluated at a representative product price and the binding component reported. The conversions are documented in the worked tables in Appendix C.
+
+3.4.3 Reference prices for the % of consumer price measure
+
+Consumer prices are taken from the most recent published source closest to the cut-off date. **Fuel pump prices:** Uganda UGX 5,244 / litre petrol (GlobalPetrolPrices, 20 April 2026); Sierra Leone NLe 28 / litre petrol and diesel (PRA, September 2024) and NLe 27.4 / litre diesel ≈ USD 1.39 (GlobalPetrolPrices, November 2025). **Cigarette pack prices:** Ugandan retail prices estimated at UGX 4,000–6,000 per pack of 20 depending on brand and pack type; Sierra Leonean retail estimated at NLe 22 per pack. **Alcohol and SSB retail prices:** estimated from market surveys and import data; the figures are best-estimate ranges rather than point estimates.
+
+3.4.4 Volumes for the implied revenue measure
+
+Consumption volumes are taken from the most recent published industry or regulator source. **Fuel:** Uganda \~2.5 billion litres total petroleum imports per year (UNOC, 2024), with monthly demand \~240 million litres growing 7 % per annum; April 2026 import plan 283 million litres petrol + 180 million diesel + 25 million Jet A1. The petrol / diesel split is taken at roughly the import-plan ratio (60 / 40 for petrol-vs-diesel). Sierra Leone \~524 million litres total petroleum sales (PRA, 2023), assumed to have grown \~10 % to \~575 million by 2026; petrol / diesel split assumed roughly 50 / 50 in the absence of a published breakdown. **Cigarettes:** Uganda smoking prevalence 4.4 % among adults aged 15+ (WHO, 2024) ≈ 1.2 million smokers; assumed average consumption \~10 sticks / day (consistent with regional estimates) gives \~4.4 billion sticks per year. Sierra Leone has no domestic tobacco production — all consumption is imported — and prevalence is reported in older sources at 3–5 % of adults, giving \~120–200 thousand smokers and \~0.5–1.0 billion sticks per year. **Alcohol:** WHO Global Status Report on Alcohol estimates Uganda total adult per-capita consumption at \~9.5 litres of pure alcohol per year (mostly opaque beer); Sierra Leone \~6.7 LPA per year (mostly informal and home-brewed). Volumes captured by the formal excise net are a fraction of these — perhaps 30–40 % — and figures should be read with that in mind. **SSBs:** no published volume data for either country; figures here are best-effort estimates based on import data and assumed per-capita consumption.
+
+3.4.5 GDP denominator
+
+Working figures: Uganda USD 55 billion (between World Bank 2024 of USD 53.65 bn and FocusEconomics 2024 estimate of USD 56.6 bn); Sierra Leone USD 7.5 billion (between World Bank 2024 of USD 7.0 bn and IMF 2026 projection of USD 8.27 bn). The IMF's higher 2026 figure for Uganda (USD 73 bn) is treated as overstated and not used. Using larger GDP figures would proportionally lower the implied % of GDP estimates.
+
+3.5 Limitations and what the diagnostic does not do
+
+Five caveats. **First**, the implied % of GDP figures are approximations within a factor of perhaps 1.5x, due to volume uncertainty. Reported revenue figures, when available, should always be preferred. **Second**, the % of consumer price figures move materially with the chosen reference price; ranges are used where appropriate. **Third**, the diagnostic does not model behavioural response — pass-through, demand elasticity, evasion — so figures are static. **Fourth**, informal-sector and home-produced goods (opaque beer, akpeteshi, untaxed cigarettes from neighbouring countries) are largely outside the formal excise net and so the diagnostic understates the alcohol and tobacco footprint of consumption while accurately representing the formal-sector excise base. **Fifth**, the diagnostic surfaces but does not adjudicate policy choices: it does not say whether a rate is too high or too low, whether a category is justified, or whether a reform is desirable.
+
+4\. Results
+
+The full diagnostics — every line in each schedule, on the five fields described in §3.3 — are presented in Appendix A. The year-by-year trajectory of those rates from 2020 to the current law is in Appendix B. The worked computations of the three comparable measures, line by line, are in Appendix C. This section reports the headline findings.
+
+4.1 Energy and vehicles
+
+On the \$/unit measure, Uganda's headline fuel excise is roughly twice Sierra Leone's (USD 0.41 vs USD 0.23 per litre on petrol; USD 0.33 vs USD 0.23 on diesel). On the % of consumer price measure, the gap is similar (\~30 % vs \~18 % on petrol). Sierra Leonean pump prices are higher in dollar terms because of higher landed costs, not higher tax. On the implied % of GDP measure, fuel excise raises an order of magnitude more in Uganda — roughly 1.3 % of GDP combined across petrol and diesel, vs 0.6 % of GDP in Sierra Leone. The gap reflects both the higher rate and Uganda's larger fuel volume relative to the size of the economy.
+
+For international context, OECD-average fuel excise is USD 0.55 / litre on petrol, \~30–50 % of pump price, and 1.5–2.5 % of GDP. South Africa runs USD 0.20–0.25 / litre. Both Uganda and Sierra Leone are within the lower-middle-income range, with Uganda closer to OECD intensity than Sierra Leone.
+
+Vehicle taxation is structurally weak in both countries. Uganda has a one-off motorcycle first registration charge of UGX 200,000 (USD 53) that has been stable since 2018 and is proposed to rise to UGX 500,000 in the 2026 Bill. Sierra Leone introduced an annual circulation levy in FA2026 (NLe 500 / USD 23 for cars, trucks and buses; NLe 200 / USD 9 for motorbikes; USD 500–1,000 for vessels). Neither rises above 0.05 % of GDP.
+
+4.2 Health — tobacco
+
+Uganda's structure produces a much heavier excise burden than Sierra Leone's. The lowest Ugandan tier (USD 0.35 / pack on locally manufactured soft cap cigarettes) is 2.5x the single Sierra Leonean rate (USD 0.14 / pack); the highest Ugandan tier (USD 1.07 / pack on imported hinge lid) is 7.5x. On the % of retail measure, Uganda runs 30–55 % vs Sierra Leone's 10–15 %. Both countries are well below the WHO benchmark of ≥75 % of retail price as excise.
+
+On revenue, tobacco excise is small in both countries — 0.05–0.10 % of GDP in Uganda, \~0.02 % of GDP in Sierra Leone — reflecting modest smoking prevalence (4.4 % in Uganda; estimated similar in Sierra Leone) more than the rate level. South Africa raises \~0.4 % of GDP from tobacco excise; the EU average is \~0.6 %. There is meaningful headroom for further increases in both countries, particularly Sierra Leone.
+
+4.3 Health — alcohol
+
+On like-for-like beer (\~5 % ABV), Uganda's malt beer rate (\~USD 11 / litre of pure alcohol) is \~50 % higher than Sierra Leone's strictest band (D4, \~USD 7 / LPA), and several multiples above the local-content-discounted bands in either country. Both are well below OECD benchmarks of USD 15–40 / LPA on beer.
+
+**The diagnostic surfaces a redenomination anomaly in the Sierra Leonean wine schedule.** FA2024 set wine excise at Le 4.20–22 / litre depending on ABV band and origin, in Old Leones. After the April 2022 redenomination at 1,000 Old Le to 1 NLe, those rates would translate to NLe 0.0042–0.022 / litre — roughly USD 0.0002–0.001 / litre, which is essentially zero. The schedule has not been formally restated through two subsequent Finance Acts (FA2025, FA2026). At face value, wine in Sierra Leone is currently untaxed by excise. This is almost certainly a drafting issue rather than an intended policy choice; remediation is a one-line schedule amendment.
+
+Alcohol excise revenue is approximately 0.2 % of GDP in Uganda and 0.05 % in Sierra Leone, reflecting both lower rates and the larger informal / home-brewed share of the Sierra Leonean market that sits outside the formal excise net. OECD averages run 0.4–0.6 % of GDP.
+
+4.4 Health — sugar-sweetened beverages
+
+Both countries are weak on SSBs. Uganda taxes all non-alcoholic beverages including juice at a flat 12 % or UGX 250 / litre — no sugar-content differentiation. Sierra Leone taxes only energy drinks (20 %) and imported juice (20 %), leaving general soft drinks essentially untaxed. The UK soft drinks industry levy by comparison is GBP 0.18–0.24 / litre depending on sugar content (\~USD 0.23–0.30); Mexico's SSB excise is \~USD 0.05 / litre flat; South Africa's Health Promotion Levy is ZAR 0.0221 / gram of sugar above 4g/100ml. On either the per-litre or % of retail measure, both countries tax SSBs less heavily than peers.
+
+4.5 Aggregate picture
+
+Combining the priority sectors: Uganda's energy + tobacco + alcohol + SSB excise raises approximately 1.5–1.7 % of GDP; Sierra Leone's raises approximately 0.7–0.9 % of GDP. The gap is largely accounted for by fuel (\~1.3 % vs \~0.6 %) — the other categories raise broadly comparable shares of GDP. Adding cement, gambling and the regulatory cellular levies in Sierra Leone narrows the gap modestly but does not close it.
+
+On rate intensity, Uganda is closer to international benchmarks across the board. Fuel: 30 % of pump price vs 18 %. Tobacco: 30–55 % of pack price vs 10–15 %. Beer: \~USD 11 / LPA vs \~USD 7 / LPA on the highest-rate band. The ratio is roughly 2 : 1 in Uganda's favour on every measure. Both countries are below international peers, with Sierra Leone further below.
+
+5\. Conclusion
+
+The diagnostic delivers three things that the schedule alone does not. **First**, a structured representation that is comparable across categories, across countries, and against international benchmarks. **Second**, a set of three scaled measures — \$/unit, % of consumer price, % of GDP — that triangulate the policy intensity of each excise line from complementary angles. **Third**, visibility on anomalies and gaps that are invisible on the schedule. The Sierra Leonean wine redenomination anomaly is the clearest example: the rates look normal in the schedule but compute to essentially zero once standardised. The Ugandan kerosene rate at UGX 200 / litre — unchanged since 2018 and now under 5 % of pump price — is another.
+
+Three reform candidates emerge from the comparative measures rather than from the schedule itself. **First**, redenominate the Sierra Leonean wine schedule (one-line amendment in the next Finance Act). **Second**, introduce a sugar-content-graduated SSB excise in both countries — the rate gap to peers is largest here and the public-health rationale is well-evidenced. **Third**, lift Sierra Leonean cigarette excise from \~USD 0.14 / pack toward Uganda's lowest tier (USD 0.35) — a phased path of perhaps three Finance Acts at +30 % each. None of these is on the immediate legislative horizon in either country, but all three are straightforward extensions of the existing schedule architecture rather than structural reforms.
+
+More broadly, the diagnostic suggests that the reform agenda in both countries is converging on a similar shape: indexation of specific rates to break the erosion-and-catch-up cycle visible in Appendix B; introduction of sugar-content-graduated SSB excise to plug the clearest gap relative to peers; and either explicit carbon-tax overlay on fuel or graduated emissions-based vehicle taxation to make environmental policy do work that fuel excise currently does only by accident. None of these has yet appeared on the legislative horizon in either country, but the diagnostic identifies them as the natural next moves.
+
+The framework is replicable. Applied to a third country, the same five fields and three measures would produce a comparable diagnostic; applied to a region or a peer group, the framework would generate a multi-country comparative table on identical structure. The methodology of §3 is intentionally light: it is the discipline of consistent recording and consistent measurement, not a sophisticated analytical apparatus, that does the work.
+
+Appendix A. The diagnostic
+
+Both diagnostics use the five-column structure described in §3.3.
+
+A.1 Uganda — Excise Duty Act, 2014 as amended through the Excise Duty (Amendment) Acts, 2025
+
+Uganda's schedule sits in Schedule 2 of the Excise Duty Act, 2014. The Act has been amended every year since 2015. The current legal position reflects the Excise Duty (Amendment) Acts (No. 1) and (No. 2), 2025, both assented to by the President on 30 June 2025 and effective from 1 July 2025. The Excise Duty (Amendment) Bill, 2026 has been passed by Parliament but, as of 27 April 2026, has not received presidential assent and is therefore not in force.
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Category**           **Item**                                           **Current rate**                   **Structure & differentiation**                                        **Recent changes**
+  ---------------------- -------------------------------------------------- ---------------------------------- ---------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  **Energy**             Petrol (motor spirit)                              UGX 1,550 / litre                  Specific                                                               +UGX 100 in FA2024 (1,450→1,550). FA2025 proposed +100 was rescinded. 2026 Bill proposes 1,750.
+
+  **Energy**             Diesel (gas oil, automotive)                       UGX 1,230 / litre                  Specific. Power-grid generation: nil                                   +UGX 100 in FA2024 (1,130→1,230). 2026 Bill proposes 1,430.
+
+  **Energy**             Other gas oils                                     UGX 630 / litre                    Specific                                                               Stable since 2020.
+
+  **Energy**             Illuminating kerosene                              UGX 200 / litre                    Specific                                                               Stable since 2020.
+
+  **Energy**             Jet A1 / aviation fuel                             UGX 630 / litre                    Specific. Registered airlines / supply contracts: nil                  Stable since 2020.
+
+  **Environment**        Plastics / plastic granules                        2.5 % OR USD 70 / tonne            Hybrid (higher-of)                                                     Stable. 2026 Bill proposes 25 % OR USD 1,500/tonne with widened base.
+
+  **Environment**        Plastic bags / polyethylene sacks                  UGX 10,000 / kg                    Specific. Sanitary-pad and food/juice packaging exempt                 Introduced FA2020.
+
+  **Transport**          Motorcycles, first registration                    UGX 200,000                        Specific lump sum                                                      Stable since 2018. 2026 Bill proposes 500,000.
+
+  **Health (tobacco)**   Cigarettes — soft cap, locally manufactured        UGX 65,000 / 1,000 sticks          Specific. By origin & pack type                                        Raised from 55,000 in FA2025 (first change since FY2017/18).
+
+  **Health (tobacco)**   Cigarettes — soft cap, imported                    UGX 150,000 / 1,000 sticks         Specific. By origin & pack type                                        Doubled from 75,000 in FA2025.
+
+  **Health (tobacco)**   Cigarettes — hinge lid, locally manufactured       UGX 90,000 / 1,000 sticks          Specific. By origin & pack type                                        Raised from 80,000 in FA2025.
+
+  **Health (tobacco)**   Cigarettes — hinge lid, imported                   UGX 200,000 / 1,000 sticks         Specific. By origin & pack type                                        Doubled from 100,000 in FA2025.
+
+  **Health (tobacco)**   Cigars, cheroots, smoking & homogenised tobacco    200 %                              Ad valorem                                                             Stable.
+
+  **Health (alcohol)**   Malt beer                                          60 % OR UGX 2,050 / litre          Hybrid (higher-of)                                                     Stable.
+
+  **Health (alcohol)**   Beer, ≥75 % local raw material                     30 % OR UGX 900 / litre            Hybrid. By local-content share                                         UGX rate raised from 650 to 900 in FA2025.
+
+  **Health (alcohol)**   Beer, Ugandan-grown-and-malted barley              30 % OR UGX 950 / litre            Hybrid. By local-content share                                         Stable.
+
+  **Health (alcohol)**   Opaque beer                                        12 % OR UGX 150 / litre            Hybrid                                                                 Cut from 30%/650 (FY19/20) → 20%/230 (FA2021) → 12%/150 (FA2024).
+
+  **Health (alcohol)**   Other locally produced alcoholic beverages         12 % OR UGX 150 / litre            Hybrid                                                                 Newly excisable FA2021 (20%/230); cut to 12%/150 in FA2024.
+
+  **Health (alcohol)**   Un-denatured spirits, local raw materials          60 % OR UGX 1,500 / litre          Hybrid. By raw-material origin                                         Cut from UGX 2,000 in FA2020.
+
+  **Health (alcohol)**   Un-denatured spirits, imported raw materials       Above 100 % / UGX 2,500 baseline   Hybrid. By raw-material origin                                         Increased in FA2024.
+
+  **Health (alcohol)**   Ready-to-drink spirits                             80 % OR UGX 1,700 / litre          Hybrid                                                                 Stable.
+
+  **Health (alcohol)**   Wine, local raw materials                          20 % OR UGX 2,000 / litre          Hybrid. By origin                                                      Stable.
+
+  **Health (alcohol)**   Other wine                                         Above 80 % / UGX 8,000 baseline    Hybrid. By origin                                                      Raised in FA2024.
+
+  **Health (alcohol)**   Other fermented beverages, imported                60 % OR UGX 950 / litre            Hybrid. By origin (cider, perry, mead)                                 New line in FA2021.
+
+  **Health (alcohol)**   Other fermented beverages, local                   30 % OR UGX 550 / litre            Hybrid. By origin                                                      New line in FA2021.
+
+  **Health (SSB)**       Non-alcoholic beverages (excl. juice)              12 % OR UGX 250 / litre            Hybrid                                                                 Stable.
+
+  **Health (SSB)**       Fruit and vegetable juice                          12 % OR UGX 250 / litre            Hybrid. Concession for ≥30 % Ugandan pulp content                      Cut from 13%/300 in FA2020.
+
+  **Health (SSB)**       Powder for reconstitution to juice                 15 %                               Ad valorem                                                             Stable.
+
+  **Health (SSB)**       Powder for reconstitution to beer                  Excise introduced                  Ad valorem                                                             New in FA2024.
+
+  **Health (SSB)**       Mineral / bottled / processed water                Hybrid fixed + ad valorem          Hybrid                                                                 Restructured FA2024 (was 10 % flat).
+
+  **Luxury**             Cosmetics & perfumes                               10 %                               Ad valorem. Albino skin treatments exempt                              Stable.
+
+  **Luxury**             Other furniture                                    20 %                               Ad valorem. Local materials and specialised hospital furniture: nil    Stable.
+
+  **Industrial**         Cement                                             UGX 500 / 50 kg                    Specific                                                               Stable. 2026 Bill proposes 1,000.
+
+  **Industrial**         Sugar (cane / beet, solid)                         UGX 100 / kg                       Specific. Industrial use: 0 %                                          Stable. 2026 Bill proposes 300.
+
+  **Industrial**         Cooking oil                                        UGX 200 / litre                    Specific                                                               Stable. 2026 Bill proposes 400.
+
+  **Industrial**         Lubricants (motor vehicle, not aircraft)           15 %                               Ad valorem. By user                                                    Stable.
+
+  **Telecoms**           Airtime (mobile, landline, public payphone)        12 % of fee                        Ad valorem                                                             Stable.
+
+  **Telecoms**           Internet data                                      12 % of fee                        Ad valorem. Medical and education data exempt                          Replaced OTT levy in FA2021 (was UGX 200/day).
+
+  **Telecoms**           Value-added services (SMS, MMS)                    12 % of fee                        Ad valorem. Excludes peer-to-peer SMS, mobile money                    Stable.
+
+  **Telecoms**           Incoming international calls                       USD 0.09 / minute                  Specific. Excludes KE, RW, SS, TZ, BI                                  TZ and BI added to exclusion list in FA2024.
+
+  **Financial**          Mobile money cash withdrawals                      0.5 % of transaction value         Ad valorem                                                             Stable since 2018 (cut from initial 1 %).
+
+  **Financial**          Payment services (agent banking, Chipper, Wave)    0.5 %                              Ad valorem                                                             New in FA2024 (equalised with mobile money).
+
+  **Financial**          Bank ledger fees, ATM fees, transaction charges    15 % of fee                        Ad valorem. Excludes loan-related charges; Islamic finance equalised   Islamic-finance equivalence introduced FA2023.
+
+  **Procedural**         Remission for damaged / expired / obsolete goods   Section 13A framework              n/a                                                                    New in FA2025.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A.2 Sierra Leone — Excise Act, 1982 as amended through the Finance Act, 2026
+
+Sierra Leone's schedule sits in the First Schedule to the Excise Act, 1982. The Act is amended annually through the Finance Acts. The current legal position reflects the Finance Act, 2026, signed by President Bio on 29 December 2025, gazetted 7 January 2026, and effective from 1 January 2026. Note that some legacy lines remain quoted in Old Leones (Le) and have not yet been redenominated to New Leones (NLe); these are flagged in the recent-changes column.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Category**           **Item**                                                        **Current rate**                                                             **Structure & differentiation**                         **Recent changes**
+  ---------------------- --------------------------------------------------------------- ---------------------------------------------------------------------------- ------------------------------------------------------- ----------------------------------------------------------------------------
+  **Energy**             Petrol                                                          NLe 5.00 / litre                                                             Specific                                                Restated and raised in FA2026.
+
+  **Energy**             Diesel                                                          NLe 5.00 / litre                                                             Specific                                                Restated and raised in FA2026. Was Le 1.22 → 2.40 in four steps in FA2024.
+
+  **Energy**             Kerosene                                                        NLe 2.00 / litre                                                             Specific                                                Restated and raised in FA2026 (was Le 0.81 in FA2024).
+
+  **Energy**             Fuel oil                                                        NLe 7.40 / litre                                                             Specific                                                Restated in FA2026 (was Le 4.14 in FA2024).
+
+  **Energy**             Lubricating oils                                                NLe 4.00 / litre                                                             Specific                                                Restated in FA2026 (was Le 2.20 in FA2024).
+
+  **Environment**        Polyethylene bags & plastic bottles (with beverage, ex-water)   Le 16 / kg                                                                   Specific                                                New in FA2024. Not yet redenominated to NLe.
+
+  **Transport**          Vehicle annual circulation levy — cars, trucks, buses           NLe 500                                                                      Specific lump sum. By vehicle class                     New in FA2026.
+
+  **Transport**          Vehicle circulation levy — large vessels (\>15-seater)          USD 1,000 (or NLe equiv.)                                                    Specific. By capacity                                   New in FA2026.
+
+  **Transport**          Vehicle circulation levy — vessels (≤15-seater)                 USD 500                                                                      Specific. By capacity                                   New in FA2026.
+
+  **Transport**          Vehicle circulation levy — motorbikes                           NLe 200                                                                      Specific                                                New in FA2026.
+
+  **Health (tobacco)**   Cigarettes                                                      NLe 3 / packet of 20 sticks                                                  Specific                                                Raised 50 % from NLe 2 (FA2025) in FA2026.
+
+  **Health (tobacco)**   Cigars, cheroots, cigarillos                                    NLe 38 / packet                                                              Specific                                                Raised from NLe 25 (FA2025) in FA2026.
+
+  **Health (tobacco)**   Unmanufactured tobacco                                          NLe 98 / kg                                                                  Specific                                                Raised from NLe 65 (FA2025) in FA2026.
+
+  **Health (tobacco)**   Other manufactured / homogenised tobacco                        NLe 98 / kg                                                                  Specific                                                Raised from NLe 65 (FA2025) in FA2026.
+
+  **Health (tobacco)**   Shisha, hookah, herbal molasses, vaping alternatives            NLe 98 / kg + NLe 225 / litre                                                Specific (combined)                                     Raised from NLe 65 + NLe 175 in FA2026.
+
+  **Health (tobacco)**   E-cigarette device                                              NLe 0.75 / ml                                                                Specific                                                Raised from NLe 0.5 in FA2026 (introduced FA2024).
+
+  **Health (tobacco)**   E-cigarette cartridge                                           NLe 1.20 / unit                                                              Specific                                                Raised from NLe 0.8 in FA2026 (introduced FA2024).
+
+  **Health (alcohol)**   Beer made from malt — stout, porter, beer, non-alcoholic        Le 0.01 / cl OR Le 10 / litre local; Le 0.015 / cl OR Le 15 / litre import   Hybrid. By origin                                       Restructured in FA2024. Quoted in Old Le; not yet redenominated.
+
+  **Health (alcohol)**   Beer 22.09 — D1 (\>80 % local raw material)                     5 % (\<10 % ABV); 8 % (10–20 %); 12 % (≥20 %)                                Ad valorem. By local-content share & ABV                Re-tiered with ABV bands in FA2025.
+
+  **Health (alcohol)**   Beer 22.09 — D2 (\>70–80 % local)                               8 % / 12 % / 15 % across ABV bands                                           Ad valorem. By local-content share & ABV                Re-tiered with ABV bands in FA2025.
+
+  **Health (alcohol)**   Beer 22.09 — D3 (\>60–70 % local)                               12 % / 15 % / 17.5 % across ABV bands                                        Ad valorem. By local-content share & ABV                Re-tiered with ABV bands in FA2025.
+
+  **Health (alcohol)**   Beer 22.09 — D4 (\>30–60 % local)                               15 % / 17.5 % / 20 % across ABV bands                                        Ad valorem. By local-content share & ABV                D4 widened from 50–60 % to 30–60 % in FA2025.
+
+  **Health (alcohol)**   Wine — sparkling, ≤10 % ABV                                     Le 4.20 / litre local; Le 10 / litre import                                  Specific. By origin & ABV                               Set in FA2024. Old Le not yet redenominated — see §4.3.
+
+  **Health (alcohol)**   Wine — 10–20 % ABV                                              Le 6.30 / litre local; Le 12 / litre import                                  Specific. By origin & ABV                               Set in FA2024. Old Le not yet redenominated.
+
+  **Health (alcohol)**   Wine — 20–30 % ABV                                              Le 8.30 / litre local; Le 14 / litre import                                  Specific. By origin & ABV                               Set in FA2024. Old Le not yet redenominated.
+
+  **Health (alcohol)**   Wine — 30–40 % ABV                                              Le 10.40 / litre local; Le 16 / litre import                                 Specific. By origin & ABV                               Set in FA2024. Old Le not yet redenominated.
+
+  **Health (alcohol)**   Wine — \>40 % ABV                                               Le 15.0 / litre local; Le 22 / litre import                                  Specific. By origin & ABV                               Set in FA2024. Old Le not yet redenominated.
+
+  **Health (SSB)**       Energy drinks                                                   20 %                                                                         Ad valorem                                              Stable since pre-2020.
+
+  **Health (SSB)**       Imported fruit and vegetable juice                              20 %                                                                         Ad valorem. Imported only                               Introduced in FA2020.
+
+  **Health (SSB)**       Bottled / processed water                                       Within schedule                                                              Ad valorem                                              Stable.
+
+  **Health (other)**     Gambling, betting and lottery services                          10 % of net wagered                                                          Ad valorem on (gross gambling revenue minus winnings)   New in FA2024 (item 98.01).
+
+  **Industrial**         Cement (Portland, slag, super-sulphate, hydraulic)              NLe 10 / 50 kg bag                                                           Specific                                                New in FA2026.
+
+  **Industrial**         Vegetable oils, palm olein, margarine                           10 %                                                                         Ad valorem                                              Introduced in FA2021.
+
+  **Industrial**         Soaps (toilet, multipurpose, household, laundry)                20 %                                                                         Ad valorem                                              Introduced in FA2021.
+
+  **Industrial**         Industrial fatty-acid oils, palmitic acid, stearic acid         20 %                                                                         Ad valorem                                              Introduced in FA2021.
+
+  **Industrial**         Nails                                                           5 %                                                                          Ad valorem                                              Introduced in FA2021.
+
+  **Telecoms (levy)**    On-net mobile voice calls                                       Le 0.1 / minute                                                              Specific                                                New in FA2023. Levy under Finance Act, not Excise Act.
+
+  **Telecoms (levy)**    Off-net mobile voice calls                                      Le 0.05 / minute                                                             Specific                                                New in FA2023.
+
+  **Telecoms (levy)**    Outgoing international voice calls                              Le 0.2 / minute                                                              Specific                                                New in FA2023.
+
+  **Telecoms (levy)**    Mobile money commissions                                        2 %                                                                          Ad valorem on commissions                               New in FA2023.
+
+  **Telecoms (levy)**    Mobile data                                                     Up to 5 % of recharge / bundle value                                         Ad valorem                                              New in FA2023.
+
+  **Procedural**         Excise duty payment window                                      21 days from removal / at importation                                        n/a                                                     New section 5 in FA2025.
+
+  **Procedural**         Excise return filing                                            Periodic, with graduated late-filing and non-filing penalties                n/a. By taxpayer category                               New section 48A in FA2025.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Appendix B. Recent changes
+
+This appendix documents the year-by-year changes that produced the current law shown in Appendix A. For each country, it begins with the starting position at the start of 2020 and tracks the substantive amendments in each Finance Act (Sierra Leone) or Excise Duty Amendment Act (Uganda) through to the most recent enacted instrument. Pending bills are flagged separately.
+
+B.1 Uganda
+
+Starting position: FY 2019/20, before the Excise Duty (Amendment) Act, 2020
+
+The schedule at the start of 2020 reflected accumulated amendments through Act 12 of 2019. The main lines were as follows. **Tobacco:** specific rates by pack type and origin — locally manufactured soft cap UGX 55,000 per 1,000 sticks, imported soft cap UGX 75,000; locally manufactured hinge lid UGX 80,000, imported hinge lid UGX 100,000. Cigars and other tobacco at 200 % ad valorem. **Alcohol:** malt beer 60 % or UGX 2,050/litre; beer with ≥75 % local raw material 30 % or UGX 650/litre; opaque beer 30 % or UGX 650/litre; un-denatured spirits from local raw materials 60 % or UGX 2,000/litre; from imported raw materials 100 % or UGX 2,500/litre. **Fuel:** petrol UGX 1,200/litre; diesel UGX 880/litre; kerosene UGX 200/litre. **Telecommunications:** 12 % on airtime, with a separate UGX 200/day OTT (over-the-top) social-media levy outside the Schedule. **Financial services:** 0.5 % on mobile money cash withdrawals, 15 % on bank ledger and ATM fees.
+
+Excise Duty (Amendment) Act, 2020 (Act 21/2020, effective 1 July 2020)
+
+- Petrol: UGX 1,200 → 1,350/litre. Diesel: UGX 880 → 1,030/litre.
+
+- Un-denatured spirits from local raw materials: UGX 2,000 → 1,500/litre (60 % rate retained).
+
+- Fruit and vegetable juice: UGX 300 → 250/litre.
+
+- COVID-19 measures: nil rate on un-denatured spirits used for sanitiser/disinfectant production (≥75 % alcohol content); plastic bag duty introduced at UGX 10,000/kg with sanitary-pad and food/juice/tea/coffee packaging exemptions.
+
+Excise Duty (Amendment) Acts, 2021 (Acts 6 and 16/2021, effective 1 July 2021)
+
+- Petrol: 1,350 → 1,450/litre. Diesel: 1,030 → 1,130/litre.
+
+- OTT levy repealed; replaced by 12 % excise on internet data, with medical and education data exempted.
+
+- Opaque beer cut from 30 % or UGX 650/litre to 20 % or UGX 230/litre.
+
+- "Any other locally produced alcoholic beverage" brought in at 20 % or UGX 230/litre — formalising tax on Kombucha, Kaziire, etc.
+
+- New line: other fermented beverages (cider, perry, mead, near beer) — 60 % or UGX 950/litre imported; 30 % or UGX 550/litre locally grown.
+
+Excise Duty (Amendment) Act, 2022
+
+Largely an inflation-adjustment package. Parliament rejected an opposition proposal to cut petrol back to UGX 750/litre. Fuel rates held at 1,450/1,130. Minor rate corrections elsewhere; no major new excisable items.
+
+Excise Duty (Amendment) Acts, 2023 (Acts 17/2023 and 24/2023)
+
+- Definitions added for fruit juice, un-denatured spirits, vegetable juice.
+
+- Equivalent treatment for Islamic financial business: ledger / ATM / transaction charges placed on the same 15 % footing as conventional banking.
+
+- Schedule 2 varied for opaque beer, undenatured spirits, fruit/vegetable juice, certain construction materials, certain non-alcoholic beverages.
+
+Excise Duty (Amendment) Act, 2024 (effective 1 July 2024)
+
+- Petrol: 1,450 → 1,550/litre. Diesel: 1,130 → 1,230/litre.
+
+- Un-denatured spirits and "other wine" rates increased.
+
+- Opaque beer and other locally produced alcoholic beverages cut further: "any other locally produced alcoholic beverage" 20 % or UGX 230 → 12 % or UGX 150/litre.
+
+- New definitions: powder for reconstitution into beer.
+
+- New excisable items: powder for reconstitution into beer; payment services (cash withdrawal via agent banking, Chipper Cash, Wave) at 0.5 % — equalising treatment with mobile money.
+
+- International calls from Burundi and Tanzania removed from the USD 0.09/min charge.
+
+- Construction materials for EV manufacturers and EV parts/accessories exempted.
+
+- Mineral water duty restructured to fixed-and-ad-valorem hybrid.
+
+Excise Duty (Amendment) Acts, 2025 — No. 1 and No. 2 (effective 1 July 2025)
+
+- Cigarettes (first significant change since FY 2017/18): locally manufactured soft cap 55,000 → 65,000; imported soft cap 75,000 → 150,000 (doubled); locally manufactured hinge lid 80,000 → 90,000; imported hinge lid 100,000 → 200,000 (doubled).
+
+- Beer from local raw material (≥75 %): UGX 650 → 900/litre (rate 30 % retained).
+
+- New Section 13A: framework for remission of excise duty on damaged, expired or obsolete goods.
+
+- Originally proposed petrol increase to UGX 1,650 and diesel to UGX 1,380 was rescinded by the Minister of Finance before passage; fuel rates remained at 1,550 / 1,230.
+
+- Other revisions to fruit juice, motor fuel categories and plastic products in line with the Bill's revenue-and-base-broadening logic.
+
+Pending: Excise Duty (Amendment) Bill, 2026
+
+The Bill was passed by Parliament in late April 2026 but, as of the cut-off date of this paper, had not received presidential assent and is therefore not in force. Notable proposed changes (intended effective date 1 July 2026): petrol +UGX 200/litre (1,550 → 1,750), diesel to roughly 1,430, sugar 100 → 300/kg, cement to 750/50kg (down from a proposed 1,000), imported spirits to UGX 3,500/litre or 80 %, motorcycles first registration 200,000 → 500,000, plastics from 2.5 %/USD 70 per tonne to 25 %/USD 1,500 per tonne with the base widened to disposable cups, straws, bottles and stirrers, a new excise on cooking fat at UGX 500/litre or kg.
+
+B.2 Sierra Leone
+
+Starting position: at 1 January 2020 (post-FA2020)
+
+**Tobacco:** 30 % ad valorem on the wholesale price of cigarettes (introduced through the FA2018 reform) plus elevated import duties on all tobacco products. **Alcohol:** specific excise of USD 1.5/litre on alcoholic beverages of up to 10 % ABV, USD 2/litre above 10 % ABV — applied uniformly to imports and most domestic production. **Soft drinks:** energy drinks at 20 %; excise also on bottled and processed water. **Fuel:** specific excise on petrol, diesel, kerosene, fuel oil and lubricating oils under tariff item 27.10 (rates inherited from earlier Finance Acts). **FA2020 itself:** added a single new line — imported fruit and vegetable juice at 20 %. **Telecommunications and financial services:** not subject to excise duty under the 1982 Act. Telecom services within the GST net at 15 %; financial services GST-exempt.
+
+Finance Act, 2021 (effective 1 January 2021)
+
+- First major re-engineering of the alcohol regime. Tariff item 22.09 repealed and replaced with a four-band local-content beer regime: D1 (\>80 % local) 5 %; D2 (\>70 %, \<80 %) 8 %; D3 (\>60 %, \<70 %) 12 %; D4 (\>50 %, \<60 %) 15 %.
+
+- Eligible local raw materials defined as sorghum, cassava, maize, sugar and barley.
+
+- Vegetable oils, palm olein and margarine added at 10 % (heading 15.11).
+
+- Soaps at 20 % (heading 34.01).
+
+- Industrial fatty-acid oils at 20 % (heading 38.23).
+
+- Nails at 5 % (heading 73.17).
+
+Finance Act, 2022 (effective 1 January 2022)
+
+No Schedule-level excise changes. The Act focused on income tax (cut petroleum operations from 30 % to 25 %), taxpayer segmentation, and digital-marketplace definitions in GST. Excise rates from FA2021 carried forward.
+
+Finance Act, 2023
+
+Imposed a new set of regulatory levies on telecommunications operators (sometimes labelled "excise" colloquially but legally a separate levy under the Finance Act, not under the Excise Act): on-net mobile voice calls Le 0.1/minute; off-net Le 0.05/minute; outgoing international calls Le 0.2/minute; mobile money commissions 2 %; mobile data up to 5 % of recharge / bundle value.
+
+Finance Act, 2024 (effective 1 January 2024)
+
+The most substantial single-Act re-write of the schedule in the period.
+
+- Imported cement to 20 %. Iron rod 10 %. Cooking gas 5 %. Rice graduated from 0 to 5 % then 10 % from 2025.
+
+- Beer (heading 22.03) restructured: malt beer, stout, porter, non-alcoholic beer (≤5 %) and "other" all at Le 0.01/cl or Le 10/litre local; Le 0.015/cl or Le 15/litre import.
+
+- Wine (headings 22.04, 22.05) rebanded by ABV: Le 4.20/litre (≤10 %), Le 6.30 (\>10–20 %), Le 8.30 (\>20–30 %), Le 10.40 (\>30–40 %), Le 15.0 (\>40 %) for local; Le 10/12/14/16/22/litre for imports along the same bands.
+
+- Cigarettes restructured under tariff items 24.01–24.03 (specific tobacco rates per kg and per packet).
+
+- Electronic cigarettes and cartridges introduced at item 24.04: Le 0.2/ml device, Le 0.4/unit cartridge.
+
+- Fuel rates set at Le 0.81/litre kerosene, Le 2.80/litre petrol, Le 1.22/litre diesel rising on a published quarterly schedule to Le 2.40/litre by 1 October 2024, Le 4.14/litre fuel oil, Le 2.20/litre lubricating oils.
+
+- Plastics: polyethylene bags and plastic bottles (with beverage, excluding water) at Le 16/kg.
+
+- New excise on gambling, betting and lottery services at 10 % of net wagered (gross gambling revenue less winnings) — inserted at item 98.01.
+
+Finance Act, 2025 (effective 1 January 2025)
+
+First Finance Act in fully redenominated New Leone units. Two structural additions: section 5 (21-day excise payment rule) and section 48A (filing of excise returns with graduated penalties for large / medium / small taxpayers).
+
+- Beer regime (item 22.09) re-tiered: D1 (\>80 % local) at 5/8/12 % across \<10, 10–20, ≥20 ABV; D2 (\>70–80 %) at 8/12/15 %; D3 (\>60–70 %) at 12/15/17.5 %; D4 (\>30–60 %) at 15/17.5/20 %. The local-content threshold for D4 widened from 50–60 % to 30–60 %, bringing more producers into the higher band.
+
+- Tobacco (24.01–24.04) restated in NLe: unmanufactured tobacco NLe 65/kg; cigars and cigarillos NLe 25/packet; cigarettes NLe 2/packet of 20 sticks; other manufactured tobacco NLe 65/kg; shisha and herbal molasses NLe 65/kg + NLe 175/litre; e-cigarette device NLe 0.5/ml; cartridge NLe 0.8/unit.
+
+Finance Act, 2026 (effective 1 January 2026)
+
+The latest enacted Finance Act. Tobacco and fuel re-tariffed upward, and cement re-stated.
+
+- Cigarettes: rate raised to NLe 3/packet of 20 sticks (50 % up from FA2025's NLe 2).
+
+- Cigars / cigarillos: NLe 38/packet (up from NLe 25, \~52 %).
+
+- Unmanufactured tobacco / other manufactured tobacco: NLe 98/kg (up from NLe 65, \~51 %).
+
+- Shisha / hookah / vaping alternatives: NLe 98/kg + NLe 225/litre.
+
+- E-cigarettes: NLe 0.75/ml device; NLe 1.20/unit cartridge (50 % each).
+
+- Cement (item 25.23): Portland, slag, super-sulphate and other hydraulic cement at NLe 10/50 kg bag.
+
+- Fuel (item 27.10) restated in NLe: kerosene NLe 2/litre; petrol NLe 5/litre; diesel NLe 5/litre; fuel oil NLe 7.40/litre; lubricating oils NLe 4/litre.
+
+- New annual circulation levy on vehicles (NLe 500 for ordinary cars / trucks / buses; USD 1,000 / 500 for large vessels and water taxis depending on capacity; NLe 200 for motorbikes), payable at importation, registration or licensing — structurally outside the Excise Act but fiscally adjacent.
+
+Read together, the two recent-changes histories show three common patterns. Both countries used the 2020 amendment cycle for selective COVID-related concessions and modest fuel-rate rises. Both used the 2021 amendment cycle to re-engineer the alcohol regime around local-content discounts. Both used the 2024 amendment cycle to broaden the base — Sierra Leone introducing e-cigarettes, gambling and plastic bottles; Uganda introducing payment services and powder-for-reconstitution-into-beer. Both have used the 2025 and 2026 cycles primarily for inflation catch-up — the cigarette-rate increases in both countries, the fuel restatements in Sierra Leone, the proposed fuel and motorcycle increases in Uganda's pending 2026 Bill.
+
+Appendix C. Worked computations of the three measures
+
+This appendix presents the line-by-line computations underlying the headline findings reported in §4. The methodology is set out in §3.4. Tables follow the same five-column structure: country, item, \$/standardised unit, % of consumer price, implied % of GDP. Where a cell contains a range or an estimate flagged with "\~", the range reflects volume or price uncertainty discussed in §3.4 and §3.5.
+
+C.1 Energy and vehicles
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Country**        **Item**                                                  **Excise per unit (USD)**       **Excise as % of consumer price**                **Implied excise revenue, % of GDP**
+  ------------------ --------------------------------------------------------- ------------------------------- ------------------------------------------------ ---------------------------------------------
+  **Uganda**         Petrol                                                    USD 0.41 / litre (UGX 1,550)    \~30 % of pump price (UGX 5,244)                 \~0.7 % of GDP at \~1.0 bn litres petrol/yr
+
+  **Uganda**         Diesel                                                    USD 0.33 / litre (UGX 1,230)    \~24 % of pump price (UGX \~5,100)               \~0.6 % of GDP at \~0.9 bn litres diesel/yr
+
+  **Uganda**         Kerosene                                                  USD 0.05 / litre (UGX 200)      \~5 % of pump price                              \<0.05 % of GDP (low volume)
+
+  **Uganda**         Jet A1                                                    USD 0.17 / litre (UGX 630)      n/a (commercial supply contracts often exempt)   \<0.05 % of GDP
+
+  **Uganda**         Motorcycle first registration                             USD 53 lump sum (UGX 200,000)   n/a (one-off)                                    \<0.05 % of GDP
+
+  **Sierra Leone**   Petrol                                                    USD 0.23 / litre (NLe 5.00)     \~18 % of pump price (NLe 28)                    \~0.3 % of GDP at \~270 m litres petrol/yr
+
+  **Sierra Leone**   Diesel                                                    USD 0.23 / litre (NLe 5.00)     \~18 % of pump price (NLe 27.4)                  \~0.3 % of GDP at \~250 m litres diesel/yr
+
+  **Sierra Leone**   Kerosene                                                  USD 0.09 / litre (NLe 2.00)     \~7 % of pump price (NLe \~26)                   \<0.05 % of GDP
+
+  **Sierra Leone**   Fuel oil                                                  USD 0.34 / litre (NLe 7.40)     varies (industrial use)                          \<0.1 % of GDP
+
+  **Sierra Leone**   Vehicle annual circulation levy (cars / trucks / buses)   USD 23 / yr (NLe 500)           n/a (lump sum)                                   Negligible — new in FA2026, base small
+
+  **Sierra Leone**   Vehicle circulation levy — motorbikes                     USD 9 / yr (NLe 200)            n/a (lump sum)                                   Negligible
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C.2 Health — tobacco
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Country**        **Item**                                       **Excise per pack of 20**     **Excise as % of retail pack price**   **Implied excise revenue, % of GDP**
+  ------------------ ---------------------------------------------- ----------------------------- -------------------------------------- --------------------------------------
+  **Uganda**         Cigarettes — soft cap, locally manufactured    USD 0.35 / pack (UGX 1,300)   \~30 % of pack price (\~UGX 4,300)     \~0.05 % of GDP at \~700 m sticks/yr
+
+  **Uganda**         Cigarettes — soft cap, imported                USD 0.80 / pack (UGX 3,000)   \~50 % of pack price (\~UGX 6,000)     \~0.02 % of GDP
+
+  **Uganda**         Cigarettes — hinge lid, locally manufactured   USD 0.48 / pack (UGX 1,800)   \~35 % of pack price                   \~0.03 % of GDP
+
+  **Uganda**         Cigarettes — hinge lid, imported               USD 1.07 / pack (UGX 4,000)   \~55 % of pack price                   \~0.02 % of GDP
+
+  **Sierra Leone**   Cigarettes (specific, single rate)             USD 0.14 / pack (NLe 3)       \~10–15 % of pack price (\~NLe 22)     \~0.02 % of GDP
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C.3 Health — alcohol
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Country**        **Item**                                                             **Excise per litre of pure alcohol (USD, est.)**   **Excise as % of retail price (est.)**                **Implied excise revenue, % of GDP**
+  ------------------ -------------------------------------------------------------------- -------------------------------------------------- ----------------------------------------------------- --------------------------------------------------
+  **Uganda**         Malt beer (60 % or UGX 2,050/litre, \~5 % ABV)                       USD \~11 / LPA (specific binds)                    \~30 % of retail (\~UGX 3,500/500ml)                  \~0.2 % of GDP combined across all alcohol lines
+
+  **Uganda**         Beer ≥75 % local content (30 % or UGX 900/litre)                     USD \~5 / LPA                                      \~15 % of retail                                      (included above)
+
+  **Uganda**         Opaque beer (12 % or UGX 150/litre, \~4 % ABV)                       USD \~1 / LPA                                      \~10 % of retail (informal market)                    (included above)
+
+  **Uganda**         Spirits, local raw materials (60 % or UGX 1,500/litre, \~40 % ABV)   USD \~1 / LPA                                      \~15 % of retail (specific binds for cheap spirits)   (included above)
+
+  **Sierra Leone**   Beer 22.09 D1 (5 %, \~5 % ABV, retail \~NLe 25/500ml)                USD \~2 / LPA                                      \~5 % of retail                                       \~0.05 % of GDP — narrow base
+
+  **Sierra Leone**   Beer 22.09 D4 (15–20 % ad val, \~5 % ABV)                            USD \~7 / LPA                                      \~15–20 % of retail                                   (included above)
+
+  **Sierra Leone**   Wine — sparkling local (Le 4.20/litre, \~12 % ABV)                   USD \~0.002 / LPA                                  \<0.1 % of retail                                     Negligible — Old-Le rate not yet redenominated
+
+  **Sierra Leone**   Wine — \>40 % ABV import (Le 22/litre)                               USD \~0.0025 / LPA                                 \<0.1 % of retail                                     Negligible
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C.4 Health — sugar-sweetened beverages
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Country**        **Item**                                                      **Excise per litre (USD)**                               **Excise as % of retail**                 **Implied excise revenue, % of GDP**
+  ------------------ ------------------------------------------------------------- -------------------------------------------------------- ----------------------------------------- --------------------------------------
+  **Uganda**         Non-alcoholic beverages excl. juice (12 % or UGX 250/litre)   \~USD 0.07 / litre                                       \~10–12 % of retail (\~UGX 2,000/500ml)   \~0.05 % of GDP
+
+  **Uganda**         Fruit and vegetable juice (12 % or UGX 250/litre)             \~USD 0.07 / litre                                       \~10 % of retail                          \<0.05 % of GDP
+
+  **Sierra Leone**   Energy drinks (20 % ad valorem)                               Variable — \~USD 0.10–0.20 / litre depending on retail   20 % of CIF / wholesale                   \<0.05 % of GDP
+
+  **Sierra Leone**   Imported fruit and vegetable juice (20 % ad valorem)          Variable                                                 20 % of CIF                               \<0.05 % of GDP
+
+  **Sierra Leone**   General soft drinks                                           No specific excise                                       n/a                                       n/a
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**International benchmarks** for the comparable measures referenced in §4: OECD-average fuel excise USD 0.55 / litre on petrol, \~30–50 % of pump price, 1.5–2.5 % of GDP; South Africa USD 0.20–0.25 / litre. WHO recommended tobacco excise ≥75 % of retail pack price; South Africa raises \~0.4 % of GDP from tobacco; EU \~0.6 %. OECD alcohol excise USD 15–40 / LPA on beer, USD 25–50 / LPA on spirits; OECD alcohol revenue 0.4–0.6 % of GDP. UK SDIL GBP 0.18–0.24 / litre (\~USD 0.23–0.30) by sugar content; Mexico \~USD 0.05 / litre flat; South Africa HPL ZAR 0.0221 / gram of sugar above 4g/100ml.

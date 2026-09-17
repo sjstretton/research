@@ -1,0 +1,87 @@
+---
+title: "The Sollar (previous version)"
+---
+
+*Superseded on 17 September 2026 by the edited version at the paper root. Kept unchanged.*
+
+**The Sollar**
+
+*Summary*
+
+This paper outlines an idea for an international financial instrument based on installed solar photovoltaic panels in dedicated utility-scale solar parks around the world. At each point in time, one *Sollar* (pronounced like Dollar but with an ‘S’) represents a certain quantity of solar panels shared, like an index fund, across the solar parks that are part of the scheme.
+
+Over time, the equivalent quantity of solar panels represented by one *Sollar* would increase. Profits taken from the sale of the electricity produced by these solar panels would be reinvested in further solar panels.
+
+Investors wishing to ‘cash out’ of the solar currency can, after a certain introduction period of 5 years, convert each *Sollar* into ‘bonds’ which represent the *fixed* quantity of solar panels at the time of redemption. From this point onwards, the revenues from the panels would be paid out as dividends.
+
+*Sollars* are therefore intended to be *both* currency *and* investments. They are currency because they are intended to have a standardized value, do not pay out dividends.
+
+They are an *investment* because the value of a *Sollar* is expected to increase over time and the structure of the *Sollars* is intended to be suited for pension investments. The *Sollar* has a ‘growth phase’ by its *Sollars* structure, as well as an ability to ‘cash out’ for standardized investments paying out dividends suitable for paying a pension in retirement. This ability to redeem the Sollar gives the currency tangible value.
+
+The *Sollar* is intended to be an easy way to channel pension fund investment funds into renewable investments around the world. It’s also intended to be a strong currency and an investment for people in developing countries.
+
+Since the interest rate associated with issuing *Sollars* is expected to be lower than that of issuing debt, it is expected that the use of *Sollars* would allow an additional means of leveraging a given equity investment.
+
+*\*
+
+*Introduction*
+
+*Problem Definition & Motivations*
+
+It can be expensive to finance renewable energy in developing countries. These countries tend to not have particularly well-developed capital markets. It tends to be expensive to raise capital in domestic currency, and both expensive and risky to borrow on international markets. Developing countries often have weak domestic currencies and are frequently subject to corruption. Higher credit risk ratings also increase the interest rate charged by banks and the expected rate of return for equity investors. These issues can make it expensive to finance new renewable energy infrastructure. Renewable energy tends to be capital intensive, and thus the interest rate charged has a strong effect on the per-kwh levelized cost of the electricity produced.
+
+*General Idea*
+
+The general idea outlined here is for a solar-panel-backed currency. It is called a ‘currency’ but it also shares some characteristics with financial investments.
+
+The issuance of this ‘solar currency’ would be a means of financing international solar plants, competing with other means such as equity, project debt, corporate debt, government spending, and international grants.
+
+Each *Sollar* would represent a certain quantity of solar panels at each point in time (over time the quantity per *Sollar* would grow – see below). So, let’s imagine that at end 2020, 1 *Sollar* represents enough solar panels to produce on average 1 Watt of electrical output (8.8 kWh per year) over the year. This corresponds to between 5 and 10 Watts-Peak of solar panels, depending on the insolation of the location where they are installed.
+
+The electricity produced by the solar panels would be sold. Some fraction (maybe around 10%) of the money earned from the sale of the electricity would accrue to the operator of the solar park. This fraction would be variable according to whether the solar panel performed as expected. If the solar panel produced less than the expected quantity of electricity over the year, the fee would be reduced.
+
+In the case of a state-run electricity system, then some contracts for the value of the solar electricity produced by the panels would need to be defined with the government.
+
+The solar panels would be located in dedicated solar parks in different places across the world. Governments and private developers who develop such parks would have the option to issue *Sollars* once the project was completed. In the growth phase they could borrow *Sollars* from international institutions, paying their suppliers in the borrowed *Sollar*. Once the solar panels were constructed, the *Sollars* would be issued to pay back the international institutions.
+
+It’s possible that the solar park would therefore not cost anything to produce, because it can be financed entirely by the *Sollars* borrowed, and the solar panels produced can then be used to issue *Sollars* at least equal to the *Sollars* originally borrowed. This allows a given quantity of original investment finance to go much further than previously.
+
+*Design Choices*
+
+*Reinvested profits or paid out dividends*
+
+Like a ‘growth stock’ on the stock market, the money gained by selling the electricity produced by the solar panels would be re-invested in more solar panels. The location of the new solar panels bought with the profits from the initial ones could be different — they perhaps would be located in different parts of the world.
+
+After an initial phase (say 5 years), conversion of the currency-instrument into a bond-like instrument would be permitted. Conversion would be permitted on the 1st January every year. The currency would be converted into an instrument that represented instead a fixed quantity of solar panels (the quantity that had accumulated up to that point). The dividend paid out by this instrument would represent the output from the solar panels globally. The dividend stream would be in dollars. it would typically decline slightly over time. This convertibility ensures that there is some reference point to give tangible value to the currency.
+
+*Borrowing Sollars*
+
+A proportion of the *Sollars* would be purchased by international organizations. These *Sollars* could be lent to project developers, since they would not be able to provide *Sollars* until their project was finished. Since the *Sollar* itself appreciates in value, the interest rate (in *Sollar* terms) is likely to be low, zero or slightly negative. Thus, project developers would need to borrow *Sollars* only for the construction phase. Once the project was completed, they could sell the *Sollars* since a solar park contains solar.
+
+*Administration*
+
+The scheme is proposed to be administered by an international organization. For example, it could be administered by one of the parts of the World Bank group, for example the IBRD or the IFC. In the same way that the IFC organized a local green bond in India for example. In this way, the market for such instruments would be pump primed.
+
+*Guarantees needed*
+
+There are various guarantees needed for the scheme to work, from different groups. The operator of the plant needs to guarantee that over a yearly period, the panels will produce a certain amount of electricity. If they do not, he will make up the difference out of his percentage fee.
+
+The purchaser of the electricity needs to guarantee in contract form, the price paid for the electricity. This electricity price might well fall in time, as solar becomes cheaper. But there needs to be contractual arrangements for the price paid over time. Such guarantees are easiest when combined with electricity feebates (i.e. combinations of carbon taxes with feed-in-tariffs). The price paid for electricity needs to have some sort of guarantee over the whole working life of the panels.
+
+Since the panels falling under the scheme would be located all around the world in different locations, the risk of any single government would be diversified.
+
+It’s likely that the scheme would need to be guaranteed in the early stages. That is, international organizations would need to provide various guarantees to get started.
+
+*\*
+
+*Policy Coordination*
+
+Solar energy is already cost competitive. Nevertheless, the potential profits to be made are greater if there exists a carbon tax and/or a system of feed-in-tariffs for renewable energy. Such policies (and others) can accelerate the shift to a clean energy system.
+
+In addition, the development benefit of solar parks is enhanced when local production facilities are involved. In other words, developing local solar industries would allow more of the benefit of the *Sollar* to be in-house.
+
+It’s important that many *Sollars* are retained in developing countries to avoid international financial investors owning too much of vital infrastructure. Incentives could be introduced to give a benefit to *Sollars* that are retained within developing countries, especially those owned by everyday people. There’s definitely a trade-off between engaging international financial markets and their potential for financing at scale and the risks involved with so doing. Perhaps *Sollars* could be introduced in developed countries, including non-solar power sources also.
+
+*Conclusions*
+
+Designing a solar-backed currency is an opportunity to reduce financing costs for solar – indeed to make solar plants self-financing. It allows developer-operators to pay their suppliers in something that they will produce themselves – solar panels. Diversifying the investment-currency internationally and giving it international backing may provide a stable and strong currency-investment to aid solar build-out providing good investments for those wishing to save.

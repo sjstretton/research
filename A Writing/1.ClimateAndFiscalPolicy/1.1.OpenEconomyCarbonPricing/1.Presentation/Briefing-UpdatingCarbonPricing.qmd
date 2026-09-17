@@ -1,0 +1,71 @@
+---
+title: "BriefingPaper-UpdatingCarbonPricing"
+---
+
+**Abstract**
+
+*This article contributes to the evolving debate around carbon pricing and its alternative design features. Conventional carbon pricing has concentrated on carbon taxes and emissions trading schemes (ETS), rooted in the Kyoto Protocol’s production-based accounting framework. These approaches typically place a single set of incentives on both supply and demand, raising fossil fuel and product prices across the board.*
+
+*In contrast, this paper suggests differentiating the functions of carbon pricing: on the supply side, policies should employ relative incentives such as feebates to accelerate sector-specific decarbonization without raising consumer costs, while on the demand side, consumption-based pricing should hold consumers accountable for the damages associated with their choices. This dual framework separates the transition function of carbon pricing from the polluter pays principle, allowing for a smoother, more politically feasible path to net-zero.*
+
+**Introduction**
+
+Carbon pricing is now a central pillar of climate policy, widely endorsed by economists as an efficient tool for reducing emissions (Stiglitz & Stern 2017). Its two dominant instruments—carbon taxes and emissions trading schemes (ETS)—have been implemented across over 70 jurisdictions worldwide (World Bank 2023). Both mechanisms raise fossil fuel and product prices, thereby incentivizing firms and consumers to reduce emissions along the lines of Pigouvian taxation (Pigou 1920; Metcalf & Weisbach 2009).
+
+Traditional designs also rely on production-based emissions accounting, where a country is responsible for the emissions it produces domestically, regardless of whether the goods are consumed at home or abroad. While these conventional systems provide economy-wide signals, they often mix two distinct rationales: (1) incentivizing the transition to clean technologies and energy systems, and (2) ensuring that polluters pay for the social costs of emissions. Combining these in a single instrument has created political and distributional challenges, often leading to backlash due to higher energy prices and competitiveness concerns (Goulder & Schein 2013; Carattini et al. 2018).
+
+This paper argues instead for separating the two functions into a politically-easier (but more vital) transitional incentive and a more politically difficult polluter pays component. We propose supply-oriented relative incentives (mainly through feebates) on the production side as the central driver for technological transition, while applying consumption-based carbon pricing and legal liability frameworks to uphold the polluter pays principle on the emissions associated with domestic consumption (so exports are taxed on the importing country). This reorientation may provide both stronger decarbonization outcomes and greater political feasibility.
+
+**Supply-Side Incentives: Feebates as Transitional Carbon Pricing**
+
+For the supply side of the economy—electricity, industry, and transport—what matters most is shifting production methods rather than raising consumer prices. Relative incentives, particularly feebates, offer a promising tool. A feebate imposes a fee on high-emission producers while rebating revenue to cleaner producers in the same sector, thereby rewarding relative performance (Fischer & Newell 2008; Gerarden 2019).
+
+Unlike carbon taxes or ETS, which push up consumer prices, feebates preserve affordability while maintaining a strong transition signal. They are flexible, sector-specific, and politically feasible because they avoid the perception of blanket taxation. Applied to vehicles, feebates have demonstrated success in reducing fleet-level emissions in France and California (Borenstein 2012). Similar designs can be extended to steel, cement, and electricity.
+
+Internationally, feebate programs could be complemented by border subsidies or adjustments, ensuring that industries in carbon-pricing jurisdictions are not disadvantaged relative to competitors in laxer regimes (Helm, Hepburn & Ruta 2012). This would create small incentives for cleaner supply chains globally, without triggering fears of “carbon leakage” or trade retaliation that plague carbon taxes and ETS.
+
+**Demand-Side Accountability: Consumption-Based Pricing and Liability**
+
+The second pillar of our approach concerns the polluter pays function. Here, the aim is to link consumer behavior to environmental damages. Scholars have argued for consumption-based carbon accounting, which attributes emissions to final consumers rather than producers (Peters & Hertwich 2008; Davis & Caldeira 2010). This shifts responsibility toward countries with high demand for carbon-intensive imports, such as the EU or U.S., and avoids carbon leakage via trade.
+
+A practical way forward would be a consumption-based carbon tariff, potentially aligned with the EU’s Common External Tariff structure, so that imported goods face differentiated carbon pricing depending on their embedded emissions. Such policies would motivate exporters to decarbonize, thereby diffusing climate incentives internationally (Böhringer et al. 2017).
+
+In addition, for sectors like electricity distribution, transport, and buildings—where consumer demand drives use—forward-looking legal liability schemes could be introduced. These would place responsibility on large-scale intermediaries (such as distribution companies) to plan for and mitigate future damages from emissions. By phasing in liability schedules, firms would have time to invest in adaptation and mitigation measures, while internalizing the risks of climate damages. This resonates with recent proposals linking tort law and climate accountability (Heede 2014; Setzer & Byrnes 2019).
+
+**Conclusion**
+
+Conventional carbon pricing has struggled to balance the joint goals of incentivizing transition and ensuring polluters pay. By splitting these functions into distinct policy frameworks—supply-side feebates for transition and consumption-based carbon pricing with liability schemes for accountability—climate policy can be made more effective, politically acceptable, and globally equitable.
+
+This dual model provides a pragmatic roadmap: accelerate clean production with relative incentives while making consumers and intermediaries legally and economically responsible for carbon damages. As the literature on hybrid pricing instruments grows, this approach offers a credible next step in refining carbon pricing for the decades to come.
+
+**References**
+
+Böhringer, C., Balistreri, E. J., & Rutherford, T. F. (2017). "Optimal emission pricing in the presence of international spillovers." The RAND Journal of Economics, 48(4).
+
+Borenstein, S. (2012). "The Private and Public Economics of Renewable Electricity Generation." Journal of Economic Perspectives, 26(1).
+
+Carattini, S., Baranzini, A., & Thalmann, P. (2018). "Carbon pricing acceptability." Wiley Interdisciplinary Reviews: Climate Change, 9(5).
+
+Davis, S. J., & Caldeira, K. (2010). "Consumption-based accounting of CO2 emissions." PNAS, 107(12).
+
+Fischer, C., & Newell, R. G. (2008). "Environmental and technology policies for climate mitigation." Journal of Environmental Economics and Management, 55(2).
+
+Gerarden, T. D. (2019). "Demanding Innovation: The Impact of Consumer Subsidies on Solar Panel Production Costs." SSRN.
+
+Goulder, L. H., & Schein, A. R. (2013). "Carbon taxes vs. cap and trade." Climate Change Economics, 4(03).
+
+Heede, R. (2014). "Tracing anthropogenic carbon dioxide and methane emissions to fossil fuel and cement producers, 1854–2010." Climatic Change, 122(1-2).
+
+Helm, D., Hepburn, C., & Ruta, G. (2012). "Trade, climate change, and the political game theory of border carbon adjustments." Oxford Review of Economic Policy, 28(2).
+
+Metcalf, G. E., & Weisbach, D. (2009). "The design of a carbon tax." Harvard Environmental Law Review, 33.
+
+Peters, G. P., & Hertwich, E. G. (2008). "CO2 embodied in international trade with implications for global climate policy." Environmental Science & Technology, 42(5).
+
+Pigou, A. C. (1920). The Economics of Welfare. London: Macmillan.
+
+Setzer, J., & Byrnes, R. (2019). "Global trends in climate litigation: 2019 snapshot." Grantham Research Institute on Climate Change.
+
+Stiglitz, J. E., & Stern, N. (2017). Report of the High-Level Commission on Carbon Prices. World Bank.
+
+World Bank (2023). State and Trends of Carbon Pricing 2023.

@@ -1,0 +1,24 @@
+﻿=== Remove the stray 6. folder  [PREVIEW]   2026-09-17 19:01 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+
+--- 12 file(s) in the stray tree
+
+   in both : 6.Books\6.0.OverviewBooks.docx
+   in both : 6.Books\6.0.OverviewBooks\OverviewBooks.docx
+   in both : 6.Books\6.0.OverviewBooks\OverviewBooks.qmd
+   in both : 7.Philosophy\7.0.OverviewPhilosophy.docx
+   in both : 7.Philosophy\7.0.OverviewPhilosophy\OverviewPhilosophy.docx
+   in both : 7.Philosophy\7.0.OverviewPhilosophy\OverviewPhilosophy.qmd
+   in both : 8.Politics\8.0.OverviewPolitics.docx
+   in both : 8.Politics\8.0.OverviewPolitics\OverviewPolitics.docx
+   in both : 8.Politics\8.0.OverviewPolitics\OverviewPolitics.qmd
+   in both : 9.AdditionalPapers\9.0.OverviewAdditional.docx
+   in both : 9.AdditionalPapers\9.0.OverviewRetainedWork\OverviewRetainedWork.docx
+   in both : 9.AdditionalPapers\9.0.OverviewRetainedWork\OverviewRetainedWork.qmd
+
+================================================================
+12 file(s) already in "6.OverviewAndAdditional", 0 only in the stray folder.
+
+   BIN    : "6. Overview and Additional"   [every file in it is already in 6.OverviewAndAdditional]
+
+PREVIEW only - nothing was removed.

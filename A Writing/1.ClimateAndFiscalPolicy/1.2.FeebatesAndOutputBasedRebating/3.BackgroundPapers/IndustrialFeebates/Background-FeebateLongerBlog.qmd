@@ -1,0 +1,67 @@
+---
+title: "B3b-FeebateLongerBlog"
+---
+
+‘Winter is coming’: Feebate options to ration scarce natural gas in Europe
+
+*Winter is coming, and Europe is expected to face the weaponization of Russian gas supplies, which would likely impact countries in Eastern Europe particularly hard. This article argues for feebates as a revenue-neutral instrument that can encourage short-term reductions in natural gas consumption, contributing to long-term goals without burdening households or already-indebted governments.*
+
+# High energy prices and looming gas shortages 
+
+**Europe is highly dependent on Russian gas, and shortages are looming**. Gas imports from Russia supply around 40% of the EU’s total gas consumption, although heterogeneities exist across the EU. The landlocked nations of Central and Eastern Europe are more vulnerable to Russian gas disruptions because they have fewer alternative options than other European countries. Poland and Bulgaria were the first to be exposed to Russian gas cutoffs; to retaliate against European sanctions, Russia halted its exports to these countries.[^1] Moreover, European countries and companies have a mixture of long-term gas contracts (linked to oil prices) and spot market gas purchases subject to very high price spikes.[^2]
+
+**Natural gas prices have reached unprecedented levels in the general context of inflation, partly fueled by the war in Ukraine**. The benchmark Dutch TTF natural gas price recently hit €210 per megawatt hour,[^3] ten times the 2010-2020 average. High gas and oil prices weigh on economic growth and contribute to inflation. The June 2022 edition of Global Economic Prospects estimates global inflation at about 7.8 percent, its highest level since 2008.[^4] In the EU, inflation reached roughly 9% in June 2022, with particularly high inflation rates in Bulgaria (14.8%) and Poland (14.2%).[^5]
+
+**The Russian reduction in natural gas supply and price-inelastic demand explain this dramatic price increase.** As Russia has reduced the gas supply, the price of gas has increased as a result. In effect, Russia is behaving like a monopolist, restricting supply to achieve higher prices. If the EU can reduce its short-term usage of gas, the rise in the wholesale price of gas will be lower than it would otherwise be, and less money will be sent to Russia. Coordinating consumer market power in energy is usually tricky because tax rises can be unpopular, and other policies take longer to work – but the policy idea we suggest, the regional nature of natural gas markets, and the unity associated with the current conflict may make an effective response possible.
+
+# Policy responses
+
+**The EU has proposed policy responses to tackle unprecedented energy prices and disruptions in Russian gas supplies**. Member States have agreed to reduce gas demand by 15% voluntarily.[^6] The European Commission also proposes strengthening long-term energy efficiency measures by speeding up behavioral changes, which could cut gas and oil demand by 5%. For this purpose, Member States are encouraged to rely on fiscal measures such as reduced VAT rates on energy-efficient heating systems, building insulation, appliances, and other products to boost energy savings.[^7] The recent ‘Save gas for a safe winter’ plan[^8] lays down immediate market and non-market measures on the demand side to free up gas volumes. The plan includes, among other things, preventive measures and good practices such as reducing indoor temperatures to limit unnecessary gas consumption.
+
+**At the national level, significant efforts are being deployed to shield households’ budgets against soaring energy prices; nonetheless, price caps and direct subsidies would further exacerbate scarcity by preventing the reduction in demand associated with higher prices**. Most governments have budgeted several billion euros to provide cash to help households to cope with rising energy prices, with some Member States targeting vulnerable households. To cushion the adverse effects on households, temporary, targeted support to vulnerable groups should be prioritized over energy subsidies since subsidies could delay the transition to a zero-carbon economy.[^9] In parallel, some governments like Britain or France are imposing price caps on electricity, oil, or gas.[^10] Price caps can aggravate shortages by reducing the incentive for gas consumers to reduce gas use.
+
+**Strong general price-based incentives are missing from the current policy response.** While many of the policies under consideration involve technology (e.g., promoting heat pumps) or behavioral change (e.g., turning down the thermostat), relatively few involve prices or price-like incentives. This is for obvious reasons – prices are already high; energy tax increases could run into political difficulties and lack social acceptance. But without an additional short-term policy response, Russia will continue to raise profits by restricting supply and increasing gas prices. Suppose Europe could reduce short-term demand through revenue-neutral incentives. In that case, it could put downward pressure on natural gas wholesale prices paid to Russia and retain revenue in the European Union.
+
+**It is urgent to unleash actions that could lead to an energy-independent Europe while also helping advance the green transition.** These actions are all the more pressing in the context of reduced fiscal space.
+
+# Introducing Feebates
+
+**Feebates are a tax combined with a rebate,**[^11] **designed to make green activities cheaper and dirty activities more expensive.** Feebates are revenue-neutral instruments that could incentivize reduced natural gas consumption. A feebate imposes a net tax on activities that use more energy (or emit more emissions) than the average within a sector and provides a net subsidy on activities that use less energy (or emit less emissions) than average. In a traditional feebate, a tax and the rebate of the tax revenue are combined and offset within a single sector, e.g., steelmaking or agrochemicals. Alternatively, the tax and rebate can be separate payments. A fee on gas usage for the EU as a whole, levied at the point of import, could be combined with rebates to industry and consumers (see below for a concrete proposal).
+
+**Governments could implement gas usage feebates to encourage behavioral changes from households and industries without driving up net bills**. Feebates could provide an immediate policy response and play a long-term role in decarbonization by extending the impact of CO~2~-based policies to other greenhouse gases (i.e., the energy security measure proposed here also contributes to covering methane leaks, a gap in current EU climate policy). Rebates can be based on physical output in industrial sectors (e.g., kWh electricity generated, or tonnes of steel produced). In the household sector, fees can be levied, and rebates paid out with a fixed per capita gas usage, or specifically according to the current usage per household compared to the average use in prior years, where data are available. Feebates can be introduced contemporaneously with additional financial support, further enhancing political feasibility.
+
+**An EU-wide fee-and-rebate could be used to meet the targeted 15% reduction in gas usage and respond to any further cuts in Russian supply.** The most effective policy would be one that is coordinated across the Union and that can respond immediately and automatically to additional supply cuts. Such a policy must be within EU competencies or implemented by a ‘coalition of the willing’ of interested Member States (the latter option would allow the feebate scheme to be the basis for a climate mechanism expandable beyond Europe). One option is similar to the EU ETS. Just as a carbon price can ration emissions, an EU-wide emergency gas-usage cap-and-trade scheme could ration overall gas consumption, with auction revenues refunded to the participating Member States. It could be imposed upstream on all gas imports. Such a move could economically efficiently reduce the price rise associated with the reductions in gas flow and prevent shortages.
+
+# Conclusion
+
+**The EU faces imminent gas shortages and ongoing high gas prices.** **Feebates provide an attractive complement to existing policy**. Industrial or power-sector gas usage can be reduced through output-based feebates. Residential gas feebates combine an incentive to reduce use with historical or per-person rebating. In addition, an EU-wide rationing-through-pricing scheme for gas (similar to an auctioned emissions cap-and-trade scheme, but for total gas usage) would raise significant revenue that could be rebated to industry and households while reducing currently exorbitant natural gas market prices. Responding effectively to the energy security and gas price threat would also indirectly support Ukraine without escalating militarily.
+
+[^1]: World Bank (April 2022). Commodity Markets Outlook—The Impact of the War in Ukraine on Commodity Markets.
+
+[^2]: “Actual gas prices under Gazprom’s long-term contracts differ from spot prices. In recent years, the share of contracts with price formulas that factor in spot and forward markets has increased substantially. More than 80% of the volumes Gazprom delivers have a direct link to trading hubs, with only 13% linked to oil prices.” <https://www.bloomberg.com/news/articles/2021-10-26/russia-wants-gas-price-60-lower-to-keep-energy-grip-on-europe>
+
+[^3]: FT (26^th^ July 2022) European gas prices soar after Russia deepens supply cuts [https://www.ft.com/content/f8450175-7332-4074-aaac-71534141e305 and](https://www.ft.com/content/f8450175-7332-4074-aaac-71534141e305%20and%20) <https://tradingeconomics.com/commodity/eu-natural-gas>
+
+[^4]: World Bank Group, Global Economic Prospects (June 2022). Available at:
+
+    [https://thedocs.worldbank.org/en/doc/18ad707266f7740bced755498ae0307a-0350012022/original/Global-Economic-Prospects-June-2022.pdf](https://thedocs.worldbank.org/en/doc/18ad707266f7740bced755498ae0307a-0350012022/original/Global-Economic-Prospects-June-2022.pdf)
+
+[^5]: Eurostats (19th July 2022). Available at:
+
+    <https://ec.europa.eu/eurostat/documents/2995521/14644638/2-19072022-AP-EN.pdf/fff35147-c9b3-a915-7bf0-b09202bbd130#:~:text=The%20euro%20area%20annual%20inflation,%2C%20the%20rate%20was%202.2%25>.
+
+[^6]: See, for instance: <https://www.bloomberg.com/news/articles/2022-07-26/eu-nations-reach-agreement-to-reduce-gas-use-for-next-winter#xj4y7vzkg>
+
+[^7]: European Commission, REPowerEU: A plan to rapidly reduce dependence on Russian fossil fuels and fast forward the green transition (May 18^th^, 2022), Press release. Available at: <https://ec.europa.eu/commission/presscorner/detail/en/IP_22_3131>
+
+[^8]: European Commission, Save Gas for a Safe Winter: Commission proposes gas demand reduction plan to prepare EU for supply cuts (July 20^th^, 2022), Press release. Available at: <https://ec.europa.eu/commission/presscorner/detail/en/ip_22_4608>
+
+[^9]: World Bank Group, Global Economic Prospects (2022). Available at:
+
+    <https://thedocs.worldbank.org/en/doc/18ad707266f7740bced755498ae0307a-0350012022/original/Global-Economic-Prospects-June-2022.pdf>
+
+[^10]: Reuters, Factbox: Europe's efforts to shield households from soaring energy costs (May 26, 2022). Available at:
+
+    <https://www.reuters.com/business/energy/europes-efforts-shield-households-energy-cost-spike-2022-03-21/>
+
+[^11]: Feebates are also known in French as ‘Bonus-Malus’.

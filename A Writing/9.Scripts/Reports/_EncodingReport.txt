@@ -1,0 +1,16 @@
+﻿=== Repair encoding   2026-09-17 19:14 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Mode : APPLY
+
+
+================================================================
+Files repaired : 0
+Already clean       : 114
+Left alone          : 0
+Locked, skipped     : 0
+Bad sequences removed  : 0 -> 0
+
+The .docx files are unaffected - the damage was only in the converted text.
+Rebuild them by deleting the .docx and re-running Run\Master-All.bat, or leave
+them: Word never saw the mangled characters.
+=== Done ===

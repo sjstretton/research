@@ -1,0 +1,491 @@
+---
+title: "GeoprosperityIntro"
+---
+
+Mobilizing Private Capital for the Climate and Clean Energy Agenda
+
+Climate Financial Innovation Working Paper Series — Consolidated Overview
+
+A proposal for a series of papers by a team of World Bank Group authors and reviewers, outlining how the World Bank Group can contribute to the international community’s ambitious agenda for achieving SDG 7 (clean energy abundance) and SDG 13 (urgent climate action) by mobilizing private financial capital on a very large scale. The topic outlines below will be adjusted going forward to reflect ongoing work by relevant existing initiatives that the World Bank is leading or participating in — for example, the [Private Sector Investment Lab](https://worldbankgroup.sharepoint.com/sites/news/WhoWeAre/pages/The-Private-Sector-Investment-Lab--18042024-142221.aspx) (PSIL).
+
+*Draft for discussion.*
+
+Contents
+
+*Right-click and select “Update Field” (or press F9) to populate page numbers.*
+
+Part I. Executive Summary
+
+Overview
+
+This series of working papers and policy briefs aims to guide financial institutions in advancing the green transition and fulfilling the mandate of the Paris Agreement. The central question it addresses is this: how can financial institutions, and multilateral development banks (MDBs) in particular, ensure that climate mitigation is both affordable and enforceable?
+
+Much like the Apollo project, this initiative is large in ambition. But with a clear focus and well-directed resources, the goals set out in these papers are not only attainable but vital for a sustainable future. The series first develops scalable financing and risk-reduction mechanisms led by MDBs; ultimately, it aims to transform the global climate financing landscape.
+
+Issues Covered
+
+The series covers three main issues: MDB strategy when countries have limited fiscal space, climate finance to encourage policy change, and wider climate governance. This section introduces each in turn.
+
+MDB Strategy
+
+With the escalating climate and fiscal crises of this decade, a transformative shift in the World Bank Group’s strategy is critical. The urgency of climate action is compounded by the declining fiscal capacity of emerging market governments, burdened by record emissions and unsustainable debt levels. The current climate finance system reflects outdated priorities, and substantial policy reforms are essential to ensure that climate transition costs remain manageable within countries’ fiscal constraints.
+
+Several of the proposed reforms and mechanisms are particularly suited for trial implementation in Small Island Developing States (SIDS), which would offer valuable insights for broader application.
+
+Policy-Encouraging Climate Finance
+
+Mobilizing private-sector investment requires a shift from project-based climate finance toward a more robust, policy-focused framework. The existing climate finance architecture not only fails to support the necessary policy reforms but actively discourages them. Building on the foundational ideas presented in the EFI brief proposal for a climate-related MDB financing window, this series sets out how MDBs can effectively implement the reforms and mechanisms that climate action requires.
+
+Climate Governance: Financing, Incentives, Positive Framing and Enforcement
+
+The international climate governance system is characterized by commitments — for example, emissions reductions — that are arguably:
+
+a)  not framed in the individual self-interest of countries (emissions reductions, for instance, rather than renewable scale-up or green growth targets);
+
+b)  not enforced;
+
+c)  unaccompanied by financial incentives; and
+
+d)  unaccompanied by financing.
+
+The Papers at a Glance
+
+There are eight papers in the set, grouped into three themes.
+
+Policy
+
+- **Paper 1. Power Sector Feebates.** A feebate system for decarbonizing the power sector, particularly in coal-dependent regions.
+
+- **Paper 2. Indian Climate Policy.** Concrete proposals on power markets, carbon pricing, and financing to support India’s net-zero transition.
+
+Guarantees and Finance
+
+- **Paper 3. A Solar Payments Intermediary and Finance Agency (SPIF).** A policy and payments guarantee agency that makes countries’ policies credible, allows investors to rely on the revenues from green investments, and so facilitates solar power development globally.
+
+- **Paper 4. A Financial Plan for a Global Solar Economy.** An equity fund and associated financial model to accelerate the deployment of solar energy and other renewables and to generate rapid returns.
+
+- **Paper 5. The Climate Incentives Trust (CIT).** Loss-absorbing capital for de-risking climate-related lending, mobilizing funding for mitigation and for loss and damage, and encouraging climate action.
+
+- **Supporting mechanisms.** The Trusted Intermediary Model, the Clean Energy Financing Model, and the Risk Absorption Model, each of which draws on the CIT.
+
+MDBs and Sovereign Incentives
+
+- **Paper 6. Implementing the Evolution Roadmap on Climate.** The background paper informing this series, proposing a mechanism to expand climate policy lending.
+
+- **Paper 7. Sustainability-Linked Intermediated Debt Instruments (SLIDIs).** Debt instruments that incentivize policy change by rewarding countries that meet agreed performance indicators.
+
+- **Paper 8. MDB Reform and Incentives for Paris Agreement Compliance.** Reforms to better align MDB financing mechanisms with the goals of the Paris Agreement.
+
+Part II. Background and Issues
+
+There is a clear consensus that climate change mitigation in developing countries requires more private investment capital. Attracting such capital is challenging for several reasons:
+
+1)  Insufficient climate-mitigation-related policy action by governments, particularly policies that enable, support, and provide *bankable projects*, and an insufficient effective *price of carbon*.
+
+2)  Too high a cost of capital in developing countries for mitigation and adaptation projects. This is exacerbated by weak client demand for USD-denominated IBRD-rate lending, caused by recent increases in interest rates.
+
+3)  A lack of capacity to execute the projects needed for the net-zero transition.
+
+4)  Insufficient incentives for governments to prioritize green policies and bankable projects, and insufficient funds at the global level to reward EMDCs that move in this direction. Time-dynamic incentives to be an early adopter — to act now rather than later — are largely absent. Conversely, incentives to delay action and wait for better conditions do exist: these include high (by recent standards) USD interest rates, the early-stage structure of carbon markets, and declining cost trends for clean technology.
+
+5)  Insufficient core capital to serve as the foundation on which to scale up climate-related lending. Global EMDC climate and clean energy finance needs are two orders of magnitude greater than current World Bank lending capacity: tens of billions of dollars are available, and thousands of billions are needed.
+
+6)  A lack of clarity about the amount of sustainable infrastructure — above all, renewable energy capacity — that needs to be built in each country and region by future target years if sustainable development goals for energy access and climate action are to be met, and a concomitant lack of clarity about the *enabling conditions* that must be met for the required infrastructure buildout to occur.
+
+The papers set out in Part III attempt to fill these gaps with financial mechanism proposals, each of which tackles one or more of the issues above.
+
+Part III. The Papers
+
+Each entry below gives the paper’s authors and abstract, followed — where a mechanism has been elaborated in more detail — by a description of how it would work, and then by links to the available forms of the paper.
+
+A. Policy
+
+Paper 1. Power Sector Feebates: A Dynamic Approach to Overcoming Transitional Barriers and Decarbonizing the Capital Stock
+
+**Authors:** Stephen Stretton and Nils Zimmermann.
+
+**Abstract:** This paper proposes a feebate system as an alternative to carbon taxes for decarbonizing the power sector, particularly in coal-dependent regions. Traditional carbon taxes disproportionately impact coal, leading to politically and economically suboptimal policies such as exemptions or reduced rates. A feebate system, which imposes fees on high-emission activities and offers rebates for low-emission alternatives, provides a more politically feasible and dynamic approach, incentivizing early transition without across-the-board price increases. By combining multiple feebates, the system approximates a consumption-based carbon tax while minimizing political disruption. The paper suggests using feebates in coal-heavy sectors alongside revenue-raising taxes in others, or transitioning to a carbon tax over time.
+
+Access
+
+- [Briefing Paper](https://www.canva.com/design/DAGTBie5QeE/KuoD5zMi2ySWySMNyhILxA/view?utm_content=DAGTBie5QeE&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Canva)
+
+- [Long-Form Technical Paper](https://docs.google.com/document/d/1p4A3UKCcHTztTSBXTQ043xGK9BwfpQ0_/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+Paper 2. Finance, Carbon Pricing and Power Market Reforms to Meet Indian Climate Policy Goals
+
+**Authors:** Stephen Stretton and Nils Zimmermann.
+
+**Abstract:** India’s ambitious climate policy targets aim to scale up renewable energy, reduce carbon intensity, and achieve net-zero emissions by 2070. Reaching these goals necessitates comprehensive reforms in power markets, carbon pricing, and financial systems to accelerate the transition away from coal and bolster renewable energy adoption. This paper emphasizes the importance of socio-economic justice, advocating for concessional financing to support coal power site repurposing and worker retraining. To incentivize decarbonization while maintaining stable electricity prices, we propose a feebate system targeting power producers based on their emissions intensity. Additionally, greening India’s financial sector by enhancing climate risk management and redirecting capital toward low-carbon investments is crucial. As a potential global leader in clean energy, accelerating India’s green transition could yield significant strategic economic benefits, including greater access to international markets and leadership in cleantech supply chains.
+
+Access
+
+- [Briefing Paper](https://www.canva.com/design/DAGTK2pYRl8/bf2sB8QaT-ttJShJbNfU3A/view?utm_content=DAGTK2pYRl8&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Canva)
+
+- [Long-Form Technical Paper](https://docs.google.com/document/d/1jYr2K745-W-7A6XuYYVSYgfbEmkLvvbh/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+- [Shorter Paper](https://docs.google.com/document/d/1U6m5-AjKGLl18d-dHkDj_IgR9mi5101G/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+B. Guarantees and Finance
+
+Paper 3. A Solar Payments Intermediary and Finance Agency
+
+**Authors:** Stephen Stretton, Nils Zimmermann, Pablo Salas and Claudio Forner.
+
+**Abstract:** We propose the creation of a Solar-economy Payment Intermediary Facility (SPIF), similar in role to the key financial intermediary function played by the Solar Energy Corporation of India (SECI) in that country. SECI ensures that participating power generators get paid in full and on time for the power they produce under their power purchase agreements (PPAs), de-risking the power providers’ operational cash flow.[^1] SPIF would play a similar role internationally.
+
+We further propose the creation of green asset-backed securities backed by the secure future cashflows just described.[^2] Such synthetic sovereign bonds could be arranged by MDBs without using developing countries’ scarce fiscal balance sheet space.[^3]
+
+Access
+
+- Briefing paper and technical paper in preparation.
+
+Paper 4. A Financial Plan for a Global Solar Economy
+
+**Authors:** Stephen Stretton, Nils Zimmermann, Pablo Salas and Claudio Forner.
+
+**Abstract:** This proposal introduces a financing model to accelerate the deployment of solar power and other renewable energy projects in developing countries by combining an international de-risking mechanism with a global public equity fund. The proposed structure aims to reduce financing costs for renewable energy infrastructure by securitizing Power Purchase Agreements through the Solar Payments Intermediary Facility (see Paper 3), which is backed by governments, managed by multilateral financial institutions, and provides the secure cashflows needed to issue green asset-backed securities against those guaranteed future cashflows. Paired with a Global Solar Economy Equity Fund, drawing on the Climate Incentives Trust (see Paper 5), this model attracts risk-averse investors such as pension funds and sovereign wealth funds, while incentivizing countries to act early through profit-sharing mechanisms.
+
+**Scope note:** This paper covers similar ground to Papers 3 and 5 taken together, and has also circulated under the title ‘A Proposal for a Global Solar Economy Financing System’.
+
+Access
+
+- [Briefing Paper](https://www.canva.com/design/DAGTJa_9XKY/e-n7uCRMlNKnm-6lxEk1BQ/view?utm_content=DAGTJa_9XKY&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Canva)
+
+- [Long-Form Technical Paper](https://docs.google.com/document/d/1gIkGk9ztvOgxkRvxdksbpviC_9M5Jmj6/edit?rtpof=true&sd=true&tab=t.0) (Google Drive)
+
+Paper 5. The Climate Incentives Trust
+
+**Authors:** Stephen Stretton and Nils Zimmermann.
+
+**Abstract:** The Climate Incentives Trust (CIT) proposal aims to expand global public funding for climate mitigation before 2050 and to increase funding for loss and damage protection afterward. The proposed mechanism provides insurance against climate risks in exchange for sovereign commitments, invests in early-stage renewable energy projects, and incentivizes countries to reduce emissions. The trust, funded by donor countries and managed by the World Bank Group, creates nationally allocated beneficiary funds to mitigate long-term fiscal risks and mobilizes additional private investment. By lowering borrowing costs and leveraging national accounts as collateral, the CIT supports global climate goals while protecting countries from future climate-related disasters.
+
+How it would work
+
+The CIT is a system of trust accounts, funded by donors and allocated both to a global fund and to specific countries in exchange for mitigation commitments and actions by those countries. Country accounts would serve two functions. First, they could act as risk-absorbing equity to protect against country-specific defaults, which is what makes the Trusted Intermediary and Risk Absorption models below possible. Second, the funds held in them can themselves be invested, generating the returns described in Paper 4.
+
+Allocations from a generic pool of donor funding to country-specific trust accounts would depend on climate mitigation actions — for example, implementation of strong renewable scale-up auctions, carbon pricing, or the public infrastructure necessary for net zero. Because allocation is conditional and time-sensitive, the trust provides incentives for rapid action by developing countries rather than rewarding delay.
+
+Access
+
+- [Briefing Paper](https://www.canva.com/design/DAGS2_bCZqQ/U3yffG5Ww5o1lP17yoYgrw/view?utm_content=DAGS2_bCZqQ&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Canva)
+
+- [Long-Form Technical Paper](https://docs.google.com/document/d/1hr43bVQu1vsuop_2VBpJsTxLVBFcgS5Y/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+- [Technical Summary](https://docs.google.com/document/d/1JmErrkg0YiYpUm3AjsqjRxD7q5qjEyOJ/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+- Presentation (OneDrive).
+
+Supporting Mechanisms
+
+Three further mechanisms sit alongside the papers above. Each depends on the CIT equity fund, and each is intended to be operationalized through the instruments described in Papers 3 to 5.
+
+The Trusted Intermediary Model
+
+A mechanism for raising low-cost money for on-lending to sustainable infrastructure project developers in EMDCs at concessional rates. In this model, countries — advised by highly developed country (HDC) international development agencies — could borrow for climate and green infrastructure purposes through a safe intermediary that is itself low risk, such as a regional sustainable infrastructure fund backed by highly developed countries.
+
+Rather than interest rates being tied to the country risk of EMDCs, borrowers would pay interest related to their performance on key performance indicators: countries that achieve poor outcomes would pay close to their normal sovereign bond cost, and countries that achieve good outcomes would pay the borrowing rate of the safe intermediary. The trusted intermediary could be the World Bank itself or, to make additional financing available, a safe Special Purpose Vehicle directly or indirectly backed by HDCs and by a capital buffer. The model also encompasses an intermediary for solar contracts and a project finance mechanism for securitized future cashflows, which are developed in Papers 3 and 4.
+
+A version of the Trusted Intermediary Model has been outlined in the published KPI bonds paper, available [here](https://www.ifcreview.com/articles/2024/january/trusted-intermediaries-can-channel-concessional-finance-for-lmic-green-development/).
+
+The Clean Energy Financing Model
+
+A clean energy financing model offered to EMDCs and LDCs by the IFC. In this model, the CIT would make equity investments in renewable energy projects in developing countries, generating net investment returns for the CIT which would then be re-invested. For poorer developing countries, the CIT could make a *pay-as-you-go* offer per MWh for energy delivered from clean energy systems that the CIT itself has financed. This reduces concerns about adding to sovereign debt for green investment, avoids explicit debt entirely, and builds net-zero capability globally. The CIT, or agencies collaborating with it, would contract with clean energy project developers to deliver those MWh to LDCs via appropriate off-take agreements. Capacity for designing and implementing clean energy economies would be developed and organized centrally, across countries that would otherwise lack it.[^4]
+
+The proposal matters most for countries without well-developed capital markets for project finance, and where fiscal space and fiscal risk are a concern. To enable a financial return on the projects the CIT finances, low-cost refinancing would be employed once newly developed projects are complete and generating cash flow. Much of a project’s risk sits in the early stage of development, which is why refinancing a project after development is complete should lead to net profits for the initial equity investor. The key requirement is for renewable energy projects to achieve secure cashflow from a long-term Power Purchase Agreement with the respective government or a related state-owned enterprise.
+
+The Risk Absorption Model
+
+Also drawing on the CIT equity fund. Countries would provide policy guarantees and in exchange receive a counter-guarantee from the CIT and either the World Bank or a high-income country. In this way the credit rating of the World Bank is used but not used up. This system of three levels of risk-absorption buffers, with a final guarantee provided by the World Bank or a high-income country, can mobilize low-cost international capital markets, mobile payment systems, and domestic debt and bank finance.[^5]
+
+C. MDBs and Sovereign Incentives
+
+Paper 6. Proposing a Mechanism for Implementing the Evolution Roadmap on Climate
+
+**Authors:** Dirk Heine and others.
+
+**Status:** Background paper informing this working paper series.
+
+**Abstract:** The simultaneous climate and fiscal crises of this decade necessitate a transformative shift in the World Bank Group’s strategy. The urgency for climate action, highlighted by the Intergovernmental Panel on Climate Change, is compounded by the deteriorating financial capacity of governments in emerging markets, which face record emissions and debt levels. Today’s climate finance system reflects past needs, but policy reforms are essential for keeping climate transition costs within countries’ fiscal space. Additionally, mobilizing private-sector investment requires a shift from project-based climate finance to policy-focused support. However, the current climate finance architecture not only fails to support policy reforms but actively discourages them.
+
+To address this challenge, the proposed Evolution Roadmap seeks to enhance the Economic and Financial Institutions (EFI) capacity for climate policy lending, aiming to increase the climate components of Development Policy Financing (DPFs) from 25 percent to 40 percent. The paper proposes a funding model that rewards countries undertaking significant climate reforms as global public goods. Two financing options are outlined: topping up dedicated DPFs with bilateral climate finance, and establishing a global mechanism to augment any DPF featuring agreed-upon transformational policy actions. Both models aim to integrate climate policy into macro-financial frameworks, reinforcing the World Bank Group’s role as a facilitator of global solutions while aligning climate finance with broader developmental goals. The paper also includes a draft list of transformational climate policy reforms backed by EFI Global Practice programs.
+
+Paper 7. Mobilizing Private Finance for the Climate Agenda: Introducing Sustainability-Linked Intermediated Debt Instruments
+
+**Authors:** Marcello Estevão, Stephen Stretton and Nils Zimmermann.
+
+**Abstract:** The Sustainability-Linked Intermediated Debt Instrument (SLIDI) proposal seeks to address the limitations of existing sustainability-linked bonds (SLBs), which have seen a decline in issuance since their peak in 2021. Like SLBs, SLIDIs offer reduced interest rates or rebates to borrowers that achieve specific sustainability-linked Key Performance Indicators (KPIs). However, SLIDIs differ by raising funds through bonds with fixed coupon payments, eliminating the rate-of-return uncertainty faced by SLBs. In this model, interest payment rebates are provided to borrowers upon meeting KPI targets, but these rebates are funded by a third party, such as the World Bank through results-based payments or a donor-supported trust fund.
+
+How it would work
+
+SLIDIs are a form of Key Performance Indicator bond, and an alternative to sustainability-linked bonds. KPI bonds would de-risk cashflows for institutional investors in climate-related bonds issued to raise money for clean infrastructure buildout in EMDCs. Countries that meet specified KPIs through the implementation of enabling measures — infrastructure, regulation, financial guarantees — would pay lower interest rates on KPI bonds than countries that fail to meet those KPIs. The first version of this paper has been written and published [here](https://www.ifcreview.com/articles/2024/january/trusted-intermediaries-can-channel-concessional-finance-for-lmic-green-development/).
+
+Access
+
+- [Briefing Paper](https://www.canva.com/design/DAGS3kKr_pY/bytPR2gBNg2kqEXLlMbsfw/view?utm_content=DAGS3kKr_pY&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Canva)
+
+- [Long-Form Technical Paper](https://docs.google.com/document/d/1Rnh3smHEm4rMPjcuOm69xqqhC_zuPDWG/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+- [Published article](https://www.ifcreview.com/articles/2024/january/trusted-intermediaries-can-channel-concessional-finance-for-lmic-green-development/) (IFC Review)
+
+- Presentation (OneDrive).
+
+Paper 8. MDB Reform and Incentives for Paris Agreement Compliance
+
+**Author:** Stephen Stretton.
+
+**Abstract:** This paper examines the various roles MDBs, and particularly the World Bank Group, could and should assume to scale climate action. It explores the dual role of MDBs as financial institutions and policy influencers, with a focus on the World Bank Group’s unique ability to provide both investment lending and policy-transforming support. It also addresses the Group’s involvement in the development of critical carbon market instruments. The paper identifies two key issues — scalability and policy incentives — that must be addressed to enhance the effectiveness of MDBs in achieving the goals of the Paris Agreement. The analysis spans several dimensions: the World Bank Group’s mission, its financing products, the challenges and opportunities for scaling its efforts, and the critical role it plays in creating dynamic policy incentives. We argue that the Group, given its scale and leadership position, should expand its mandate to prioritize nature protection and significantly increase climate mitigation financing. By addressing these core issues, MDBs can more effectively catalyze the global green transition and drive meaningful progress toward climate goals.
+
+Access
+
+- [Briefing Paper](https://www.canva.com/design/DAGTCNvfzd8/qUShunRXt39HXyPbxBDO9g/view?utm_content=DAGTCNvfzd8&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Canva)
+
+- [Long-Form Technical Paper](https://docs.google.com/document/d/1fvHEj_PzSgms3US9OA6cnyzXuOcUbE5z/edit?usp=sharing&ouid=108769401394786307900&rtpof=true&sd=true) (Google Drive)
+
+Part IV. Series Design and Process
+
+Workflow
+
+Each briefing paper is accompanied by a slide presentation, then circulated within the World Bank for discussion — for example, on pathways to operationalization — and then submitted to a relevant conference for peer comment and discussion.
+
+Format
+
+Each briefing paper is short, with an initial proposal of around three pages. Once finalized, the briefing papers are numbered and linked to a website landing page. Onward publication is encouraged.
+
+Roles
+
+The work generates proposals for the specific roles of fiscal authorities, private finance, and international development banks, based on consultative input from relevant agencies and surveys of existing programs, initiatives, and commitments.
+
+Peer Reviewer Community
+
+The briefing papers are circulated within a peer review community consisting of at least one representative from each of MTI, FCI, IFC, MIGA, and CCG, plus at least one external reviewer — for example, from WRI. This community could meet every one to two months to review current work.
+
+Discussion and Dissemination
+
+A standard series of monthly calls would be used to release each of the briefing papers. Initial dissemination would be among the team, with a follow-up public event organized two to three months later.
+
+Conclusions
+
+The papers set out above cover the mobilization of private capital. They are also useful for the wider reform of climate-related international public finance, and for the generation of incentives for countries to act early rather than late.
+
+Appendix A. Multi-Tiered Sustainable Infrastructure Project Portfolio Loan Guarantee System
+
+A system of multi-tiered risk protection for loan guarantees, such that the World Bank — or another multilateral institution backed by safe HDC sovereigns — can be the guarantor of last resort on loans to approved sustainable infrastructure project developers, or co-guarantor of cash flows from renewable energy Power Purchase Agreements, where those projects qualify to participate in a portfolio of sustainable infrastructure projects in participating EMDCs.
+
+This system of guarantees will achieve low financing rates for sustainable infrastructure projects, with the HDC sovereigns providing only the third and last tier of loan guarantee, without being subject to first- or second-line risk. It can be achieved by a system of triple guarantees:
+
+- **First line.** The loan guarantee is provided by the EMDC host government where the infrastructure project is located. If the project developer whose project has been approved for inclusion in the portfolio defaults on a loan, the EMDC or LDC beneficiary country government guarantees to hold lenders harmless — either directly, or by agreeing to add any defaults on loans by sustainable infrastructure projects to the country’s debt with the World Bank.
+
+- **Second line.** A buffer account allocated to that country within the Climate Incentives Trust (see Paper 5), with the funds in the country’s CIT account supplied from sources to be determined — for example, net income generated by equity participation in a global sustainable infrastructure portfolio, a trust fund topped up by HDC carbon taxes, the IMF’s Resilience and Sustainability Trust, or contributions from wealthy sovereigns.
+
+- **Third line.** Only if that buffer also fails will the World Bank, or another designated HDC-backed multilateral institution, step in to hold lenders to a defaulting portfolio project harmless.
+
+In that way, the World Bank or HDC sovereigns can mobilize their AAA ratings as a third line of defense, leading to lower capital costs for participating project developers, even as HDC sovereigns remain well protected against exposure to defaults. The World Bank or rich sovereigns would only be subject to a final tier of financial risk if the first and second buffers were exhausted.
+
+Appendix B. 100 Percent Clean Energy Transition Program Assistance
+
+We will consider whether the World Bank, working with other international institutions such as the International Renewable Energy Agency (IRENA) and the International Solar Alliance (ISA), could make a standard offer of comprehensive assistance to any country willing to embark on a rapid transition to a nearly 100 percent clean energy economy and low-cost energy abundance — or even beyond that, to clean energy abundance and net negative CO₂ emissions, in the context of future mid-century global demand for several billion tons per year of carbon dioxide removal to offset residual fossil fuel use.
+
+This paper will survey effective *pathways* and the physical, regulatory, and financial *enabling conditions* for organizing and financing the green infrastructure supply chain in developing countries. Country-scale clean energy transitions will entail providing concessional financing in exchange for EMDCs’ adoption of enabling conditions for clean energy buildout and fossil energy ramp-down. These enabling conditions include:
+
+- **Physical infrastructure** — for example, power transmission and distribution network expansion.
+
+- **Enabling regulations** — for example, power purchase agreement frameworks and renewable energy feed-in tariffs, speedy project approval processes, and rules governing land availability for utility-scale solar power projects.
+
+- **Financial incentives** — for example, tax breaks, carbon taxes, and low-cost financing of clean energy and other sustainable infrastructure projects via national development banks.
+
+The World Bank’s Energy Sector Management Assistance Program (ESMAP) is already engaged in advising EMDCs along these lines, albeit not yet in the development of comprehensive country-scale transitions to post-fossil-fuel energy abundance, or of net carbon dioxide removal operations. ESMAP’s remit could be expanded to encompass advising countries on such comprehensive transitions.
+
+Appendix C. GeoProsperity: Framing, Mission and Communications
+
+*GeoProsperity is a separate, independent initiative. The material in this appendix and in Appendix D relates to the public framing and communication of the ideas above, not to the working papers themselves.*
+
+C.1 Introduction to GeoProsperity
+
+Just as the bold ambition of the moonshot galvanized a generation to reach new heights, the challenge before us — to transform the global economy for a sustainable future — is one we must embrace for the prosperity of our planet. Today, if JFK were speaking about the climate crisis rather than the space race, he might say:
+
+> *Our goal is a global clean energy financial system that enables the fastest countries to achieve net zero by 2030 and incentivizes the rest to put in place Paris-compliant carbon pricing and energy transition strategies by the same date. We choose these goals not because they are easy, but because they are hard. Because that goal will serve to organize and measure the best of our energies and skills, because this challenge is one that we are willing to accept. One we are unwilling to postpone.*
+
+Our mission is clear: to provide the global incentives and financing necessary for countries to meet the Paris temperature targets and reach net zero by mid-century, with the fastest countries achieving this within five years.
+
+Our blog series, inspired by the GeoProsperity mission, takes on the same spirit of resolve as JFK’s space mission over half a century ago. By providing targeted insights and practical strategies, we aim to help financial institutions — especially multilateral development banks — navigate the complex and rapidly evolving climate finance landscape. As climate threats and fiscal pressures intensify, the need for a transformative approach to climate financing has never been more urgent. The series tackles this mission head-on, advancing new ideas that can align our financial systems with the goals of the Paris Agreement and create a resilient global economy.
+
+The series is guided by five key pillars: clean energy ramp-up, fossil energy ramp-down, ecosystem conservation and regeneration, carbon removal, and planetary thermostat technologies. Each post explores innovative financing mechanisms and policy tools that enable a sustainable, low-carbon future. These pillars address the critical components of a successful green transition, from scientific innovation and engineering to economic policy and stakeholder engagement. Through the integration of these elements, we develop strategies that drive energy security, environmental resilience, and fiscal health across regions and economic contexts.
+
+The current climate finance system often reflects outdated priorities, making it difficult for emerging markets facing record emissions, debt levels, and limited fiscal capacity to progress meaningfully. In response, our series advocates a paradigm shift from traditional project-based climate finance toward a more policy-oriented approach that empowers MDBs to support deep structural changes. We outline scalable financing models designed to support regional priorities and drive measurable progress on climate goals, from SECI-style programs in Africa to KPI bonds that reward carbon reductions.
+
+We also explore specific financial tools, such as a financial model to accelerate the deployment of solar energy, and feebate systems tailored for markets like India. These mechanisms can mobilize public and private sectors alike, fostering investment in renewables and ecosystem regeneration while ensuring fiscal stability. Recognizing the distinct challenges facing different regions, we examine how these innovations can help emerging economies manage climate action costs without compromising economic growth.
+
+Ultimately, this blog series is both a toolkit and a rallying cry. Transformative reform in climate finance is within reach and urgently needed. These solutions demand our best energies, and with a clear-eyed focus we can ensure that they drive the thriving, low-carbon future our world so urgently needs.
+
+C.2 About GeoProsperity
+
+GeoProsperity is an independent initiative founded by the economist Stephen Stretton to address one of the most critical challenges of our time: reconciling the global financial system with the urgent demands of climate change mitigation and adaptation. The project was created to envision a world where energy security and abundance coexist on a livable planet, aligning economic prosperity with climate stability.
+
+Our mission is bold: to establish a global clean energy financial system that empowers the fastest-moving countries to achieve net zero by 2030, while incentivizing the rest to implement Paris-compliant carbon pricing and energy transition strategies by the same date. GeoProsperity aims to meet these ambitious goals not because they are easy, but because they are essential to organizing and mobilizing our best energies and skills to build a sustainable future.
+
+GeoProsperity seeks to make climate solutions financially self-sustaining, embedding profitability and resilience into the pathways for clean energy. By leveraging the de-risking tools of multilateral development banks such as the World Bank, we advocate financing frameworks that lower project costs, enhance returns, and allow global stakeholders to benefit from shared successes. In this way, we hope to create tipping points similar to those seen in solar technology, where investment grows organically because of its inherent value.
+
+Through an interdisciplinary approach, GeoProsperity integrates insights from decarbonization, carbon pricing, and sustainable finance to create actionable agendas. With the ultimate goal of meeting Paris Agreement targets and achieving net-zero emissions by mid-century, we invite collaboration and submissions from thought leaders and practitioners worldwide to drive meaningful change.
+
+Our vision is ambitious but achievable, given the right mix of innovative financing mechanisms, supportive policy frameworks, and collective will. Together, we can build a world where clean energy is abundant, accessible, and self-sustaining, ensuring prosperity on a livable planet for all.
+
+C.3 Preview of Themes
+
+GeoProsperity is a blog dedicated to politically and technically realistic solutions to the climate crisis. Our contention is that the approaches taken up to now have not been both politically and climate realistic and that, with the exception of renewable energy subsidies, they have not created the dynamic needed to fix the problem. What follows previews some of the ideas the blog will cover.
+
+Climate change is acknowledged to be a collective action problem, and that requires countries to collaborate. But countries face a collective action problem in three dimensions, not one: externally between countries, as is commonly understood, but also internally, and over time. Traditionally, economic analysis has focused purely on the inter-country problem, and not on the intra-country one or on the question of timing. We explain these challenges and how they can be resolved.
+
+Tackling climate change is about *carbon budgets*. To keep temperature within 1.5°C, our budget is already virtually used up, and the budget for 2°C is being used up rapidly too. The emissions reduction trajectories needed to achieve what is safe do not appear to be feasible, and those that are feasible do not appear to be safe. What can be done? Clearly we need to act as fast as is feasible, but that is not likely to be enough. We will need to start thinking about how the drawdown of greenhouse gases back out of the atmosphere can be paid for.
+
+Internally, therefore, we need an approach that is both robust and politically feasible. Robustness means failsafe backup systems. It has two national components — investment and incentives — and needs international backstops. If carbon pricing fails, are there investment processes available? And if national policy fails, are there international backstops available?
+
+- Climate mitigation requires a great deal of investment. How will that investment be achieved? Part of the answer is providing strong policy and financial structures for it.
+
+- Relatedly, climate action needs a general form of carbon pricing, to shut down dirty plants in a politically feasible way.
+
+- International backstops recognize that emissions are not likely to fall fast enough. This means there need to be international structures to incentivize drawing carbon back out of the atmosphere.
+
+The green transition can be macroeconomically beneficial, partly because it requires upfront investment. There is a need for tools to determine the macroeconomic effect of bringing that investment forward.
+
+What about the role of international institutions such as the World Bank? First, we need to prioritize. We suggest three main international priorities for mitigation and adaptation:
+
+- First, we need to urgently pay for the preservation of carbon in critical biomes. This is particularly acute in the Amazon, which faces tipping points both from deforestation and from climate change. This relates to the structure of *carbon markets*, a topic we will get to.
+
+- Second, the coal-to-renewables transition in developing countries particularly needs to be organized. We provide information about the policy structures that are needed.
+
+- Third, it would be helpful to provide accelerating norms: to show what can be done, and how. One example of a norm is *net zero*. It might be helpful to show how net zero can be achieved in a small country, such as a small island state.
+
+To achieve these ambitious goals, international financial institutions need to step up. What exactly should they do?
+
+- First, there is a role for strategic country partnerships on climate change. One way that long-term stock effects can be recognized is to recognize notional climate assets, starting with forests and coal. Forests and coal would be given a notional capitalized value, and that value would be rewarded by a small interest rate. Brazil’s Amazon rainforest, for example, might be recognized at \$1 trillion, as might China’s and India’s coal reserves.
+
+- Second, there is a role for international investment structures to streamline financing of the coal-to-renewables process. This could give developing countries an all-in-one rate for their energy system, lower than what they currently pay.
+
+- Finally, there is a need for a global long-term borrowing facility, akin to a global treasury, to support countries that take climate action.
+
+Achieving these outputs will require a source of global de-risking equity capital. The papers in this series provide financial suggestions on how that can be achieved. In summary: a green future is urgent, and we are in urgent need of the tools to make it happen effectively.
+
+C.4 The Blind Elephant: Name and Rationale
+
+The blog is structured around a series of policy briefs setting out concrete financial and policy proposals to build GeoProsperity — a goal for global prosperity based on clean, cheap energy abundance, and on an understanding of the political economy, institutions, and economic principles needed to make it happen. GeoProsperity is grounded in pragmatic, political, financial, and progressive classical economic thinking. We also offer posts that together form a short course on the financial, economic, and political economy aspects of climate change mitigation.
+
+The blog is a product of the Climate Café, a group organizing a series of talks on different aspects of climate finance, modelling, and policy, drawing a cross-disciplinary group of people from across the institutions of the World Bank Group and beyond.
+
+The name comes from the story of the blind men and the elephant. Each man feels a different part of the animal and arrives at a different account of what it is: one, feeling the trunk, says it is a snake; another, feeling the ears, says it is a tree; another, feeling the legs, says it is a rhino. It is only when the blind men start to talk that they understand the elephant. The topic of climate change is similarly big, and each of us can only feel a part of it.
+
+But what of the elephant itself? We chose the name to represent the fact that the global economic system, like the elephant, is large and carries a lot of inertia — it is hard to stop once it has decided to run in a certain direction. At present the elephant is not particularly under control either, which means it is likely to cause damage. The processes that lead the elephant are largely blind, and we need to understand them. To ride, and ultimately to control, the elephant, we must first understand how the elephant ticks. That is why a single blind man is helpful: one person can understand a little of how to ride the elephant, and that matters too.
+
+The Blind Elephant is initially either a group or an individual but anonymous blog with guest posts. If it is a coherent group, that coherence is important: different people understand different aspects, but they also need to work as a team. If it is a single person directly guiding the elephant to begin with, that matters because of the relational aspects of riding an elephant — the relationship matters, and so does the personality of the elephant. Many people cannot initially learn to ride the same elephant. When developing operational proposals for global institutions, it is important to understand how those institutions work, operationally and politically, and those are inherently bilateral working relationships at the outset. Institutions with singular direction, and political groups with shared sovereignty, are vital.
+
+C.5 Blog Objectives and Workflow
+
+The first goal of the Blind Elephant is to develop a series of briefing papers focused on innovation in climate change mitigation finance and policy. The workflow around a brief is a sort of sandwich: blog, paper, then slide deck or podcast. An initial blog lays out the basic idea and runs roughly five to seven paragraphs, or one side of A4. The idea is then developed into a full brief of roughly two to four pages, which is the main product developed on the Blind Elephant page. From there it could be turned into a full publication, such as a published working paper in a global institution. Finally, a slide deck would be developed along with a brief verbal narrative.
+
+The second goal is to develop a basic curriculum in interdisciplinary climate economics, focused on the dynamics of solving climate change and including political economy, classical economic underpinnings, and financial aspects. Some posts would aim simply at enhancing understanding. The supporting objective is a course in climate economics with a focus on the interdisciplinary nature of the problem; here the output would be simpler, consisting of a reading list and a short slide deck as part of a well-organized curriculum.
+
+Three possible starting points might guide the work. First, there is a need to understand in depth how risk reduction and relationships can reduce the cost of capital. Second, what the role of institutions could be — for example, the role of the World Bank Group and the UN. Third, the basics of economics as applied to global problems, and what the critical big wins are — China net zero, Indian coal, the Amazon rainforest, and medium-sized upper-middle-income countries — and how a plausible theory of change could be put forward for them. Finally, how the snowball might be started in a smaller way, perhaps by assisting small island states.
+
+In summary, the blog aims to put forward innovative financial and political briefs on climate change and GeoProsperity that are operationalizable within global institutions.
+
+Appendix D. Blog Strategy: Working Notes
+
+*Internal working notes on implementing a blog on climate economics. Retained for completeness; not intended for external circulation.*
+
+D.1 Context
+
+- The multidisciplinary nature of climate change mitigation.
+
+- The difficulty of reaching the 1.5–2°C goals of the Paris Agreement globally, and the role of the World Bank.
+
+- Stephen wants to become a climate academic, whether within the World Bank or outside it; within the fiscal unit there is potential space to develop the macro-fiscal side.
+
+- The climate DSA project; setting up information sharing between the Coalition of Finance Ministers (Frank), the Coalition of Capacity for Climate Action (Etienne), the Fiscal-Climate Team (Stephen, Dirk), and the Fiscal-Debt project.
+
+- The Climate Café, and proposals being developed with senior World Bank advisors on financial resilience and a trust fund; also the Bank’s medium-level competence on macro-climate questions and the potential areas in which to make progress.
+
+- The concept of the blog is a personal one, with an anonymous name and guest posts. If the guest posts become regular, those contributors would join more formally. It makes sense to collaborate in part.
+
+- The World Bank Roadmap, and the proposal for a Climate Incentives Trust as a national-level resilience and de-risking fund.
+
+D.2 Motivation
+
+Personal: the need to get writing. But extendable to something more than that, through guest posts.
+
+D.3 Implementation
+
+A Medium.com blog. Samir, the editor, will set it up once the name is agreed. Stephen to write under a pen name — for example, ‘the planetary pragmatist’.
+
+D.4 Participants
+
+*As guest posters and, if they contribute enough, as core team members based on actual contribution.*
+
+- Stephen Stretton (under a pen name).
+
+- Andrew, Leonardo, Frank and Nepo (the Macro-Fiscal contact group).
+
+- Samir, personal editor.
+
+- Tatiana Vakitova, a friend who also wants to blog, working in materials and engineering for sustainable development.
+
+- Pablo Salas (IFC) and Claudio Forner, who held the pen on the Paris Agreement and used to work for the UN, both from the Climate Café. The Climate Café has developed a good deal of material that is not yet published.
+
+- Marcello Estevão and, if Marcello joins, Jasper.
+
+Initially, everyone other than Stephen is a guest poster.
+
+D.5 Purpose
+
+- The temperature goals of the Paris Agreement are very ambitious.
+
+- Climate change mitigation is interdisciplinary.
+
+- Bring together different literatures — for example, the decarbonization literature with the carbon pricing literature.
+
+- Translate that into action plans that integrate with the World Bank Roadmap process.
+
+- Also consider a simplified training course, with help from Evie.
+
+D.6 Candidate Topics
+
+1.  Stylized facts about decarbonization and their implications for climate-macro.
+
+2.  How green economics differs in developing countries compared with developed ones.
+
+3.  The macro-fiscal impact of cheaply financed investment on balance sheets.
+
+4.  Feebates.
+
+5.  Other economic topics, such as land tax.
+
+D.7 Product
+
+The basic product is a five- to six-stanza blog post. The workflow is blog, then paper, then blog again: the first post gets senior colleagues interested and creates the time to do the work.
+
+Blog titles are not yet settled. The main organizing ideas are the overlap of literatures and discourses, and a focus that is mostly on climate mitigation but interdisciplinary across macroeconomics, decarbonization and net zero, political theory, and finance.
+
+D.8 Candidate Names
+
+1.  Interdisciplinary Pragmatic
+
+2.  GeoProsperity
+
+3.  Planetary Pragmatism
+
+4.  Electric Future
+
+5.  Climate-Friendly Prosperity
+
+6.  Eco Nom Nom
+
+Further options considered: Climate How; Eco-Realist Chronicles; Practical Earth Solutions; Climate Solutions Journal; Real World Green; Sustainable Strategies Review; Eco-Innovation Insights; The Rational Environmentalist; Green Pragmatism Today; Actionable Earth; Practical Planet Solutions; Eco-Realist Insights; Sensible Climate Strategies; Balanced Earth Innovations; Pragmatic Green Pathways; Realistic Climate Resolve; Climate Action Pragmatics; Eco-Sensible Perspectives; Grounded Green Solutions; Climate Consensus Builder.
+
+[^1]: SECI is a specialized Indian federal government agency which plays a multi-faceted role in driving development of renewable energy projects throughout India. Among other roles, SECI, whose ultimate financial backer is the Government of India, acts as an intermediary between renewable energy providers (e.g., private or state-owned companies operating utility-scale solar photovoltaic power plants and associated energy storage capacity) and wholesale electricity purchasers (in India’s case, electricity distribution companies, or "Discoms").
+
+[^2]: This relates to the idea of a ‘climate club’.
+
+[^3]: There would be some contingent liabilities created, but these would be limited and of the form of countries indemnifying their own policy commitments.
+
+[^4]: The associated proposal for comprehensive country-scale transition assistance is set out in full in Appendix B.
+
+[^5]: The three-tier guarantee structure is set out in full in Appendix A.

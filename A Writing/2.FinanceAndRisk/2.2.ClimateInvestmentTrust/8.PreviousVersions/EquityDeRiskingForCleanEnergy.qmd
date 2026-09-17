@@ -1,0 +1,102 @@
+---
+title: "Equity De-risking for Clean Energy"
+subtitle: "Regional risk-absorbing funds as the layer everything else is leveraged against"
+author: "Stephen J. Stretton"
+abstract: |
+  Every instrument proposed for lowering the cost of clean power debt in developing countries assumes equity underneath it, and the countries that most need the investment have the least. This paper proposes regional risk-absorbing equity funds, established with the multilateral development banks and regional development banks, performing three functions that are usually separated. They co-invest at the development stage, where participation by a credible institution crowds in others. They take the first-loss position in holding companies owning portfolios of operating clean energy assets, which converts the debt raised against those portfolios into something close to risk-free. And they cross-guarantee the bonds of projects they do not own, earning a diversification benefit for doing so. The combination allows leverage in countries with no local-currency capital market and gives domestic savers a deposit-equivalent green instrument. The design questions that decide whether this works are governance, the price at which first loss is taken, and whether the fund is permitted to recycle capital or must hold to maturity.
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  docx:
+    toc: true
+    number-sections: true
+---
+
+*Developed from the two-stage climate project finance work with Jasper Zimmermann. The guarantee architecture referred to throughout is set out in 2.1; the risk taxonomy that places this mechanism among the others is in 2.0.*
+
+# Executive summary
+
+**Every de-risking instrument makes debt cheaper, and debt has to be leveraged against equity that developing countries do not have.** Payment guarantees, tiered bond structures and two-stage financing all reduce the risk a lender bears. None of them creates the loss-absorbing capital that has to sit beneath the lender for the structure to be rated at all. This is the constraint that binds after the others have been addressed, and it is the reason de-risking programmes that assume a well-capitalised sponsor achieve less than their design implies.
+
+**The proposal is a regional equity fund, established with the multilateral and regional development banks, doing three jobs at once.** Holding them together in one institution is the point: each function makes the others cheaper.
+
+**First, it co-invests in the development phase.** New solar, wind and storage projects need equity before they need debt, at the stage where risk is highest and information poorest. A fund linked to the World Bank Group taking a position at that stage does more than supply the money — its participation is a signal that crowds in public and private, domestic and international co-investors who would not underwrite the project alone.
+
+**Second, it takes the first-loss position in portfolios of operating assets.** Holding companies that buy and hold completed clean energy plants can raise debt cheaply if something absorbs the initial losses. A fund acting as core equity insures lenders against those losses, which converts the debt into near-risk-free paper and lets it be raised at rates otherwise unavailable in the jurisdiction.
+
+**Third, it cross-guarantees bonds issued by projects it does not own.** Guaranteeing a diversified set of projects is cheaper per unit of risk than guaranteeing any one of them, because their failures are imperfectly correlated. The fund earns a fee for supplying that diversification, which is income that does not require it to deploy capital.
+
+**The combination delivers leverage where there is no local capital market.** A regional fund can borrow against its own balance sheet and on-lend, and can support bond issuance in local currency where no local institutional market exists. The practical result is a deposit-equivalent green savings instrument in countries that currently offer their savers nothing comparable — which matters because domestic savings are the only funding source not exposed to currency mismatch.
+
+**Investors in the fund can be unusually diverse, and should be.** Governments, pension funds, insurers, sovereign wealth funds and retail savers can all hold it, and holdings can cut across regions: a developed-country government can invest on behalf of a less-developed region, which is a more durable form of climate finance than a grant because it returns capital.
+
+**Three design questions decide whether this works.** Governance, because a fund that absorbs first loss on politically salient assets will come under pressure to do so on bad ones. The price of first loss, because a fund that underprices it subsidises lenders rather than crowding them in. And the recycling rule, because a fund that must hold to maturity supports a fixed stock of assets, while one that can sell down matured assets and redeploy supports a flow.
+
+# 1. The constraint that binds last
+
+**The de-risking instruments proposed elsewhere in this section address who bears a loss, not who funds the buffer.** A payment intermediary removes the risk that the distributor fails to pay. A tiered guarantee allocates a bond's losses across governments and donors. Two-stage financing moves construction risk to lenders equipped for it. In each case the improvement is real and in each case a lender is being protected by something that must itself be capitalised.
+
+**In developing countries that something is scarce.** Domestic institutional investors are few, domestic capital markets are thin or absent, and sponsors have limited balance sheets. The result is that structures which work in an OECD context — where a well-capitalised developer takes the equity strip as a matter of course — stall for want of the first 10 or 20 per cent of the capital stack.
+
+**The scale of the shortfall is not marginal.** Meeting SDG 7 and the energy transition in emerging markets requires debt on a scale that implies equity on a scale nobody has identified a source for. Treating equity as something the market will supply once risk is reduced has the causation backwards: the equity is what permits the risk reduction to be financed.
+
+# 2. Three functions in one institution
+
+## 2.1 Development-stage co-investment
+
+**New projects need equity at the point when the risk is highest and the information poorest.** Between site identification and financial close, a project has costs and no revenue, and the probability that it never reaches construction is material. Commercial equity prices this stage accordingly or avoids it.
+
+**A fund linked to the multilateral development banks changes what other investors see.** Its participation is a statement that the project has passed a credible screen, which lowers the diligence burden for everyone else and makes co-investment possible for institutions that could not originate the deal themselves. Co-investment should be open to public and private, domestic and international participants on the same terms, so that the crowding-in effect is not confined to one class of investor.
+
+**This function also gives the fund something the later functions need: information.** A fund that has sat on the development-stage cap table of a hundred projects in a region knows more about the failure modes of those projects than any external guarantor can, which is exactly the knowledge required to price first loss on their operating successors.
+
+## 2.2 First loss on operating portfolios
+
+**Once a plant is operating and selling under a guaranteed contract, its residual risk is small but not zero, and the last increment of risk is what prices the debt.** Holding companies that acquire and hold portfolios of completed assets are the natural owners of operating infrastructure, and their cost of debt determines what they can pay for the assets — which in turn determines the return available to the developers who built them.
+
+**A fund holding the core equity in such a holding company insures the lenders against loss.** The lender's exposure begins only after the equity is exhausted. Where the equity layer is substantial and the underlying contracts are guaranteed, the debt approaches risk-free and can be priced accordingly. This is the mechanism by which the payment guarantee described in 2.1 is converted into a low borrowing rate rather than merely a lower risk.
+
+**The interaction between this and the guarantee structure is where the cost saving actually arises.** A guaranteed contract without an equity buffer still leaves lenders exposed to the residual; an equity buffer without a guaranteed contract is absorbing a much larger and less predictable risk. Together they produce paper that institutional investors can hold.
+
+## 2.3 Cross-guarantee and diversification
+
+**Guaranteeing a portfolio costs less per unit of risk than guaranteeing its components, and that difference is a resource.** Project failures in a region are imperfectly correlated: a grid connection problem in one country, a developer insolvency in another, a tariff dispute in a third. A guarantor holding exposure across all of them needs less capital against the aggregate than the sum of what each would need alone.
+
+**The fund can sell that diversification benefit as a service.** Acting as cross-guarantor to holding companies it does not own generates fee income without requiring capital deployment, and extends the fund's risk-absorbing effect well beyond the projects it has invested in. This is the function that lets a fund of a given size support a much larger volume of investment than it could by direct equity alone.
+
+# 3. What this makes possible
+
+**Leverage in markets with no local capital market.** Once the fund exists, cheaper debt becomes available to the fund itself, from domestic and international sources, and through it to the developers and holding companies it supports. The fund substitutes for the institutional investor base that the country does not have.
+
+**A deposit-equivalent green instrument for domestic savers.** Bonds issued against portfolios the fund backs can be structured for retail and small institutional holders in local currency. This is the only route to long-term finance that carries no currency mismatch, and in most of these countries it does not currently exist in any form.
+
+**Capital that returns rather than capital that is spent.** A developed-country government investing in a regional fund on behalf of a less-developed region is providing climate finance that comes back, and that can be recycled. This is a materially different proposition from a grant, both politically and in the volume it can reach.
+
+# 4. Design questions
+
+## 4.1 Governance
+
+**A fund that absorbs first loss on politically visible assets will be asked to do so on assets that should not be financed.** The pressure will not arrive as an instruction; it will arrive as a succession of individually plausible requests. The defence is structural: multilateral development bank and credible regional asset-manager participation on the investment committee, transparent published criteria, and due diligence standards that are the same for every applicant.
+
+**Supervision should be proportionate to the fund's systemic weight in its region,** which will be considerable. A regional fund of meaningful size becomes the marginal investor in its market, and its standards become the market's standards, for good or otherwise.
+
+## 4.2 The price of first loss
+
+**A fund that takes first loss too cheaply subsidises lenders instead of crowding them in.** If the fee for absorbing the first tranche is below the risk being absorbed, the structure transfers value to debt investors who would have lent anyway at a slightly higher rate, and the fund's capital is consumed faster than the investment it induces.
+
+**Pricing should be explicit and published,** both so that the subsidy element is visible and so that the fund can be evaluated on whether its capital induced investment that would not otherwise have happened.
+
+## 4.3 Recycling
+
+**Whether the fund may sell down matured positions determines whether it supports a stock or a flow.** A fund that must hold to maturity backs a fixed portfolio: its capacity is used once. A fund that can sell seasoned operating assets into the secondary market — precisely the assets that have become attractive to conventional investors — and redeploy into new development-stage projects recycles the same capital repeatedly.
+
+**Recycling is the difference between a fund that finances a programme and one that finances a pipeline.** It requires a secondary market in operating assets deep enough to absorb the sales, which is itself something the fund's early activity helps create.
+
+# 5. Conclusion
+
+**Equity scarcity is the constraint that remains after the risk transfer mechanisms have done their work.** Guarantees change who bears a loss; they do not create the capital that bears it.
+
+**A regional fund combining development-stage co-investment, first loss on operating portfolios and cross-guarantee is more than the sum of the three,** because the information gained from the first prices the second, and the diversification earned in the second funds the third.
+
+**The design questions matter more than the structure.** Governance determines whether the fund finances good projects; the price of first loss determines whether it crowds investment in or substitutes for it; and the recycling rule determines whether its capital is used once or many times. A fund that gets the structure right and these three wrong will disburse its capital and change little.

@@ -1,0 +1,137 @@
+---
+title: "political_economy_metric"
+---
+
+**WORKING PAPER**
+
+**An Instrument Diagnostic for Climate Policy**
+
+*A Six-Driver Framework for Matching Tools to Country Contexts*
+
+World Bank · Draft for discussion · May 2026
+
+**Abstract**
+
+*Climate policy instruments succeed or fail not primarily on economic design but on political economy fit. This paper develops a diagnostic framework that scores both instruments and country contexts across six interacting drivers — fiscal pressure, political salience, vested interests, distributive design, institutional quality, and energy structure — using standard World Bank and IMF indicator series. Applied to six instruments (carbon taxes, emissions trading, feebates, long-term contracts, regulatory standards, and green public investment), the framework reveals distinct political economy fingerprints that explain why the same instrument produces durable reform in one country and reversal in another. Calibration against ten reference countries — from Sweden and British Columbia to France, Indonesia, and Nigeria — correctly rank-orders observed outcomes. The matching exercise produces a sequencing logic rather than a single recommendation. Carbon pricing consolidates transitions rather than initiating them; well-designed feebates are systematically under-deployed in middle-income contexts; and long-term contracts and public investment build the structural preconditions that pricing instruments later require. The framework offers international financial institutions a structured basis for country-level instrument advice and a defensible answer to the sequencing question that current guidance often leaves implicit.*
+
+1\. Why a metric of political economy
+
+Climate policy advice from the international financial institutions is, at root, advice about instruments. A finance ministry asks what it should do about emissions, and the answer takes the form of a recommended tool: a carbon tax, an emissions trading scheme, a vehicle feebate, a renewable procurement contract. The economics of these instruments is well developed. The IMF Getting Energy Prices Right framework, the OECD Effective Carbon Rates series, and two decades of optimal-tax literature give a clear account of which instrument is most efficient under which conditions, measured in welfare per tonne of carbon dioxide abated.
+
+What this body of work does not provide is a comparably structured account of which instrument is most feasible and most durable under which conditions. Political economy enters the standard analysis late and informally — as an implementation caveat appended to a recommendation that has already been made on efficiency grounds. The result is a recurring pattern in which technically correct instruments are recommended into political settings that cannot sustain them, fail, and discredit the broader reform agenda in the process.
+
+This paper proposes that political economy can be made into a metric rather than a caveat. It develops a framework in which both instruments and country contexts are scored on the same six dimensions, so that the central question of instrument advice — does this tool fit this place? — can be answered as a matching exercise rather than an act of judgement applied after the fact. The metric does not replace efficiency analysis. It sits alongside it, and it changes which instrument the efficiency analysis should be applied to first.
+
+2\. The six drivers
+
+The framework rests on six drivers that, between them, determine whether a climate policy instrument is adopted and whether it survives. The drivers are drawn from the empirical political economy literature on fossil fuel subsidy reform and carbon pricing, and each is chosen because it both shapes outcomes and maps to an observable indicator.
+
+2.1 Fiscal pressure
+
+The most reliable trigger for reform is fiscal stress. Governments under budgetary pressure adopt instruments they would otherwise avoid, because the revenue or expenditure relief becomes worth the political cost. Fiscal crises and externally imposed adjustment programmes are the windows through which difficult reforms pass. The driver is double-edged: it opens reform windows but, where the underlying pressure is transient — an oil-price spike, a temporary deficit — it produces reforms that reverse when the pressure lifts.
+
+*Indicator mapping:* general government fiscal balance as a share of GDP, combined with the IMF estimate of fossil fuel subsidy cost as a share of GDP. Both are standard and widely available.
+
+2.2 Political salience
+
+Instruments differ enormously in how visible they are to the public. A fuel duty is felt directly and repeatedly at the pump; a procurement contract for renewable generation is invisible to the household entirely. High salience converts an economic measure into a political event, and salient instruments are the ones that trigger organised backlash. Salience is partly a property of the instrument and partly a property of the country — the same fuel tax is more salient in a motorised, urban electorate than in a low-motorisation rural one.
+
+*Indicator mapping:* on the country side, urbanisation and motorisation rates proxy the size of the directly exposed constituency. On the instrument side, salience is scored from the point and frequency at which the cost is felt.
+
+2.3 Vested interests
+
+The more a socio-economic system is built on fossil fuels, the more entrenched the interests opposing reform, and the less effective every other reform mechanism becomes. Vested interests operate through state-owned energy enterprises, organised industrial lobbies, and the political financing relationships that connect them to incumbents. Critically, instruments differ in how they engage these interests: some confront the entire fossil value chain at once, while others can be rolled out sector by sector, or even co-opt incumbents by creating new beneficiaries.
+
+*Indicator mapping:* fossil fuel rents as a share of GDP, supplemented by the prevalence of state ownership in the energy sector. Rents are observable; lobbying power is proxied rather than measured directly.
+
+2.4 Distributive design
+
+Fuel and carbon pricing are regressive in direct incidence, and reform fails where the distributional burden is not visibly and credibly offset. But distribution is not only a property of the economy — it is also a property of the instrument. Some instruments require a separate political act to neutralise regressivity (a carbon tax needs an explicit revenue-recycling decision); others embed the distributional mechanism in their own design. The capacity to deliver compensation matters as much as the underlying inequality: a country with strong transfer infrastructure can offset a regressive instrument that a country without that infrastructure cannot.
+
+*Indicator mapping:* the Gini coefficient for underlying inequality, combined with social protection coverage of the bottom quintile as a proxy for transfer-delivery capacity.
+
+2.5 Institutional quality
+
+Reforms survive electoral cycles and changes of government only where institutions are strong enough to insulate them. Trust in the state's competence to use revenue well is load-bearing for any pricing instrument. Where institutional quality is high, instruments can rely on credible long-run commitments — multi-year price trajectories, contractual guarantees. Where it is low, those commitments are not believed, and instruments that depend on them fail regardless of their design.
+
+*Indicator mapping:* the Worldwide Governance Indicators — in particular Government Effectiveness, Control of Corruption, and Rule of Law. This is precisely what those indices were constructed to measure, and there is published precedent for using them in exactly this way.
+
+2.6 Energy structure
+
+Beneath all of the preceding drivers sits the structural composition of the energy system. A country with a diversified or already-transitioning energy mix faces a fundamentally easier reform path than one structurally dependent on a single fuel, because alternatives exist for households and firms to switch to. The energy structure also moves: supporting renewable deployment makes the system progressively less fossil-dependent and, in doing so, weakens the vested-interest driver over time. This is the sense in which the framework is dynamic rather than static — the drivers act on outcomes, but instruments also act back on the drivers.
+
+*Indicator mapping:* renewable share of energy supply and the fossil fuel dependency ratio, both available in the World Development Indicators.
+
+2.7 Indicator summary
+
+The table below collects the indicator mapping for the six drivers.
+
+  ---------------------------------------------------------------------------------------------------------------
+  **Driver**              **Primary indicator(s)**                                      **Proxy quality**
+  ----------------------- ------------------------------------------------------------- -------------------------
+  Fiscal pressure         Fiscal balance % GDP + subsidy cost % GDP (IMF)               Good
+
+  Political salience      Urbanisation + motorisation rate                              Moderate
+
+  Vested interests        Fossil fuel rents % GDP + SOE prevalence                      Moderate
+
+  Distributive design     Gini + social protection coverage (bottom quintile)           Good / weak on capacity
+
+  Institutional quality   WGI: Govt Effectiveness, Control of Corruption, Rule of Law   Good
+
+  Energy structure        Renewable share + fossil fuel dependency ratio                Good
+  ---------------------------------------------------------------------------------------------------------------
+
+3\. The system as a set of interacting loops
+
+The six drivers are not independent. They interact, and several of the interactions are feedback loops rather than one-way effects. Fiscal pressure can weaken vested interests by making the subsidy bill politically indefensible. Backlash, once triggered by high salience or poor distributive design, teaches future governments to avoid the instrument — a reinforcing loop that entrenches path dependence. Energy structure conditions vested interests, and instruments that shift the energy structure therefore loosen the vested-interest constraint over time. Good distributive design dampens the backlash loop; strong institutions reduce the influence of vested interests.
+
+The practical consequence of these interactions is that instrument feasibility cannot be read off any single driver. A country may have ample fiscal pressure to motivate reform and still fail because salience is high and distributive infrastructure is absent. Another may have weak fiscal pressure but succeed because institutions are strong and the energy structure is already shifting. The metric must therefore combine the drivers, and it must do so in a way that respects their interaction — readiness rising with fiscal pressure, institutional quality, distributive capacity, and a favourable energy structure, and falling with salience and vested-interest entrenchment.
+
+4\. Scoring instruments: the political economy fingerprint
+
+The central analytical move is to score instruments on the same six dimensions used for countries. Each instrument has a characteristic profile — a political economy fingerprint — that is largely independent of the country it is deployed in. The fingerprint captures how the instrument engages each driver: how visible it is, how it confronts or co-opts vested interests, whether it embeds distributional design or requires a separate act, what institutional capacity it presumes, and how much of the emissions base it can reach.
+
+The six instruments considered here span the practical toolkit available to a finance ministry.
+
+**A carbon tax** scores highest on fiscal benefit and emissions coverage and lowest on the political dimensions. It is the efficiency benchmark and the political-economy worst case: maximally salient at the pump, confronting the entire fossil value chain at once, and requiring a separate and credible revenue-recycling commitment to address its regressivity.
+
+**An emissions trading scheme** is marginally less salient than a tax but introduces complexity and capturability. Free permit allocation is the concession that buys industry acquiescence at the cost of efficiency, and the monitoring, reporting, and verification requirements impose a genuine institutional bar that many lower-capacity settings cannot clear.
+
+**A feebate** — a fee on products worse than a benchmark, funding a rebate on products better than it — has a markedly more favourable fingerprint for the sectors it covers. Revenue-neutral framing defuses the money-grab narrative, the cost is less salient than a fuel tax, and sector-by-sector rollout allows political sequencing. Its limitation is coverage: it reaches durable goods and equipment but not fuels, agriculture, or land use. Design variants, including targeted-rebate schemes that strengthen the distributive and salience profile considerably, are discussed in the appendix.
+
+**A long-term contract** for renewable generation — a contract for difference or feed-in tariff — has the lowest political resistance of any instrument. It is invisible to households, and it creates new vested interests, renewable developers, who lobby for its continuation. Its weaknesses are that it carries no revenue (it is an off-balance-sheet fiscal commitment), it covers only electricity generation, and it does not price emissions directly. Its natural role is as a precondition-building instrument.
+
+**A regulatory standard or mandate** — vehicle efficiency rules, building codes, appliance standards — bypasses price visibility entirely and has driven much of the world's realised efficiency gains. It carries no fiscal benefit and depends on enforcement capacity, but it is sectorally negotiable and politically moderate.
+
+**Green public investment** is the most popular and least cost-efficient instrument. It creates visible jobs and services, co-opts vested interests, and can be well-targeted distributionally, but it consumes fiscal space and delivers the least abatement per unit of spending. Its value is as political infrastructure for later pricing reform.
+
+5\. Calibration against reference countries
+
+A metric is only useful if it tracks reality. The framework is calibrated against the observed reform trajectories of ten reference countries chosen to span the relevant range: consolidated high-income democracies, high-salience high-income cases, middle-income transition economies, and resource-dependent emerging markets.
+
+The calibration target is ordinal rather than cardinal: the metric should rank-order known outcomes correctly, not predict them to the decimal. On that test it performs well. Sweden and British Columbia, with strong institutions, low fossil dependence, and credible recycling, score highest on readiness and lowest on reversal risk — consistent with their durable carbon taxes. France scores high on readiness but high on reversal risk, the precise configuration that produced a technically sound carbon tax suspended within a year. The United Kingdom registers as a high-salience, high-institutional-quality case in which neither the fiscal nor the distributional conditions for raising fuel duty have been met — consistent with a decade-long duty freeze. Indonesia and Nigeria score low on both readiness and durability, matching their repeated cycles of reform and rollback. Egypt scores low on readiness with fiscal pressure as the only active driver, consistent with externally driven, fragile reform under programme conditionality.
+
+Three effects fall outside what a cross-sectional metric can capture, and the framework should be used with them in mind. Reform windows — crises, elections, price shocks — are episodic and open opportunities the structural scores do not predict. Bundling — packaging an instrument inside an unrelated popular reform, as Sweden did in 1991 — is a design choice no indicator captures. And hysteresis — the way a failed past attempt worsens the political economy of the next one — is a path-dependent effect invisible in a single cross-section. The metric is best read as a structural baseline that these dynamic factors then modify.
+
+6\. From matching to sequencing
+
+The payoff of scoring instruments and countries on common dimensions is that instrument advice becomes a matching exercise, and matching across a range of country types produces a sequencing logic rather than a single universal recommendation.
+
+Where institutions are strong and the energy structure is already transitioning, carbon pricing can serve as a lead instrument, with feebates extending coverage to sectors the price signal reaches imperfectly. Where salience risk is high and distributive infrastructure is thin, revenue-neutral instruments that do not depend on a separate recycling bargain are the better entry point, with feebates a particularly under-used option. Where vested interests are entrenched and institutional insulation is weak, precondition-building instruments — long-term contracts to develop a renewable base and its supporting constituency, targeted conversion of regressive subsidies into social protection, and green public investment — should precede any pricing instrument.
+
+This sequencing logic carries a specific and important implication for carbon pricing. The structural conditions under which a carbon tax is durable — institutional trust, low fossil dependence, a credible distributional bargain — are themselves substantially the outputs of an energy transition already under way. Carbon pricing, on this reading, is more effective as an instrument that consolidates and accelerates a transition than as one that initiates it. That is not an argument against carbon pricing. It is an argument about its place in a sequence: the long-run anchor, rarely the right place to begin.
+
+7\. Conclusion
+
+The contribution of this paper is a metric. By scoring climate policy instruments and country contexts on the same six political-economy drivers — and by drawing those drivers from indicator series that the World Bank and IMF already maintain — it converts a judgement that is usually made informally into one that can be made explicitly, consistently, and comparably across countries. The metric reframes the central question of instrument advice from “is this instrument appropriate?” to “which instruments match this country's current position, and what is the path that moves it toward higher-coverage pricing over time?” That reframing is the practical value of treating political economy as something to be measured rather than merely invoked.
+
+Appendix. Feebate design variants
+
+The main text treats feebates as a single instrument scored on the political economy profile of a well-designed scheme. In practice the design space contains an important distinction with consequences for the distributive-design and salience dimensions.
+
+**A standard feebate** levies a fee on products worse than a sector benchmark and pays a rebate on products better than it, with the pivot point set near the sales-weighted mean to achieve approximate revenue neutrality. The rebate flows to whoever purchases an efficient product, so its distributional effect tracks purchasing patterns rather than need, and its beneficiaries are diffuse and anonymous.
+
+**A targeted feebate** retains the same fee-and-rebate architecture but directs the rebate to identified households or firms drawn from administrative registries — by income, geography, occupation, or vulnerability — at rates differentiated to offset the distributional incidence of the fee. Two further refinements complete the design: rebate rates that are higher for more exposed populations, neutralising the regressive incidence that breaks fuel-tax reforms; and a pivot point that ratchets downward on a pre-announced schedule, embedding the decarbonisation trajectory in the instrument rather than requiring repeated political decisions to tighten it.
+
+The political economy difference is substantial. A standard feebate's beneficiaries are anonymous purchasers; a targeted feebate's beneficiaries are named recipients, and named recipients form an active constituency that defends the programme — the same dynamic that protects social transfers from rollback. The cost of this design is administrative: it requires household-level identification and payment infrastructure. That requirement, infeasible for most middle-income countries two decades ago, is increasingly met by social-protection delivery platforms built for other purposes — among them India's Aadhaar and Direct Benefit Transfer rails, Indonesia's social-assistance systems, Brazil's CadÚnico, and Kenya's Huduma — which can carry feebate rebates as readily as the transfers for which they were designed.

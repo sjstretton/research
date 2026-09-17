@@ -1,0 +1,107 @@
+---
+title: "CIT_short_ClimateCafe"
+---
+
+# Climate Incentives Trust
+
+# Summary and FAQs
+
+Financing for mitigation finance before 2050 and for loss and damage protection after 2050
+
+By Stephen Stretton, 2024
+
+## Introduction
+
+The world is confronted with an urgent and complex challenge – addressing climate change. As global temperatures rise, the need for decisive action becomes increasingly paramount. However, existing international institutions are beset by strategic shortcomings and financial constraints, and have so far not been effective: carbon emissions and global temperatures continue to rise year-on-year. In this context, this proposal unfolds a visionary solution: establishment of a Climate Incentives Trust (CIT). The CIT is designed to be a transformative force, spearheaded by the World Bank Group, that will seek to revolutionize climate finance by incorporating three pivotal functions – incentives, insurance, and investment. This innovative trust structure aims to mobilize capital on the very large scale required, and to align financial interests with effective climate action, creating a paradigm shift in global climate finance.
+
+### Unveiling the Three Pillars
+
+The Climate Incentives Trust (CIT) is built on three fundamental pillars – Incentives, Insurance, and Investment – working in harmony to drive global climate action. Donor monies and profits accrue in beneficiary accounts – i.e., national-scale trust accounts managed on behalf of the post-2050 population of participating countries. Here's an overview of how each function contributes to the growth of these beneficiary funds:
+
+**1. Incentives: Driving Positive National Policy Action**
+
+Objective: Create dynamic incentives for countries to take early and impactful climate actions, initially focusing on global coal phase-out and rainforest protection.
+
+Mechanism: CIT profit-sharing provisions are linked to predefined baselines or, innovatively, through Development Policy Financing (DPF) with Key Performance Indicator (KPI)-oriented repayment amounts.
+
+Beneficiary Accounts: Countries are rewarded for their positive actions with allocations to their beneficiary accounts. The performance-based approach encourages ongoing commitment.
+
+Sectoral Focus: Incentives are sector-specific. CIT will initially focus on replacing coal power with renewable energy generation, targeting emissions reduction by**,** e.g.**,** 10% per year with a \$100/tCO2 incentive, reflecting a commitment to meaningful progress on measurable environmental goals.
+
+**2. Insurance: Shielding Investors and Guarantors Against Risks**
+
+Objective: To absorb risks associated with climate action, protecting investors from exposure to policy reversals, currency fluctuations, and other challenges.
+
+Mechanism: CIT functions as a buffer, providing insurance for contractual policy guarantees made by governments. It acts as a second-loss buffer as a backstop for client-country government guarantees. Governments agree to taking be the first loss absorber for qualifying investments. CIT funds only get paid out to insured investors if a government defaults on payments to bondholders or other investors whose investments are covered by the CIT scheme.
+
+Beneficiary Accounts: The beneficiary accounts help de-risk investments and act as collateral to de-risk lending. See FAQ for a list of example uses.
+
+Risk Reduction: Insurance contracts and guarantees reduce risks for investors, enhancing the appeal of climate-related projects.
+
+**3. Investment: Fueling Green Growth**
+
+Objective: CIT focuses on investing in the early stages of renewable energy (RE) projects, crowding-in investments from private financial sources and fostering a 'halo' effect.
+
+Mechanism: The Trust acts as an investment partner, injecting capital into the construction stage of projects and mobilizing blended private partner capital.
+
+Beneficiary Accounts: The profits from the investment are shared in the beneficiary trust accounts, forming a financial reservoir for the future populations of participating countries post-2050.
+
+Financial Leverage: As projects mature, equity stakes can be sold, recycling funds and generating returns. This step is crucial for mobilizing private investment.
+
+**Connecting the Dots: Beneficiary Accounts and Collective Action**
+
+The CIT, with its threefold approach, simultaneously fosters financial sustainability and encourages a collaborative global effort towards a greener and more resilient future. The beneficiary accounts serve as the cornerstone, holding accumulated wealth for the mid-century populations of participating countries. Organized as a Trust, the control of CIT is separated from its beneficiaries. Beneficiaries accounts are shares in the overall fund allocated to countries’ post-2050 populations as the designated beneficiaries. Profits from the overall fund are shared with the beneficiary accounts of those countries that commit to early action. In that way, those countries that act most rapidly achieve the greatest benefit.
+
+**Financial and Effectiveness Leverage: Scaling the Trust’s Impact**
+
+**Financial Leverage:**
+
+Investment Structure: The CIT's financial leverage is a linchpin for amplifying global climate investments. For instance, a capital structure of \$5 billion in the trust, including \$1 billion from donors and \$4 billion co-investment from recipient countries via DPFs, can spark a cascading effect.
+
+Private Investment: Leveraging an additional \$95 billion from sovereign wealth funds illustrates the potential. This contributes to an impressive total equity investment of \$100 billion (\$5 billion trust + \$95 billion private) and enables an additional \$400 billion of debt financing.
+
+Recycling Investments: As the trust predominantly invests in the early stages of two-year utility-scale renewable energy development projects, its funds are recycled through the sale of equity stakes in the projects into the market, once the development phase is complete and the project has been successfully connected to the national or regional power grid. Considering an average project construction phase of two years, the leveraged investment reaches around \$250 billion per year (\$500 billion over two years).
+
+**Effectiveness Leverage:**
+
+Sequencing: The investment insurance and incentives functions are easiest to set up first.
+
+Strategic Allocations: The CIT will set strategic priorities for both investments and incentives, commencing with sectoral foci such as global coal phase-out and rainforest protection. This ensures effectiveness in addressing key environmental challenges.
+
+Incentive Structure: The incentive structure, aimed at reducing emissions by 10% annually with a \$100/tCO2 incentive, encourages prompt and substantial climate action.
+
+Recycling Monies: Because the CIT focuses on blended initial equity investments, selling on project equity once project development is complete and when debt has been refinanced at a lower interest rate, the capital is recycled every two years, along with recycled profits.
+
+Scaling the Trust: With a return of 15% on the equity component of \$100 billion and a 10% fee on profits (1.5% of overall equity of \$100 billion) redirected to the CIT’s national beneficiary accounts, the trust has the potential to generate \$1.5 billion annually, doubling the total size of the beneficiary accounts every three years and further magnifying its overall impact.
+
+**Synergies with Beneficiary Accounts**
+
+### Multipurpose Beneficiary Accounts: The funds allocated to beneficiary accounts serve a dual purpose. While rewarding countries for their positive actions, they also function as loss-absorbing collateral for additional national loans.
+
+### National Loan Protection: Countries, as donors themselves, contribute to their future populations' beneficiary accounts. Simultaneously, these accounts serve as collateral, safeguarding against long-term fiscal risks and financing needs. This intertwining of financial leverage and effectiveness ensures a holistic and sustainable impact on both global and national scales. 
+
+**Expanding to Regional Funds to Enhance Global Impact**
+
+Regional Child Funds: Extending the model, seven regional child funds (China, SAR, ECA, EAP, Africa, North America, South America) with identical structures can be initiated. These funds, initially managed centrally, in collaboration with regional MDBs and large countries, contribute to a collective annual investment of \$1.75 trillion, reflecting the cumulative strength of diversified contributions.
+
+Total Global System: Combining the central trust and the proposed seven regional funds, the collective global system boasts an annual investment potential of \$2 trillion.
+
+Impact Over Two Years: Considering an average project lifetime of two years, the total leveraged investment after two years reaches an impressive \$4 trillion.
+
+Sustained Growth: The mechanism of doubling the size of each fund every three years leads to sustained growth in the incentives created and an ever-expanding impact.
+
+### Conclusion
+
+In essence, the CIT masterfully combines financial and effectiveness leverage, weaving together investments, incentives, and insurance to create a potent force for global climate action. The numbers provide a tangible illustration of the trust's scalability and its ability to catalyze substantial investments while nurturing a shared commitment to environmental stewardship.
+
+The establishment of the Climate Incentives Trust (CIT) could be orchestrated by the World Bank Group (WBG). By utilizing a robust financial structure that separates control and beneficiaries, the CIT aims to address global climate challenges through three key functions: incentives, insurance, and investment. Leveraging a \$1 billion donor investment combined with a \$4 billion co-investment from developing countries and tapping into \$95 billion of private capital, each independent fund within the CIT demonstrates its potential to generate substantial returns and enhance financial leverage. This model, with the WBG at its helm, can be further scaled globally and regionally, fostering a resilient and impactful approach to climate mitigation and incentivizing nations to transition towards a sustainable, low-carbon future.
+
+### FAQs
+
+**How to achieve high financial returns?** The trust achieves financial returns on its investment through arranging low-cost de-risked refinancing once renewable energy projects are completed (i.e., after the construction phase is finished and the project has been connected to the regional transmission grid). Through de-risking, freshly built renewable projects can be refinanced with synthetic AAA-rated bonds or bank loans, enabling central banks and national pension funds to contribute to green growth at low financial risk. This refinancing creates high returns for the construction-stage project equity.
+
+**What partnerships are needed to make it happen?** The trust would partner with project developers, global initiatives such as Scaling Solar and Energy Transition Partnerships, as well as implementing institutions such as MIGA and IFC.
+
+**What about poor countries?** How to avoid indebtedness? In low-capacity countries, the whole financial architecture of project finance would be provided as a service, meaning the country would only have to commit to an overall declining charge for the energy system, with no direct debt. This would be a great advantage to countries with debt-sustainability concerns.
+
+**What are CIT’s other insurance/de-risking applications?** The trust would be available to insure against multiple risks. Initially, the intended applications are: to provide surety on Power Purchase Agreements (as per the example of SECI, Solar Energy Corporation of India); to de-risk KPI-related sovereign bonds; and to enable cheap infrastructure lending through trusted intermediaries. The de-risking could also allow access to cheap mobile-app bank deposits with low financing costs by reducing risk. Other capital-requiring risk- or interest rate-reducing activities are possible (for example, arbitrage between DFI-issued and sovereign bonds).

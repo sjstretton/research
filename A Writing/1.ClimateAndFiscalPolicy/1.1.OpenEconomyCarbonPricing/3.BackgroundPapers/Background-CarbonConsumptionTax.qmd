@@ -1,0 +1,521 @@
+---
+title: "CarbonConsumptionTax"
+---
+
+**Carbon**
+
+**Consumption Tax**
+
+*A Destination-Based Carbon Price Through VAT*
+
+A Policy Proposal for the European Union · 2026
+
+*\*
+
+**Abstract**
+
+**Carbon pricing has made real progress on the production side — including electricity generation for domestic use.** The EU ETS covers large industrial emitters and power generation. Fuel excises price domestic fossil fuel use. CBAM is extending the signal to carbon-intensive imports. These instruments have worked for what they were designed to do. The remaining gap is on the consumption side: what EU households and businesses buy.
+
+**A destination-based carbon tax closes that gap**. A destination-based tax is levied where goods are consumed, not where they are produced — applying equally to domestic goods and imports at the point of sale, on the basis of their embedded carbon content. Because it lands on the buyer rather than the maker, it is leakage-proof by construction: a company that relocates production to avoid domestic carbon costs still faces the full carbon price when it sells into the EU market. Border adjustments are inherent to any destination-based tax and operate through the same VAT import and export mechanism that has worked for fifty years.
+
+**The Carbon Consumption Tax (CCT) is a destination-based carbon tax implemented through adjustments to the existing VAT system.** VAT is already levied on all goods sold in the EU — but it is not carbon-proportional: a high-carbon good and a low-carbon good of identical price pay identical VAT. CCT corrects this by splitting the existing VAT rate into a Value VAT component that falls gradually and a Carbon Component that rises in step. The composition shifts toward carbon intensity: carbon-intensive goods face a higher effective rate, clean goods a lower one, while the average across the consumption basket barely changes. No new tax legislation is required. The Carbon Component is introduced via Commission framework regulation under Article 192 TFEU and sectoral feebates under state aid and environmental policy — avoiding the Article 113 unanimity requirement for tax harmonisation entirely.
+
+**CCT is a transitional instrument in two phases**. Phase One (2027–2037) builds the carbon price to €200/tonne within the existing VAT architecture — the path of least institutional resistance. Phase Two (2037–2042) offers willing member states the option to transition to an explicit destination-based (including embodied carbon in imports) upstream carbon tax levied at the mine mouth, wellhead, and import terminal, with the EU ETS phased out and replaced by a Carbon Central Bank: an independent institution setting the rate against a scientific mandate, replacing permit market volatility with a credible long-run price trajectory. Each phase inherits the infrastructure of the previous one; by the time Phase Two is politically viable it is administratively easier.
+
+**CCT complements, not replaces, production-side carbon pricing.** The ETS, CBAM, and free allocation to trade-exposed industries remain in place. Together they provide full-spectrum coverage across production and consumption. The result is a €200/tonne carbon price across the full breadth of EU consumption by 2037 — without raising average prices, without new tax legislation, and without requiring Council unanimity.
+
+**\**
+
+**Contents**
+
+**Abstract** 1
+
+**Executive Summary** 2
+
+**Contents** 3
+
+**Part One — The Concept** 4
+
+1.1 Carbon pricing and the political constraint 4
+
+1.2 A consumption carbon tax without new revenue 4
+
+1.3 Destination-based versus production-based instruments 5
+
+1.4 Scope: CCT and production-side instruments 5
+
+1.5 WTO consistency and EU legislative architecture 6
+
+1.6 Summary tables 6
+
+**Part Two — The International Dimension** 7
+
+2.1 Electricity intensity as the primary driver 7
+
+2.2 National KPI intensity scores 7
+
+2.3 Quantitative analysis 8
+
+**Part Three — Implementation: VAT Adjustment in Detail** 9
+
+3.1 Consumption-based accounting: the foundational principle 9
+
+3.2 The VAT system as implementation vehicle 9
+
+3.3 The notional carbon price: equivalence and approximation 10
+
+3.4 Border implementation: imports 10
+
+3.5 Internal implementation: domestic production 11
+
+3.6 Reduced and zero rates 12
+
+3.7 The VAT return: what changes for businesses 12
+
+3.8 Revenue designation 13
+
+3.9 CCT as an approximation of a carbon tax: assessment 13
+
+**Part Four — The Domestic Dimension** 14
+
+4.1 Feebates: mechanism and rationale 14
+
+4.2 Sector analysis 14
+
+4.3 EIB conditionality 15
+
+**Part Five — The Fiscal Dimension** 16
+
+**Part Six — Phase One: The 2027–2037 Transition** 17
+
+**Part Seven — Phase Two: The 2037–2042 Transition** 18
+
+7.1 The principle 18
+
+7.2 The upstream design 18
+
+7.3 Border adjustments and process emissions 19
+
+7.4 ETS phase-out and Carbon Central Bank 19
+
+7.5 Legislative steps 20
+
+7.6 WTO status 20
+
+**Conclusion** 21
+
+**Bibliography** 22
+
+# Executive Summary
+
+**The challenge**
+
+- **Explicit carbon pricing reaches only 28% of global emissions** at an average price of approximately €3/tonne — far below the social cost of carbon. France, Australia, and the United States have all demonstrated that new, visible carbon taxes are politically fragile.
+
+- **The EU ETS covers 40% of EU emissions after two decades.** It leaves consumption entirely unpriced and has no direct bearing on what EU households and businesses buy.
+
+- **Production-side instruments — CBAM, fuel excises, the ETS —** are the right tools for EU export competitiveness and industrial emissions. CCT is a complementary consumption-side instrument, not a replacement.
+
+**The proposal**
+
+- **CCT shifts the composition of existing VAT from a pure value tax toward a carbon-differentiated tax** — without raising overall burdens, without new legislation, and without requiring Council unanimity. The EU's 15% VAT minimum is already equivalent to a very high carbon price in €/tonne terms; CCT makes this explicit.
+
+- **The mechanism: Value VAT falls 0.5 percentage points per year (15%→10%)** while a carbon component rises €20 per year (€0→€200/t). Total effective rates barely change. Adopted by Commission framework under Article 192 TFEU — qualified majority only.
+
+- **The instrument is a national average approximation of a carbon price,** precise at the aggregate level. For key categories (food, heating, transport) where product-level precision matters, feebates provide the additional differentiation.
+
+- **CCT is destination-based and leakage-proof:** it applies equally to domestic and imported goods at point of EU sale. WTO-consistent under GATT Article III:2 and Article XX. No separate border adjustment required.
+
+**Scope: consumption and production**
+
+- **CCT prices consumption-based emissions —** the embedded carbon in what EU consumers buy, wherever in the world it was produced. It does not directly target territorial (Kyoto-basis) production emissions.
+
+- **Production-side instruments remain in scope and can coexist fully.** ETS free allocation to trade-exposed industries continues to serve its purpose under CCT — the two instruments price different parts of the economy. There is a modest overlap at the margins, not a conflict.
+
+**The numbers**
+
+- **EU domestic producers end the decade at 13.0% total effective rate** — 2 percentage points below their 2027 starting point, reflecting their lower and improving carbon intensity.
+
+- **Chinese exporters face a peak additional burden of 0.8 percentage points** around 2032, returning to exactly 15.0% by 2037 as China's own decarbonisation offsets the rising carbon price.
+
+- **Net fiscal impact is approximately neutral,** with carbon revenue broadly offsetting Value VAT foregone. A 2032 review mechanism is recommended to adjust the Value VAT fall rate if the fiscal position deviates materially from neutrality.
+
+**The two transitions**
+
+- **Phase One (2027–2037): VAT adjustment.** The notional carbon price rises to €200/t within the existing VAT framework. Feebates provide domestic sectoral precision. EIB conditionality aligns investment.
+
+- **Phase Two (2037–2042): upstream carbon tax.** Coalition member states transition to an explicit upstream carbon tax at the mine mouth, wellhead, and import terminal. The EU ETS is phased out. A Carbon Central Bank sets the rate against a scientific mandate.
+
+**Part One**
+
+# The Concept
+
+## 1.1 Carbon pricing and the political constraint
+
+**Carbon dioxide emissions are an externality whose social cost is not reflected in market prices, and explicit carbon taxes to correct this have repeatedly failed in democratic polities.** The social cost of carbon is estimated in the range of €50–260/tonne, with recent comprehensive estimates centring around €155/tonne (\$170) when catastrophic risk is fully incorporated (Nordhaus, 2017; Rennert et al., 2022; Stern, 2007). Yet explicit carbon pricing covers only 28% of global greenhouse gas emissions at an average price of approximately €3/tonne (World Bank, 2025). France's 2018 carbon tax expansion triggered the Gilets Jaunes. Australia repealed its carbon price in 2014. The United States has never enacted federal carbon pricing legislation.
+
+**The EU Emissions Trading System, established under Directive 2003/87/EC, has operated since 2005 and covers approximately 40% of EU emissions.** The Energy Taxation Directive (2003/96/EC, under revision since the Commission's 2021 recast proposal) governs fuel excises across member states. Together these constitute a production-side carbon pricing framework of real but incomplete reach — covering large industrial facilities and electricity generators while leaving the consumption side of the economy entirely unpriced.
+
+## 1.2 A consumption carbon tax without new revenue
+
+**A consumption carbon tax does not need to raise overall tax burdens or increase average prices — it needs only to shift the composition of an existing consumption tax toward carbon intensity.** The EU's 15% minimum VAT rate, established under Council Directive 2006/112/EC, is already equivalent, in €/tonne terms, to a carbon price that exceeds any instrument currently in operation globally. At the average carbon intensity of internationally traded manufactured goods — approximately 0.30–0.35 kg CO₂ per euro of output (\$0.33–0.38/dollar) — a 15% VAT implies a notional carbon price in the range of €430–500/tonne. CCT makes that equivalence explicit, calibrates it to a published schedule, and raises it progressively to €200/tonne — well below the existing implicit level, but purposeful and labelled for the first time.
+
+**Prior proposals have laid important groundwork.** Courchene and Allan (2009) proposed a carbon-added tax on cumulative carbon footprint at point of sale. McAusland and Najjar (2015) formalised the concept. The Destination-Based Cash Flow Tax literature (Auerbach et al., 2017; Devereux et al., 2021) established the legal and economic properties of destination-based business taxes. The World Bank's Measuring Total Carbon Pricing (2023) formalised implicit carbon pricing through VAT and fuel excise. The IMF's international carbon price floor proposal (Parry, Black, and Roaf, 2021) made the case for coordinated minimum carbon pricing among major emitters — a principle that the Carbon Central Bank in Part Seven institutionalises at EU level.
+
+> *CCT raises the carbon price to €200/t — still well below the existing notional equivalent in the current VAT. The price was already there. CCT makes it count.*
+
+**1.3 Destination-based versus production-based instruments**
+
+**CCT is a consumption tax, not a production tax — and this distinction determines its trade, leakage, and administrative properties entirely.** Production carbon taxes (the EU ETS, fuel excises) impose costs at the point of manufacture, creating carbon leakage incentives: companies can relocate production to avoid the charge. CBAM (Regulation (EU) 2023/956) is the EU's current response for the six most carbon-intensive import categories. It requires facility-level verification and covers a small subset of sectors.
+
+> **CCT is leakage-proof by construction.** A company that relocates manufacturing from Germany to Vietnam to avoid production-side carbon costs still pays CCT when its goods are sold in the EU. Destination-based consumption taxes apply where goods are consumed, not where they are made. Border adjustment is not required — the instrument is already destination-based, in the same way VAT has been border-adjustable for fifty years.
+
+**Consumption carbon taxes also change what matters most: purchasing decisions.** They are visible at the point of purchase — where consumption choices are made — and they incentivise demand-side decarbonisation that no production-side instrument can reach. A household choosing between a gas boiler and a heat pump, between beef and plant protein, between a flight and a train, receives a clear relative price signal under CCT.
+
+## 1.4 Scope: CCT and production-side instruments
+
+**CCT addresses the consumption side of the EU economy; the production side — in particular the carbon content of EU exports and EU domestic industrial production — requires separate and complementary instruments.** This distinction is important to state precisely. CCT does not replace the ETS, CBAM, or free allocation. It operates on a different part of the economy.
+
+**For EU exports, the EU ETS with free allocation remains the appropriate instrument and can coexist fully with CCT.** Free allocation under the ETS effectively operates as a production-side feebate — compensating energy-intensive exporters for the carbon cost of their production while maintaining the incentive to reduce emissions at the margin. With CCT in place on the consumption side, the case for ETS free allocation is unchanged: it addresses a different problem (export competitiveness) and a different emissions base (territorial, Kyoto-basis production emissions). There is a modest conceptual overlap at the margin — domestic goods sold in the EU bear the CCT consumption signal while their production is also subject to the ETS — but this does not constitute double-charging. The CCT lands on the buyer; the ETS lands on the producer. They are distinct incidences on distinct economic actors.
+
+> **The full EU carbon pricing architecture under CCT:** CCT covers consumption of goods sold in the EU (imports and domestic, at point of sale); the ETS covers production for large industrial and power-sector emitters; CBAM covers the most carbon-intensive import categories at the facility level; and production-side feebates can complement the ETS for export-exposed sectors where free allocation is eventually wound down. These instruments are mutually reinforcing and do not conflict.
+
+An increasingly recognised gap in EU climate policy is the absence of a consumption-side carbon signal. CCT fills that gap. The production-side architecture can remain largely as it is.
+
+**1.5 WTO consistency and EU legislative architecture**
+
+**CCT's WTO consistency rests on its classification as a destination-based domestic consumption tax, identical in legal structure to VAT.** Under GATT Article III:2, a domestic tax on products is permissible if it applies to both domestic and imported like products without discrimination. CCT applies identically to EU-produced and imported goods using the same notional carbon price and national intensity scoring methodology. GATT Article XX(b) and XX(g) provide further cover for environmental measures. Schön (2016) and Grinberg (2017) conclude that destination-based taxes of this type carry low WTO legal risk.
+
+**EU legislative implementation avoids the Article 113 TFEU unanimity requirement by operating within existing VAT Directive parameters and Article 192 environmental policy competence.** VAT rate adjustments remain within bounds set by Directive 2006/112/EC. The carbon designation, notional price schedule, and national KPI methodology are adopted through Commission implementing regulation under Article 192 (qualified majority). Feebate schemes are approved as environmental tax reliefs under the General Block Exemption Regulation. This is the same pathway used for CBAM (Regulation (EU) 2023/956) — the EU has successfully implemented environmental fiscal measures through this route without unanimity.
+
+**1.6 Summary tables**
+
+Table 1 presents the CCT trajectory at three points over the decade. Table 2 shows the full nine-column breakdown including intensity trajectories and the decomposition between carbon and value components.
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------
+   **Year**   **Notional carbon price (€/tCO₂)**   **Value VAT**   **Total effective rate — EU producer**   **Total effective rate — China exporter**
+  ---------- ------------------------------------ --------------- ---------------------------------------- -------------------------------------------
+     2027                   **€0**                      15%                       **15%**                                    **15%**
+
+     2032                  **€100**                    12.5%                     **14.3%**                                  **15.8%**
+
+     2037                  **€200**                     10%                       **13%**                                    **15%**
+  ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+> *Table 1. CCT framework summary, 2027–2037 (years 0, 5, 10). Value VAT falls 0.5pp/year; notional carbon price rises €20/year. EU manufacturing intensity: 0.20→0.15 kg CO₂/€. Chinese export intensity: 0.40→0.25, NDC-consistent. Carbon % = notional €/t × intensity / 10.*
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   **Year**   **Notional €/tCO₂**   **Value VAT**   **EU intensity**   **China intensity**   **Carbon % EU prod.**   **Carbon % China exp.**   **Total % EU prod.**   **Total % China exp.**
+  ---------- --------------------- --------------- ------------------ --------------------- ----------------------- ------------------------- ---------------------- ------------------------
+     2027           **€0**               15%              0.2                  0.4                  **0%**                   **0%**                  **15%**                 **15%**
+
+     2032          **€100**             12.5%            0.175                0.325                **1.8%**                 **3.3%**                **14.3%**               **15.8%**
+
+   **2037**        **€200**            **10%**          **0.15**            **0.25**                **3%**                   **5%**                  **13%**                 **15%**
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> *Table 2. Full quantitative breakdown. EU intensity falls from 0.200 to 0.150; China from 0.400 to 0.250. Highlighted row: 2037 endpoint. China returns to exactly 15.0% as decarbonisation offsets the rising carbon price. EU ends at 13.0%.*
+
+**Part Two**
+
+**The International Dimension**
+
+**2.1 Electricity intensity as the primary driver**
+
+**The carbon intensity of manufactured goods differs across countries primarily because electricity grids differ in carbon intensity, not because production technologies differ fundamentally.** For a typical manufactured good, electricity accounts for approximately 40–60% of total embedded carbon. China's grid emits approximately 0.55 kg CO₂/kWh (IEA, 2024); the EU grid averages approximately 0.25 kg CO₂/kWh and is falling. For a product with energy intensity of 0.5–0.7 kWh per euro of output, electricity alone accounts for 0.14–0.19 kg CO₂/€ in China versus 0.06–0.09 kg CO₂/€ in the EU. Adding process heat and materials gives total manufacturing intensities of approximately 0.35–0.45 kg CO₂/€ for China (\$0.38–0.50) and 0.15–0.25 kg CO₂/€ for the EU (\$0.16–0.27), consistent with OECD TECO2 and JRC CBAM methodology data. The ratio is approximately 1.5–2x for like-for-like goods — not the 4–5x implied by whole-economy figures that conflate manufacturing with services.
+
+**As China's grid decarbonises, CCT provides an automatic and immediate reward.** Renewables now account for approximately 40% of Chinese generation. China's 15th Five-Year Plan targets a 17% reduction in carbon intensity by 2030; CCT's national KPI mechanism translates that commitment directly into a lower effective rate for Chinese exporters, without bilateral negotiation.
+
+**2.2 National KPI intensity scores**
+
+**CCT uses national emissions intensity scores — one number per country per year — for all goods outside CBAM's existing six-sector scope, avoiding the need for facility-level MRV across the broad consumption basket.** The score is defined as total greenhouse gas emissions from a country's non-CBAM manufacturing and export sectors, divided by the value of those exports, in kg CO₂ per euro. This metric is already estimated by the IEA, OECD, and World Bank. The Commission publishes scores in January each year, applies them to all imports for the calendar year, and maintains a challenge process through which countries with better facility-level data can seek revised scores — creating a voluntary data-improvement incentive.
+
+**National KPI scores create a powerful automatic global decarbonisation incentive without bilateral conditionality.** Every country that decarbonises its manufacturing sector sees its score fall and its exporters' effective carbon charge fall automatically. Countries with existing carbon pricing — Canada, the UK, Switzerland, South Korea — may apply for an offset credit against their CCT Carbon Component equal to the average effective carbon price paid per tonne in their manufacturing sector, following the same principle as CBAM for its covered sectors.
+
+**2.3 Quantitative analysis**
+
+**The key quantitative result is that Chinese exporters face a maximum additional burden of approximately 0.8 percentage points around 2032, returning to exactly 15.0% by 2037 as their own decarbonisation offsets the rising carbon price.** EU producers end the decade at 13.0% — a 2 percentage point reduction. The instrument is materially neutral for trading partners who follow their stated NDC plans, and modestly beneficial for EU producers throughout. The full breakdown is shown in Table 2 above.
+
+**Part Three**
+
+**Implementation: VAT Adjustment in Detail**
+
+**3.1 Consumption-based accounting: the foundational principle**
+
+**CCT operates throughout on consumption-based emissions accounting, not the production-based (Kyoto Protocol) accounting that governs national climate targets — and this distinction must be understood before any implementation detail is considered.** Under production-based accounting — the framework of the UNFCCC and national GHG inventories — emissions are attributed to the country where they are physically produced. The EU's territorial emissions figures, its ETS, and its NDC commitments all operate on this basis. CCT is different.
+
+**Under consumption-based accounting, emissions are attributed to the country where goods and services are ultimately consumed.** A shirt manufactured in Bangladesh and sold in Brussels counts against Belgium's consumption-based emissions footprint. This is the only basis consistent with a destination-based instrument: CCT taxes consumption in the EU, so the emissions it prices are those caused by EU consumption — wherever in the world they physically occurred. This aligns with the growing literature on consumption-based carbon accounting (Peters and Hertwich, 2008; Wiedmann et al., 2015) and with the World Bank's Measuring Total Carbon Pricing framework (2023).
+
+**An increasingly recognised gap in EU climate policy is the absence of a consumption-side signal.** The EU's consumption footprint is substantially larger than its territorial footprint: approximately €2–2.5 trillion of goods are imported annually, with embedded carbon entirely outside the EU ETS. CCT addresses this gap. Production-side instruments remain appropriate for their own purposes — territorial emissions, export competitiveness, large industrial facilities. The two approaches are complements, not substitutes.
+
+**3.2 The VAT system as implementation vehicle**
+
+**CCT is implemented as a redesignation of what a portion of existing VAT represents — not a new tax alongside VAT, but a split of the existing rate into two components that sum to the total.** This is the source of CCT's administrative tractability. The Value VAT component and the Carbon Component are not two separate taxes. They are two designated portions of a single tax, collected through a single invoice line, remitted through a single return, and administered by existing tax authorities through existing audit mechanisms.
+
+**VAT's multi-stage structure is the foundation of CCT's self-enforcing architecture.** VAT is charged at each stage of the production and distribution chain on value added at that stage, with input VAT credits flowing up the chain so that the tax lands non-cumulatively on the final consumer. Each business in the chain has an incentive to verify that its suppliers have paid input VAT correctly, because only verified input VAT is creditable. CCT inherits this structure: the carbon designation follows the same invoice, the same credit mechanism, and the same audit trail.
+
+**3.3 The notional carbon price: equivalence and approximation**
+
+**The carbon price in CCT is 'notional' because it is expressed as a VAT adjustment equivalent rather than as a direct charge on measured emissions — but its economic effect is identical to a direct carbon price at the stated rate, subject to one important qualification.** The Carbon Component is not calculated on the actual measured carbon content of each specific product. It is calculated on the average carbon content of goods from each exporting country (or from EU domestic production), as estimated from national-level data. This makes CCT a national average approximation of a carbon price — precise at the aggregate level, approximate at the product level.
+
+**The approximation means that a clean producer within a high-intensity country faces the same effective Carbon Component as a dirty producer in that country.** A French manufacturer using predominantly nuclear electricity and a Polish manufacturer using predominantly coal electricity both face the EU national average intensity score. The French producer is slightly overcharged relative to actual emissions; the Polish producer is undercharged. This is an inherent limitation of any national-average instrument and should be stated clearly. It is analogous to the difference between a national carbon tax and a facility-level ETS — CCT is explicitly the former. The feebate layer, described in Part Four, provides product-level precision for the consumption categories where the national average approximation is most inadequate.
+
+> *CCT is a national average approximation of a carbon price — precise at the aggregate level, and complemented by feebates where product-level precision matters most.*
+
+**3.4 Border implementation: imports**
+
+**At the border, CCT works through the standard import VAT mechanism, with the Carbon Component calculated from the published national intensity score for each exporting country.** When a good enters the EU, import VAT is charged at customs clearance on the customs value of the goods. Under CCT, the effective VAT rate applied is the sum of the Value VAT (uniform across all origins) and the Carbon Component (country-differentiated). The Carbon Component for goods from country X is: notional €/tCO₂ × national intensity score for X / 10.
+
+**A worked example illustrates the mechanics.** In 2032 (year 5), with Value VAT at 12.5% and the notional carbon price at €100/tCO₂: goods from China (intensity score 0.325) carry a Carbon Component of 100 × 0.325 / 10 = 3.25%, for a total VAT of 15.75%. Goods from a country with score 0.200 carry a Carbon Component of 2.0%, total 14.5%. Goods from a country with score 0.100 carry a Carbon Component of 1.0%, total 13.5%. The Value VAT component is identical for all origins; it is only the Carbon Component that is country-differentiated, reflecting genuinely different physical carbon content.
+
+**Countries with existing carbon pricing may apply for an offset credit** against their CCT Carbon Component equal to the average effective carbon price per tonne in their manufacturing sector, verified through published data. Countries without a score are assigned the global average of approximately 0.35 kg CO₂/€. The Commission publishes all scores and offset calculations annually, with a transparent challenge process.
+
+**EU exports are zero-rated for the Carbon Component as for all VAT.** Exporters reclaim input VAT — including the Carbon Component of input VAT paid on intermediate goods and energy — through the standard VAT return. Clean EU producers receive larger effective refunds per unit of output, because a higher proportion of their input VAT is Value VAT rather than Carbon Component. This is not a subsidy; it is the standard destination-basis treatment of export VAT.
+
+**3.5 Internal implementation: domestic production and consumption**
+
+**Within the EU, the Carbon Component is applied to domestic transactions through the standard VAT return, using the published EU national intensity score as the calculation basis.** For a manufacturer, the Carbon Component of output VAT is: (notional €/tCO₂ × EU national intensity score / 10) × sales value. Input VAT Carbon Components are credited exactly as standard input VAT. The net Carbon Component remitted to the tax authority is the difference — the same mechanics as standard VAT, with one additional column.
+
+**Member state discretion on the EU national intensity score is permitted within a Commission-set range.** A member state with a particularly clean electricity grid — France, Sweden, Norway — may publish a lower national intensity score for its domestic production, reducing the Carbon Component for producers in that member state. This partial correction of the national average approximation is optional and subject to Commission approval, ensuring that member state scores remain consistent with the published methodology and do not constitute a covert production subsidy.
+
+**The internal CCT mechanism approximates a direct carbon tax through the price system rather than through metered emission charges.** Under an upstream fuel tax, every unit of energy in production carries a charge equal to the carbon tax rate multiplied by the carbon content of that energy. CCT achieves an equivalent economic outcome through the VAT price signal: the embedded carbon cost of a unit of EU output is reflected in the Carbon Component of the VAT on that output, at the national average intensity. For most goods, where facility-level carbon content does not differ dramatically from the national average, this approximation is adequate for the price signal purpose.
+
+**3.6 Reduced and zero rates**
+
+**The Carbon Component applies independently of any reduced-rate treatment that would otherwise apply to a product — it is calculated as an add-on to whatever VAT rate applies, subject to the standard rate ceiling.** This is a critical design specification. A member state that operates a reduced rate of 5% on domestic heating fuel (permitted under the transitional provisions of Directive 2006/112/EC) does not thereby exempt that fuel from the Carbon Component. The Carbon Component is added to the 5% rate, raising the effective rate on fossil heating fuel to 5% + Carbon Component — which is the correct incentive. The combined rate is capped at the standard rate where it would otherwise exceed it.
+
+**Zero-rated goods — primarily food in most member states — present a particular consideration.** Where a member state zero-rates food generally, the Carbon Component on high-intensity food categories (ruminant livestock in particular) would otherwise be suppressed to zero. The feebate mechanism, rather than the VAT Carbon Component, provides the carbon signal for zero-rated food categories. This is one of the reasons feebates are necessary as a complement to the VAT adjustment: they can reach below-zero-rate categories that the VAT Carbon Component cannot.
+
+**3.7 The VAT return: what changes for businesses**
+
+**For the vast majority of EU businesses, the CCT VAT return adds one column to their existing filing — the carbon designation of VAT charged and paid — with no additional verification, no new registration, and no new authority.** The standard VAT return records five fields: total sales, output VAT charged, total purchases, input VAT paid, net VAT payable. Under CCT, these gain a parallel carbon column: Carbon Component of output VAT, Carbon Component of input VAT paid, net Carbon Component payable. Businesses do not determine the intensity scores — they apply the Commission's published schedule mechanically.
+
+**Compliance burden is negligible for most businesses.** Domestic-only businesses apply the single EU national intensity score. Importers look up the exporting country's score from the published annual schedule. Exporters reclaim through the existing export VAT return mechanism. For businesses below the VAT registration threshold, CCT has no direct compliance impact. Audit risk is concentrated in goods origin classification — a risk already managed by existing customs administration.
+
+**3.8 Revenue designation and member state accounting**
+
+**The Carbon Component of VAT receipts is designated separately in member state fiscal accounts, enabling transparent tracking without mandating specific spending.** Member states report to the Commission annually: total VAT receipts, Carbon Component of VAT receipts (imports and domestic), Value VAT receipts. The Commission publishes aggregate EU-level totals, establishing CCT as a recognised carbon pricing instrument in international climate accounting. The World Bank's State and Trends of Carbon Pricing report already includes VAT-equivalent carbon prices in its total carbon pricing metric; CCT formalises and strengthens that measurement.
+
+EIB conditionality links lending terms to member state CCT implementation plans — not to specific revenue spending, but to the existence of a credible plan showing that Carbon Component receipts inform clean investment priorities.
+
+**3.9 CCT as an approximation of a carbon tax: assessment**
+
+**CCT fully approximates a comprehensive consumption carbon tax in five dimensions, and partially approximates it in three.** Full approximation: destination basis (leakage-proof, applies equally to domestic and imported goods); rate structure (a single €/tCO₂ price across all covered goods); administrative tractability (operates through existing VAT infrastructure); WTO consistency (established national treatment precedent); incentive on trading partners (automatic and proportional to decarbonisation progress). Partial approximation: carbon precision (national average — a clean producer within a high-intensity country is overcharged; a dirty producer is undercharged; feebates correct this for key categories); services coverage (approximately 35–40% of EU final consumption is VAT-exempt and outside CCT's direct reach — a Phase 2 extension to business energy use could address this); non-CO₂ gases (partially captured through CO₂-equivalent intensity scores; direct pricing of agricultural methane requires the feebate layer).
+
+**These limitations are deliberate design choices that favour tractability over precision,** and CCT should be evaluated accordingly: not against a theoretically optimal Pigouvian carbon tax at the product level, but against the realistic alternative of no consumption-side carbon signal at all. On that comparison, CCT achieves 70–80% of the price signal of a comprehensive consumption carbon tax at a fraction of the administrative cost, within existing EU institutions, without new legislation.
+
+**Part Four**
+
+**The Domestic Dimension**
+
+**4.1 Feebates: mechanism and rationale**
+
+**A formal domestic carbon tax requires Council unanimity under Article 113 TFEU — an effectively prohibitive threshold — so CCT operates domestically through VAT rate adjustments and sectoral feebates that achieve equivalent carbon differentiation within product categories.** A feebate is a revenue-neutral fee-and-rebate scheme within a consumption category. Goods above a benchmark carbon intensity pay a surcharge; goods below receive a rebate. Surcharges fund rebates with no net government transfer. The feebate rate is calibrated to the same notional carbon price as the VAT Carbon Component, ensuring consistency between the domestic product-level signal and the international national-average signal.
+
+**Feebates have both theoretical and practical support.** Fischer and Newell (2008) show they provide efficient incentives for technology choice and adoption. Goulder and Parry (2008) demonstrate that revenue-neutral environmental feebates achieve emissions reductions at lower political cost than equivalent carbon taxes. The EU already has feebate-adjacent mechanisms in vehicle taxation, and Council Directive 2022/542/EU provides reduced-rate flexibility for heat pumps while requiring phase-out of reduced rates on fossil fuels — CCT formalises and calibrates this existing trajectory.
+
+**4.2 Sector analysis**
+
+**Table 3 presents the major consumption sectors covered by CCT domestic mechanisms, with emissions significance, political difficulty, implementation mechanism, and estimated consumer impact at €200/tonne.** Political difficulty assessments reflect the intensity of affected lobbying constituencies and consumer sensitivity to price changes — important factors for sequencing implementation over the ten-year horizon.
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Consumption sector**                            **Intensity (kg CO₂/€)**  **Emissions significance & priority**   **Political difficulty & key constraints**                   **CCT mechanism**            **Est. consumer impact at €200/t**
+  ------------------------------------------------ -------------------------- --------------------------------------- --------------------------------------------------- ------------------------------------ ------------------------------------
+  *Food — ruminants (beef, lamb, dairy)*                   \~4.0 kg/€         12–14% EU GHGs High priority            High — agricultural lobby; food price sensitivity            Feebate surcharge                 €4–12/kg beef at €200/t
+
+  *Food — plant-based (legumes, vegetables)*               \~0.3 kg/€         Offset category                         Low — positive framing                                         Feebate rebate                         −€0.30/kg
+
+  *Aviation (intra-EU, short-haul)*                      \~0.15 t/pass.       2.5% EU GHGs; growing sector            Moderate — business & tourism lobbies                        Feebate surcharge                 €30–50/ticket at €200/t
+
+  *Rail and public transport*                            \~0.01 t/pass.       Offset category                         Low — broad support                                    VAT reduction + feebate rebate             Reduced eff. rate
+
+  *Fossil heating (gas, oil boilers)*                    \~0.20 kg/kWh        \~13% EU GHGs; key household target     High — energy poverty; housing tenure                VAT adjustment + feebate surcharge           €40/MWh at €200/t
+
+  *Heat pumps & renewable heating*                       \~0.02 kg/kWh        Offset category                         Low–moderate                                           VAT reduction + feebate rebate             Rebate on install
+
+  *Imported mfg. goods (electronics, machinery)*        \~0.25–0.35 kg/€      \~15% consumption emissions             Low — diffuse impact                                    National KPI intensity score       \~3–5% of goods value at €200/t
+
+  *Fast fashion (imported apparel)*                       \~0.35 kg/€         \~3% consumption emissions              Low–moderate                                            National KPI intensity score             \~5% of goods value
+
+  *Repair & maintenance services*                         \~0.05 kg/€         Offset category                         Low — popular measure                                Zero/reduced VAT + feebate rebate             Rebate eligible
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> *Table 3. Sector analysis of CCT domestic mechanisms. Intensity figures are approximate lifecycle estimates in kg CO₂ per euro of goods value. Political difficulty is qualitative. Offset categories receive feebate rebates funded by surcharges on higher-intensity goods within the same consumption category.*
+
+**Ruminant livestock is the highest-priority food target, with lifecycle emissions of 20–70 kg CO₂e per kilogram of product.** At €200/t, the feebate surcharge on beef is approximately €4–12/kg — significant enough to shift demand at the margin without prohibiting consumption. The feebate begins at a low rate (€20/t, approximately €0.40–1.00/kg on beef) and rises slowly, allowing adjustment in supply chains and consumer preferences.
+
+**Domestic heating is the sector where distributional concerns are most acute.** The CCT approach addresses this through the feebate structure rather than revenue recycling: gas boiler surcharges fund heat pump rebates, making the clean transition financially accessible. Council Directive 2022/542/EU is already moving in this direction; CCT provides the pricing scaffold for that transition.
+
+**For internationally traded manufactured goods, the national KPI score mechanism operates directly.** The intensity differential between EU and Chinese manufactured goods is approximately 1.5–2x on a like-for-like basis, primarily driven by the electricity grid differential. At €200/t, this implies a carbon percentage of approximately 3–5% of goods value for Chinese exports versus 2–3% for equivalent EU-produced goods.
+
+**4.3 EIB conditionality**
+
+**The European Investment Bank lends approximately €70–80 billion per year across EU member states, with environmental conditionality already embedded in its lending standards.** CCT gives that conditionality a specific quantifiable anchor: member states receiving EIB lending for energy, transport, and industrial infrastructure commit to CCT revenue management plans directing carbon-attributed VAT revenue toward clean investment priorities. Member states with robust CCT frameworks access preferential EIB financing terms. Given the scale of public investment required for the clean transition — the EU estimates €600 billion per year through 2030 — the differential is commercially significant.
+
+**Part Five**
+
+**The Fiscal Dimension**
+
+**CCT is designed to be approximately fiscally neutral: it generates no net new revenue because the Value VAT falls by approximately the same amount as the Carbon Component rises.** The government collects the same total tax revenue differently — from carbon-intensive consumption rather than from consumption in general. Revenue recycling schemes — carbon dividends, green investment funds, labour tax reductions — are attractive in theory but generate political conflicts over distributional design and risk capture as general fiscal measures. CCT avoids these issues: the redistribution occurs through relative prices, not government transfers. Beef becomes more expensive. Rail becomes cheaper. Gas heating becomes more expensive. Heat pumps become cheaper.
+
+**In round terms, on a €9 trillion EU final consumption base, each 0.5 percentage point of Value VAT foregone costs approximately €45 billion per year.** Each €20/t increase in the Carbon Component generates approximately €55–65 billion per year in additional carbon-attributed VAT, at an average intensity of approximately 0.3 kg CO₂/€. The net fiscal position is approximately neutral to slightly positive in the early years. However, as EU domestic consumption decarbonises and shifts toward services and cleaner goods over the decade, effective intensity of the consumption basket will fall, potentially reducing carbon revenue below the Value VAT foregone in the later years. A 2032 fiscal review mechanism is recommended to assess whether the Value VAT fall rate requires adjustment to maintain approximate neutrality.
+
+**The rate at which Value VAT falls is the one genuine fiscal choice in the design.** The baseline (0.5pp/year, reaching 10% by 2037) is broadly neutral. Member states under fiscal pressure may prefer a slower fall — 0.25pp/year, reaching 12.5% by 2037 — generating approximately €100–200 billion per year in additional retained revenue at the midpoint. The framework accommodates member state discretion within a Commission-set range, while maintaining a uniform notional carbon price across the single market.
+
+**CCT's distributional profile is more benign than production-side carbon taxes.** Lower-income households fly less, buy less imported fast fashion, and consume fewer electronics — the highest-carbon spending categories. Their consumption is concentrated in services, local food, and public transport. The one genuine regressive pressure — domestic heating — is addressed through the feebate structure: gas boiler surcharges fund heat pump rebates, making the clean transition accessible without requiring lower-income households to simply bear the carbon cost of staying on fossil fuels.
+
+**Part Six — Phase One**
+
+**The 2027–2037 Transition**
+
+**6.1 What the transition does**
+
+**Phase One is the period during which the notional carbon price is built into the EU's existing VAT architecture, rising from €0 to €200/tonne over ten years while the Value VAT falls in step.** Nothing new is created in this phase — no new tax, no new institution, no new collection mechanism. The existing VAT system is progressively recalibrated: the same invoice, the same return, the same audit, but with a growing share of the rate designated to carbon rather than value.
+
+**The framework is established in 2026–2027 through three instruments.** First, a Commission implementing framework under Article 192 TFEU, designating the Carbon Component, publishing the notional price schedule and national intensity methodology, and specifying the annual publication process for national KPI scores. Second, a Commission recommendation to member states on feebate design by sector, providing a common template while preserving member state flexibility. Third, an EIB conditionality framework linking carbon-attributed revenue management plans to lending terms.
+
+**6.2 Annual mechanics**
+
+**Each calendar year, the Commission publishes three numbers: the notional carbon price (rising €20/t annually), the Value VAT reference rate (falling 0.5pp annually), and the national intensity scores for all countries above the de minimis import threshold.** These three numbers determine all the VAT arithmetic for the year. Businesses apply them mechanically to their existing VAT returns. Tax authorities audit compliance through standard VAT audit procedures. No new administrative machinery is required at any stage of the chain.
+
+**6.3 The 2032 midpoint review**
+
+**A mandatory review at the five-year midpoint (2032) assesses three questions.** First, fiscal neutrality: is the net Carbon Component revenue broadly offsetting the Value VAT foregone, or has decarbonisation of the consumption basket caused a material divergence? If so, the Value VAT fall rate should be adjusted. Second, intensity score accuracy: are the national KPI scores producing plausible and fair outcomes, and are any countries systematically gamed by data quality issues? Third, feebate calibration: are the sectoral feebates generating the intended relative price signals, or have market adjustments diminished their effectiveness? The review results are published and the framework is adjusted by Commission amending regulation — again at qualified majority.
+
+**6.4 Phase One endpoint**
+
+**By 2037, the EU has a €200/tonne carbon price fully embedded in its consumption tax system — the highest carbon price in operation globally across the full breadth of a major economy's consumption.** The ten-year track record of carbon-differentiated consumption taxation, the published intensity score database covering all major trading partners, and the operational feebate infrastructure across key consumption sectors together constitute the institutional foundations for Phase Two. Nothing substantive needs to be built. Phase Two removes the scaffolding and reveals what was always underneath.
+
+**Part Seven — Phase Two**
+
+**The 2037–2042 Transition**
+
+**7.1 The principle**
+
+**Phase Two transitions from CCT — a carbon price expressed through VAT designation — to an explicit upstream carbon tax that calls itself what it is.** The economic substance does not change. Every price signal already exists. Every intensity score is already published. Every border adjustment mechanism is already operational. What changes is the register: from notional to formal, from adjusted VAT to designated carbon tax. The Phase One decade normalises carbon-differentiated consumption taxation; Phase Two removes the legal fiction that it was something else.
+
+**Phase Two is available to a coalition of willing member states, not mandated EU-wide.** Member states that join the coalition replace the CCT carbon designation with an explicit upstream carbon tax at the same rate. Member states that do not join retain the CCT framework unchanged — the economic outcomes are identical. Over time, the administrative simplicity and greater transparency of the explicit upstream tax will attract the remaining member states; Phase Two is designed to be a one-way ratchet.
+
+**7.2 The upstream design**
+
+**The explicit carbon tax is levied upstream — at the point where fossil carbon enters the economy — because carbon is chemically conserved through combustion.** Every tonne of carbon extracted from a coal seam, oil well, or gas field will eventually be oxidised to CO₂. Taxing at the mine mouth, wellhead, or import terminal is equivalent to taxing at every point of eventual emission, at a fraction of the collection cost. There are a few hundred fossil fuel producers and importers in the EU economy; there are hundreds of millions of daily combustion events. This is the principle underlying British Columbia's carbon tax (2008), Finland's energy carbon tax (1990), and the upstream designs modelled by the IMF and World Bank (Parry, Black, and Roaf, 2021).
+
+**Fossil fuel producers and importers pay the upstream carbon tax on the carbon content of the fuel, using standard IPCC emission factors.** Approximately 2.4 tCO₂ per tonne of coal, 2.0 tCO₂ per tonne of natural gas, 3.1 tCO₂ per tonne of petroleum products. These require only declaration of fuel quantity and type — not measurement of combustion emissions. The tax passes through supply chains into prices exactly as fuel excise duties do today.
+
+**7.3 Border adjustments and process emissions**
+
+**Border adjustments for manufactured goods use the national KPI intensity scores already operational under Phase One, extending the CBAM principle to the full traded goods basket.** For CBAM-covered commodity goods, the existing facility-level MRV methodology continues. For other manufactured goods, the national score provides the adjustment basis. EU exports are zero-rated — the standard destination-basis treatment — with clean EU exporters receiving larger rebates reflecting their lower embedded carbon.
+
+**Process emissions — CO₂ released through chemical transformation rather than combustion — require a supplementary facility-level charge on a narrow set of industrial processes.** The main categories are cement calcination (\~0.5 tCO₂/t clinker), steel blast furnace chemistry, and certain petrochemical process reactions. These are not captured by the upstream fuel tax because their carbon source is raw material rather than fuel. The existing ETS for industrial installations and CBAM for imports cover these processes; the supplementary charge absorbs them as the ETS phases out.
+
+**The 2037–2038 transition year requires careful coordination to prevent double-charging.** In coalition member states, the upstream fuel tax replaces the CCT Carbon Component in the VAT return from the start of 2038. The ETS free allocation wind-down schedule — already agreed in the 2023 ETS Directive revision — is coordinated sector by sector with upstream tax coverage, ensuring that the total charge on a unit of fossil fuel does not exceed €200/tCO₂ from both instruments combined. Non-coalition member states retain the CCT framework; no coordination issue arises for them because the upstream tax does not apply in their jurisdiction.
+
+**7.4 ETS phase-out and Carbon Central Bank**
+
+**With the upstream carbon tax covering combustion emissions across the whole economy, the EU ETS becomes redundant for its primary purpose and should be phased out progressively from 2037 to 2042.** Weitzman (1974) established the theoretical case for price instruments over quantity instruments under cost uncertainty — the condition that holds for climate policy under empirically plausible parameters (Pizer, 2002; Goulder and Schein, 2013). The ETS adds permit volatility, free allocation distortions, and Market Stability Reserve opacity without providing benefits the upstream tax cannot deliver more efficiently.
+
+**The ETS phase-out operates on a five-year schedule (2037–2042) to allow orderly wind-down of the institutional infrastructure.** This includes ETS registries, verifiers, allowance markets, and importantly the derivative markets and forward allowance positions that extend beyond the phase-out date. Free allocation is wound down sector by sector on the existing CBAM-aligned schedule. Process emissions coverage contracts to the supplementary charge instrument before the ETS formally retires.
+
+**In place of the ETS, coalition member states establish a Carbon Central Bank — an independent institution setting the upstream carbon tax rate against a scientific mandate.** Its single objective is to maintain the carbon price trajectory consistent with Paris Agreement commitments, adjusting annually based on observed emissions trajectories, atmospheric CO₂ concentrations, and the remaining carbon budget consistent with 1.5–2°C temperature targets. The Carbon Central Bank depoliticises the carbon price, provides credible long-run commitment to investors in long-lived capital, and creates automatic stabilisation (Nordhaus, 2013; Weitzman, 2013; Goulder and Schein, 2013). The institutional model draws on the literature on independent central banks (Kydland and Prescott, 1977; Rogoff, 1985). Governance is analogous to the European Stability Mechanism: a framework agreement among coalition member states, not a full Treaty institution. Board composition is proposed as five independent members with scientific and economic expertise, appointed by coalition member state finance ministers for seven-year non-renewable terms. An override provision requires unanimous coalition finance minister vote, with automatic public disclosure — sufficient to protect against political capture while preserving democratic accountability. The mandate is defined in terms of the remaining global carbon budget, insulating it from Paris Agreement defection by individual non-EU parties.
+
+**7.5 Legislative steps**
+
+**Four legislative steps complete the Phase Two transition.** First, a Framework Directive on upstream carbon taxation under Article 192 establishes the upstream collection mechanism, process emissions supplement, and border adjustment methodology for coalition states. Second, the Carbon Central Bank establishing agreement, signed by coalition member states, defines mandate, governance, board composition, and rate-setting procedure. Third, an amendment to the ETS Directive sets the phase-down schedule, linking free allocation wind-down to upstream tax ramp-up sector by sector, with explicit anti-double-charging provisions for the 2037–2038 transition year. Fourth, VAT rate reductions in coalition member states reduce standard rates by the amount previously designated as the CCT Carbon Component — making explicit what was previously notional. Non-coalition member states continue unchanged.
+
+**7.6 WTO status of the upstream design**
+
+**An upstream fossil fuel carbon tax with border adjustments is a product excise in WTO terms — the same legal category as fuel excise duties, which are unambiguously border-adjustable under GATT.** The carbon content of fuel is a physical property of the product. Taxing coal at import on the basis of carbon content is structurally identical to taxing alcohol on the basis of alcohol content. Border adjustments for manufactured goods follow CBAM precedent. The process emissions supplement follows existing CBAM legal architecture directly. The full upstream instrument is WTO-consistent across all components.
+
+**Conclusion**
+
+**Carbon Consumption Tax is a proposal for institutional realism: it works with existing instruments rather than requiring new ones, and addresses the consumption side of the carbon problem that all production-side instruments leave untouched.** The economic case for destination-based consumption carbon pricing is strong — leakage-proof, non-discriminatory, visible at the point of purchase. The national KPI mechanism provides an automatic global decarbonisation incentive without bilateral negotiation. The feebate architecture targets the consumption categories with the largest carbon leverage.
+
+**The production-side architecture can remain largely as it is.** ETS free allocation, CBAM, fuel excises — these instruments serve their purpose and CCT does not displace them. The EU gets a consumption-side carbon price and a production-side carbon price simultaneously, without redesigning either from scratch. The overlap at the margin is modest and manageable.
+
+**Phase One (2027–2037) builds the carbon price into the existing VAT framework, rising to €200/tonne.** Phase Two (2037–2042) replaces the VAT designation with an explicit upstream carbon tax and a Carbon Central Bank. Each phase inherits the infrastructure of the previous one. The logic is cumulative: by the time Phase Two is politically viable, it is administratively trivial — because Phase One has already done the work.
+
+> *The EU already has the fiscal architecture to price carbon seriously. Carbon Consumption Tax is the mechanism to use it.*
+
+**What is needed is not a breakthrough in climate policy design.** The breakthrough already happened fifty years ago, when VAT was introduced. The task now is simply to make it count.
+
+**Bibliography**
+
+Auerbach, A. J., Devereux, M. P., Keen, M., and Vella, J. (2017). Destination-Based Cash-Flow Taxation. Oxford Centre for Business Taxation Working Paper 17/01.
+
+Auerbach, A. J. (2017). Demystifying the Destination-Based Cash-Flow Tax. Brookings Papers on Economic Activity, Fall 2017.
+
+Auerbach, A. J., Devereux, M. P., Keen, M., and Vella, J. (2021). Destination-Based Cash Flow Taxation. In: Taxing Profit in a Global Economy. Oxford University Press.
+
+Courchene, T. J., and Allan, J. R. (2009). Carbon Taxes and the Fiscal Federalism Implications for British Columbia. SPP Research Paper 2(1).
+
+Council of the European Union (2003). Directive 2003/96/EC of 27 October 2003 Restructuring the Community Framework for the Taxation of Energy Products and Electricity (Energy Taxation Directive). Official Journal L 283, 51–70.
+
+Council of the European Union (2006). Directive 2006/112/EC of 28 November 2006 on the Common System of Value Added Tax. Official Journal L 347, 1–118.
+
+Council of the European Union (2022). Directive (EU) 2022/542 of 5 April 2022 Amending Directives 2006/112/EC and (EU) 2020/285 as Regards Rates of Value Added Tax. Official Journal L 107, 1–14.
+
+European Commission (2021). Proposal for a Council Directive Restructuring the Union Framework for the Taxation of Energy Products and Electricity (recast). COM(2021) 563 final.
+
+European Commission (2023). Regulation (EU) 2023/956 Establishing a Carbon Border Adjustment Mechanism. Official Journal L 130, 52–104.
+
+European Commission (2024). Trends in Carbon Intensity and the Macroeconomic Role of the EU Emissions Trading System. Brussels: DG ECFIN.
+
+European Parliament and Council (2003). Directive 2003/87/EC of 13 October 2003 Establishing a System for Greenhouse Gas Emission Allowance Trading (EU ETS Directive). Official Journal L 275, 32–46.
+
+Fischer, C., and Newell, R. G. (2008). Environmental and Technology Policies for Climate Mitigation. Journal of Environmental Economics and Management, 55(2), 142–162.
+
+Goulder, L. H., and Parry, I. W. H. (2008). Instrument Choice in Environmental Policy. Review of Environmental Economics and Policy, 2(2), 152–174.
+
+Goulder, L. H., and Schein, A. R. (2013). Carbon Taxes versus Cap and Trade: A Critical Review. Climate Change Economics, 4(3), 1350010.
+
+Grinberg, I. (2017). The House GOP Blueprint Can Be Drafted to Comply with WTO Rules. SSRN Working Paper 2956048.
+
+IEA (2024). CO₂ Emissions in 2023. Paris: International Energy Agency.
+
+JRC (2023). Greenhouse Gas Emission Intensities of the Steel, Fertilisers, Aluminium and Cement Industries in the EU and its Main Trading Partners. Luxembourg: Publications Office of the European Union.
+
+Kydland, F. E., and Prescott, E. C. (1977). Rules Rather Than Discretion: The Inconsistency of Optimal Plans. Journal of Political Economy, 85(3), 473–491.
+
+McAusland, C., and Najjar, N. (2015). Carbon Footprint Taxes. Environmental and Resource Economics, 61(1), 37–70.
+
+Nordhaus, W. D. (2013). The Climate Casino. New Haven: Yale University Press.
+
+Nordhaus, W. D. (2017). Revisiting the Social Cost of Carbon. Proceedings of the National Academy of Sciences, 114(7), 1518–1523.
+
+OECD (2021). Taxing Energy Use for Sustainable Development. Paris: OECD Publishing.
+
+OECD (2024). Carbon Dioxide Embodied in International Trade (TECO2 database). Paris: OECD Publishing.
+
+Parry, I. W. H., Black, S., and Roaf, J. (2021). Proposal for an International Carbon Price Floor Among Large Emitters. IMF Staff Climate Note 2021/001. doi:10.5089/9781513583204.066
+
+Peters, G. P., and Hertwich, E. G. (2008). CO₂ Embodied in International Trade with Implications for Global Climate Policy. Environmental Science & Technology, 42(5), 1401–1407.
+
+Pigou, A. C. (1920). The Economics of Welfare. London: Macmillan.
+
+Pizer, W. A. (2002). Combining Price and Quantity Controls to Mitigate Global Climate Change. Journal of Public Economics, 85(3), 409–434.
+
+Poore, J., and Nemecek, T. (2018). Reducing Food's Environmental Impacts Through Producers and Consumers. Science, 360(6392), 987–992.
+
+Rennert, K., et al. (2022). Comprehensive Evidence Implies a Higher Social Cost of Carbon. Nature, 610, 687–692.
+
+Rogoff, K. (1985). The Optimal Degree of Commitment to an Intermediate Monetary Target. Quarterly Journal of Economics, 100(4), 1169–1189.
+
+Sandmo, A. (1975). Optimal Taxation in the Presence of Externalities. Swedish Journal of Economics, 77(1), 86–98.
+
+Schön, W. (2016). Destination-Based Income Taxation and WTO Law: A Note. In: Jochum et al. (eds.), Practical Problems in European and International Tax Law. Amsterdam: IBFD.
+
+Stavins, R. N. (2019). The Future of US Carbon-Pricing Policy. Environmental and Energy Policy and the Economy, 1, 8–64.
+
+Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge: Cambridge University Press.
+
+Treaty on the Functioning of the European Union (TFEU). Article 113 (tax harmonisation, unanimity); Article 192 (environmental policy, qualified majority).
+
+Weitzman, M. L. (1974). Prices vs. Quantities. Review of Economic Studies, 41(4), 477–491.
+
+Weitzman, M. L. (2013). Can Negotiating a Uniform Carbon Price Help to Internalize the Global Warming Externality? Journal of the Association of Environmental and Resource Economists, 1(1/2), 29–49.
+
+Wiedmann, T. O., et al. (2015). The Material Footprint of Nations. Proceedings of the National Academy of Sciences, 112(20), 6271–6276.
+
+World Bank (2023). Measuring Total Carbon Pricing. Washington DC: World Bank Group.
+
+World Bank (2025). State and Trends of Carbon Pricing 2025. Washington DC: World Bank Group.

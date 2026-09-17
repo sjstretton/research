@@ -1,0 +1,113 @@
+---
+title: "A3-Scaling Up Policy Lending and Policy Incentives (note for EFI)"
+---
+
+# Scaling Up Policy Lending and Policy Incentives (note for EFI)
+
+**Large-scale lending at IBRD rates for climate mitigation projects and for rewarding policy changes could be a transformational path toward achieving global energy prosperity and climate stability.**
+
+**However, the financing needs of the green transition are enormous -- over \$1tr per year for Emerging Markets and Developing Economies (EMDEs) excluding China, according to the IEA, compared to multilateral and bilateral financing of around \$100bn in 2021.** These needs are far beyond the current scale of the bank’s lending capacity. Furthermore, to achieve the projects also needs policy reform, which WB could incentivize. So how could cheap lending at the required enormous scale be capitalised?
+
+**This note proposes a financial structure for mobilising ‘impact investor’ capital for policy- and investment-lending beyond the existing envelope of MDB finance**. It has two components: a system of policy and lending guarantees to ensure lending can take place at IBRD rates; and a global equity fund.
+
+**The equity fund (later, regional funds too) would provide an equity buffer to scale policy lending (in a similar way that SDRs capitalised the IMF’s Resilience and Sustainability Trust). The fund(s) would also co-invest in climate projects, and would share any excess profits with client countries that act early.**
+
+**The main *purposes* of the fund for policy lending are to *expand effective policy lending capacity* and provide *profit-sharing incentives* to countries who act fast at scale.** Most of the expected *return* from the fund would mostly come from the project investment function rather than the policy lending buffer.
+
+**Initial investors for the fund (who should be motivated by impact rather than just return) could include major sovereign wealth funds** (e.g. Norway, Singapore, UAE). Investor profits above some reasonable maximum rate would be shared with client countries that participate.
+
+**Climate action requires urgent policy reforms, especially those that provide higher levels of price-certainty for investors.** Policy change and investment projects are synergistic: a 100% clean energy future needs policy (carbon pricing; renewable ambition & auctions for RE power purchase prices). Supported policy actions would be contractually guaranteed by the country concerned. A ‘contract for difference’ approach to agreed policy provides a commitment device to ensure investors have policy certainty to invest, and gives the international community more surety that policies will not be reversed.
+
+**Achieving these reforms requires policy lending and ‘dynamic incentives’, so first-mover countries would get a better deal than late-movers.** Under our proposal, as a reward for rapid mitigation policy action, excess returns from the equity fund above some cap are shared with countries as additional shares issued by the project structure, diluting the original investors. These national accounts would then be able to provide resilience and risk absorption for the country. Given expected financial returns from the equity fund, countries acting first on mitigation will achieve the greatest compound gain.
+
+**We propose a network (fund of funds) approach, with initially a global fund organised by the World Bank and, later, regional funds developed in collaboration with regional MDBs**. Taken together, these have the potential to scale up the lending capacity coordinated by the World Bank to the scale needed. The governance of the global fund would stay with the World Bank, i.e. the shares would not include direct voting rights. However, any WB-proposed *changes* to the workings of the global fund would need to be agreed with a super-majority of the global fund’s shareholders at the time of the proposed change.
+
+**The perspective here is similar to that in Heine et al (2023), namely policy incentives are best achieved through an additional envelope of lending for climate purposes additional to the MDB-agreed overall country limits for financing for development.**
+
+*Appendix to Executive Summary: Extension to Investment Projects*
+
+**The proposal could be applied also to investment lending for clean energy, public infrastructure, critical minerals, climate-resilient food supply, and other green supply chain investments**. A separate note describing the mechanics for clean energy finance are available here ([*summary*](https://docs.google.com/document/d/1ph6KAYDIPe7mFpNYu6LCJYrMyAsU7qFkVi9IfhM6reQ/edit?usp=drive_link) and [*longer form*](https://docs.google.com/document/d/192RHsLlbl8AbZXF486mA8Zmy0GpeXMsye2DTZv6TiA0/edit?usp=drive_link)), with some notes below.
+
+**A similar financial structure would be set up to finance the projects for green transition**. It would consist of MIGA-style guarantees (indemnified by the sovereign) for low-cost loans to qualifying private green infrastructure developers, plus a shared equity fund for coinvestment (the coinvestors being the fund(s) plus private developers ) in the early stages of clean energy projects that meet standardised criteria.
+
+**Under the proposed system, a specialised lending agency makes IBRD-rate loans to qualifying clean energy projects in countries that have committed to a framework agreement, a key component of which is a standardized format for multi-year contracts for difference orpower purchase agreements on power for renewables.** These project development loans are backed by policy guarantees from developing country governments, albeit not directly; rather, the guarantees are intermediated by the World Bank Group (MIGA and IBRD). Developing-country governments contractually agree to indemnify the Bank for any loan portfolio losses caused by policy changes they might make. This is similar to existing practice.
+
+**Solutions for low-capacity countries are needed.** Cheap lending could have very positive impact on developing countries’ fiscal space (relative to sovereigns and project developers financing mitigation actions at market rates), especially if large-scale lending to project developers were conducted through non-government financial channels, thereby staying off the sovereign’s balance sheet. For poor countries with undeveloped capital markets, that import fossil fuels, low capacity, and whose debt-sustainability is measured according to gross debt, clean energy could be provided as a ‘service’. That means that the international community would provide clean power as a service, declining in cost and, costing less than payments for the fossil fuels, with the financial engineering of the scheme provided by e.g. the IFC rather than domestic financial system.
+
+**Debt financing models that minimise currency risks are also important.** For macro-risk reasons, local-currency financing is most appropriate in some countries. However, many LDCs have little or no access to green bond markets. In these cases, providing guarantees that eliminate debt-servicing risks on a defined portfolio of clean energy projects and assets could allow the creation of ‘green savings accounts,’ in which domestic savers put their local-currency savings into special savings accounts whose aggregate deposits help finance clean energy projects.
+
+*References to Executive Summary*
+
+Heine et al. (2023) *EFI Staff Discussion Note Proposing a Mechanism for Implementing the Evolution Roadmap on Climate*
+
+*Further Reading*
+
+A longer background paper on WB reform and policy incentives is [*here*](https://docs.google.com/document/d/1jsnRObIkgdrREnUYETV5oubAVEWd03Sw/edit).
+
+***Context***
+
+The investment and financing needs for achieving net zero carbon emissions are enormous. The International Energy Agency suggests \$4tr per year of clean energy investment are needed globally for this purpose,[^1] with more than \$1tr per year in middle-income and poorer countries.
+
+To avoid a compound interest debt trap, the interest rate charged must be as low as possible - e.g. as low as the rates charged by the IBRD (World Bank) for lending to governments. A recent study estimated that fiscal debt-to-GDP ratios under a big green public investment push would rise by 70 percentage points if governments paid current bond market interest rates, but only 10 percentage points under the interest rates charged to them by the World Bank.[^2]
+
+Previous proposals to reform the World Bank and other MDBs have emphasised scaling up ‘platforms’ to organise public and private sector investment; more use of guarantees; and an ‘originate to distribute’ debt securitization model, which involves allowing private sector banks to participate in WB-organised lending or selling on WB loans to the private sector. The World Bank’s new President has said that the bank was adopting an approach that would ‘stretch every dollar’ to increase finance flows.[^3] The World Bank roadmap outlines options for private capital facilitation, also mentioning better use of guarantees.
+
+The Bank has three crucial roles to play: it can enable low-cost finance for green investment; it can provide incentives for more rapid policy action than would otherwise happen; and it can mobilise domestic savings and investment in the green transition from within developing countries, to build up buffers of financial wealth and increase economic resilience.
+
+The proposals developed in this brief follow a similar philosophy, asking: How can we maximise the scale-up of finance for clean energy and climate-resilient infrastructure, provide compelling incentives for early action, and ensure financial access for everyday people in developing countries?
+
+There are two types of financing cases we deal with here. First, we consider primary investment and policy lending to states along the lines of existing IBRD operations. In that regard, we propose a simple scaling up of current activities and a climate-related institution or vice-presidency in the bank to coordinate. Second, we consider projects that generate predictable revenue streams in countries with suitable regulatory regimes, for example, renewable energy Independent Power Projects (IPP), whose revenues are defined by Power Purchase Agreements (PPAs). For this case, we propose a clean energy equity investment fund[^4]. The same fund could also act as a de-risking buffer in guarantee structures that mobilize the WB’s AAA credit rating without using up the WB’s lending capacity.
+
+***Scaling Up Existing Investment Project and Policy Lending***
+
+When the World Bank lends for climate, the money lent should be additional to what we lend for other goals. Why? Climate needs are additional! The need for roads, schools, and aqueducts doesn’t go away now that we also need solar parks and sea walls. Also, the Bank’s lending aims to encourage policy action. The bank won’t promote many climate policy changes if what it lends with one hand for climate policy change, it takes away with the other.
+
+So, where would the risk-absorbing capital come from for this expansion in lending? The existing shareholders could expand the amount of money they provide. Alternatively, climate-related loans could be ‘originated and then distributed,’ meaning that the World Bank would organize the lending. The loans would be sold on to private sector agents such as banks. An easier approach is to use guarantees; the loans could be insured by the insurance fund described in the next section.
+
+***Climate Investment and Insurance Fund (CIIF)***
+
+This section deals with a particular case: the scale-up of clean energy. A renewable energy project produces power to sell at a specific price that can be determined by auction and set over a defined time horizon, e.g. 20 years, by means of a power purchase agreement. These guaranteed prices de-risk the operating phase of a project. This means that the main risky phase is the project development phase. Once this phase is completed and the project is in operation, the project will likely be a safe bet. In the straightforward scheme we envision for CIIF, governments would guarantee the price per kWh (i.e., revenues) for power projects; the insurance/equity fund would provide a second guarantee, and the World Bank a final guarantee on the price paid. This structure both uses and protects the WB’s credit rating: the loans would have the rating of the WB, but the buffer equity fund would cover the risks.
+
+We propose establishing an independent fund as part of the World Bank Group to support its mission but with the specific goal of enabling clean energy expansion in client countries.
+
+The Climate Investment and Insurance Fund would act as a co-investor in new clean energy projects in the initial project construction phase. Once the construction phase has been finalized, CIIF’s equity in a clean energy project would be sold to investors, including institutional investors in developing countries. AAA-rated green bonds or green deposits would be issued to everyday investors.
+
+The second function of the Climate Investment and Insurance Fund would be to act as an insurer. In other words, the stack of equities would insure risks (effectively in diversified projects), in exchange for a fee.
+
+The fund should be established as a for-profit instrument to open it to the participation of small private investors in developing countries and to serve as a secure infrastructure investment vehicle that will help develop countries' government pension and social protection schemes. Everyday people could participate in the solution through government-encouraged saving - i.e., social security contributions directly invested in funds to support the individuals who have invested. This could also increase financial resilience in the population while encouraging green investment-led growth that builds up individual and national balance sheets.
+
+***Prioritization***
+
+It is proposed that the fund prioritize the highest importance, meaning investments with the highest social return. In particular, a facility for replacing coal power station with renewable energy with a storage replacement facility would be the first business line developed.
+
+The CIIF fund will develop the specific know-how, standards, and procedures supporting the overall global net zero objective agreed as part of the Paris Agreement. There would be a global fund, led by the World Bank, but also regional funds led by the respective MDBs in that regional area. Regional funds which could be led by the relevant MDB that each enjoy administrative freedom regarding capitalization and decision-making relating to operations.
+
+***Financial Products for the Developing World***
+
+The CIIF equity fund would be an equity buffer fund in that it both acts as risk absorbing equity investing is specific projects and at the same time provides insurance products as part of risk absorbsion structures. In the first instance, the equity fund would provide one layer of a set of guarantee structures, but at a later stage it could also provide guarantees to other risky green products.
+
+Once an equity buffer fund is available, such a fund enables leverage, meaning cheaper debt financing could be made available (both domestic and international finance). How?The equity fund provides a risk absorbing structure for loans to allow cheap ‘green’ bank deposits to be created, where lending to green projects is financed by issuing green depositis. In this way we create an equivalent for ‘green bonds’ -- ie a financing mechanism in local currency - even in countries without local currency capital markets.
+
+There are at least two reasons for having local currency financing as well as USD loans. First, if loans are issued in local currency there is no risk of currency depreciation increasing the local currency cost of loans, as is the case with hard currency lending. Put another way, if revenues are in local currencies, then there is less risk of mismatches between the currencies of the revenue and the repayments of loans. Finally, many banking systems are inefficient in that there is a large spread between the rates charged for lenders and that given to depositors. Here we provide a competitor product to banking systems, meaning depositors get a slightly higher interest rate and borrowers get a lower interest rate than available in the capital markets at present.
+
+To involve developing country governments and increase their incentive to maintain sound regulatory regimes for clean energy system expansion, we propose they would be the first guarantors on any losses incurred by CIIF. CIIF will thus have three risk-absorbing buffers, of which a first-loss guarantee by a participating developing-country government is the first layer. The second layer is the equity fund, and the third layer is AAA-rated guarantees either by the WB or by a strongly-rated sovereign.
+
+In other words, the primary risk absorption is expected to be through developing countries guaranteeing themselves. Broadly speaking this means that if there is a default, payments would be covered by the WB but the developing country would indemnify, meaning it would be added to existing debt.
+
+In exchange for the risk absorption by governments, those governments would participate through profit-sharing efforts, ie national accounts for each country would be credited with shares in the scheme. This encourages early participation, because those units of value would then also be subject to further profits later.
+
+***Conclusion: What the CIIF Solution Offers***
+
+These global (and potentially regional) funds can provide what is needed: an injection of additional equity on the scale required for the clean energy transition and a climate-resilient financial buffer. Similar approaches with an auctioned revenue guarantee and de-risked finance could be applied to other contexts, for example, the supply chain for the green transition (Gigafactories) and the critical minerals transition. In these cases, a revenue guarantee would be offered by governments or international organisations (for example to sell minerals at a given price, or a contract to buy solar panels at a certain price). That guaranteed revenue then provides the backing for sovereign bonds.
+
+In summary, we present a scalable solution that allows people in developing countries to financially participate in their country’s clean infrastructure development. I outlined this in three ways: through profit sharing, government social security contributions and through financial products on smartphone apps that reduce the spread between loans and deposits.
+
+It overcomes the financial constraint of the world bank, that is that it is limited by its capitalisation. It incentivizes developing country governments to participate in the solution, and offers a secure financial investment option for small and institutional investors in developing countries. And it implements the WB roadmap’s commitment to leverage guarantees to provide a financially scalable approach to investment-led growth.
+
+[^1]: [*https://www.iea.org/reports/net-zero-by-2050#:\~:text=To%20reach%20net%20zero%20emissions,the%20end%20of%20the%20decade*](https://www.iea.org/reports/net-zero-by-2050#:~:text=To%20reach%20net%20zero%20emissions,the%20end%20of%20the%20decade).
+
+[^2]: [*https://www.ft.com/content/5198e3ba-997f-4db5-8310-3a68ae91d9f2*](https://www.ft.com/content/5198e3ba-997f-4db5-8310-3a68ae91d9f2)
+
+[^3]: [*https://www.ft.com/content/3b1928e3-5531-47a7-b11a-fbb9bd067fc7*](https://www.ft.com/content/3b1928e3-5531-47a7-b11a-fbb9bd067fc7)
+
+[^4]: Initially one fund, but expandable to a system of funds later.

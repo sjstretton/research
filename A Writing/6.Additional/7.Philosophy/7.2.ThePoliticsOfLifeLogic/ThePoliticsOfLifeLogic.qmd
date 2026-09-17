@@ -1,0 +1,291 @@
+---
+title: "ThePoliticsOfLifeLogic"
+---
+
+**The Politics of Life-Logic**
+
+*Nietzsche’s Critique of Platonic Governance, Eastern Alternatives,*
+
+*and an Operational Framework for the World Bank*
+
+Working Paper — April 2026
+
+**Abstract**
+
+> *Western political philosophy, from Plato through liberal constitutionalism, has organized governance around the subordination of life to transcendent ideals — reason, justice, the common good. A long tradition of self-criticism, from Nietzsche through Hayek, Hirschman, Easterly, and Scott, has identified this as a fundamental error: a politics that begins by judging life deficient produces institutions of suppression rather than flourishing. This paper reconstructs that critique, draws on two non-Western traditions — Chinese and Indian — that never made the Platonic move, and distils a minimal operational principle: policy should work with existing forces rather than impose corrective ideals from above. It then applies this principle to the institutional architecture of the World Bank, mapping concrete reforms across six domains. The paper distinguishes between three post-war policy paradigms — predict-and-provide, economic incentives, and human wellbeing — and argues that a working-with-the-grain approach applies differently to each. It proposes a viable theory of change grounded in Olsonian political economy and identifies what is already working inside the Bank as the starting point for reform.*
+
+**Executive Summary**
+
+The World Bank’s operational model is structurally Platonic. It identifies ideal outcomes (poverty elimination, shared prosperity, climate targets), diagnoses the gap between ideal and reality, and designs interventions to close that gap. This corrective architecture — however well-intentioned — systematically generates the failures it seeks to remedy: recipient resistance, implementation collapse, evaluative distortion, and institutional sclerosis.
+
+This paper argues that the Bank’s difficulties are not primarily technical but philosophical. They are the development expression of a deeper error in Western political thought: the attempt to ground political authority in transcendent ideals that judge and suppress the forces they claim to govern. This critique runs from Nietzsche through the Austrian economists (Hayek, Mises), the development pragmatists (Hirschman, Easterly, Pritchett), and the political anthropologists (Scott, Ostrom) — all converging on a single insight: centrally designed ideal-driven interventions systematically fail because they cannot process the local knowledge, situated motivation, and emergent complexity that actually drive outcomes. Two non-Western traditions — Chinese and Indian — offer independent confirmation.
+
+> *Good policy does not tell people what to want. It reads what people already want and builds channels that make the socially generative expression of those wants easier than the destructive expression.*
+
+The paper distinguishes three post-war policy paradigms — predict-and-provide, economic incentives, and human wellbeing — and argues that the working-with-the-grain critique applies differently to each. Predict-and-provide (building infrastructure people demonstrably need) is often already aligned with existing demand and represents the Bank at its most effective. For climate mitigation, predict-and-provide is the right paradigm: people want energy; the Bank should ensure it’s clean.
+
+On global climate targets, the paper argues that pursuing 2°C agonistically — treating the target as legitimate political contest informed by science, and the means as open competition — would produce faster progress than three decades of corrective diplomacy. The disputative nature of science becomes an asset: public trust increases when people can see the argument, not when they’re told it’s over.
+
+The agonistic perspective is neither left-wing nor right-wing but a separate analytical framework treating political contestation as a permanent feature of collective life. Olsonian political economy provides the mechanism: concentrated interests organize; diffuse interests do not. The agonistic implication is that reform requires not persuasion but the creation of organized constituencies for the alternative.
+
+Applying its own methodology, the paper identifies what is already working inside the Bank — infrastructure lending, diagnostic analytics, adaptive management pilots, long-tenured country teams, IFC’s amplificatory model — and proposes building from these rather than designing the ideal Bank from scratch. The concluding heuristic: at every stage, replace “What should this country do?” with “What is this country already doing that works, and how do we get more of it?”
+
+**Part I: The Philosophical Foundations**
+
+**I. The Practical Critique: What Practitioners Already Know**
+
+Before turning to the philosophical genealogy, the core argument — that top-down, ideal-driven interventions systematically fail — has been made repeatedly by economists and practitioners within the Anglo-Saxon empirical tradition. The philosophical framework explains *why* these thinkers are right; they provide the empirical grounding the philosophers lack.
+
+> *“The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.” — F. A. Hayek, The Fatal Conceit (1988)*
+
+Hayek’s critique of central planning is the same argument Nietzsche makes about Platonic politics, expressed in information economics. The knowledge required for effective coordination is dispersed across millions of individuals, embedded in local circumstances no central planner can access. The Bank’s project appraisal document is a central plan, and it fails for the same reason Soviet five-year plans failed — it cannot contain the knowledge that matters.
+
+Hirschman’s “Hiding Hand” — that development projects routinely succeed for reasons entirely different from those anticipated — implies the logical framework is structurally misleading. His broader work emphasizes that effective development emerges from local initiative, improvisation, and adaptation — the forces that standardized project design suppresses.
+
+> *“The aid bureaucracy rewards the big push, not the patient search for what works.” — William Easterly, paraphrasing The White Man’s Burden (2006)*
+
+Easterly’s distinction between Planners and Searchers maps directly onto the corrective-versus-amplification distinction. Pritchett’s “isomorphic mimicry” documents the mechanism: governments adopt the *appearance* of best-practice institutions without the substance. Scott’s *Seeing Like a State* shows that high-modernist interventions fail because they impose simplified order on complex reality, destroying the local knowledge (*mētis*) that makes things work. Ostrom’s Nobel work shows that communities governing themselves outperform externally designed institutions.
+
+The convergence: Hayek’s “dispersed knowledge” is Nietzsche’s “instinctive authority” is Scott’s *mētis* is Ostrom’s “local knowledge.” Each is a different vocabulary for the same insight.
+
+**II. The Western Self-Criticism: From Plato to Nietzsche**
+
+The structure that the practical critics diagnose at the policy level, Nietzsche diagnosed at the level of civilization. Plato’s *Republic* argues that the good city mirrors the good soul: reason governs spirit and appetite, the philosopher-king governs warriors and producers, all oriented toward the Form of the Good. The essential move is subordination through transcendence: the forces of actual human life are judged against an ideal and disciplined into conformity.
+
+Nietzsche reads the Socratic turn as symptomatic. Socrates valorized dialectics not because reason is intrinsically superior but because the instincts had become unreliable. Reason was called in as a tyrant. The philosopher-king is the symptom of a culture that has lost its health.
+
+> *“There are no facts, only interpretations.” — Friedrich Nietzsche, Notebooks (1886–87)*
+
+At the political level, the *Genealogy of Morals* traces how the priestly class inverted the value table: what was “good” (noble, strong, self-affirming) became “evil.” The liberal democratic tradition inherits this priestly logic. It does not eliminate domination; it drives domination underground — into bureaucracy, into disciplinary power.
+
+**The Agon as Warrior Culture**
+
+A point often lost: when Nietzsche praised the pre-Socratic Greeks, he was praising a *warrior culture*. The agon — the competitive contest he identified as the healthiest form of political organization — was not a polite debating society. It was an arena of genuine risk, genuine conflict, and genuine stakes. Athletic competition could maim. Dramatic competition could destroy reputations. Political rivalry could end in exile or death. Philosophical contest was conducted with the understanding that being proven wrong was a form of public defeat. The agon worked not because it eliminated aggression but because it gave aggression a stage on which victory and defeat were publicly witnessed, socially meaningful, and bounded by shared rules.
+
+> *“The Greeks did not seek to eliminate the contest. They sought to make the contest productive.”*
+
+The crucial move is that Nietzsche’s alternative is not brute domination. The key concept is *sublimation*: a drive is not suppressed but redirected, given form, stylized. The agon channels aggression into competition within a shared framework of honor. A politics of sublimation begins not from a vision of how life should be but from an attentive reading of how life already moves.
+
+This is directly relevant to the World Bank. The Bank’s institutional culture is deeply conflict-averse. Disagreements are managed through bureaucratic process rather than open contest. Task team leaders who challenge prevailing approaches risk career consequences. Country teams that report honestly on failure are penalized. The results framework exists to eliminate genuine surprise. This is the opposite of a warrior culture. It is a priestly culture: authority derives from proximity to the sacred text (the project document, the strategy, the twin goals), and deviation is heresy.
+
+The agonistic alternative would create institutional arenas for genuine intellectual contest. Competing diagnostic assessments debated openly rather than smoothed into consensus. Alternative project designs proposed in competition. Adversarial evaluation. Scientific uncertainties presented honestly to counterparts rather than suppressed behind institutional certainty.
+
+Deleuze, Foucault, Connolly, Honig, and Mouffe extend the post-Nietzschean critique. Deleuze replaces Platonic judgment with an immanent typology of active and reactive forces. Foucault traces how modern states produce docile subjects through normalization. Mouffe argues that procedural neutrality suppresses the agonistic contest that is the lifeblood of democratic culture.
+
+**III. The Chinese Alternative: Working with the Situation**
+
+Chinese political philosophy never made the Platonic move. There is no equivalent to the theory of Forms. Jullien calls this *immanent efficacy*: working with the inherent tendency of a situation rather than imposing an external model.
+
+> *“The best ruler is one whose subjects barely know he exists.” — Laozi, Chapter 17*
+
+The Daoist sage governs by *wu wei* — non-coercive action that follows the grain. The *Zhuangzi*’s Cook Ding butchers an ox by following natural joints rather than hacking through bone. Confucian *li* gives form to human feeling without suppressing it. The Legalist tradition — imposing order through external mechanism — is the Chinese equivalent of the Platonic error.
+
+Jullien’s framework: Western thought organizes around model and realization — imposing form on matter. Chinese strategic thought organizes around *shi* — the tendency of a situation. The Western policy-maker asks what interventions will produce the ideal outcome. The Chinese strategist asks what forces are already in motion and how to position conditions so the desired outcome becomes the path of least resistance.
+
+**IV. The Indian Alternative: Recognizing Different Kinds of Force**
+
+Indian political philosophy emphasizes the typology of forces. The concept of *svadharma* — one’s own law — holds that different beings have different natures requiring different modes of expression. The *Bhagavad Gita* instructs Arjuna to fight because that is his nature; to abstain in the name of universal principle would be *paradharma*, dangerous self-betrayal.
+
+The *rasa* theory of aesthetics provides the most sophisticated account of sublimation in any tradition: raw emotion given artistic form, not eliminated but tasted. The Tantric traditions push further: the force that conventional morality condemns is recognized as *shakti* in disguised form, requiring not correction but awakening.
+
+**V. What the Traditions Agree On**
+
+The traditions converge on four propositions. First, the rejection of externally imposed ideal standards. Second, the primacy of reading over ruling. Third, working with existing forces rather than suppressing them. Fourth, the acceptance of diversity in human motivation and capacity.
+
+> *“Institutions work well when they harness the motivating forces that actually drive behavior, rather than demanding behavior that those forces do not support.” — David Booth, paraphrasing the Africa Power and Politics Programme (2012)*
+>
+> *Good policy does not tell people what to want. It reads what people already want and builds channels that make the socially generative expression of those wants easier than the destructive expression.*
+
+Three clarifications: this is not libertarianism (channel-building is active and design-intensive), not moral relativism (the distinction between generative and destructive provides an evaluative criterion), and not anti-rational (reason in the service of diagnosis is indispensable — what is rejected is reason in the service of transcendent ideals that override local knowledge).
+
+**Part II: The Agonistic Perspective and Three Policy Paradigms**
+
+**VI. The Agonistic Perspective: Neither Left nor Right**
+
+A clarification is essential. The agonistic perspective is not a position on the left-right spectrum. It is a separate analytical framework treating political contestation as a permanent, legitimate feature of collective life. The claim is structural, not ideological: any political order that attempts to eliminate contestation by grounding authority in a transcendent standard — whether the free market (right-liberal), social justice (left-liberal), or evidence-based policy (technocratic) — will produce the pathological return of the forces it suppresses.
+
+> *“The political cannot be reduced to the moral, and attempts to do so generate the very antagonisms they seek to eliminate.” — Chantal Mouffe, On the Political (2005), paraphrased*
+
+The agonistic perspective has Olsonian foundations. Olson demonstrates that political outcomes are determined not by the merits of competing positions but by the organizational capacity of competing interests. Concentrated interests organize; diffuse interests do not. This is the permanent structure of political life. The agonistic implication: institutional design should assume permanent competing interests and create arenas in which their competition produces generative rather than destructive outcomes.
+
+For the Bank: the corrective model assumes a technically correct policy answer exists and the Bank’s role is to identify and promote it. The agonistic model assumes policy is always contested, different stakeholders have legitimate competing interests, and the Bank’s role is to create conditions under which that contest produces broadly generative outcomes. The difference is between the Bank as philosopher-king and the Bank as referee.
+
+**VII. Three Post-War Policy Paradigms**
+
+*Paradigm 1: Predict and Provide (1945–ongoing).* The state forecasts what people will need — roads, power plants, water systems, schools — and provides it. This is often already aligned with existing forces, which is why it works. When the Bank finances a highway or grid, it provides something people demonstrably want. This is the Bank at its most effective. The working-with-the-grain critique *endorses* predict-and-provide as the paradigm most naturally suited to working with existing forces — provided the prediction is based on what people want rather than what planners think they should want.
+
+> *“People want electricity. The state builds power plants. This is not Platonic — it is responsive.”*
+
+For climate mitigation, predict-and-provide is the right paradigm. The energy transition is fundamentally a supply-side problem: people want reliable, affordable energy; the task is to provide it from clean sources. A government or development bank that builds solar farms, grid infrastructure, and storage is doing predict-and-provide in its purest form. This does not require behavior change, moral education, or corrective intervention. It requires engineering, finance, and logistics. The providing state and the providing Bank are what people actually want.
+
+*Paradigm 2: Economic Incentives (1980s–2010s).* The state sets price signals and lets markets respond. Carbon taxes, conditional transfers, tradable permits. Incentives work *with* self-interest — they channel the profit motive toward socially desired outcomes. But they can be imposed against the grain: a carbon tax imposed where clean alternatives are not yet available is experienced as punishment. The critique is not that incentives are wrong but that they work best nested within a predict-and-provide framework ensuring the clean alternative is available *before* the price signal makes the dirty alternative expensive.
+
+*Paradigm 3: Human Wellbeing (emerging).* The objective shifts from GDP to multidimensional wellbeing — capabilities, life satisfaction, health, autonomy. This is the most promising and most dangerous paradigm. Promising because it takes seriously what people actually care about. Dangerous because if wellbeing becomes another set of ideal metrics to be gap-analyzed and corrected for, it reproduces the Platonic pathology in a more sophisticated costume.
+
+> *“The risk is that wellbeing becomes the new GDP — a metric imposed from above that tells people what their lives should look like.”*
+
+At the collective level, predict-and-provide is the least agonistic: it assumes shared interest in basic infrastructure. Economic incentives are implicitly agonistic: they create arenas (markets) for decentralized contest. The human wellbeing paradigm is the most agonistic in potential: if wellbeing is defined by what people themselves identify as a good life, then the definition is a permanent subject of collective contestation.
+
+**VIII. Global Targets and Agonistic Climate Policy**
+
+A natural objection: some problems require global coordination toward a specific target. Does the agonistic framework concede that 2°C requires the Platonic approach? No. Global targets can be pursued agonistically at both levels — the target itself and the means.
+
+*The target as structured contest.* The 2°C target is presented as scientific finding that policy must implement — the classic Platonic move of grounding authority in access to truth. But the target is a political judgment about acceptable risk combining climate modeling, economic cost-benefit analysis, and diplomacy. The agonistic approach makes this contest explicit: a target understood as the outcome of legitimate political contest has democratic legitimacy that a target presented as expert diktat does not.
+
+The Olsonian analysis explains why the corrective approach fails politically. Costs of mitigation are concentrated (fossil fuel industries, energy-intensive economies); benefits are diffuse (the climate, future generations). The agonistic response: restructure the contest so that concentrated interests are created on the pro-mitigation side. Feed-in tariffs created a renewable energy industry in Germany. Deployment subsidies created an EV industry in China. These industries now lobby *for* climate policy because their profits depend on it.
+
+> *“The climate movement’s mistake was trying to win the argument. The correct strategy was to build industries whose profits depend on winning it.”*
+
+*The means as open competition.* Set the destination (net zero by a given date) and let the means be contested. The state provides the conditions for clean energy production — infrastructure, grid modernization, deployment finance — without prescribing the technology mix. For the Bank, this means leading with predict-and-provide: financing the clean energy infrastructure that developing countries need, rather than corrective conditionality prescribing specific climate policies.
+
+The disputative nature of science itself becomes an asset. The corrective approach needs consensus to be settled and unchallengeable. When science is contested at the margins, the corrective approach loses its foundation. The agonistic approach welcomes scientific contest: let models compete, let economists argue about discount rates, let engineers argue about pathways, and let the public see the argument. This is a political Schumpeter — creative destruction applied to ideas. The best ideas survive not because authority declares them correct but because they prove themselves in open contest.
+
+> *“Trust in science increases when people can see the argument — not when they are told the argument is over.”*
+
+**Part III: Operationalizing the Approach in the World Bank**
+
+**IX. The Platonic Architecture of the World Bank**
+
+The Bank begins from an ideal and cascades it through sub-ideals. Each CPF identifies the gap between where a country is and where the ideals say it should be. The entire apparatus is organized around the relationship between an ideal state and a deficient reality, with the Bank as agent of correction.
+
+> *“Many reform initiatives in developing countries fail because they are merely isomorphic mimicry — governments change what policies look like rather than what they actually do.” — Andrews, Pritchett, and Woolcock (2013)*
+
+The failure modes: implementation collapse; recipient resistance; evaluative distortion; institutional sclerosis. Staff spend most of their time performing knowledge — producing documents, securing approvals, managing processes — while actual intellectual content is squeezed into ever-narrower margins.
+
+**X. The Olsonian Political Economy of Institutional Inertia**
+
+> *“Unless the number of individuals in a group is quite small, or unless there is coercion or some other special device, rational self-interested individuals will not act to achieve their common or group interests.” — Mancur Olson, The Logic of Collective Action (1965)*
+
+The Bank’s corrective architecture persists because of classic Olsonian dynamics. Costs are diffuse (developing-country populations). Benefits are concentrated (institutional budgets, career incentives, shareholder legitimacy). The agonistic-Olsonian insight: this is the permanent structure of institutional life. The question is not how to eliminate it but how to create countervailing organized interests that benefit from the alternative approach.
+
+**XI. Populism and the Failure of Corrective Governance**
+
+The rise of populism is a predictable consequence of Platonic governance pushed to its limit. When liberal institutions systematically override the forces they claim to govern, those forces find destructive channels. Trump, Brexit, and continental populisms are symptoms: the destructive expression of legitimate forces that had no constructive channel.
+
+> *“Post-politics creates the conditions for the emergence of the populist movements it claims to deplore.” — Chantal Mouffe, paraphrased*
+
+Development populism follows the same logic. The Bank’s corrective agenda overrides domestic political forces, which find reactive expression through reform reversal and the embrace of alternative patrons who offer resources without conditionality.
+
+**XII. What Is Already Working in the World Bank**
+
+Before proposing reforms, the paper’s own methodology demands that we ask: what is the Bank already doing well?
+
+*Infrastructure lending and predict-and-provide.* The Bank’s infrastructure portfolio consistently receives the highest project ratings. This is not accidental. Countries come requesting specific investments their populations need. The demand is real; the Bank meets it. The Bank should recognize this as its core strength and resist burdening it with corrective requirements that slow delivery without improving outcomes.
+
+> *“The Bank’s infrastructure lending works well because it gives countries what they actually asked for.”*
+
+*The growing demand for diagnostics.* Country teams increasingly request analytical work that helps them understand their own situation rather than prescribing what to do. The Bank’s most appreciated knowledge products illuminate rather than prescribe.
+
+*Adaptive management pilots.* The Global Delivery Initiative and regional pilots have demonstrated projects with genuine flexibility — pause-and-reflect cycles, real decision points, discretionary budgets — showing strong results.
+
+*DPF at its best.* When prior actions reflect genuine domestic momentum rather than Bank-imposed prescriptions, the reform sticks.
+
+*IFC and private-sector operations.* IFC invests in enterprises already operating and seeking capital to grow — the amplification approach applied to the private sector by definition.
+
+*Country teams with long tenure.* The Bank’s most effective engagements are those where key staff have deep relationships and contextual knowledge. They are the Cook Dings of the institution.
+
+*The Research Department’s best work.* DECRG produces world-class empirical research that illuminates patterns without prescribing policies. The 2004 and 2017 World Development Reports both emphasized understanding local political economy.
+
+The reform strategy: amplify what is already working. Protect infrastructure lending. Expand diagnostic knowledge. Scale adaptive management. Ensure DPF reflects domestic momentum. Learn from IFC’s model. Retain staff with deep country knowledge. Build on the Research Department’s best work.
+
+**XIII. Country Engagement: From Gap Analysis to “What’s Already Working”**
+
+The SCD would include a structured “what’s already working” assessment alongside its constraint analysis: where is growth happening and what enabled it? What government programs deliver results? Where are citizens organizing to solve problems? What institutional innovations are being improvised? The constraint analysis becomes secondary: what prevents the things that are working from spreading?
+
+> *“The core question changes from ‘What should this country do?’ to ‘What is this country already doing that works, and how do we get more of it?’”*
+
+**XIV. Project Design, Conditionality, Knowledge, Staffing, Evaluation**
+
+*Project design* begins from: what are actors already trying to do, and what prevents them? In predict-and-provide domains, this means delivering what is requested, faster and with less overhead. In complex domains, it means identifying existing successes and amplifying them.
+
+> *“Positive deviance is based on the observation that in every community there are certain individuals whose uncommon behaviors enable them to find better solutions than their peers, while having access to the same resources.” — Pascale, Sternin, and Sternin (2010)*
+
+*Conditionality* should reward demonstrated movement at domestically identified leverage points rather than compliance with Bank-prescribed reforms. The best DPF operations already work this way; the reform is to make this the norm.
+
+*Knowledge work* should reorient from best-practice prescription to pattern recognition across contexts. The Bank’s advantage is not knowing what works but having exposure to extraordinary diversity.
+
+*Staffing* incentives should reward long-term country engagement over portfolio breadth, and create legitimate space for intellectual honesty about what is and is not working.
+
+*Evaluation* should ask not “did the project achieve its stated objectives?” but “did the system become more capable of solving its own problems?” For predict-and-provide: was the infrastructure built, does it work, do people use it?
+
+**XV. Existing Precedents**
+
+Andrews, Pritchett, and Woolcock’s PDIA. The Positive Deviance methodology. Booth’s “working with the grain.” Levy’s *Working with the Grain* (2014). DFID and USAID’s adaptive management experiments. The SAVI programme in Nigeria.
+
+> *“PDIA focuses on solving locally nominated and defined problems in performance, as opposed to transplanting preconceived and packaged ‘best practice’ solutions.” — Andrews, Pritchett, and Woolcock (2013)*
+
+These initiatives share a common logic. The present paper proposes to unify them into a coherent operational framework.
+
+**Part IV: Theory of Change**
+
+**XVI. The Easy Version**
+
+The deepest objection is that this approach requires philosopher-sages where the Platonic model requires only competent bureaucrats. There is, however, an easy version — a single question substitution applied at every stage:
+
+> *Instead of asking “What should this country do?” ask “What is this country already doing that is working, and how do we get more of it?”*
+
+In the SCD: “where is growth already happening?” In project design: “where are people already producing this outcome?” In conditionality: “what reform is the government already moving toward?” In supervision: “what is happening that is interesting, unexpected, or promising?” In evaluation: “did anything good happen, whether or not it was in the objectives?”
+
+This requires no philosophical conversion, no institutional restructuring, no Board approval. It is a practice, not a policy. It can be adopted unilaterally by any task team leader. And it forces a minimal but decisive act of perception: you have to look at what is actually happening before you intervene.
+
+**XVII. The Olsonian-Agonistic Strategy for Internal Reform**
+
+The question substitution is the entry point. Scaling it requires Olsonian-agonistic thinking. Concentrated interests maintaining the corrective model will not be overcome by persuasion. They must be outflanked by organizing constituencies for the alternative.
+
+The leverage points: the SCD process (periodic renewal allows incorporating a “what’s already working” assessment). Adaptive management (existing champions, scalable through supervision guidance). The knowledge function (under pressure to demonstrate relevance). The evaluation methodology (IEG has authority to reform). Infrastructure lending (the Bank’s most natural expression of working with existing demand, protectable from corrective overload).
+
+The strategy is the one the paper prescribes: find what is already moving inside the institution in the right direction, and support it. The infrastructure teams delivering what countries request. The country directors with deep relationships. The adaptive management pilots. The research group producing diagnostic work countries actually use. The DPF operations designed around domestic momentum.
+
+> *“The gardener does not design the ideal garden from first principles. She studies the soil, reads the light, observes what grows naturally, and makes small, informed interventions.”*
+
+Give these existing strengths institutional permission, resources, and visibility. Let the demonstration effect do the work of persuasion. The World Bank has spent eighty years trying to be an architect. Much of the time, it was already a gardener — it just didn’t have a name for it.
+
+**References**
+
+Andrews, M., Pritchett, L., and Woolcock, M. (2013). “Escaping Capability Traps Through Problem Driven Iterative Adaptation (PDIA).” World Development 51: 234–244.
+
+Booth, D. (2012). Development as a Collective Action Problem. Africa Power and Politics Programme Synthesis Report. London: ODI.
+
+Booth, D. and Cammack, D. (2013). Governance for Development in Africa: Solving Collective Action Problems. London: Zed Books.
+
+Connolly, W. E. (1995). The Ethos of Pluralization. Minneapolis: University of Minnesota Press.
+
+Deleuze, G. (1962/1983). Nietzsche and Philosophy. Trans. H. Tomlinson. New York: Columbia University Press.
+
+Easterly, W. (2006). The White Man’s Burden. New York: Penguin.
+
+Foucault, M. (1975/1977). Discipline and Punish. Trans. A. Sheridan. New York: Vintage.
+
+Hayek, F. A. (1945). “The Use of Knowledge in Society.” American Economic Review 35(4): 519–530.
+
+Hayek, F. A. (1988). The Fatal Conceit. Chicago: University of Chicago Press.
+
+Hirschman, A. O. (1967). Development Projects Observed. Washington, DC: Brookings.
+
+Hirschman, A. O. (1970). Exit, Voice, and Loyalty. Cambridge, MA: Harvard University Press.
+
+Honig, B. (1993). Political Theory and the Displacement of Politics. Ithaca: Cornell University Press.
+
+Jullien, F. (1995/2004). A Treatise on Efficacy. Trans. J. Lloyd. Honolulu: University of Hawai’i Press.
+
+Jullien, F. (1992/1995). The Propensity of Things. Trans. J. Lloyd. New York: Zone Books.
+
+Levy, B. (2014). Working with the Grain. Oxford: Oxford University Press.
+
+Mouffe, C. (2005). On the Political. London: Routledge.
+
+Nietzsche, F. (1887/1967). On the Genealogy of Morals. Trans. W. Kaufmann. New York: Vintage.
+
+Nietzsche, F. (1889/1968). Twilight of the Idols. Trans. R. J. Hollingdale. London: Penguin.
+
+Olson, M. (1965). The Logic of Collective Action. Cambridge, MA: Harvard University Press.
+
+Ostrom, E. (1990). Governing the Commons. Cambridge: Cambridge University Press.
+
+Pascale, R., Sternin, J., and Sternin, M. (2010). The Power of Positive Deviance. Boston: Harvard Business Press.
+
+Pritchett, L., Woolcock, M., and Andrews, M. (2013). “Looking Like a State.” Journal of Development Studies 49(1): 1–18.
+
+Scott, J. C. (1998). Seeing Like a State. New Haven: Yale University Press.
+
+Sen, A. (1999). Development as Freedom. New York: Knopf.

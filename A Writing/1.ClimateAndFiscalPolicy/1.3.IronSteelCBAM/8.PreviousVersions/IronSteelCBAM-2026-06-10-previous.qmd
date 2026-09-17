@@ -1,0 +1,171 @@
+---
+title: "Carbon Price Recognition under CBAM (previous version)"
+date: "10 June 2026"
+---
+
+*Superseded on 17 September 2026 by the edited version at the paper root.*
+*Kept unchanged apart from repairing the double-encoded characters introduced by the docx conversion.*
+
+**Carbon Price Recognition under CBAM: Key Design Gaps**
+
+*Submission to the European Commission Public Consultation*
+
+*Commission Implementing Regulation Ref. Ares(2026)4841230*
+
+*10 June 2026*
+
+Executive Summary
+
+This submission identifies four design gaps in the draft implementing regulation on how carbon prices paid in third countries reduce CBAM certificate obligations. The gaps matter most for developing countries — the very places where CBAM is meant to encourage carbon pricing.
+
+The four gaps are:
+
+First, the Commission default carbon price has no published methodology. For most developing countries this default is the only realistic recognition route, yet its design has not been consulted on.
+
+Second, the regulation does not recognize implicit carbon pricing. Energy price reform and fossil fuel subsidy removal — the most common carbon pricing instruments in developing countries — are entirely invisible to the framework. Implicit carbon prices can be positive or negative, and many developing countries are progressing from negative toward positive implicit prices through subsidy reform.
+
+Third, the regulation focuses on whether a carbon price was paid, not on whether the instrument drives genuine decarbonization. These are different questions requiring different measures. The mismatch creates incentives for production route shuffling rather than economy-wide reform.
+
+Fourth, the regulation cannot distinguish a real economy-wide carbon price from a nominal one offset by general subsidies, nor from carbon prices paid by state-owned enterprises whose losses the state ultimately covers.
+
+The submission proposes that the Commission publish the default carbon price methodology for separate public consultation, draw on existing carbon price measurement frameworks from the World Bank, IMF, and OECD, and clarify several specific points in the existing regulation. An appendix discusses more advanced issues including the structural tension between domestic carbon pricing and export competitiveness for developing countries.
+
+1\. The Problems
+
+1.1 The default carbon price methodology is missing
+
+The regulation refers throughout to a Commission-published default carbon price that countries can use instead of certifying actual payments. For most developing countries this default is not a fallback — it is the only realistic option.
+
+Three barriers make the certification route practically inaccessible. The documentation required under Article 11 — installation-level emissions reports, allowance surrender records, tax authority confirmations — is calibrated for systems like the EU ETS. Most developing country carbon pricing instruments cannot generate this paper trail. Accredited verifiers barely exist in most CBAM-exposed developing economies. The regulation provides no transitional arrangement and no mutual recognition framework for third-country accreditation bodies. Many developing country instruments — fuel excises, energy price reforms, upstream carbon taxes — do not fit the regulation's qualifying mechanism definition even when their economic effect is equivalent to a carbon price.
+
+So the default is the primary route for most developing country exporters. Yet its methodology is entirely unspecified. No consultation has been held. No timeline for publication has been announced. For countries without explicit carbon pricing mechanisms, the default is effectively zero — a significant policy choice that has never been justified.
+
+1.2 Implicit carbon pricing is invisible
+
+The regulation only recognizes formal carbon pricing mechanisms — taxes, levies, fees, or emissions trading systems with binding compliance obligations. This definition excludes the most common carbon pricing instruments in developing countries.
+
+Fossil fuel subsidy removal raises the effective cost of carbon-intensive production but is not a formal carbon price. Energy price reform — moving administered prices toward market levels — raises industrial production costs in proportion to emissions intensity but does not satisfy the qualifying mechanism definition. Fuel excise taxes — even where their economic effect is identical to a carbon tax — are typically not structured to meet the regulation's evidentiary requirements.
+
+Implicit carbon prices can be positive or negative. A country with fuel taxes above efficient benchmark prices has a positive implicit carbon price. A country with fuel subsidies below benchmark prices has a negative implicit carbon price. Many developing countries are progressing from negative to positive implicit pricing through subsidy reform — bearing significant fiscal and political costs in doing so. The regulation as drafted treats both starting points and the reform journey between them as if they did not exist.
+
+The default carbon price methodology is the only vehicle through which implicit carbon pricing can be recognized.
+
+1.3 Two objectives, one instrument
+
+The regulation focuses on whether a carbon cost has been paid on the specific goods exported to the EU. This is correct for one purpose — ensuring that EU producers compete on a level playing field, and that the same emissions are not priced twice. But there is a second purpose that the regulation barely addresses: whether the carbon pricing instrument actually drives decarbonization across the country's whole sector.
+
+These two objectives require different measures.
+
+The first — the **Carbon Price Effectively Paid** or **CPEP** — measures the absolute net carbon cost on the specific exported goods, at installation level, in euros per tonne of CO2 equivalent. This is what the regulation's Article 6 formula already computes.
+
+The second — the **Relative Carbon Price** or **RCP** — measures the marginal carbon price signal across the whole sector. It asks whether dirty production routes face higher costs than clean production routes, creating an incentive to shift the production mix. This is what drives long-term decarbonization investment. RCP is measured at country-sector level, also in euros per tonne of CO2 equivalent, but it captures a different economic quantity from CPEP.
+
+For a flat carbon tax these two measures coincide. For more sophisticated instruments — particularly rebated carbon taxes that recycle revenue back to producers — they diverge. A rebated carbon tax keeps the RCP signal at the full carbon tax rate while reducing CPEP toward zero for average producers. The regulation as drafted only sees the second effect and misses the first.
+
+This matters because rebated carbon taxes are often the only politically viable form of economy-wide carbon pricing in developing countries. By measuring only CPEP, the regulation systematically undervalues exactly the instruments most likely to be adopted by large emitters.
+
+A consequence of measuring CPEP at installation level is that producers in countries with mixed production routes have an incentive to direct lower-emissions capacity to EU markets and continue higher-emissions production for other markets. The result is recognition of low embedded emissions on EU exports without any change in economy-wide emissions. The independent person correctly certifies what they see — but what they see is a routing artifact, not a genuine economy-wide outcome. RCP, measured at country-sector level, is not vulnerable to this because it does not depend on which installation produced the exported goods.
+
+1.4 Real carbon prices versus nominal ones
+
+The regulation requires that carbon prices be assessed net of any rebates, free allowances, or direct compensation. But the netting only reaches instruments inside the formal carbon pricing mechanism. General industrial support delivered outside that mechanism is invisible.
+
+A country can introduce a carbon tax satisfying every requirement of recital 8 — sectoral coverage, non-discrimination, binding compliance — and simultaneously increase general industrial subsidies to the same sector, leaving net production costs unchanged. The independent person certifies the carbon tax payment. The economic effect is zero.
+
+The WTO subsidy rules theoretically address this through countervailing duties, but those operate on different timelines, with different burdens of proof, and through different institutions. The two frameworks do not talk to each other.
+
+A related problem affects state-owned enterprises operating under soft budget constraints. Carbon taxes paid by an SOE to the state, when the state ultimately covers any losses, are fiscal transfers within a single entity. The documentation exists. The economic effect is zero. The regulation has no mechanism to recognize this.
+
+2\. The Solutions
+
+2.1 Publish the default carbon price methodology for consultation
+
+The Commission default carbon price is the most important policy instrument in this framework for developing country exporters. It deserves the same level of analytical care and public consultation as the certification framework. The Commission should publish the proposed methodology before finalisation, subject it to a separate public consultation with sufficient time for stakeholder engagement, and engage formally with existing international frameworks for measuring carbon prices.
+
+The World Bank, the International Monetary Fund, and the OECD all maintain methodologies for assessing effective carbon prices — incorporating explicit instruments, implicit pricing from energy taxes net of subsidies, and country-sector coverage. The Commission need not develop its methodology from scratch.
+
+The methodology should be country-specific, sector-specific, and updated annually so that progressive reform is recognized over time.
+
+2.2 Recognize implicit carbon pricing through a phase-in
+
+For countries without explicit carbon pricing mechanisms, the default carbon price should recognize implicit carbon pricing from energy pricing net of subsidies. Existing measurement frameworks provide established methods for computing this — net of the efficient benchmark price for each energy carrier, converted to euros per tCO2e using fuel-specific emission factors, assessed at country-sector level.
+
+Implicit carbon prices can be positive or negative depending on whether the country taxes or subsidizes energy carriers net of efficient benchmarks. The methodology should recognize both — positive implicit prices generating partial CBAM recognition, and the reform trajectory from negative to positive being captured automatically through annual updating of defaults.
+
+Given measurement uncertainty and the need to develop methodology carefully, the implicit component should be phased in. A natural structure is a phase-in factor rising linearly from zero in 2027 to one in 2034 — the same period over which EU ETS free allocation is phased out. This provides internal coherence with the broader CBAM framework while giving the Commission time to refine the methodology and giving countries time to demonstrate progressive reform.
+
+2.3 Distinguish CPEP and RCP in the default methodology
+
+The default carbon price methodology should explicitly distinguish between the two carbon price concepts and recognize both.
+
+CPEP — the absolute net carbon cost on specific exported goods — remains the basis for the existing Article 6 certificate reduction formula. This is correct and should not change.
+
+RCP — the marginal carbon price signal driving sectoral decarbonization — should be recognized separately in the default methodology. A country implementing a rebated carbon tax at rate T generates RCP equal to T even when individual installation CPEP is near zero. The default methodology should reflect this — recognizing that the instrument is genuinely decarbonization-effective even though absolute payments are offset.
+
+There is a further consideration about how RCP-style instruments should be recognized. Consider a country that introduces a carbon tax raising gross carbon costs by 20 percent of steel production costs. The tax revenue is returned to producers through Article 8(2)-compliant decarbonization support, so net costs rise by only around 2 percent — the second-order effect of the sector shifting toward higher-cost lower-emissions routes. This 2 percent cost increase applies to all production, EU-bound and otherwise.
+
+If EU exports represent only 10 percent of total production, recognizing this cost only on the EU-export slice would understate the carbon burden the country has actually accepted. The producer has genuinely borne the 2 percent cost on all production, financed by carbon tax revenue raised across the whole sector. CBAM recognition based only on EU-export production would capture one-tenth of that — implicitly attributing only the small EU portion of the cost to the country's carbon pricing effort.
+
+A fair recognition would scale this appropriately, reflecting that the carbon burden was borne economy-wide even though CBAM only sees the EU-export slice. The default methodology should account for this scaling so that countries imposing genuine economy-wide carbon pricing receive recognition proportional to the full economic incidence of their instrument, not only the portion physically embodied in EU-bound exports.
+
+2.4 The structural problem and the carve-out
+
+This is where the structural problems described in the appendix become most acute. There is no architecturally clean solution within the current CBAM framework.
+
+The underlying issue is straightforward. For developing countries with significant non-EU export markets, any economy-wide carbon price creates a competitiveness cost on production sold outside the EU. CBAM can only offset the cost on EU-bound production. The rest bears the carbon cost with no recovery. For large countries with small EU export shares, this asymmetry can make economy-wide carbon pricing politically infeasible.
+
+A natural response is to combine a carbon tax with some form of revenue recycling back to producers. The design of that recycling matters.
+
+A flat output-based rebate — paid to producers in proportion to output regardless of what they do — is compensation. It reduces the net carbon cost producers face. Under Article 8(1) it reduces CPEP. CBAM recognition falls correspondingly. The instrument preserves the carbon tax's marginal incentive but does not strengthen it.
+
+The existing Article 8(2) carve-out is structured differently. It allows revenue from a carbon price mechanism to be reinvested in the decarbonization of operators' installations — supporting actual emissions reduction activity such as technology investment, fuel switching, or efficiency improvements — without reducing CPEP. The conditions are universal eligibility, application requirement, public decision, and an explicit objective of emissions reduction at the beneficiary installation.
+
+The carve-out works because the subsidy is conditional on decarbonization activity, not on production volume. A producer who invests in cleaner technology receives support. A producer who does not, does not. This creates an additional relative carbon price signal beyond the carbon tax itself — the marginal incentive to decarbonize is higher than under the carbon tax alone because failing to act means foregoing the subsidy. The subsidy is performance-conditional, in the sense that it depends on what the producer does, not on what the producer produces.
+
+For developing countries facing the trilemma described in Appendix A.1, the Article 8(2) carve-out is the best available instrument within the current architecture. It allows a country to pair an economy-wide carbon tax with substantial decarbonization support, returning carbon tax revenue to producers in ways that strengthen rather than weaken the decarbonization incentive, while keeping the absolute carbon cost on production high enough to qualify for full CBAM recognition.
+
+A fully clean resolution of the trilemma would likely require thinking that goes beyond CBAM — for instance, combining producer-side feebates applied symmetrically in EU and trading partner countries with consumer-side carbon pricing on consumption. That broader reform is not addressable within this consultation.
+
+Within the current architecture, the Commission should clarify explicitly the scope of the Article 8(2) carve-out and confirm its availability for the design of domestic instruments in third countries. The clarification should make clear that decarbonization subsidies satisfying the Article 8(2) conditions do not reduce CPEP, and that countries can design carbon pricing instruments combining an economy-wide carbon tax with substantial Article 8(2)-compliant decarbonization support without forfeiting CBAM recognition.
+
+This is not a tidy solution. The structural tension between economy-wide carbon pricing and non-EU export competitiveness remains. But the Article 8(2) carve-out is the most useful instrument available within the current CBAM framework, and explicit Commission clarification of its scope is the most useful step this implementing regulation can take.
+
+2.5 Address gaming and SOE coherence
+
+The Commission should provide guidance on two specific issues.
+
+For general industrial support introduced contemporaneously with carbon pricing mechanisms, the Commission should clarify that the compensation netting principle of Article 8 applies to the net carbon cost on production, not merely to instruments formally within the mechanism structure. The Commission should publish guidance on the burden of proof for demonstrating that general fiscal instruments do not offset carbon price costs.
+
+For state-owned enterprises operating under soft budget constraints, the Commission should issue guidance on how competent authorities should assess CPEP claims from non-market operators. Systematic state loss compensation should be considered in determining whether the carbon price is genuinely borne by the enterprise.
+
+3\. Conclusion
+
+The carbon price effectively paid framework as drafted serves the EU competitiveness objective adequately but is poorly calibrated for the broader objective of incentivizing carbon pricing in third countries. The framework is calibrated for systems like the EU ETS, which few developing countries have or are likely to adopt soon. For the developing countries where CBAM is supposed to encourage carbon pricing, the framework systematically fails to recognize the instruments these countries are actually most likely to use.
+
+The default carbon price methodology is where this can be fixed. It is the only recognition vehicle accessible to most developing country exporters. Its design has not yet been published or consulted on. The recommendations above — transparent consultation, engagement with existing carbon price measurement frameworks, recognition of implicit pricing and rebated carbon tax instruments, recognition of economy-wide cost incidence, and several specific clarifications — would significantly improve the framework's effectiveness for the countries where it matters most.
+
+Some structural issues — particularly the tension between domestic carbon pricing and non-EU export competitiveness for large developing countries — cannot be resolved within CBAM alone. The Article 8(2) clarification is the best available step within the current architecture. A fuller resolution requires complementary instruments outside this regulation.
+
+Appendix: Advanced Issues
+
+A.1 The trilemma facing developing country exporters
+
+Developing countries face three objectives that cannot be simultaneously satisfied within a single carbon pricing instrument. First, equal carbon cost across all production — required for genuine economy-wide decarbonization. Second, preservation of exporter competitiveness in non-EU markets — where there is no CBAM-equivalent recognition mechanism. Third, compliance with WTO rules — which prohibit destination-specific compensation or discrimination.
+
+Any single instrument can achieve at most two of these. A rebated carbon tax with sector-level rebating partially mitigates the competitiveness loss in proportion to the EU export share. Several variants were considered in developing this submission — destination-specific rebating fails the WTO test, flat carbon taxes fail the competitiveness test, narrow sectoral instruments fail the economy-wide test, and pure consumption taxes fail to provide a production-side marginal incentive.
+
+A structural resolution would require two separate instruments operating on different margins. A production-side feebate — applied in both EU and trading partner countries — creates the marginal decarbonization signal without raising average costs and operates symmetrically across jurisdictions. A separate consumption-side instrument — analogous to VAT in its structural properties — raises the effective carbon price on domestic consumption without affecting export competitiveness. Together they provide economy-wide carbon pricing without creating export competitiveness asymmetries.
+
+This is wider than CBAM and cannot easily be addressed within its frame. It is mentioned here to clarify why the Article 8(2) clarification proposed in section 2.4 is the best option within the current architecture rather than a complete solution. Sectors with very tight benchmarks — particularly cement — feel this tension most acutely.
+
+A.2 Production route shuffling and benchmark architecture
+
+The regulation interacts with the separate framework for embedded emissions defaults — Implementing Regulation 2025/2621 — which assigns countries to production route categories for benchmark purposes. Countries with mixed production routes can potentially satisfy CBAM requirements by directing existing lower-emissions capacity to EU markets while continuing higher-emissions production for other markets. This applies notably to scrap-based steel production, where EU-bound exports can be supplied from scrap-EAF capacity while primary BF-BOF production continues unchanged for other markets.
+
+This problem extends beyond the present consultation but warrants attention in the December 2027 default values revision. The carbon price recognition methodology and the embedded emissions default methodology should be developed coherently, with awareness of how each can be gamed and how they interact.
+
+A.3 Independent person accreditation in developing countries
+
+The independent person framework requires EU national accreditation body certification. Accredited verifiers do not exist in most CBAM-exposed developing economies. Transitional arrangements — including mutual recognition of qualifying third-country accreditation bodies and Commission-supported capacity building — would significantly improve the practical accessibility of the certification route.
+
+*Submitted in personal capacity. Views expressed are those of the author and do not represent the official position of any institution.*

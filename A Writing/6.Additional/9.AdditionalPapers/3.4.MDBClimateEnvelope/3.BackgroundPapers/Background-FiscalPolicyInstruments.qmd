@@ -1,0 +1,21 @@
+---
+title: "FiscalPolicyInstruments"
+---
+
+**What are the main fiscal policy instruments that World Bank client countries may consider leveraging to address national climate change policy challenges? What may be some of the pros and/or cons of these different instruments?**
+
+Fiscal policy instruments can have a critical role in addressing national climate change policy challenges. The assessment of such policies takes place in the context of the reduced fiscal space and elevated global prices, including fossil fuel prices. Fiscal instruments can have a key role in raising revenues and incentivizing the private sector to act.
+
+Critical success factors include the political feasibility and popularity of the proposed reform, environmental effectiveness, including coverage and price level, economic efficiency, and administrative feasibility. These factors depend not only on the design of tax raising instruments, but also on the approaches to spend revenues.
+
+A carbon tax would increase taxes on fossil fuels proportionally to the carbon content of fossil fuels, and thus the CO2 emissions when burnt. Carbon taxes are typically imposed across all the fuels in the economy. Carbon taxes score well on economic efficiency. Generally, carbon taxes have a few advantages over ETSs: they can be scoped to include all emissions, rather than being limited to large polluters, and they can be imposed at the point of entry into the economy (‘upstream’).
+
+Many countries have fossil fuel subsidies. Fossil fuel subsidies can be split into direct subsidies, meaning that governments pay for a reduction in price, and implicit subsidies, when governments fail to price externalities, such as air pollution. More general than a carbon tax is a reform of fossil fuel taxes. This type of reform has the advantage that it can be tailored to address these other externalities.
+
+Carbon pricing for energy related CO2 should be complemented by other policy to deal with other types of emissions, such as agriculture, land use change, and industrial emissions. Fiscal instruments have a key role to play in land use and land use change. Since land use policy is often regional, then fiscal transfers between federal governments and local governments can be adjusted to incentivize forestry.
+
+Expenditure policy involves the use of revenues from revenue raising instruments and then general expenditure policy. One key aspect is the impact on coal-dependent energy-intensive industry. In this context, of already high prices, the use of rebates such as output-based rebate for industry, or per-capita rebates, is key (‘feebates’).
+
+Governments face major fiscal risks from energy markets and from climate change. Often the government acts as the insurer of last resort. Fiscal instruments also include expenditure and investment policy. Governments have a key role to play in the provision of essential public infrastructure (for example power grids, charging networks). It’s important that the government adopts a strategic approach to the provision of infrastructure to ensure it is both resilient to expected climate change and also climate friendly.
+
+The key success factors for a reform include efficiency, stringency, popularity. Typically, a carbon tax is considered a ‘gold standard’ reform. In order to implement in high price environment, one option is to first consider feebates in crucial sectors, combined with fossil fuel subsidy reform plus a rising carbon tax, that rebates to public investment and to reduce other taxes in the long run.

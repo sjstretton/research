@@ -1,0 +1,675 @@
+---
+title: "The Total Effective Carbon Price"
+subtitle: |
+  A CES-based metric for comparing climate policy instruments,
+  with a microeconomic foundation in energy demand and partial adjustment
+author:
+  - name: Stephen Stretton
+date: "May 2026"
+abstract: |
+  Countries deploy heterogeneous mixes of climate policy instruments — carbon taxes,
+  emissions trading systems, feebates, fuel excise duties, clean fuel standards,
+  subsidies. Existing metrics, including the OECD's Effective Carbon Rate and the
+  IMF's effective carbon price, aggregate the nominal price signals these instruments
+  impose, but do not weight them by their abatement effectiveness. As a result they
+  cannot compare a carbon tax to a feebate, a feebate to a fuel standard, or any of
+  these to a clean-electricity mandate. They measure what is paid, not what is achieved.
+
+  This paper proposes the **Total Effective Carbon Price** (TECP): a single
+  economy-wide carbon-tax-equivalent that would produce the same emissions reduction
+  as the actual policy mix. The TECP is derived from a nested CES energy demand model
+  that decomposes each policy into two channels: an *intensive* (fuel-switching)
+  margin governed by the substitution elasticity $\sigma$, and an *extensive*
+  (demand-reduction) margin governed by the aggregate energy demand elasticity $\eta$.
+  Each policy instrument is mapped to an intensive and an extensive carbon price;
+  these are weighted by abatement weights — properties of the economy, not of the
+  policy — derived from the energy balance, fuel prices, emission factors, and demand
+  elasticities.
+
+  The paper is in two parts. Part I develops the TECP metric and the headline formula.
+  Part II develops the microeconomic engine: a nested CES with split-speed partial
+  adjustment, in which conservation responds quickly to price signals while fuel
+  switching responds slowly because it requires capital replacement. The two parts
+  are self-contained but complementary: the TECP is the policy-facing application;
+  the CES model is the structure that makes it tractable. A prototype implementation
+  runs in a single spreadsheet in under a second.
+keywords:
+  - Carbon pricing
+  - Effective carbon rate
+  - Climate policy
+  - CES energy demand
+  - Partial adjustment
+  - Abatement elasticity
+  - Intensive and extensive margins
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    html-math-method: katex
+    theme: cosmo
+    fig-cap-location: bottom
+    css: styles.css
+  pdf:
+    documentclass: scrartcl
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    geometry:
+      - margin=1in
+    include-in-header:
+      text: |
+        \usepackage{amsmath,amssymb,amsthm}
+        \usepackage{booktabs}
+        \usepackage{microtype}
+  docx:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    reference-doc: reference.docx
+bibliography: Background-References.bib
+---
+
+# Executive Summary {.unnumbered}
+
+Every country that taxes carbon believes it is pricing emissions. Most of them are
+measuring the wrong thing. The wrong thing is the nominal rate. The right thing is
+the price the economy actually feels.
+
+A \$30 carbon tax applied to a fuel that nobody can substitute away from is a revenue
+instrument. The same tax applied to a fuel with a clean alternative is a transition
+instrument. The number is the same. The effect on emissions is not. The Total
+Effective Carbon Price measures what the economy feels.
+
+## The headline formula {.unnumbered}
+
+$$
+\tau^{*} \;=\; \frac{1}{\Lambda}\;\sum_{s}\sum_{f} E_{fs}\;\Big[\;
+\tilde{\varepsilon}^{\,\mathrm{int}}_{fs} \cdot \tau^{\mathrm{int}}_{fs}
+\;+\;
+\tilde{\varepsilon}^{\,\mathrm{ext}}_{s} \cdot \tau^{\mathrm{ext}}_{s}
+\;\Big]
+$$ {#eq-tecp}
+
+Each fuel's emissions $E_{fs}$ are multiplied by two terms. The first is an
+intensive (fuel-switching) semi-elasticity $\tilde{\varepsilon}^{\,\mathrm{int}}$
+times the intensive component of the policy price. The second is an extensive
+(demand-reduction) semi-elasticity $\tilde{\varepsilon}^{\,\mathrm{ext}}$ times the
+extensive component. $\Lambda$ is a normalisation constant: what a \$1/tCO~2~
+uniform carbon tax would achieve in this economy.
+
+## Why it matters {.unnumbered}
+
+- Two countries can have identical nominal carbon prices and very different TECPs.
+  A country with few substitution alternatives but high demand elasticity will
+  price emissions effectively through the extensive margin. A country with abundant
+  substitutes but inelastic demand will price effectively through the intensive
+  margin.
+- A country with no carbon tax at all can have a meaningful TECP if its feebates,
+  fuel duties, and clean fuel standards create sufficient price separation between
+  dirty and clean fuels.
+- Existing metrics — the OECD's Effective Carbon Rate, the IMF's effective carbon
+  price — add up sticker prices. They cannot answer the question a finance minister
+  actually needs answered: *if I replaced my entire policy package with a single
+  uniform carbon tax, what rate would deliver the same emissions reduction?*
+
+## The microeconomic engine {.unnumbered}
+
+The TECP requires a demand model. The model must do three things. It must handle
+multiple fuels competing within a sector. It must distinguish using less energy
+from switching to a different energy source. And it must handle the fact that
+switching takes longer than conserving.
+
+A nested constant-elasticity-of-substitution (CES) structure does all three. Within
+each sector, fuels substitute against each other with elasticity $\sigma$. Across
+sectors, total energy demand responds to the aggregate energy price with
+elasticity $\eta$. A partial adjustment mechanism with separate speeds for the two
+margins captures the fact that conservation can be immediate while fuel switching
+requires capital replacement.
+
+The CES is the right level of structure for this task. It is rich enough to
+distinguish the two margins and to generate the elasticity matrix consistently
+from a small number of parameters. It is simple enough to calibrate from published
+estimates and to compute on a spreadsheet. Where it falls short — notably, it
+imposes a constant substitution elasticity across the price range — the error is
+small for the policy ranges of interest, and the framework can be extended to
+higher nests if needed.
+
+{{< pagebreak >}}
+
+# Part I — The Total Effective Carbon Price {.unnumbered}
+
+# Motivation
+
+## The problem with existing metrics
+
+Climate policy is heterogeneous by design. A finance minister facing a binding
+emissions target and an unhappy electorate does not choose a single instrument;
+she chooses a package. The package may include a carbon tax on industry, a feebate
+on vehicles, an emissions trading system covering power, a clean fuel standard for
+transport, fuel excise duties, and possibly subsidies for renewable energy. Each
+instrument has different distributional, political-economy, and competitiveness
+implications. Each works through different channels. Comparing two countries'
+climate policy ambition therefore requires comparing two packages, not two numbers.
+
+Existing metrics duck this problem. The OECD's Effective Carbon Rate sums explicit
+carbon prices, ETS prices, and fuel excise duties into a single nominal rate. The
+IMF's effective carbon price does much the same. Both are useful because they
+aggregate visible price signals across instruments and across fuels. But they
+aggregate by addition, weighted only by emissions — not by the responsiveness of
+those emissions to each instrument. A dollar of fuel duty on diesel (where
+alternatives are scarce in the short run) is treated identically to a dollar of
+fuel duty on petrol (where switching is easier). A feebate — which contains no
+explicit carbon price at all but creates a wedge between clean and dirty
+alternatives — contributes zero. A clean fuel standard (which forces a switch
+through a quantity instrument) contributes zero. This is the wrong answer.
+
+## What the TECP measures
+
+The TECP asks a different question: *what uniform carbon tax $\tau^{*}$ would deliver
+the same total emissions reduction as the actual policy package?* The answer is a
+single number, in \$/tCO~2~, that makes any heterogeneous package comparable to any
+other and to a hypothetical uniform tax. It admits feebates, fuel standards, and
+renewable mandates on equal terms with explicit carbon prices, because the
+comparison is in emissions reduced, not in price imposed.
+
+Critically, the TECP is decomposable. The same single number can be opened up to
+show which margin is doing the work (intensive versus extensive) and which sector
+is contributing what (transport, industry, power, buildings). This makes it
+diagnostically useful, not just headline-useful.
+
+# Notation and setup
+
+The economy has sectors $s$ and fuels $f$. The key quantities are:
+
+- $E_{fs}$: baseline CO~2~ emissions from fuel $f$ in sector $s$ (tCO~2~).
+- $p_{fs}$: market price of fuel $f$ delivered to sector $s$, in \$/PJ of final energy.
+- $e_{fs}$: emission factor for fuel $f$ in sector $s$, in tCO~2~/PJ.
+- $\varphi_{fs}$: technical efficiency — the share of input fuel energy that becomes useful service.
+- $\sigma_s$: within-sector elasticity of substitution among fuels.
+- $\eta_s$: own-price elasticity of aggregate service demand for sector $s$.
+
+## Technical efficiency $\varphi$
+
+The same physical unit of fuel does not deliver the same service. An electric
+motor converts roughly 85% of input electricity into mechanical work; an internal
+combustion engine roughly 25%; a gas-fired condensing boiler roughly 90%; a CCGT
+power plant roughly 50%. The CES operates over *useful service*, not over input
+energy. The framework therefore tracks effective prices $\tilde{p} = p/\varphi$ and
+effective emission factors $\tilde{e} = e/\varphi$. This is what makes
+electrification look like substitution rather than expansion: a kilowatt-hour of
+electricity used in a vehicle delivers more service than a kilowatt-hour of petrol,
+and the model sees that.
+
+# Semi-elasticities and policy decomposition
+
+## From CES to semi-elasticities
+
+The CES (developed in detail in Part II) generates an elasticity matrix from
+$\sigma$ and the service shares $\hat{w}$. For fuel $f$ in sector $s$:
+
+$$
+\varepsilon^{\mathrm{int}}_{fs} = -\sigma_s \,(1 - \hat{w}_{fs}),
+\qquad
+\varepsilon^{\mathrm{ext}}_{s} = -\eta_s
+$$ {#eq-ces-isoelastic}
+
+The intensive elasticity is the within-sector substitution effect: a higher price
+for fuel $f$ moves the mix away from $f$, scaled by how dominant $f$ is in the
+current mix. The extensive elasticity is the cross-sectoral demand response: a
+higher aggregate energy price moves total service demand down. Both are isoelastic;
+to use them in a TECP formula we convert to **semi-elasticities** by dividing by
+the price level $\tilde{p}_{fs} = p_{fs}/\varphi_{fs}$:
+
+$$
+\tilde{\varepsilon}^{\,\mathrm{int}}_{fs} = \varepsilon^{\mathrm{int}}_{fs} \, / \, \tilde{p}_{fs},
+\qquad
+\tilde{\varepsilon}^{\,\mathrm{ext}}_{s} = \varepsilon^{\mathrm{ext}}_{s} \, / \, \tilde{p}_{s}
+$$ {#eq-semi-elasticities}
+
+Semi-elasticities tell us the absolute change in quantity per dollar change in
+price, rather than the percentage change per percentage change. They are the
+natural objects for combining with policy prices stated in \$/tCO~2~.
+
+## Decomposing the policy price
+
+Every policy instrument creates two kinds of price signals. It raises the cost of
+using a particular fuel (intensive signal: $\tau^{\mathrm{int}}$). And it raises the
+average cost of energy services, which reduces total service demand (extensive
+signal: $\tau^{\mathrm{ext}}$). For most instruments these two signals are bundled.
+
+To take the cases that matter:
+
+- A **uniform carbon tax** $\tau$ at \$X/tCO~2~ produces
+  $\tau^{\mathrm{int}}_{fs} = X \cdot (e_{fs} - \bar{e}_s)$ and
+  $\tau^{\mathrm{ext}}_{s} = X \cdot \bar{e}_s$, where $\bar{e}_s$ is the
+  energy-share-weighted mean emission factor in sector $s$. The intensive
+  component is the within-sector wedge; the extensive component is the common cost
+  increase.
+- A **feebate** is a pure intensive instrument: it imposes
+  $\tau^{\mathrm{int}}_{fs} = X \cdot (e_{fs} - \bar{e}_s)$ and
+  $\tau^{\mathrm{ext}}_{s} = 0$. By construction it leaves the average sector cost
+  unchanged.
+- A **fuel excise duty** is closer to a pure extensive instrument when applied
+  uniformly across all fuels in a sector, but typically applies only to a subset
+  of fuels and so generates both signals.
+- A **clean fuel standard** (a quantity instrument) is dual to a feebate: it
+  generates an intensive wedge equal to the shadow price of the standard. The
+  extensive component is small and follows from the average abatement cost.
+
+# The TECP formula
+
+## Derivation
+
+Total emissions reduction from a policy package is the sum over fuels and sectors
+of intensive plus extensive effects. The intensive effect in sector $s$ is
+$\tilde{\varepsilon}^{\,\mathrm{int}}_{fs} \cdot \tau^{\mathrm{int}}_{fs}$ (units:
+t/PJ). The extensive effect in sector $s$ is
+$\tilde{\varepsilon}^{\,\mathrm{ext}}_{s} \cdot \tau^{\mathrm{ext}}_{s}$. Weighting
+by baseline emissions $E_{fs}$ and summing:
+
+$$
+\Delta\text{Emissions}
+=
+\sum_{s}\sum_{f} E_{fs} \cdot
+\big[\; \tilde{\varepsilon}^{\,\mathrm{int}}_{fs} \cdot \tau^{\mathrm{int}}_{fs}
+\;+\; \tilde{\varepsilon}^{\,\mathrm{ext}}_{s} \cdot \tau^{\mathrm{ext}}_{s} \;\big]
+$$ {#eq-emissions}
+
+Setting this equal to the emissions reduction from a counterfactual uniform carbon
+tax $\tau^{*}$, and solving for $\tau^{*}$, gives the headline formula
+(@eq-tecp), where the normalisation constant $\Lambda$ is the abatement that a
+\$1/tCO~2~ uniform tax would generate. Algebraically:
+
+$$
+\Lambda \;=\; \sum_{s}\sum_{f} E_{fs} \cdot
+\big[\; \tilde{\varepsilon}^{\,\mathrm{int}}_{fs} \cdot (e_{fs} - \bar{e}_s)
+\;+\; \tilde{\varepsilon}^{\,\mathrm{ext}}_{s} \cdot \bar{e}_s \;\big]
+$$ {#eq-lambda}
+
+## The role of the $\Omega$ weights
+
+Rearranging the formula reveals the abatement weights. For each fuel-sector cell
+define:
+
+$$
+\Omega^{\mathrm{int}}_{fs} = \frac{E_{fs} \cdot \tilde{\varepsilon}^{\,\mathrm{int}}_{fs}}{\Lambda},
+\qquad
+\Omega^{\mathrm{ext}}_{s} = \frac{\big(\sum_{f} E_{fs}\big) \cdot \tilde{\varepsilon}^{\,\mathrm{ext}}_{s}}{\Lambda}
+$$ {#eq-omega}
+
+These weights are properties of the economy, not of the policy. They are computed
+once from the energy balance, fuel prices, emission factors, and demand
+elasticities. After that, evaluating any policy scenario is a single weighted sum:
+
+$$
+\tau^{*} \;=\; \sum_{s}\sum_{f} \Omega^{\mathrm{int}}_{fs} \cdot \tau^{\mathrm{int}}_{fs}
+\;+\; \sum_{s} \Omega^{\mathrm{ext}}_{s} \cdot \tau^{\mathrm{ext}}_{s}
+$$ {#eq-tecp-omega}
+
+This is the framework's key operational property. The policy enters only through
+the instrument-specific effective prices on each margin. Change the policy,
+recompute the TECP in milliseconds. No re-solving of equilibrium, no re-running of
+models.
+
+# Decomposition and diagnostics
+
+## By margin
+
+The TECP decomposes additively into intensive and extensive contributions:
+$\tau^{*} = \tau^{*}_{\mathrm{int}} + \tau^{*}_{\mathrm{ext}}$. A feebate
+contributes only to $\tau^{*}_{\mathrm{int}}$. A pure quantity-side demand reduction
+(e.g. a road pricing scheme that does not vary by fuel) contributes only to
+$\tau^{*}_{\mathrm{ext}}$. A carbon tax contributes to both, in proportions that
+depend on the sector's emission-factor variance.
+
+## By sector
+
+The TECP further decomposes by sector: $\tau^{*} = \sum_{s} \tau^{*}_{s}$. This
+reveals where each instrument is doing the work. A carbon tax on industrial fuels
+may contribute heavily to $\tau^{*}$ in industry and negligibly elsewhere. A
+vehicle feebate contributes only to transport. Aggregating across instruments by
+sector tells the policymaker which sectors are over- or under-priced relative to
+their baseline emissions.
+
+## Special cases
+
+Three special cases anchor intuition. First, if all policies are removed,
+$\tau^{*} = 0$. Second, if the only policy is a uniform carbon tax at rate $X$,
+then $\tau^{*} = X$ exactly. Third, if the policy package is a sequence of
+overlapping instruments (e.g. a carbon tax plus a feebate), $\tau^{*}$ is the sum
+of the carbon-tax-equivalents of each instrument.
+
+{{< pagebreak >}}
+
+# Part II — CES Energy Demand and Partial Adjustment {.unnumbered}
+
+# The demand model
+
+## What the model must do
+
+The TECP requires a demand model underneath it. By "demand model" we mean
+something specific: a structure that translates "this policy changes the price of
+fuel X by Y" into "this is how much emissions fall, and through which channel."
+The model must do three things. It must handle multiple fuels competing within a
+sector. It must distinguish using less energy from switching to a different
+energy source. And it must handle the fact that these responses take time.
+
+## Why CES
+
+A nested constant-elasticity-of-substitution (CES) structure does all three. At
+the lower nest, fuels within a sector substitute against each other with
+elasticity $\sigma$. This captures the intensive margin — the degree to which a
+price change on one fuel causes the economy to shift toward another. At the upper
+nest, aggregate energy demand responds to the overall energy price with elasticity
+$\eta$, capturing the extensive margin. The two nests interact: a carbon tax
+raises the price of dirty fuels, which both reduces total energy demand (upper
+nest) and shifts the fuel mix toward cleaner alternatives (lower nest). The
+relative strength of these two effects depends on the elasticities, which vary by
+sector and country.
+
+## Functional form
+
+Within sector $s$, useful service $Q_s$ is produced from fuels indexed by $f$ via
+the CES aggregator:
+
+$$
+Q_s \;=\; \left[\; \sum_{f} \alpha_{fs}^{\,1/\sigma_s}
+\cdot (\varphi_{fs} \cdot q_{fs})^{(\sigma_s - 1)/\sigma_s} \right]^{\sigma_s/(\sigma_s - 1)}
+$$ {#eq-ces-aggregator}
+
+where $q_{fs}$ is physical input of fuel $f$, $\varphi_{fs}$ the technical
+conversion efficiency to useful service, and $\alpha_{fs}$ the share parameter
+calibrated from base-year energy shares. Cost minimisation yields fuel demand:
+
+$$
+q_{fs} \;=\; Q_s \cdot (\alpha_{fs} / \varphi_{fs})
+\cdot (\tilde{p}_{fs} / C_s)^{-\sigma_s}
+$$ {#eq-fuel-demand}
+
+where $\tilde{p}_{fs} = p_{fs}/\varphi_{fs}$ is the effective price (per unit of
+useful service) and $C_s$ is the CES unit cost index. At the upper nest, service
+demand responds to $C_s$ with elasticity $\eta$:
+
+$$
+Q_s \;=\; \bar{Q}_s \cdot (C_s / \bar{C}_s)^{-\eta_s}
+$$ {#eq-upper-nest}
+
+# Local equivalence with isoelastic demand
+
+## The relationship
+
+A CES is isoelastic in a specific sense. The substitution elasticity is constant
+by construction, and if paired with a constant-elasticity demand at the upper
+nest, the system is isoelastic in its component elasticities. The composite
+emissions response to a carbon price is not exactly isoelastic — because a uniform
+carbon tax adds $\tau \cdot e_{fs}$ to each fuel, a larger percentage increase for
+cheap high-carbon fuels than for expensive low-carbon ones — but the decomposition
+into intensive and extensive channels is approximately isoelastic over a useful
+range.
+
+## The conversion chain
+
+For any base point, CES → isoelastic → semi-elasticity is a sequence of local
+linearisations:
+
+- **Step 1.** From CES: $\varepsilon_{\mathrm{intensive}} = -\sigma \cdot (1 - \hat{w})$,
+  where $\hat{w}$ is the service share. $\varepsilon_{\mathrm{extensive}} = -\eta$.
+- **Step 2.** From isoelastic: at the base point, semi-elasticities
+  $\tilde{\varepsilon} = \varepsilon / \tilde{p}$.
+- **Step 3.** Use semi-elasticities to combine policy prices in
+  \$/tCO~2~ × emission factor units.
+
+The linearisation error is small when individual fuel price changes are under
+roughly 20% of base price, which covers most realistic carbon prices and feebate
+rates. For large perturbations a bisection over CES iterations is preferable, but
+for cross-country comparison the linear scaling is standard and defensible.
+
+# Partial adjustment
+
+## Why adjustment takes time
+
+Energy demand does not respond to price changes instantaneously. Conservation —
+turning down a thermostat, driving fewer miles — can happen quickly because it
+requires only behavioural change. Fuel switching — replacing a petrol vehicle with
+an electric one, replacing a gas boiler with a heat pump — requires capital
+investment and therefore replacement cycles. A carbon tax announced today changes
+behaviour within months and changes capital stocks over decades.
+
+## The split-speed model
+
+The framework therefore distinguishes adjustment speeds by margin. Let
+$\lambda^{\mathrm{int}}$ be the per-period adjustment rate on the intensive margin
+and $\lambda^{\mathrm{ext}}$ on the extensive margin. The actual response in
+period $t$ to a shock at time 0 is:
+
+$$
+\frac{\Delta q_t}{q_0}
+\;=\; \big(1 - e^{-\lambda^{\mathrm{int}} t}\big) \cdot \varepsilon^{\mathrm{int}}_{\mathrm{LR}} \cdot \frac{\Delta p}{p}
+\;+\; \big(1 - e^{-\lambda^{\mathrm{ext}} t}\big) \cdot \varepsilon^{\mathrm{ext}}_{\mathrm{LR}} \cdot \frac{\Delta C}{C}
+$$ {#eq-partial-adjustment}
+
+Empirical estimates put $\lambda^{\mathrm{int}}$ near 0.5–1.0 per year (so most of
+the conservation response is in within two years) and $\lambda^{\mathrm{ext}}$
+near 0.05–0.10 (so capital switching plays out over 10–20 years). The TECP can be
+computed at any horizon; long-run TECP uses the long-run elasticities, short-run
+TECP uses the appropriately scaled fraction. For policy analysis the long-run
+TECP is the natural reference point because it tells the policymaker what the
+package will eventually deliver if maintained.
+
+# Calibration
+
+## Substitution elasticities
+
+Calibration uses published elasticity estimates. The literature converges on
+plausible ranges by sector:
+
+| Sector              | $\sigma$ (substitution) | $\eta$ (own-price demand) |
+|---------------------|-------------------------|---------------------------|
+| Road transport      | 1.0 – 1.5               | −0.3 to −0.6              |
+| Power generation    | 2.0 – 4.0               | −0.2 to −0.5              |
+| Residential heating | 1.0 – 2.0               | −0.3 to −0.5              |
+| Industry (non-power)| 0.5 – 1.5               | −0.2 to −0.4              |
+
+: Sector-level CES parameter ranges from the empirical literature {#tbl-calibration}
+
+These ranges are long-run estimates from meta-analyses of fuel demand studies
+[@stern2012; @labandeira2017]. Power generation has the highest $\sigma$ because
+at the margin the dispatch decision is responsive to fuel prices, subject to
+capacity constraints. Road transport has lower $\sigma$ because switching
+requires vehicle replacement; $\sigma$ rises over longer horizons.
+
+## Capital intensity and the behavioural interpretation of $\sigma$
+
+A natural objection: technologies have very different capital intensities (an EV
+is more capital-intensive than an ICE car, a heat pump than a gas boiler), and a
+pure energy-CES does not see capital. Does this matter?
+
+It matters, but less than one might think, because $\sigma$ is a behavioural
+parameter rather than a physical one. The empirical $\sigma$ for road transport
+at, say, 1.5 already reflects the fact that switching from petrol to electricity
+requires buying a new car. The calibrated value of $\sigma$ is the *observed*
+responsiveness of fuel quantities to relative fuel prices, integrated over the
+relevant horizon and over the relevant capital stock. For the purposes of TECP —
+comparing the abatement effectiveness of policies at the margin — this is
+adequate. A more refined treatment would model capital explicitly through a
+putty-clay structure; the cost in complexity is not justified for a metric whose
+primary use is cross-country comparison.
+
+# Implementation
+
+## Computation
+
+A complete TECP calculation requires:
+
+1. baseline energy balance by sector and fuel;
+2. market prices, emission factors and technical efficiencies;
+3. sector-specific $\sigma$ and $\eta$;
+4. policy parameters mapped to intensive and extensive carbon prices on each
+   fuel-sector cell.
+
+The computation has three steps: compute the $\Omega$ weights once; map each
+policy to its intensive and extensive components; take the weighted sum. The
+prototype runs in Excel in under a second per scenario.
+
+## Spreadsheet layout
+
+A practical layout has one row per fuel-sector cell. Columns hold: emissions,
+service share, effective emission factor and sector mean, effective price and
+CES cost index, isoelastic elasticities, semi-elasticities, intensive and
+extensive policy prices, and $\Omega$ weights. The TECP is a single
+`SUMPRODUCT`. Decomposition by margin and by sector is reading off totals from
+row groupings.
+
+## Worked example
+
+A simple illustrative case: a country with a \$50/tCO~2~ economy-wide carbon tax,
+a vehicle feebate delivering an effective intensive price equivalent to
+\$35/tCO~2~ in road transport, and fuel excise duties contributing the equivalent
+of \$15/tCO~2~ economy-wide. The TECP is roughly \$75/tCO~2~ — not \$100, because
+the feebate operates only in transport (one of several sectors) and only on the
+intensive margin. The ratio of \$75/\$50 = 1.5 tells the policymaker that the
+non-tax instruments are adding about 50% to the effective carbon price beyond the
+explicit tax.
+
+{{< pagebreak >}}
+
+# Conclusions and uses
+
+## What the metric does
+
+The TECP turns climate policy comparison from a debate about instrument types
+into a calculation with a single number. It can be applied to a country, a region,
+or the world. It can be computed as a snapshot or projected forward as a
+trajectory. It admits any combination of instruments and weights them by what
+they actually do, not by what they nominally cost.
+
+## What it does not do
+
+The TECP is a marginal abatement metric, not a welfare metric. It does not
+capture distributional consequences, fiscal revenue, leakage, or political
+durability. A policy with a high TECP may still be a bad policy. The TECP answers
+"how much abatement does this package deliver?", not "is this package good?" —
+and the two are not the same question.
+
+## Where the metric is most useful
+
+- **Cross-country climate ambition comparison.** The TECP is the right
+  denominator: not nominal carbon prices, but effective carbon prices weighted by
+  abatement responsiveness.
+- **Diagnostic decomposition.** Which margin is doing the work? Which sector is
+  over- or under-priced? The TECP decomposes additively along both dimensions.
+- **Counterfactual policy design.** Replacing a feebate with a carbon tax of
+  equivalent TECP is a first-order welfare-neutral move. The TECP is the right
+  exchange rate.
+- **Trajectory planning.** Computed annually, the TECP gives a single trajectory
+  for the effective climate price signal in the economy, against which any
+  package can be benchmarked.
+
+{{< pagebreak >}}
+
+# Appendix: Complete Formula Reference {.appendix .unnumbered}
+
+Throughout: fuel $f$ in sector $s$, year $t$. Baseline (year 0) quantities
+$q^{0}_{fs}$, prices $p^{0}_{fs}$, emission factors $e_f$. CES substitution
+elasticity $\sigma_s$, demand elasticity $\eta_s$.
+
+## A.1  CES cost index {.unnumbered}
+
+$$
+C_{s,t} \;=\; \left(\sum_{f} \alpha_{fs}\; p_{fs,t}^{\,1-\sigma_s}\right)^{1/(1-\sigma_s)}
+$$
+
+where $\alpha_{fs}$ are calibrated share parameters from the base year.
+
+## A.2  CES equilibrium quantities {.unnumbered}
+
+$$
+q^{*}_{fs,t} \;=\; q_{fs,t-1}
+\left(\frac{p_{fs,t}}{p_{fs,t-1}}\right)^{-\sigma_s}
+\left(\frac{C_{s,t}}{C_{s,t-1}}\right)^{\sigma_s + \eta_s}
+$$
+
+## A.3  Isoelastic equilibrium quantities {.unnumbered}
+
+$$
+q^{*}_{fs,t} \;=\; q_{fs,t-1}
+\prod_{g} \left(\frac{p_{gs,t}}{p_{gs,t-1}}\right)^{\varepsilon_{fg,s}}
+$$
+
+## A.4  Partial adjustment (single speed) {.unnumbered}
+
+$$
+q_{fs,t} \;=\; q_{fs,t-1} \;+\; \lambda_s \big(q^{*}_{fs,t} - q_{fs,t-1}\big)
+$$
+
+## A.5  Partial adjustment (split speeds) {.unnumbered}
+
+$$
+\begin{aligned}
+Q_{s,t}   &\;=\; Q_{s,t-1} + \lambda^{\mathrm{ext}}_{s}\,\big(Q^{*}_{s,t} - Q_{s,t-1}\big) \\
+w_{fs,t}  &\;=\; w_{fs,t-1} + \lambda^{\mathrm{int}}_{s}\,\big(w^{*}_{fs,t} - w_{fs,t-1}\big) \\
+q_{fs,t}  &\;=\; w_{fs,t} \cdot Q_{s,t}
+\end{aligned}
+$$
+
+## A.6  Elasticity matrix from CES {.unnumbered}
+
+$$
+\begin{aligned}
+\varepsilon_{ff,s} &\;=\; -\sigma_s + (\sigma_s + \eta_s)\,s_{fs} \\
+\varepsilon_{fg,s} &\;=\; (\sigma_s + \eta_s)\,s_{gs} \qquad (g \neq f)
+\end{aligned}
+$$
+
+## A.7  Semi-elasticities from CES {.unnumbered}
+
+$$
+\begin{aligned}
+\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}
+&\;=\; \sigma_s\,(1 - w_{fs})\;\frac{e_f - \bar{e}_s}{p_{fs}} \\[4pt]
+\tilde{\varepsilon}^{\,\mathrm{ext}}_{s}
+&\;=\; |\eta_s|\;\frac{\bar{e}_s}{C_s}
+\end{aligned}
+$$
+
+## A.8  Adjustment speed from empirical elasticities {.unnumbered}
+
+$$
+\begin{aligned}
+\lambda &\;\approx\; \sigma^{\mathrm{SR}} \,/\, \sigma^{\mathrm{LR}} \\
+\sigma  &\;=\; \sigma^{\mathrm{LR}} \\
+\sigma^{\mathrm{eff}}_{T} &\;=\; \sigma\big[1 - (1 - \lambda)^{T}\big] \\
+t_{1/2} &\;=\; \ln 2 \,/\, \ln\!\big(1/(1 - \lambda)\big) \;\approx\; \ln 2 \,/\, \lambda
+\end{aligned}
+$$
+
+## A.9  Headline TECP formula {.unnumbered}
+
+$$
+\tau^{*} \;=\; \frac{1}{\Lambda}\;\sum_{s}\sum_{f} E_{fs}
+\Big[\; \tilde{\varepsilon}^{\,\mathrm{int}}_{fs} \cdot \tau^{\mathrm{int}}_{fs}
+\;+\; \tilde{\varepsilon}^{\,\mathrm{ext}}_{s} \cdot \tau^{\mathrm{ext}}_{s} \;\Big]
+$$
+
+with normalisation
+
+$$
+\Lambda \;=\; \sum_{s}\sum_{f} E_{fs}
+\Big[\; \tilde{\varepsilon}^{\,\mathrm{int}}_{fs} \cdot (e_{fs} - \bar{e}_s)
+\;+\; \tilde{\varepsilon}^{\,\mathrm{ext}}_{s} \cdot \bar{e}_s \;\Big]
+$$
+
+and $\Omega$ weights
+
+$$
+\Omega^{\mathrm{int}}_{fs} = \frac{E_{fs}\,\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}}{\Lambda},
+\qquad
+\Omega^{\mathrm{ext}}_{s} = \frac{\big(\sum_f E_{fs}\big)\,\tilde{\varepsilon}^{\,\mathrm{ext}}_{s}}{\Lambda}.
+$$
+
+# References {.unnumbered}
+
+::: {#refs}
+:::

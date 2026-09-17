@@ -1,0 +1,38 @@
+﻿=== Reorganize OECP  2026-09-17 12:14 ===
+Base: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\1. Climate and Fiscal Policy\1.1 Open Economy Carbon Pricing
+
+CREATED DIR  : Presentation and Briefing Paper
+CREATED DIR  : Background Materials
+CREATED DIR  : Background Materials\Notes
+CREATED DIR  : Possibly Deletable
+
+MOVED        : MainPaper-OpenEconomyCarbonPricing.tex  ->  OpenEconomyCarbonPricing.tex
+MOVED        : Additional Material\OECP.qmd  ->  OpenEconomyCarbonPricing.qmd
+MOVED        : Additional Material\Open_Economy_Carbon_Pricing.pdf  ->  OpenEconomyCarbonPricing.pdf
+MOVED        : oecp_refs.bib  ->  OpenEconomyCarbonPricing.bib
+
+MOVED        : Additional Material\OECP.pptx  ->  Presentation and Briefing Paper\Presentation-OpenEconomyCarbonPricing.pptx
+MOVED        : 3.1 Updating Carbon Pricing\Presentation-UpdatingCarbonPricing.pptx  ->  Presentation and Briefing Paper\Presentation-UpdatingCarbonPricing.pptx
+MOVED        : 3.1 Updating Carbon Pricing\BriefingPaper-UpdatingCarbonPricing.docx  ->  Presentation and Briefing Paper\BriefingPaper-UpdatingCarbonPricing.docx
+MOVED        : 3.1 Updating Carbon Pricing\WP10-Designing a Race to the Top.docx  ->  Presentation and Briefing Paper\WP10-DesigningARaceToTheTop.docx
+
+MOVED        : Additional Material\OECP_Abstract.txt  ->  Background Materials\OpenEconomyCarbonPricing-Abstract.txt
+MOVED        : Background\Carbon Consumption Tax\CarbonConsumptionTax.docx  ->  Background Materials\CarbonConsumptionTax.docx
+MOVED        : Background\Carbon Consumption Tax\Notes\Carbon Pricing Version Two.txt  ->  Background Materials\Notes\Carbon Pricing Version Two.txt
+MOVED        : Background\Carbon Consumption Tax\Notes\Outline to Paper on Carbon Pricing.txt  ->  Background Materials\Notes\Outline to Paper on Carbon Pricing.txt
+MOVED        : 3.1 Updating Carbon Pricing\Notes\Feebates-Related-Comments.txt  ->  Background Materials\Notes\Feebates-Related-Comments.txt
+
+MOVED        : Old Versions\main.tex  ->  Possibly Deletable\OpenEconomyCarbonPricing-EarlyDraft.tex
+
+BIB REF FIXED: OpenEconomyCarbonPricing.tex
+BIB REF FIXED: OpenEconomyCarbonPricing.qmd
+
+REMOVED EMPTY: 3.1 Updating Carbon Pricing\Notes
+REMOVED EMPTY: 3.1 Updating Carbon Pricing
+REMOVED EMPTY: Additional Material
+REMOVED EMPTY: Background\Carbon Consumption Tax\Notes
+REMOVED EMPTY: Background\Carbon Consumption Tax
+REMOVED EMPTY: Background
+REMOVED EMPTY: Old Versions
+
+=== Done ===

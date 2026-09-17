@@ -1,0 +1,38 @@
+---
+title: "REPIF Policy Brief (merged into 2.1)"
+author: "Nils Zimmermann and Stephen Stretton"
+date: 2024-11-11
+---
+
+*Merged on 17 September 2026 into the paper at the root of 2.1. Kept unchanged.*
+
+# De-risking and scaling renewable energy project finance in developing countries by means of regional Renewable Energy Payment Intermediary Facilities (REPIFs)
+
+# 
+
+Policy Brief – Please provide margin comments / feedback
+
+Authors: Nils Zimmermann and Stephen Stretton, 11 November 2024
+
+<nzimmermann@worldbank.org>\
+<sstretton@worldbank.org>
+
+### Renewable Energy Payment Intermediary Facilities 
+
+**REPIFs** are a proposed class of MLDB-administered financial intermediary facility that would help de-risk renewable energy project operation by removing project operators’ exposure to risks of non-payment or late payment from their clients (i.e., electricity off-takers – in most cases, electricity distribution companies). REPIFs would ensure power project operating companies are paid on time and in full for renewable electricity deliveries in accordance with the terms of standard power purchase agreements (PPAs), thereby de-risking the cash flows of electricity providers with which it has inked PPAs.
+
+A regional REPIF, responsible for a given region (e.g., ECOWAS, the Economic Community of West African States), would contract with renewable energy project operators in that region to buy electricity at a fixed price per MWh over a defined time horizon, e.g., 15 years, through standardized Power Purchase Agreements (PPAs). REPIFs then will immediately on-sell the power to electricity distribution companies (or other clients, e.g., large industrial parks) through long-term Power Sales Agreements (PSA). The purpose of this arrangement is simply to transfer the risks of non-payment or late payment for electricity from the power generating company to the REPIF.
+
+The underlying idea is that the REPIF, as a well-funded multilateral financial organization backed by a consortium of sovereigns and well-connected to national and subnational government agencies in its region, will be in a much better position to weather any late-payment situations than any electricity generating company in its region, and also in a better position to cajole off-takers (e.g., electricity distribution companies) or their owners (e.g., local or regional governments) to pay their arrears. The REPIF itself would not be at any risk of insolvency or illiquidity, because as part of its charter, any shortfall in a REPIF’s income caused by a failure of a client to timely pay for electricity delivered under a PSA would be automatically compensated by the REPIF’s guarantors.
+
+In our proposal, a REPIF will have multiple layers of guarantor, insulating the REPIF from any serious financial risks. Consider a scenario in which an off-taker that is a counterparty to REPIF via Power Sales Agreement fails to timely pay what it owes to the REPIF for electricity delivered from a power provider with which the REPIF has a Power Purchase Agreement. Let’s call the off-taker ‘Discom,’ short for electricity distribution company. In a first step, the REPIF will contact the Discom to clarify why its payment is late, and attempt to recover the payment due. If that doesn’t work, if the Discom is a state-owned company owned by a local municipal or provincial government, the Discom will contact that regional government, which will be asked to pay the amount due. (The regional government will have contractually agreed to this arrangement well in advance, as a condition of the REPIF beginning operations in the region.) If that also doesn’t work, the REPIF will contact the national government, which likewise will have agreed in advance to serve as a fallback guarantor of Discom payment streams. In both cases, governments will have agreed to serve as the Discoms’ guarantors in the interests of enabling more reliable, lower-priced electricity supplies. If necessary, in extraordinary circumstances, the debt the REPIF is seeking to collect will be added to the national government’s debt stock, and the REPIF will turn to a multilateral financial institution, such as MIGA, to make it whole. Alternatively, a new account could be set up, perhaps administered by MIGA, to which a group of willing highly developed countries could agree to contribute contingency funding to make REPIFs whole if and when a REPIF is unable to collect debts from any other source.
+
+Each REPIF will be systemically influential in its region of operation. It will help advance the operational and financial reliability of regional electricity supply and distribution systems and entities by cultivating deep relationships with electricity providers and off-takers, with local and regional governance agencies relevant to the electricity sector, and with providers of technical and regulatory advisory services such as the World Bank’s ESMAP (Energy Sector Management Assistance Program); REN21 (Renewable Energy Policy Network for the 21st Century); the ISA (International Solar Alliance); IRENA (International Renewable Energy Agency); and development agencies with relevant programs, such as Germany’s GiZ or France’s AFD.
+
+These agencies will assist REPIFs by working with regional governments and off-taker companies (which are often state-owned) to improve administrative, financial, and technical practices to reduce or eliminate the systemic problems that tend to lead to non-payment or late payment for electricity delivered.
+
+This approach is directly inspired by a similar mechanism administered by the Solar Energy Corporation of India, SECI, which has worked well. SECI uses a [standard PPA](https://www.seci.co.in/Upload/Tender/SECI000122-9751774-StandardSECIPPASolarISTSXII-finalupload.pdf) in its deals with renewable power providers, reducing administrative friction. The net effect is that a REPIF acts as a guarantor of timely payments for electricity provided by renewable energy project developers to off-takers (electricity distribution companies or other clients, e.g., large industrial parks), and as a payments collector vis-à-vis off-takers. This reduces the financial risks faced by power generators, which should enable power generators to refinance themselves at a lower interest rate, and in turn, this should enable them to sell electricity at a lower price per MWh.
+
+In some cases, PPAs between project operating companies and a regional REPIF could be agreed on a contingent basis before new renewable energy projects are even built, which would significantly de-risk the projects ahead of construction and thereby enable them to raise project development finance at a lower cost of capital. With the prospect of a REPIF-administered PPA in hand, a solar power project developer in Senegal, for example, could approach an existing provider of project development finance (e.g., the African Development Bank) to obtain a project development loan at a market rate of interest. Once the solar park was complete and connected to the grid, generating electricity, the near-absence of risk of off-taker non-payment (thanks to its PPA with the REPIF) would enable the solar park owner to refinance the project development loan at a lower rate of interest (since the higher-risk project development phase would already be in the past). Again, this will allow the power project operators to offer electricity at a lower price per MWh, since cost of capital is such a crucial factor in determining the power provider’s all-in costs per MWh.
+
+Each major global region could have a dedicated REPIF; for example, North Africa and sub-Saharan Africa could each be assisted by a region-specific REPIF.

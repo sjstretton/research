@@ -1,0 +1,43 @@
+---
+title: "B3a-FeebateShorterBlog"
+---
+
+Feebates: Bonus or Malus?
+
+**Rare is the policy that achieves so much in such a short time.** In France, a tax and rebate policy (vehicle feebate)[^1] transformed the composition of new vehicle investment into the cleanest in the EU after three years of implementation.[^2] In the United States, electric vehicle rebates have been a powerful weapon in driving down the price of electric cars such as Tesla,[^3] enabling them to compete in the vehicle market. As a result, the number of new electric vehicle registrations has taken off.[^4] Rebates are so popular that the government is currently looking into increasing the incentive. In Sweden, a similar feebate on industrial pollution in the 1990s cut NOx emissions by 35% in three years, achieving its target much earlier than anticipated.[^5]
+
+**The original feebate concept is simple.** Vehicles with higher-than-average CO2 emissions are charged a surcharge (‘fee-’). Efficient vehicles, those with zero or low CO2 emissions, are granted a rebate (‘-bate’). For example, the U.S. federal government has imposed a tax on gas-guzzling vehicles of up to 7,700 US dollars. Almost the same amount can be granted in the form of a maximum rebate upon the purchase of a new electric car. The sliding scale is based on emissions per distance traveled. Feebates have sped up the adoption and advancement of electric vehicles and disincentivized the purchase of more polluting vehicles. If well designed, feebates are revenue-neutral, meaning they do not burden government budgets.
+
+**Feebates are promising to incentivize reductions in pollution, fuel usage, or for greater equity.** Despite encouraging outcomes, vehicle feebates have been implemented in only a few countries. Feebates in other sectors than transport have been even more limited, with the Swedish NOx feebate being a notable exception and showing that feebates can also be designed for other sectors. For instance, to replace inequitable food and energy subsidies, Iran introduced in 2010 a mechanism mimicking a feebate: prices of energy and food products were multiplied by a factor of 2 to 9and, in compensation, a per capita cash rebate was distributed to households.[^6] More generally, an IMF paper has suggested feebates in relation to energy sectors[^7] and a World Bank paper proposes similar schemes to reduce net emissions from forestry.[^8]
+
+**Current high energy prices require a policy response with immediate effects: energy usage feebates can be designed to fit the bill.** Energy efficiency policies affect long-term energy usage, but do not act rapidly enough. Energy subsidies and consumer price caps work in the wrong direction and further exacerbate scarcity. An energy usage feebate would combine a fee on energy consumption with an offsetting rebate to industries and households. This concept would be relevant in regions where energy scarcity is an immediate concern, such as in the context of gas supplies in Europe where Member States have agreed to reduce gas demand by 15%.[^9]
+
+**The feebate concept could easily be transferred to other sectors once its two main ingredients, the fee and the rebate, have been defined carefully.** Assuming a natural gas usage feebate, a gas usage fee would be applied to natural gas consumption. The rebates would vary according to the sector. In energy-intensive industrial and power sectors, rebates would be paid according to physical output (tons of steel, or kWh of electricity produced). In household sectors, rebates would be paid per person. As consumption declines, the net rebate grows, with the feebate being readjusted later to retain revenue neutrality and further drive down average energy usage.
+
+**Designing this policy option to ensure revenue neutrality is key to its success**. The Iranian experience reflects this requirement. The above-mentioned Iranian reform was a success over the first two years, allowing prices to go through without social unrest. However, the government distributed cash transfers far in excess of its revenues and relied on the creation of money to cover the deficits. Inflation kicked in, driving up priceseven more, eroding public support, and resulting in the decision of the parliament to freeze energy prices. On the other side of the spectrum, vehicle feebate in France has been successful in encouraging EV adoption at no cost to the government.[^10]
+
+**Feebates may be more popular**[^11] **than tax rises and more affordable than subsidies.** Raising fuel taxes can provoke popular resistance. Boston Tea Party; Yellow vests; tax changes provoke strong emotions. On the other hand, subsidizing greener options uses up scarce fiscal space and can favor richer households.
+
+**Yet, behind the headlines, feebates have had quiet revolutionary effects**. In the face of imminent gas shortages and ongoing high gas prices, Europe could get inspired. Well-designed energy feebates could ration usage in the short term, helping to meet the ambitious target set by EU Member States. On the path to decarbonization, this policy option could curb greenhouse gas emissions while accelerating technological change. Feebates are worth a closer look.
+
+[^1]: Feebates are also known as ‘Bonus-Malus’.
+
+[^2]: RMI, Feebates: A Key to Breaking U.S. Oil Addiction, 2010. <https://rmi.org/feebates-key-breaking-u-s-oil-addiction/>
+
+[^3]: See, for example: <https://www.washingtonpost.com/technology/2021/09/15/tesla-biden-administration/>
+
+[^4]: Jenn, A. et al. (2018) find that “every US\$1000 offered as a rebate increases average sales of electric vehicles by 2.6%”. Jenn, A. et al. Effectiveness of electric vehicle incentives in the United States, 2018. Energy Policy. <https://www.sciencedirect.com/science/article/pii/S0301421518302891>
+
+[^5]: Kenneth C. Johnson, Feebates: An effective regulatory instrument for cost-constrained environmental policy, 2005. Energy Policy. <https://www.sciencedirect.com/science/article/pii/S0301421505002776>
+
+[^6]: <https://erf.org.eg/publications/irans-subsidy-reform-from-promise-to-disappointment/>
+
+[^7]: Parry, I. Implementing the United States’ Domestic and International Climate Mitigation Goals: A Supportive Fiscal Policy Approach, IMF Working Paper, 2021. <https://www.imf.org/en/Publications/WP/Issues/2021/03/03/Implementing-the-United-States-Domestic-and-International-Climate-Mitigation-Goals-A-50073>
+
+[^8]: World Bank, Designing Fiscal Instruments for Sustainable Forests. <https://www.climateinvestmentfunds.org/sites/cif_enc/files/knowledge-documents/05_rationale_for_and_design_of_a_feebate_for_forest_carbon_sequestration_web_cra.pdf>
+
+[^9]: See, for instance: <https://www.bloomberg.com/news/articles/2022-07-26/eu-nations-reach-agreement-to-reduce-gas-use-for-next-winter#xj4y7vzkg>
+
+[^10]: See: <https://theicct.org/magic-of-feebate-programs-jun22/>
+
+[^11]: See, for example: Martin, E. et al. “Evaluating the public perception of a feebate policy in California through the estimation and cross-validation of an ordinal regression model” (2014).

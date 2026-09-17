@@ -1,0 +1,265 @@
+---
+title: "NineEleven"
+---
+
+**Progressive Collapse of a Uniform Column**
+
+An Idealized Physics Derivation with Application
+
+to the World Trade Center Twin Towers
+
+March 2026
+
+*Derived from first principles via analytical and numerical methods*
+
+**Abstract**
+
+This paper derives from first principles the mechanics of progressive collapse when the upper portion of a tall, uniform column falls onto the lower portion after complete severance at an intermediate height. We develop the governing equations using conservation of momentum with continuous inelastic accretion of stationary mass, and solve them analytically where possible and numerically in all cases. We examine four parameter combinations: safety factor S = 1 and S = 2, each with 0% and 50% mass ejection. The model is then applied to the specific geometry of the World Trade Center Twin Towers (WTC 1 and WTC 2), and the predicted collapse times and accelerations are compared with the NIST-reported observed values of approximately 11 seconds and 9 seconds respectively.
+
+The comparison reveals a significant discrepancy: the observed collapses were far faster than the idealized crush-front model predicts, even under the most favorable assumptions (safety factor S = 1, zero mass ejection). The observed average accelerations of 46% g (WTC 1) and 59% g (WTC 2) substantially exceed the model predictions of 5% g and 14% g respectively. This implies that the actual dissipation mechanisms during the WTC collapses were far less effective at decelerating the falling mass than the inelastic accretion model assumes.
+
+**1. Problem Statement**
+
+*A long tall building 500m tall is completely severed 50m down, removing 10m. All the mass falls onto the below mass. Derive what happens. Use simplifying assumptions.*
+
+We model this as a one-dimensional problem of a uniform rigid column of total height H = 500 m. A gap of width Δ = 10 m is created at a distance d = 50 m from the top, dividing the structure into an upper block of height h₁ = 50 m (mass m = ρh₁) and a lower block of height h₂ = 440 m (mass M = ρh₂), where ρ is the uniform linear mass density.
+
+**1.1 Simplifying Assumptions**
+
+\(i\) **Uniform density:** mass per unit height ρ is constant, so m = ρh₁, M = ρh₂. (ii) **Structural capacity:** each cross-section supports a static load equal to S times the weight above it, where S is the safety factor. At depth z from the top of the lower block, the maximum resistive force is Fᵣ(z) = Sρzg. (iii) **Perfectly inelastic collision:** crushed material is swept up by the falling mass with zero restitution. (iv) **One-dimensional:** no buckling, tilting, or lateral motion. (v) **Constant gravitational acceleration g** = 9.8 m/s².
+
+**2. Analytical Derivation**
+
+**2.1 Phase 1: Free Fall**
+
+The upper block falls freely through the gap Δ. Its velocity on impact with the top of the lower block is:
+
+v₀ = √(2gΔ)
+
+For Δ = 10 m: v₀ = 14.0 m/s.
+
+**2.2 Phase 2: Can the Lower Block Resist?**
+
+The top cross-section of the lower block previously supported zero load (it was the top of the structure). Any nonzero dynamic force exceeds its capacity. The top layer is therefore crushed, and the collapse begins to propagate downward.
+
+**2.3 Phase 3: Equation of Motion — General Case**
+
+Let z denote the depth of the crush front measured from the top of the lower block. Let κ = (1 − f) be the fraction of swept mass retained by the falling body, where f is the ejection fraction. The falling mass at depth z is:
+
+m(z) = ρ(h₁ + κz)
+
+The forces acting on this mass are: gravitational driving force ρ(h₁ + κz)g downward; structural resistance Sρzg upward; and momentum transfer to newly accreted stationary material, which acts as an additional drag of magnitude κρv².
+
+Applying Newton's second law in the momentum form d(mv)/dt = Fₙₑₜ gives:
+
+d/dt\[ρ(h₁ + κz)v\] = ρ(h₁ + κz)g − Sρzg
+
+Expanding the left side (noting dz/dt = v):
+
+(h₁ + κz)dv/dt = (h₁ + κz − Sz)g − κv²
+
+This is the master equation governing the crush-front propagation under arbitrary safety factor S and ejection fraction f.
+
+**2.4 Special Case: S = 1, f = 0 (No Ejection, No Reserve)**
+
+With S = 1 and κ = 1, the net gravitational driving force simplifies remarkably:
+
+Fₙₑₜ = ρ(h₁ + z)g − ρzg = ρh₁g = mg
+
+The net force is constant, equal to the weight of the original upper block, independent of depth z. The momentum equation becomes:
+
+(h₁ + z)dv/dt = h₁g − v²
+
+Substituting u = h₁ + z, so that du/dt = v:
+
+u·d²u/dt² + (du/dt)² = h₁g
+
+Noting that d/dt(u · du/dt) = (du/dt)² + u · d²u/dt² = h₁g, we integrate directly:
+
+u · du/dt = h₁gt + C
+
+With initial conditions u(0) = h₁, du/dt(0) = v₀:
+
+C = h₁v₀
+
+Setting w = u² and integrating again:
+
+(h₁ + z)² = h₁² + h₁(gt² + 2v₀t)
+
+The velocity at the crush front is:
+
+v(t) = h₁(gt + v₀) / (h₁ + z)
+
+Since the numerator h₁(gt + v₀) is strictly increasing for t \> 0, the velocity **never reaches zero**. The collapse propagates completely through the lower block. This is the key result for S = 1 with no ejection: complete collapse is inevitable.
+
+**2.5 Special Case: S = 2, f = 0**
+
+With S = 2 the net gravitational term becomes ρ(h₁ − z)g, which vanishes at z = h₁ and goes negative beyond it. The momentum integral yields a cubic equation for the arrest depth. Solving numerically gives zₐᵣᵣₑₛₜ ≈ 91 m, or about 21% of the lower block.
+
+**2.6 Effect of Mass Ejection (f = 0.5)**
+
+When 50% of the crushed material is ejected laterally, only half the swept mass augments the falling body. This has two effects: (i) it reduces the gravitational driving force, and (ii) it carries away momentum that would otherwise have been retained. Even with S = 1, ejection of 50% of mass causes arrest at z ≈ 178 m (40% of the lower block). With S = 2, collapse arrests at z ≈ 68 m (16%).
+
+**3. Numerical Results: Generic 500 m Building**
+
+The governing ODE was integrated numerically using a forward Euler scheme with Δt = 0.5 ms. Results are presented in Table 1 and Figure 1.
+
+**Table 1: Summary of Generic 500 m Building Collapse Scenarios**
+
+  ------------------- -------------- --------------- ---------------- -------------- ----------------- ------------- -------------
+     **Scenario**      **Arrests?**   **Depth (m)**   **% of lower**   **Time (s)**   **v_max (m/s)**   **a_avg/g**   **a_avg %**
+
+   S=1, 0% ejection         No             440             100%            20.6            22.1            0.034       **3.4%**
+
+   S=1, 50% ejection       Yes             178             40%             12.6            22.1           –0.056          n/a
+
+   S=2, 0% ejection        Yes             91              21%             8.6             17.0           –0.110          n/a
+
+   S=2, 50% ejection       Yes             68              16%             5.4             18.5           –0.147          n/a
+
+   Free fall (ref.)         —              440              —              8.2             93.9            1.000       **100%**
+  ------------------- -------------- --------------- ---------------- -------------- ----------------- ------------- -------------
+
+**Figure 1: Crush-front dynamics for the generic 500 m building**
+
+![](media/2dce6fb8595e7c577faeaac88a0208d0e72ad222.png)
+
+*Left: crush-front position vs. time. Right: crush-front velocity vs. time. Circles denote arrest points. Dashed line is vacuum free fall.*
+
+**4. Application to the World Trade Center Twin Towers**
+
+**4.1 Physical Parameters**
+
+The WTC Twin Towers each had 110 floors. The North Tower (WTC 1) stood 417 m tall; the South Tower (WTC 2) stood 415 m. Each weighed approximately 250,000 tonnes. Assuming uniform density, the floor height is approximately 3.79 m.
+
+**WTC 1 (North Tower):** Flight 11 struck floors 93–99. The effective failure zone can be modeled as approximately floor 98, giving an upper block of h₁ ≈ 45.5 m (12 floors) and an effective free-fall gap of Δ ≈ 3.8 m (≈1 story, the distance the upper block drops before engaging the lower structure). The lower block height is h₂ ≈ 367.7 m.
+
+**WTC 2 (South Tower):** Flight 175 struck floors 77–85. The upper block comprised approximately 26 floors, giving h₁ ≈ 98.1 m and h₂ ≈ 313.1 m with the same effective Δ ≈ 3.8 m.
+
+**4.2 NIST Observed Collapse Data**
+
+NIST estimated the elapsed times for the first exterior panels to strike the ground as approximately 11 seconds for WTC 1 and approximately 9 seconds for WTC 2. These were derived from a combination of video analysis and seismographic records from the Palisades, NY station (34 km away). Note that these represent the arrival of the fastest-falling exterior debris, not necessarily the crush-front itself. NIST further noted that substantial core remnants (roughly 60 stories of WTC 1 and 40 stories of WTC 2) stood for 15–25 seconds after collapse initiation before they too collapsed.
+
+**4.3 Model Predictions vs. Observed**
+
+We apply the same inelastic crush-front model to the WTC geometry with S = 1 (the most collapse-favorable assumption) and varying ejection fractions. Results are presented in Table 2.
+
+**Table 2: WTC 1 (North Tower) — Model Predictions vs. Observed**
+
+  -------------------- -------------- -------------- -------------------- ----------------- ---------------
+      **Scenario**      **Time (s)**   **Arrests?**   **a_avg (% of g)**   **v_end (m/s)**   **Depth (m)**
+
+   Model: S=1, ej=0%        18.6            No               5.1%               21.0             367.7
+
+   Model: S=1, ej=20%       31.7           Yes          n/a (arrests)            0.0             363.7
+
+   Model: S=1, ej=50%       12.4           Yes          n/a (arrests)            0.0             159.5
+
+   **NIST Observed**     **\~11.0**         No            **46.0%**               —              367.7
+
+   Free fall (vacuum)       7.8             No               100%               84.8             367.7
+  -------------------- -------------- -------------- -------------------- ----------------- ---------------
+
+**Table 3: WTC 2 (South Tower) — Model Predictions vs. Observed**
+
+  -------------------- -------------- -------------- -------------------- ----------------- ---------------
+      **Scenario**      **Time (s)**   **Arrests?**   **a_avg (% of g)**   **v_end (m/s)**   **Depth (m)**
+
+   Model: S=1, ej=0%        12.0            No              13.6%               30.2             313.1
+
+   Model: S=1, ej=20%       12.3            No              10.1%               26.3             313.1
+
+   Model: S=1, ej=50%       14.0            No               1.2%               12.2             313.1
+
+   **NIST Observed**     **\~9.0**          No            **59.4%**               —              313.1
+
+   Free fall (vacuum)       7.2             No               100%               78.3             313.1
+  -------------------- -------------- -------------- -------------------- ----------------- ---------------
+
+**Figure 2: Crush-front dynamics for WTC 1 and WTC 2 (S = 1)**
+
+![](media/20772dfd5f5fcc9ebbdbe4a91bff7c9dbc846a85.png)
+
+*Left: WTC 1 (North Tower). Right: WTC 2 (South Tower). Dashed line is vacuum free fall. Circles denote arrest. Note that WTC 2 collapses completely even with 50% ejection because its upper block is much larger (26 floors vs. 12).*
+
+**5. Comparison of Model with Observed Collapse**
+
+**5.1 The Acceleration Gap**
+
+The most striking finding is the large discrepancy between the model's predicted average acceleration and the observed values:
+
+**Table 4: Acceleration Comparison — Model vs. Observed**
+
+  --------------------------- --------------------- ------------------- --------------- --------------------
+                               **Model S=1 ej=0%**   **NIST Observed**   **Free Fall**   **Observed/Model**
+
+      **WTC 1: Time (s)**             18.6              **\~11.0**            7.8                —
+
+   **WTC 1: a_avg (% of g)**          5.1%               **46.0%**           100%             **9.0×**
+
+      **WTC 2: Time (s)**             12.0               **\~9.0**            7.2                —
+
+   **WTC 2: a_avg (% of g)**          13.6%              **59.4%**           100%             **4.4×**
+  --------------------------- --------------------- ------------------- --------------- --------------------
+
+The observed collapses exhibited average accelerations 4–9 times higher than the inelastic crush-front model predicts. Put differently, the model predicts WTC 1 should have taken approximately 18.6 seconds to collapse (with S = 1 and zero ejection), whereas the NIST-measured time was approximately 11 seconds. The model predicts WTC 1's crush front advances at roughly 5% of gravitational acceleration; the observed average was 46% of g.
+
+**5.2 Interpretation**
+
+Several factors may account for the discrepancy between the idealized model and observation:
+
+**(a) The NIST timing measures debris arrival, not the crush front.** NIST measured when the first exterior panels struck the ground. These panels were shed laterally and fell with less obstruction than the interior crush front. The actual crush-front arrival at ground level may have been significantly later. NIST itself noted that substantial core remnants (60 stories of WTC 1, 40 stories of WTC 2) remained standing for 15–25 seconds after collapse initiation.
+
+**(b) The uniform-density assumption overstates lower-block resistance.** Real buildings are lighter at the top and heavier at the base. If the upper floors of the lower block had less structural capacity than assumed, resistance would be lower during the early (fastest) phase of collapse.
+
+**(c) The model assumes the column supports nothing but its own weight.** A structure that was weakened by fire, impact damage, and partial column severance before global collapse initiated would have a safety factor well below 1 in the damage zone, meaning the effective Δ (free-fall gap) could be substantially larger than one story.
+
+**(d) Fracture and comminution energy are not the same as inelastic accretion.** The model assumes that all structural resistance goes into decelerating the falling mass. In reality, much energy is dissipated in concrete pulverization and steel fracture, which means the resistance force profile is different from the static load-bearing capacity.
+
+**5.3 The Role of the Upper Block Mass Ratio**
+
+One notable feature of the comparison is that WTC 2 (South Tower) shows less discrepancy with observation than WTC 1. This is because WTC 2 had a much larger upper block (26 floors, h₁/H ≈ 0.24) compared to WTC 1 (12 floors, h₁/H ≈ 0.11). A larger upper block means more gravitational driving force per unit of structural resistance. In the model, WTC 2 with zero ejection collapses in 12.0 s (vs. 9.0 s observed), while WTC 1 takes 18.6 s (vs. 11.0 s observed). The dimensionless ratio h₁/H is the key parameter governing collapse speed in this model.
+
+**6. Conclusions**
+
+We have derived from first principles the mechanics of progressive collapse of a uniform column under inelastic accretion, examined the sensitivity to safety factor and mass ejection, and applied the model to the WTC Twin Towers. The principal findings are:
+
+**1.** For a uniform column with safety factor S = 1 and no mass ejection, collapse propagates completely and the crush front advances at a remarkably low average acceleration (3–5% of g for the generic building, 5–14% for the WTC towers).
+
+**2.** Mass ejection is a powerful arrest mechanism. Even with S = 1, ejecting 50% of debris arrests the collapse of WTC 1 at 43% depth. For the generic building, it arrests at 40%.
+
+**3.** The NIST-observed collapse times (11 s for WTC 1, 9 s for WTC 2) correspond to average accelerations of 46% g and 59% g respectively—far exceeding the model's predictions for any physically reasonable parameter combination.
+
+**4.** The discrepancy between model and observation is likely attributable to a combination of factors: the NIST timing captures debris arrival rather than crush-front completion; the buildings were not uniform; fire-weakened zones effectively increased the initial free-fall distance; and real fracture mechanics differ from the idealized inelastic accretion model.
+
+**5.** The model's key insight—that the net downward force for S = 1 is constant and equal to the upper block's weight—is analytically exact and model-independent. Any real dissipation mechanism only adds resistance relative to this baseline, making the predicted collapse time a lower bound (i.e., the slowest possible gravity-driven crush-front for a uniform column with S = 1).
+
+The 4–9× acceleration discrepancy between this lower-bound model and observation merits further investigation and more refined modeling, including non-uniform mass distribution, multi-phase resistance curves, and explicit treatment of the debris field dynamics.
+
+**Appendix: Parameter Summary**
+
+**Table A1: Physical Parameters Used**
+
+  ----------------------- ---------------- ---------------- ---------------
+       **Parameter**        **Generic**       **WTC 1**        **WTC 2**
+
+      Total height H           500 m            417 m            415 m
+
+     Number of floors           n/a              110              110
+
+       Floor height             n/a             3.79 m          3.77 m
+
+      Upper block h₁            50 m            45.5 m          98.1 m
+
+    Upper block floors          n/a               12              26
+
+      Free-fall gap Δ           10 m            3.79 m          3.77 m
+
+      Lower block h₂           440 m           367.7 m          313.1 m
+
+    Impact velocity v₀        14.0 m/s         8.6 m/s          8.6 m/s
+
+    Free-fall time (h₂)        8.2 s            7.8 s            7.2 s
+
+    NIST observed time           —              \~11 s           \~9 s
+  ----------------------- ---------------- ---------------- ---------------

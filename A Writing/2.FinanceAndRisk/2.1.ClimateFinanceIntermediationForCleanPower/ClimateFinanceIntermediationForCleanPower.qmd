@@ -1,0 +1,176 @@
+---
+title: "Climate Finance Intermediation for Clean Power"
+subtitle: "Payment intermediary facilities, synthetic sovereign bonds, and the cost of capital in developing countries"
+author: "Stephen J. Stretton"
+abstract: |
+  Renewable generation is cost-competitive with fossil generation across much of the developing world, and deploys slowly because capital is expensive. The cost of capital is set not by the project but by the creditworthiness of the distribution company contracted to buy the power. This paper proposes removing that risk at its source through a Renewable Energy Payment Intermediary Facility: a multilateral-administered institution, national in large markets and regional in small ones, that contracts to buy power from generators at a fixed price and on-sells it to distributors, paying the generator in full and on time whether or not the distributor has paid. A layered guarantee — distributor, subnational government, national government, multilateral agency, and a contingency fund subscribed by developed countries — makes the facility itself insolvency-remote. Contracts underwritten in this way carry cash flows secure enough to support synthetic sovereign bonds: instruments rated at developed-sovereign levels, co-guaranteed by a consortium of developed-country governments, that raise capital from international institutional investors and domestic savings without consuming the host country's fiscal space. For countries already in debt distress, the same intermediary can deliver energy as a pay-as-you-go service rather than as debt-financed assets. Two design choices determine whether the structure reduces fiscal risk or accumulates it: whether tariffs decline over the contract term in line with expected technology costs, and whether contracts are denominated in hard or local currency.
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  docx:
+    toc: true
+    number-sections: true
+---
+
+*One of the mechanism papers in section 2; the overview in 2.0 places it among the others, and the equity layer it assumes is set out in 2.2. This paper consolidates three earlier statements of the same architecture: the REPIF policy brief written with Nils Zimmermann; the SPIFA proposal developed by Evie Davey; and the synthetic sovereign bonds note. Within this paper, the guarantee waterfall in section 2.2 comes from the first, the debt-distress treatment in section 4 from the second, and the bond structure in section 3.2 and Appendix A from the third.*
+
+# Executive summary
+
+**Clean power in developing countries is expensive because capital is expensive, not because the technology is.** Wind and solar costs fell sharply over the decade to 2020 and now compete with new fossil generation in a growing number of markets, India among them. Solar is capital-intensive and has no fuel cost, so almost the whole of its levelised cost is the cost of the money that built it. The same panels on the same land produce materially dearer electricity financed at 12 per cent than at 5 per cent.
+
+**The risk that sets that rate belongs to the buyer of the power, not to the project.** A completed plant in a sunny location carries little operational risk. What lenders price is the possibility that the distribution company on the other side of the power purchase agreement pays late, pays partially, or does not pay. In India most distribution companies are owned by state governments and many are in poor financial condition for structural political reasons. A weak utility balance sheet therefore raises the cost of clean power across an entire country, project by project, whatever the quality of the projects.
+
+**The proposal is to remove that risk where it originates, through a payment intermediary facility.** A Renewable Energy Payment Intermediary Facility contracts with generators to buy power at a fixed price per megawatt-hour over a defined term under a standardised power purchase agreement, and on-sells that power to distributors under separate power sales agreements. When a distributor pays late, the facility pays the generator anyway. The generator faces the facility's credit, not the distributor's. Administered by a multilateral agency and backed by a consortium of sovereigns, the facility is better placed than any generator both to absorb a late payment and to recover it.
+
+**The facility is made insolvency-remote by a layered guarantee rather than by capital alone.** If a distributor fails to pay, the facility pursues it; then the subnational government that owns it, which has agreed to stand behind it as a condition of the facility operating in the region; then the national government, on the same basis; then a multilateral agency such as MIGA. Behind that sits a contingency account subscribed by developed countries. Each layer is contracted in advance, so the sequence is administrative rather than negotiated at the moment of stress.
+
+**Guaranteeing the contract differs from guaranteeing the debt, and the difference is what makes this efficient.** A debt guarantee pays the lender when the project cannot service its borrowing. The lender is protected, the payment failure that caused the problem is untouched, and the guarantor is generally left without a practical claim against the party responsible. Guaranteeing the offtake contract removes the risk at source and preserves recourse: a distributor short of money this quarter still owes the money, and the facility can pursue it over a horizon far longer than any project's cash-flow crisis. Because the guarantee attaches to the contract, it reaches every project selling into the same counterparty rather than one deal at a time.
+
+**India has already built the institution this requires.** The Solar Energy Corporation of India sits between independent power producers and the state-owned distribution companies, contracts with generators to pay in full and on time, and pays them when the distributors are late, drawing on credit lines with the Reserve Bank of India and long-term indemnities from state governments. It uses a standard power purchase agreement across its deals, which removes a great deal of transaction cost. The mechanism has worked.
+
+**Contracts underwritten this way support financing at two removes.** During construction, banks and development finance institutions lend at market rates against a contingent power purchase agreement agreed before the plant is built. Once the plant is operating and the construction risk has passed, the project refinances into the bond market. The bonds are synthetic sovereign bonds: backed by the physical assets and by payment guarantees from a highly rated entity, partially co-guaranteed by a consortium of developed-country governments,[^club] and rated accordingly. Pension funds and other long-duration investors can hold them; so can domestic savers.
+
+**The structure consumes very little host-country fiscal space, which is the point.** Multilateral development banks arrange it rather than carrying it, contributing structuring, contractual standard-setting and convening capacity rather than balance sheet. The host government's exposure is contingent and sits behind three other layers.
+
+**For countries already in debt distress, the same intermediary can sell energy as a service.** Small island developing states and other highly indebted economies cannot add project debt without worsening a fiscal position that is already fragile. A pay-as-you-go energy service contract lets them replace expensive imported fossil fuel with domestic renewable supply while paying out of operating budget rather than borrowing. The World Bank Group's preferred creditor arrangement protects investors against payment delay without the arrangement becoming sovereign debt.
+
+**Two design choices decide whether the structure reduces fiscal risk or stores it up.** The first is the tariff profile. A twenty-year contract at a flat real price looks prudent and is not: if solar costs halve over the contract's life, the state is committed to paying twice the prevailing price for the remainder. Declining schedules — higher early, lower later, matched to expected cost falls — carry a similar present value and far less long-run exposure. The second is currency. A hard-currency contract transfers devaluation risk to the host government exactly as hard-currency sovereign debt does. A local-currency contract avoids that and narrows the investor base towards domestic savings. Both choices should be made deliberately.
+
+**The recommendation is to build the facilities.** National institutions in large markets such as Nigeria and Brazil; regional facilities serving clubs of smaller states, with ECOWAS as the natural first case; the multilateral development banks as arrangers rather than risk-takers; standardised contracts with declining tariff profiles and deliberate currency choice. The carbon value of the resulting investment is the basis on which developed countries can justify their share of the guarantee.
+
+# 1. The problem is the cost of capital
+
+**Renewable generation has won the cost argument and still deploys too slowly.** Wind and solar costs fell dramatically over the decade to 2020 and are competitive with fossil fuels for new investment in a growing number of regions. Recent increases driven by supply-chain pressure and anticipated mineral constraints have not reversed the trend.
+
+**The scale required makes financing terms, rather than technology costs, the binding constraint.** The International Energy Agency puts global clean energy investment at around \$3 trillion a year by 2030 if the Paris goals are to be met, of which roughly one third is needed directly for energy supply, principally renewables (IEA 2021a, 2021b). That splits roughly equally between China, the developed world and the developing world. It must be raised under fiscal conditions tightened by the pandemic and by energy price shocks, in sectors where the state and the multilateral development banks already carry an outsized role: generation and distribution are frequently state-owned, and markets, where they exist, are designed and regulated by government agencies.
+
+**For a capital-intensive technology with no fuel cost, the discount rate is most of the price.** A solar plant's lifetime cost is almost entirely the cost of building it, spread over the electricity it produces. The borrowing rate passes almost directly into the tariff. Reducing it is economically equivalent to a large reduction in capital cost, and it is available now rather than waiting on further technology improvement.
+
+**Three country-level conditions keep that rate high.** Low sovereign creditworthiness, often reflecting political instability and weak financial systems, prices every domestic counterparty accordingly. High existing debt limits the capacity to borrow further without deepening fiscal stress. And thin domestic financial markets leave few instruments through which long-term savings can reach infrastructure at all. Each of these is a reason to design financing that does not depend on the sovereign balance sheet.
+
+# 2. The instrument: a payment intermediary facility
+
+## 2.1 What the facility does
+
+**The facility interposes itself between generator and distributor, and takes the payment risk onto itself.** It contracts with renewable project operators in its area to buy electricity at a fixed price per megawatt-hour over a defined horizon — fifteen years, say — under a standardised power purchase agreement. It immediately on-sells that power to distribution companies, or to other large buyers such as industrial parks, under long-term power sales agreements. The purpose of the arrangement is exactly the transfer of non-payment and late-payment risk away from the generator.
+
+**A standardised contract does more work than it appears to.** SECI uses one standard power purchase agreement across its deals. Every project that does not have to negotiate bespoke terms is a project that reaches financial close faster and cheaper, and a portfolio of identical contracts is far easier to securitise than a portfolio of individually negotiated ones.
+
+**Coverage should follow market size.** Nigeria and Brazil are each large enough to support a national facility with enough project flow to make risk pooling meaningful. Smaller countries need to share one: a regional facility serving a club of neighbouring states achieves the diversification that makes the counterparty creditworthy and spreads the fixed cost of contracting expertise across enough projects to justify building it. ECOWAS is the obvious first case; North Africa and sub-Saharan Africa could each support a facility of their own.
+
+## 2.2 The guarantee waterfall
+
+**The facility must be insolvency-remote, and it achieves that through contracted layers rather than through capital.** Any shortfall in its income caused by a buyer's failure to pay is compensated automatically under its charter. The sequence runs as follows.
+
+The facility first approaches the distributor directly to establish why payment is late and to recover it. Where the distributor is owned by a municipal or provincial government, the facility next calls on that government, which will have agreed contractually to stand behind its utility as a condition of the facility beginning operations in the region. Failing that, it calls on the national government, which will have agreed to act as fallback guarantor on the same basis. In extraordinary circumstances the outstanding debt is added to the national government's debt stock and the facility turns to a multilateral institution such as MIGA to be made whole. Behind all of this can sit a contingency account, administered by MIGA, to which a group of developed countries subscribes funding for the case where a facility cannot collect from any other source.
+
+**Agreeing the layers in advance is what makes them work.** Governments accept these obligations before the facility operates in their territory, in exchange for more reliable and lower-priced electricity supply. At the moment of stress the sequence is therefore administrative rather than a negotiation conducted under duress, which is the circumstance in which sovereign guarantees usually fail to perform.
+
+## 2.3 Why guarantee the contract rather than the debt
+
+**Guaranteeing borrowing and guaranteeing the contract look similar and behave differently.** Under a debt guarantee, the guarantor pays the lender when the project cannot service its debt. The lender is protected; the payment failure that caused the problem is untouched; and the guarantor is generally left without a practical claim against the party responsible, absent a considerably more complex structure.
+
+**Guaranteeing the offtake contract removes the risk at source and keeps the claim alive.** The generator is paid on time. The facility is then owed by the distributor, and can pursue that debt over a horizon far longer than any single project's cash-flow crisis. The obligation is deferred rather than written off. Isolating payment risk this way also separates it cleanly from construction risk, resource risk and market risk, each of which can then be priced and allocated on its own terms.
+
+**Because the guarantee attaches to the contract, its effect is systemic rather than transactional.** One facility improves the financing terms of every project selling into the same counterparty. This is the respect in which the proposal differs from the existing guarantee instruments, which operate deal by deal.
+
+## 2.4 The SECI precedent
+
+**India routes some solar contracts through a highly rated central auctioning company, and the arrangement does exactly this.** The Solar Energy Corporation of India acts as intermediary between the state-owned distribution companies and generators, whether independent power producers or partially state-owned generation companies. It contracts with the generator to pay in full and on time for delivered power, and contracts separately with the distributors to sell it on. When they are late, SECI pays the generator regardless, drawing on credit lines with the Reserve Bank of India and long-term indemnities from state governments.
+
+**What lowers the cost of capital here is the institution, not a subsidy.** No money changes hands unless a distributor fails to pay on time. What the structure supplies is credit quality, and credit quality is most of what the tariff is paying for.
+
+# 3. Financing built on the derisked contract
+
+## 3.1 Two-stage project finance
+
+**Construction and operation are different risks and should be financed by different investors.** Construction carries completion risk, cost overrun and schedule risk, and is poorly suited to bond markets. Operation of a completed, connected plant selling under a guaranteed contract carries very little.
+
+**The natural structure is therefore bank and development finance lending during construction, refinanced into the bond market once the plant is running.** A developer in Senegal holding a contingent power purchase agreement from the regional facility can approach the African Development Bank for a project development loan at a market rate. Once the plant is complete and generating, the near-absence of offtaker risk allows refinancing at a materially lower rate. The saving passes into the tariff, because the cost of capital is most of the all-in cost per megawatt-hour.
+
+## 3.2 Synthetic sovereign bonds
+
+**Synthetic sovereign bonds are the refinancing instrument: bonds structured to be rated comparably to the highest-rated developed-country sovereigns, backed by the physical assets and by payment guarantees from a highly rated entity, and partially co-guaranteed by a consortium of developed-country governments.** They are synthetic in that the rating derives from the guarantee structure rather than from the host sovereign's own credit.
+
+**A high rating does two things at once.** It opens access to capital at scale — international institutional investors, pension funds seeking long-duration assets, and domestic savings that currently have nowhere safe to go. And it lowers the interest cost, which is the largest single component of the delivered cost of green infrastructure. A lower default risk reduces the levelised cost of the electricity, which resolves into some combination of better developer margins and cheaper power for consumers.
+
+**The arrangement is most secure for operating assets, which is where the bond issue should be confined.** Bonds financing portfolios of completed, connected plants face contracted cash flows and a guaranteed payer and very little else. That is the population for which a developed-sovereign rating is realistic.
+
+## 3.3 Contingent agreements before construction
+
+**Agreeing the power purchase agreement before the plant is built de-risks the construction phase as well.** A contingent agreement from the facility, in hand at the point a developer seeks project development finance, changes what the construction lender is underwriting: not a merchant project hoping for an offtaker, but a project with a contracted, guaranteed buyer waiting for it. Development finance becomes available at a market rate rather than a distressed one, and the refinancing that follows completion is already visible to everyone in the structure.
+
+## 3.4 System assets that have no power purchase agreement
+
+**Not every asset the transition needs has an offtake contract to guarantee.** High-capacity transmission lines, EV charging networks and regional solar equipment factories are all necessary, and none of them sells power under a bilateral agreement that an intermediary can stand behind. For these the guarantee has to attach to the bond after all, because there is no contract to attach it to.
+
+**The structure is the same waterfall, applied one level up.** Green bonds issued by regional or national clean energy development authorities are guaranteed in up to three loss-absorbing tiers: first the level of government principally responsible for energy system regulation — an Indian state, or the national government of Mozambique; then the national government where a federal structure makes that a separate layer; then a special purpose vehicle backed by a consortium of OECD governments or a multi-donor trust fund managed by the World Bank Group. The result is paper that can be rated AAA without the host sovereign carrying the rating.
+
+**Guarantees at this level should be conditional, because there is no contract doing that work.** Where an intermediary guarantees a power purchase agreement, the standardised contract itself imposes discipline. A bond guarantee imposes none, so the conditions have to be explicit: standardised power purchase agreement frameworks, workable project approval processes, land rules for utility-scale projects, and a phase-out schedule for major fossil infrastructure. Guarantees offered only to jurisdictions that adopt them buy down the risk being guaranteed rather than merely transferring it.
+
+**This is also the route to local-currency issuance.** A multi-tier guarantee can support debt denominated in local currency as readily as in hard currency, which matters for the reasons set out in section 5.2. For a country whose electricity revenue will always be local, a local-currency bond backed by a tiered guarantee is the only structure that does not embed a mismatch.
+
+**Keep the distinction in view.** Guaranteeing the contract is better where there is a contract, for the reasons in section 2.3: it is systemic rather than transactional, and it preserves recourse. Guaranteeing the bond is what remains where there is no contract. They are complements, and a programme needs both.
+
+# 4. Countries already in debt distress
+
+**Highly indebted countries cannot solve this with debt, however cheap.** Small island developing states in particular face a combination of high existing debt, small absolute project sizes and near-total dependence on imported fossil fuel. Adding project borrowing, even at a good rate, deepens a fiscal vulnerability that is already the binding constraint.
+
+**The same intermediary can sell energy as a service rather than financing assets.** Under a pay-as-you-go energy service contract the country buys electricity, not a power station. Costs are spread across the life of the contract and met from operating budget rather than from borrowing, so the arrangement does not add to the debt stock. The country still gets the substitution that matters — domestic renewable supply in place of imported fuel — with the fiscal and balance-of-payments exposure that imported fuel carries.
+
+**The preferred creditor arrangement of the World Bank Group is what protects the investor.** It allows payment delays to be managed without threatening the financial stability of the projects, which is the condition on which private capital will accept a service contract with a distressed sovereign at all.
+
+# 5. Design choices that determine fiscal risk
+
+## 5.1 Declining tariffs
+
+**A flat real-terms tariff over twenty years looks conservative and creates a growing liability.** Take a contract signed at 5 cents per kilowatt-hour in 2023, fixed in real terms to 2043. If the cost of new solar falls to 2.5 cents by 2030, the state is committed from that point to paying double the prevailing price for the remaining thirteen years. That is not the contract going wrong; it is what a flat contract does.
+
+**A declining schedule carries a similar present value and much less long-run exposure.** Contracting at 6 cents now, falling to 3 cents by 2030, front-loads payment into the period when renewable costs genuinely are high and steps down as they fall. Auctions run on a declining profile as readily as on a flat one. The figures here illustrate shape rather than level; the schedule should be set against whatever cost trajectory the market expects at the time of the auction.
+
+**Guaranteeing the contract makes this choice more important, not less.** A guarantee converts a commercial obligation into something close to a public one, so the terms being guaranteed need to be terms the public balance sheet can live with for two decades.
+
+## 5.2 Currency denomination
+
+**A hard-currency power purchase agreement transfers devaluation risk to the host government.** The mechanism is the one that makes hard-currency sovereign debt dangerous: obligations fixed in dollars against revenue earned in local currency, so that a depreciation raises the real cost of the contract exactly when the economy can least absorb it. Over a twenty-year term this is a material fiscal exposure, which declining tariff profiles also mitigate.
+
+**A local-currency contract avoids that and narrows the investor base.** Assets denominated in a weak local currency are unattractive internationally. They may be well suited to mobilising domestic savings, which is a legitimate objective in its own right and one the bond structure can be built around. The trade-off is real and should be resolved deliberately rather than by default.
+
+# 6. Institutional design
+
+**A payment intermediary facility becomes systemically influential in its region, and should be designed to use that position.** Its relationships with generators, distributors, regulators and the relevant government agencies put it in a position to address the administrative and financial weaknesses that cause non-payment in the first place, rather than only absorbing the consequences.
+
+**The technical assistance network already exists and should be attached to the facility rather than run alongside it.** ESMAP, IRENA, REN21, the International Solar Alliance and the bilateral development agencies each work on the utility performance problems that generate payment arrears. A facility that channels their work towards its own counterparties is buying down its own contingent liability.
+
+**The carbon value of the investment is the basis for the developed-country guarantee.** A certified measure of carbon avoided gives guarantors something to point to. Paragraph 108 of the Paris decision refers to the social value of mitigation activities, which offers a legal footing for recognising that value within these institutions.[^gcf]
+
+# 7. Conclusion
+
+**Cost of capital and payment risk, not technology cost, are now the main barriers to clean power investment in developing countries.** A financing architecture that removes payment risk at its source addresses the binding constraint directly.
+
+**The central counterparty is the component that has been demonstrated.** SECI shows that an expert agency standing between generators and distributors, backed by credit lines and government indemnities, converts weak counterparty credit into contracts strong enough to finance against. Replicating it nationally in large markets and regionally among smaller ones is an institutional task, not a technological or a fiscal one.
+
+**Everything else is built on that contract.** Two-stage finance allocates construction and operating risk to the investors suited to each. Synthetic sovereign bonds carry the refinanced operating assets to institutional and domestic savers at developed-sovereign ratings. Pay-as-you-go service contracts extend the same intermediary to countries that cannot take on debt at all. And the tariff and currency choices decide whether what is built reduces the host country's fiscal risk or quietly accumulates it.
+
+# Appendix A: Bond structure
+
+## A.1 Priority of claim on cash flows
+
+A securitisation arrangement can route the guaranteed cash flows from the power purchase agreement directly to bondholders, so that holders are exposed to the credit of the guaranteeing facility rather than to the project developer. Once a plant is complete and connected and the price is guaranteed, little business risk remains to be allocated.
+
+## A.2 Construction risk
+
+Construction is where risk concentrates and is poorly suited to bond investors. Bank and development finance lending during construction, refinanced into the bond market on completion, keeps the bond issue confined to assets whose risk profile supports a high rating.
+
+## A.3 Secondary guarantees
+
+The primary guarantee from the facility is unlikely to be sufficient on its own for a top rating. One option is a dual-use equity fund that co-invests in projects and, for a fee, cross-guarantees the bonds of other projects, earning a diversification benefit. Above that first-loss layer, a final guarantor — a developed-market sovereign, or a reinsurer such as Swiss Re or Munich Re — would complete the structure.
+
+# Appendix B: Trade balance and industrial capability
+
+Currency risk has a real-economy counterpart in the import content of renewable equipment. A large deployment programme financed and supplied from abroad shows up in the trade balance. Supply chain and industrial policy measures, applied at least at regional scale, can ensure that manufacturing and installation capability is built alongside deployed capacity rather than after it.
+
+[^club]: This relates to the idea of a climate club.
+
+[^gcf]: See the Green Climate Fund's report on scaling climate finance in the context of COVID-19: <https://www.greenclimate.fund/sites/default/files/document/scaling-climate-finance-context-covid-19-full-report_0.pdf>

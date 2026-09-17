@@ -1,0 +1,122 @@
+---
+title: "OtherFiscalInstruments-Backup"
+---
+
+Hi Stephen,
+
+Thanks for setting the meeting on Lao CCDR work – see below table and attached resources for the desk research for Chris.
+
+Best
+
+Sacha
+
+**From:** Sacha Dray \<<sdray@worldbank.org>\>\
+**Sent:** Friday, August 2, 2024 6:13 PM\
+**To:** Stephen John Stretton \<<sstretton@worldbank.org>\>\
+**Cc:** Paulina Estela Schulz Antipa \<<pschulzantipa@worldbank.org>\>\
+**Subject:** RE: Brainstorming on CPAT / next steps
+
+Hi Stephen
+
+Thanks for following up.
+
+I have had further thoughts and readings on this, and have identified a provisional list of policies as entry points for the analysis and recommendations (see below). It would be helpful to have another call with you on where you think there would be most value to bring in more work from you or Paulina.
+
+I can see three options:
+
+\(i\) providing more detailed quantification of impacts for selected policies (eg TCP using the Tax law document I shared that could help with Policy #1),
+
+\(ii\) incorporating multiple policies into CPAT (Policies 1-3 and 6 even though they are not direct carbon pricing instrument, so would not be straightforward)
+
+\(iii\)  additional policy recommendations that contribute to revenue mobilization and mitigation.
+
+Best
+
+Sacha
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      **Policy**                                              **Recommendation (tentative)**                                                **Mitigation impact type**   **Fiscal impact**   **Carbon pricing?**   **Existing Lao analysis?**
+  --- ------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------- ------------------- --------------------- ----------------------------
+  1   Fuel excise reform                                      Back to 2022 rates                                                            GHG emissions                Positive            Yes                   Yes, TCP not done
+
+  2   Carbon tax                                               5-10 USD/ton OR\                                                             GHG emissions                Positive            Yes                   Possible
+                                                              goal-post 1-2 percent of GDP                                                                                                                         
+
+  3   Road vehicle excise reform                              WB (2021) proposal: higher rates on diesel vehicles and larger engine sizes   GHG emissions                Positive            No                    Yes
+
+  4   Industrial water-discharge fee                          WB (2021) proposal                                                            Environment                  Small               No                    Yes
+
+  5   Natural resources tax and royalties (including hydro)   Review of tax incentives on NR tax, timber and hydro                          Environment                  Positive            No                    No
+
+  6   Airport charges                                         TBD                                                                           GHG emissions                Small?              No                    No
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ATTACHED DOCUMENTS:
+
+- Tax law 2015: includes excise tax schedule (ad valorem) – note this is not the most updated but the structure hasn’t changed
+
+- PFR 2023: see Chapter 2, particularly sections on excise and natural resource
+
+- Environmental Challenges: See chapter 11
+
+**From:** Stephen John Stretton \<<sstretton@worldbank.org>\>\
+**Sent:** Thursday, August 1, 2024 7:41 PM\
+**To:** Sacha Dray \<<sdray@worldbank.org>\>\
+**Cc:** Paulina Estela Schulz Antipa \<<pschulzantipa@worldbank.org>\>\
+**Subject:** RE: Brainstorming on CPAT / next steps
+
+Hi sacha
+
+Just to follow up, I think we can offer an STC that I would supervise to do the literature survey on what you suggest. So I think it’s perhaps possible after all. The quality/comprehensiveness depends a bit on the budget but we could work with 1 week of staff time (about 2-2.5 weeks of STC time)
+
+Best
+
+Stephen
+
+**From:** Stephen John Stretton \<<sstretton@worldbank.org>\>\
+**Sent:** Wednesday, July 31, 2024 6:55 AM\
+**To:** Sacha Dray \<<sdray@worldbank.org>\>\
+**Cc:** Paulina Estela Schulz Antipa \<<pschulzantipa@worldbank.org>\>\
+**Subject:** RE: Brainstorming on CPAT / next steps
+
+Hi Sacha
+
+That looks good. The only difference is on the workload on the literature review: you mentioned that the central team would do most of the literature review across the policies rather than spiltting some of this global work. I think that’s a shift and is logical but it requires more than one week of work. I think it might be better to for now do a Laos focused analysis with the Laos team taking this burden than trying to do a global study across many different policies and apply it to Laos all in one week. Perhaps more than one week is needed too.
+
+best
+
+Stephen
+
+**From:** Sacha Dray \<<sdray@worldbank.org>\>\
+**Sent:** Tuesday, July 30, 2024 6:00 PM\
+**To:** Stephen John Stretton \<<sstretton@worldbank.org>\>\
+**Cc:** Paulina Estela Schulz Antipa \<<pschulzantipa@worldbank.org>\>\
+**Subject:** Brainstorming on CPAT / next steps
+
+Hi Stephen, Paulina,
+
+Many thanks for the meeting today. Please see below a short summary of what was discussed, also for my own sake. I hope this is a good representation of the discussion, but please do let me know if anything should be amended.
+
+Could you let me know if this is agreeable before I can share it with the CCDR TTLs?
+
+- The Lao CCDR will include a section on mitigation policies – including but not limited to fiscal policies - that can also help raise revenues, and any trade-off between reducing emissions, impact on fiscal balance, and GDP impact. The timeline is: Concept note in September 2024, and work to be carried out by December 2024.
+
+- The three proposed activities are:
+
+1.  **Total Carbon Price**: CPAT team would help with finding the right price data, provide estimates of existing carbon pricing by fuel, and correspondence with existing excise tax rates
+
+2.  **Power** (including hydropower investments): CPAT team would discuss internally what deliverable could be shared in more details based on existing work for other CCDRs, and adaptation from existing CPAT policy scenarios.
+
+3.  **Literature review:** CPAT team would provide a list of policy recommendations based on existing mitigation policies in other countries with estimated GHG emissions and fiscal impact, contingent on collaboration from CCDR team on what types of policies are of interest in Laos.
+
+- Each activity would require about one week of staff time. 3/ would split this time between CCDR and CPAT team.
+
+- The deliverables would take the form of brief background notes explaining the methodology and main results (as per my initial email)
+
+- Other activities were discussed but not prioritized as would require more groundwork / are less likely to be feasible at this stage: policy as additive, transport in more details.
+
+- Parallel work on updating CPAT distributional module, as well as a carbon tax scenario, are also underway.
+
+Best,
+
+Sacha 

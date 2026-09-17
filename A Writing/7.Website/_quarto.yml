@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - "papers/**"
+
+website:
+  title: "Climate, Fiscal & Finance"
+  description: "Research and writing on carbon pricing, fiscal policy, and climate finance."
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "© 2026"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: litera
+      dark: darkly
+    css: styles.css
+    toc: false
+    mainfont: "Source Serif Pro"
+    monofont: "JetBrains Mono"
+    fontsize: 1.05em
+    linkcolor: "#1a5490"
+    grid:
+      body-width: 800px

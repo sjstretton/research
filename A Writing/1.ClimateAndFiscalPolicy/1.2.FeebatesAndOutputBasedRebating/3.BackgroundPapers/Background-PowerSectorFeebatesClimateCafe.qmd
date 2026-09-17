@@ -1,0 +1,395 @@
+---
+title: "PowerSectorFeebates_ClimateCafe"
+---
+
+# 
+
+# Power Sector Feebates
+
+A Dynamic Approach to Overcoming Transitional Barriers and Decarbonizing the Capital Stock
+
+By Stephen Stretton, 28th February 2023
+
+## Executive Summary
+
+This paper introduces how to decarbonize a country’s power sector through a ‘feebate’ approach. There are several rationales for this.
+
+1.  In common with the industrial sector (dealt with in the companion paper), the power sector often *has a preponderance of coal use*. Because of coal’s **low costs** per GJ and high carbon content, the relative effect of a carbon tax on the price of coal is much more dramatic than on natural gas or oil products. (For example, a \$50/tCO2 can raise the price of coal by a factor of three, compared to a 20% rise in diesel prices). Such relative changes in price are more politically challenging, leading to two suboptimal options:
+
+    a.  Exempting coal or reducing rates for coal: this dramatically reduces the environmental effectiveness and efficiency of the policy
+
+    b.  Limiting the *overall* carbon tax rate to one that is so low that it is bearable even in the coal sector
+
+Here we consider a third option: since most coal use (where the transitional issues are most acute) are concentrated in a few sectors, in those sectors impose *a feebate* rather than a carbon tax. We focus here on electricity generation.
+
+2.  A carbon tax has two effects: it increases *relative costs for* high carbon asset stock (e.g., coal prices) *and* increases overall costs across the board (which may or may not be passed on to consumers, depending on the competitive situation). Due to these price effects, carbon pricing is a vital high priority tool that is likely to be transformational *if it can be implemented* because of the relative price effects.
+
+3.  Power is an industry that is both a significant source of emissions itself and the low carbon alternative to other fuel types. To decarbonize other sectors, it is vital to have a decarbonized energy supply. The predominant types of low-carbon energy available at scale are *electrical*. Assuming a not-yet decarbonized power system, consumers and industry responding to carbon pricing would initially face *higher* power prices – and thus, the carbon tax might encourage them to move *away* from the sector that will be the final energy source for heating, cooling, and road transportation in a low-cost renewables (and hopefully also climate-conscious) future. This would be counterproductive. It takes time for sectors to transition.
+
+4.  Feebates are dynamic and can be set at a *high* incentive that prioritizes early transformation, which is needed from the technological transition perspective.
+
+5.  *Combining multiple feebates* creates a system that approximates a consumption-based carbon tax, introduced in a more politically feasible manner. A consumption-based carbon tax, which exempts exports but includes imports is desirable and feebates, which are permitted, allow such a system to be created.
+
+6.  Thus, both individually and in a system, feebates naturally convert into a carbon tax. Still, they allow a carbon tax to be introduced in a more transformative and less politically disruptive fashion.
+
+7.  Feebates are a *revenue-neutral* instrument, whereas a carbon tax is, in principle, *revenue-raising*. If revenue is required, we suggest either a mixture of feebates (in coal-dependent sectors) plus revenue-raising taxes (for transport fuels), or alternatively, transition a feebates system into a carbon tax over time.
+
+# Table of Contents
+
+[Part 1: Introducing the Problem [3](#part-1-introducing-the-problem)](#part-1-introducing-the-problem)
+
+[1.1 Introduction [3](#introduction)](#introduction)
+
+[1.2 The Electricity Sector’s Key Role in Decarbonization [4](#the-electricity-sectors-key-role-in-decarbonization)](#the-electricity-sectors-key-role-in-decarbonization)
+
+[1.3 The Effect of Carbon Taxes and OBR on Power Sector Emissions [5](#the-effect-of-carbon-taxes-and-obr-on-power-sector-emissions)](#the-effect-of-carbon-taxes-and-obr-on-power-sector-emissions)
+
+[1.4 Transitional Costs & Barriers [6](#transitional-costs-barriers)](#transitional-costs-barriers)
+
+[Part 2. Alternative Strategies for Mitigating Transitional Costs [7](#part-2.-alternative-strategies-for-mitigating-transitional-costs)](#part-2.-alternative-strategies-for-mitigating-transitional-costs)
+
+[2.1 Strategy A: Exemption and Reduced rates [7](#strategy-a-exemption-and-reduced-rates)](#strategy-a-exemption-and-reduced-rates)
+
+[2.2 Strategy B: Slow Introduction of a Carbon Tax [9](#strategy-b-slow-introduction-of-a-carbon-tax)](#strategy-b-slow-introduction-of-a-carbon-tax)
+
+[2.3 Strategy C: OBR in the Electricity Sector [9](#strategy-c-obr-in-the-electricity-sector)](#strategy-c-obr-in-the-electricity-sector)
+
+[Two Variants on OBR in the Electricity Sector [11](#two-variants-on-obr-in-the-electricity-sector)](#two-variants-on-obr-in-the-electricity-sector)
+
+[Tax Burdens of Different Policy Instruments [12](#tax-burdens-of-different-policy-instruments)](#tax-burdens-of-different-policy-instruments)
+
+[Part 3: Metrics and Carbon Pricing [13](#part-3-metrics-and-carbon-pricing)](#part-3-metrics-and-carbon-pricing)
+
+[Political Feasibility Metric [13](#political-feasibility-metric)](#political-feasibility-metric)
+
+[Part 4: Discussion and Conclusions [14](#part-4-discussion-and-conclusions)](#part-4-discussion-and-conclusions)
+
+[Conclusions [14](#conclusions)](#conclusions)
+
+[Bibliography [15](#bibliography)](#bibliography)
+
+[Appendix 1: Methodology for Political Feasibility of a Carbon Pricing Scheme [16](#appendix-1-methodology-for-political-feasibility-of-a-carbon-pricing-scheme)](#appendix-1-methodology-for-political-feasibility-of-a-carbon-pricing-scheme)
+
+[Appendix 2: Specific Blueprinted version of Output-Based Rebating [17](#appendix-2-specific-blueprinted-version-of-output-based-rebating)](#appendix-2-specific-blueprinted-version-of-output-based-rebating)
+
+[Output-Based Rebating (OBR) in the Power Sector [17](#output-based-rebating-obr-in-the-power-sector)](#output-based-rebating-obr-in-the-power-sector)
+
+## ![](media/image3.png)Part 1: Introducing the Problem
+
+### 1.1 Introduction
+
+Carbon taxes have only been adopted in a few countries and with a carbon price (World Bank, 2018)[^1] well below the level of \$40-80/tCO~2~ by 2020 required globally to meet a 2C temperature target, according to the High Level Commission on Carbon Pricing (Stiglitz & Stern, 2017). Often, major industries or fuels are exempted, or have reduced rates, because of concerns that an increase in fuel prices caused by a carbon tax would increase the costs of industrial firms that compete in international markets.
+
+Under a carbon tax, all emissions are taxed. A feebate by contrast provides a tax on more-polluting activities in order to subsidize less-polluting activities.
+
+**Whereas a tax raises revenue, a feebate uses that revenue to subsidize cleaner activities.** So, cleaner-than-average activities get a subsidy whereas dirtier-than-average activities suffer a surcharge ([Figure 2](#_Ref33206444)).
+
+**Traditionally feebates have been imposed on vehicles** (German & Meszler, 2010)**. But feebates can also be applied to fuel use e.g. in the power sector** (Parry et al., 2017)**.** Thus fees/taxes and feebates can be applied either to the investment/durable goods purchase decision, or the fuel use decision, or both ([Figure 3](#_Ref33207064)).
+
+But how to specify what activities are ‘cleaner’ or ‘dirtier’ than average? Output-Based Rebating is a method of rebating the revenues from a carbon tax according to the production of a good as measured in physical terms. For example, in our case, rebates could be calculated per ton of aluminum produced. All the money raised from taxing the fossil fuels used in the production of aluminum would be rebated according to a set price per ton produced and distributed amongst all domestic aluminum producers in accordance with their total tonnage of aluminum production. If the carbon price is properly calibrated, this will induce a race to decarbonize aluminum production, as each producer seeks financial advantage from the net amount of the rebates received minus carbon taxes paid.
+
+This paper discusses a form of feebate called output-based rebating (OBR), where a carbon tax is combined with a subsidy based on physical output – for example per MWh of electricity produced. In this case the relative cleanness or dirtiness is specified by the emissions intensity (in tCO~2~/MWh).
+
+![](media/image4.png)
+
+### 1.2 The Electricity Sector’s Key Role in Decarbonization
+
+**Electricity generation is a key sector of the economy that produces significant emissions.** Electrification is the principal means by which the other sectors, notably including cars, trucks, and heating/cooling of buildings, can reduce their emissions in deep decarbonization scenarios. Electricity, once it is reduced in emissions intensity, can act as an energy vector for the other sectors that currently use fossil fuels directly.
+
+**The ownership and regulatory structure of the electricity sector varies between countries.** It can be privatized and fully liberalized, private and regulated, state-directed or fully state-owned. Nevertheless, even in the case of state-owned sectors (as is common in developing countries), carbon taxes can have effects on the relative attractiveness of different fuel types. Even state-owned sectors have budgetary constraints. Even if losses are funded by general taxation, sizeable losses can lead to political pressure to change course. And the imposition of a carbon tax can often be accompanied by changes to government procedures to ensure a ‘shadow price of carbon’ is used in cost-benefit analysis.
+
+A carbon tax or OBR in the electricity sector also impacts other sectors. Since electricity constitutes the main energy-vector for low-carbon energy, short-term increases in electricity prices (as would be produced by a carbon tax) could undermine the shift to electric vehicles and other forms of electrification that are needed in the long term.
+
+### ![](media/image6.png)1.3 The Effect of Carbon Taxes and OBR on Power Sector Emissions
+
+Emissions are price-elastic in some sectors (e.g. some electricity markets) and inelastic in others (e.g. road transport), due principally to the high price of road transport fuels and the low cost of coal used in electricity generation relative to any given carbon price.
+
+**The United Kingdom has a carbon tax (called ‘Carbon Price Support’, CPS) which supplements the carbon price seen in the EU-ETS to a minimum level viewed as necessary for the UK’s climate change targets.** This has been very effective at inducing a coal-to-gas switch in electricity generation (see figures right).
+
+![](media/image8.png)**It should be noted that this decarbonization is an effect due purely to the relative price of coal versus other forms of electricity generation. Hence the same decarbonization is likely under a rebated (OBR) carbon tax as under a simple carbon tax.**
+
+In summary, both carbon taxes and OBR are likely to have the effect of reducing the emissions intensity of the activity concerned (in this case, electricity generation).
+
+A decline in a sector's emissions intensity means there are fewer carbon tax revenues to recycle, and therefore the rebate per MWh is likely to decline. OBR is thus a transitional measure to help introduce a carbon tax in a gradual manner.
+
+### 1.4 Transitional Costs & Barriers
+
+**The impact of a carbon tax on the price of coal is relatively severe.** Compared to the other fossil fuels (oil and gas), coal is cheaper and has higher carbon content per GJ. For example, at current (end August 2019) international coal prices, a CO~2~ carbon tax of \$70 per ton of CO2 will more than triple the coal price.[^2]
+
+Imposing a carbon tax on all sectors including coal is justified – not only by coal’s severe climate damage, but also by its impact on local air pollution (Parry et al., 2015).
+
+![](media/image9.png)**Assuming a \$70/tCO~2~ carbon tax can be implemented, emissions will be reduced significantly**.[^3] However, the rise in coal prices will impose large transitional costs and may also cause severe political resistance from coal producers, industrial users of coal, and the general population. Since a carbon tax (as opposed to fossil fuel taxes in general) must, by definition, be in proportion to carbon contained per unit of fuel, the politically acceptable and realistic level of a carbon tax is limited by the level of political and economic feasibility in coal-intensive sectors.
+
+Even if a sector is emissions-intensive but not particularly trade-exposed (for example: electricity production), the short-term disruptive impact of a carbon tax may be severe. Changes to the price of an intermediate output such as electricity, steel, or aluminum, may have knock-on effects on sectors using that output, which may themselves be trade-exposed.
+
+OBR, if it is resisted less than a carbon tax, may allow an escape from the ‘low carbon tax lock-in’ (see [Figure 11](#_Ref33209023)).
+
+## Part 2. Alternative Strategies for Mitigating Transitional Costs
+
+In this section we consider alternative approaches to reducing the transitional costs associated with carbon taxes: exemptions and reduced rates, slow introduction, or OBR.
+
+### 2.1 Strategy A: Exemption and Reduced rates
+
+**Let’s now consider the effect of completely exempting electricity generation from a carbon tax.** Again, this is not at all recommended – it is provided as an example of what should *not* be done. We split total energy use (and emissions) into the element that is due to the power sector, and that which is not. Under this assumption, the portion of the original emissions covered by the carbon tax (the non-power sector) responds in the same way as before (i.e., emissions decline according to the same fractional multiple of BAU emissions as before). The power sector, on the other hand, is exempted from the carbon tax, and so its emissions are the same as BAU. This is summarized in the two tables below. Measurement of the impact of an overall carbon price (and of exemptions thereto) should account not only for total emissions reductions, but should also be weighted according to the emissions reductions avoided in each sector (see [Figure 12](#_Ref33211376)). In this sense, power sector carbon price exemptions are weighted very highly because they prevent a large portion of the potential effectiveness of a carbon tax.
+
+*Table 1: Business as usual (no Carbon tax) Emissions (Power versus non-Power), 2030, India*
+
+  ---------------------------------------------------------------------------------------------------------------
+  2030 Expectations   Power Sector BAU Emissions   Non-Power Sector BAU Emissions   Non power sector percentage
+  ------------------- ---------------------------- -------------------------------- -----------------------------
+  Coal                1,513                        1,275                            46%
+
+  Oil                 106                          139                              57%
+
+  Gas                 37                           802                              96%
+  ---------------------------------------------------------------------------------------------------------------
+
+*Table 2: Effect of Power Sector Exemption on Emissions, 2030, India*
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  2030 Expectations   Power Sector Emissions (Exempted)   Non-Power Sector Emissions with Carbon Tax   Total Emissions under Exemption   Change Relative to BAU   Carbon Tax Revenues   Total Revenue
+  ------------------- ----------------------------------- -------------------------------------------- --------------------------------- ------------------------ --------------------- ---------------
+  Coal                1,513                               527                                          2,040                             -27%                     36,914                40,751
+
+  Oil                 106                                 101                                          207                               -15%                     7,076                 7,549
+
+  Gas                 37                                  702                                          739                               -12%                     57,000                61,886
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### 2.2 Strategy B: Slow Introduction of a Carbon Tax
+
+![](media/image10.png)**Another way to reduce transitional impacts is through a *slow* introduction of a carbon tax.** This means that political constraints must be faced *each time* the carbon tax is increased. Firstly, even small carbon taxes can have large impacts on price of coal prices, and are likely to be resisted. Secondly, the resistance will continue and may increase with every subsequent increase in carbon prices.
+
+Furthermore, such a slow incentive does not maximize the potential for *transformational* change. Once carbon abatement takes place, unit costs of abatement measures often rapidly fall, as investment in solutions is scaled up and learning-curve effects unfold. For example, renewable electricity combined with flow-battery storage is relatively rare at present. Should a high carbon tax encourage large-scale deployment of such low-carbon technology combinations, their combined costs would almost certainly fall. This in turn would provide better low-carbon energy options for other sectors.
+
+### 2.3 Strategy C: OBR in the Electricity Sector 
+
+Here we argue that much of the beneficial fuel switching induced by a pure carbon tax can be achieved with an approach that retains the carbon tax element, but compensates the short-term increases in electricity costs that would otherwise result. Such a focus on the ‘supply side’ of decarbonization is especially important in the electricity sector, since a policy approach is needed that incentivizes both electricity decarbonization and a switch of sectors like transportation or home heating away towards (decarbonized) electricity.
+
+![](media/image12.png)OBR in the electricity sector could reduce initial political and industrial resistance to a new carbon tax: getting the *incentive* effect in early, and deprioritizing the *revenue raising* effect (at least in sectors covered by OBR). In a sector that is resistant to carbon pricing in the short run, OBR can be designed to *not* raise net revenue and *not* increase commodity output prices, even as OBR provides individual firms with *strong financial incentives to decarbonize energy inputs,* especially amongst high-carbon electricity producers. It is crucial to note that OBR subsidies per MWh would decline rapidly in tandem with the progress of decarbonization (which is likely to be rapid, given the strong financial incentives).
+
+Using appropriately calibrated feebate systems for different energy and commodity supply chains to buffer the early impact of a carbon tax, it becomes possible to apply a single, fairly high (and therefore effective) economy-wide carbon tax, even though the ratio of carbon price to energy unit can be very different for coal, oil, and gas fuels or for different commodities.
+
+Beyond electricity production, feebate systems are also suitable mechanisms for incentivizing the low-carbon transition for other commodities: e.g. from coal-based steel production to "green steel," from conventional cement-making to low-carbon cement-making, etc. Feebates allow policy-makers to smoothen and soften the transition to the low-carbon future, creating the equivalent of an initially low and then rising carbon tax – yet without needing to fight a series of difficult political battles that would arise every time a carbon tax is again increased.
+
+*Figure 15: Example of OBR in the electricity encouraging decarbonization, leading to a progressive decline in the emissions intensity, carbon tax revenue, and thus the rebate rate.*
+
+### Two Variants on OBR in the Electricity Sector
+
+Important variants are possible for OBR in the electricity sector. One variant is similar to ‘grandfathered’ emissions permits in ETSs. Under this scheme, current owners of high-carbon existing assets (e.g. coal power stations) would be entitled to a *higher* subsidy per MWh produced. This would be a right granted perhaps only for a couple of years. In this scenario, revenues are recycled *within* a particular fuel type (coal/gas/oil), resulting in no net tax for those sectors, a transitional subsidy to compensate for capital losses of high-carbon stranded assets, and an *even stronger* incentive to replace coal with renewables for owners of existing fossil-fueled plants. In other words, since coal power stations would very rapidly become uneconomic, we give a stronger subsidy to the owners of coal power stations based on recycling. This subsidy would be limited by the original capacity of existing coal power stations. After a while (in 2025 or 2030), all producers would be paid the same MWh subsidy.
+
+Another variant would not pay out a flat subsidy per MWh, but rather, would more strongly incentivize those means of producing electricity which are *dispatchable*. Such subsidies could encourage renewables with storage. The subsidy price paid would be equivalent to the short-run marginal cost of producing electricity at a given moment in time. It will be important to ensure that storage incentives and ‘dispatchable demand’ incentives are applied to the energy consumption sector as well.
+
+Allied with one of the two options above, it is possible to *bring forward OBR subsidies to the present* in exchange for phasing out coal (as OBR subsidies are likely to be predictable over the course of a particular year, and somewhat predictable thereafter in terms of the resultant rapid decarbonization of the electricity sector). Perhaps the government could provide cash-on-delivery subsidies for renewables + storage, with the subsidies equal to that which would be provided by OBR. Such lending would stimulate aggregate demand and could be supported by international institutions.
+
+### Tax Burdens of Different Policy Instruments
+
+The overall burden of a tax from the point of view of the legal person required to pay it depends in part on whether that agent can pass on the burden of the tax to someone else, e.g. whether operators of fossil-fueled electricity generating plans can pass on the cost of a carbon tax to electricity end-users. 
+
+‘Grandfathered’ permits (in an emissions trading scheme) are a pure benefit to the incumbents, as they are not output-dependent. Thus, the recipient of a grandfathered ETS permit can *both* pass on the price to end consumers *and* pocket the value of the grandfathered permits. This undermines dynamic incentives. By contrast, an output-based allocation provides both a cost and a benefit to the marginal competitive provider. In the EU, there has consequently been a move to output-based allocation. 
+
+Similar effects exist with carbon taxes. However, there is a case for subsidizing incumbents conditionally – *so long as they close old dirty capital stock (power stations)* and replace them with new cleaner generation*.* Thus, a subsidy is acceptable so long as it compensates for the transitional cost of shutting down the old generation before the end of its working life. 
+
+We can distinguish between two separate burdens: the burden of the carbon tax revenue (the money that the government raises from a carbon tax must come from somewhere) and the mitigation burden (transitional costs). In the case of OBR, the instrument is revenue neutral (the government does not retain net revenue), so there are only transitional costs. Note that the transitional costs will shrink over time, as the price of renewable energy equipment continues to decline. Bloomberg New Energy Finance (BNEF) suggest that for *new* investment, renewables are already the cheapest measure for mass generation in most parts of the world (for example in India, PV is estimated to be the cheapest). However, closing a newly constructed coal power station would clearly involve a financial loss.
+
+First (i) a pure carbon tax: in this case, the carbon tax revenue part of the burden falls on consumers of power, and the mitigation cost falls on owners of old power stations which are put out of action. This increase in the cost of power is counterproductive, in the sense that we want to encourage users of power to switch to clean generation, not to pay more for electricity.
+
+Now consider (ii) simple output-based rebating, where we treat the whole electricity sector, including producers and consumers, as the ‘system boundary’ within which revenues are recycled. Assume that carbon taxes are levied on operators of fossil fueled electricity generating stations, and the entire pot of carbon tax revenues raised this way is *refunded to electricity end-consumers,* in direct proportion to how much power they consume. In this case, it can be expected that coal power producers will still have capital losses. The main effect of the scheme is to prevent the cost of power rising for end consumers. The mitigation cost burden falls on coal generators. Since the government rebates all the revenues from the carbon tax to end-users, there is no net tax burden on end-consumers.
+
+Finally, consider the (iii) grandfathered-for-transition output-based rebating case, where we recycle revenue within each type of existing generation, and have a separate category for new generation. This case is more like an ETS-style ‘grandfathering’ scheme, but with the important difference that incumbents will benefit from net subsidies only if they transition rapidly to clean generation. 
+
+Revenues from a tax on the coal used in existing coal power stations would be rebated to electricity producers (not consumers) according to power produced, within the particular producer pool (e.g., the coal-fired pool or the gas-fired pool), but *each year they would be permitted to close down some fraction of the existing power stations and replace them with renewables.* The subsidy would be applicable to the new renewables output. The net subsidy is a reward for having transformed part of fossil generating capacity to renewables. The benefit of these subsidies falls on the fossil power stations owners; it exists by virtue of the fossil generation being closed and replaced with renewable power generation *by companies within that same pool of generators*. 
+
+Similarly to the second case, there is no overall tax burden in the sense that the government rebates the entirety of the revenues raised back to the industry (it doesn’t retain net tax revenues for other purposes). The transitional costs now are split between electricity end-consumers and ‘slow’ fossil generators who take longer to close their generation than average.
+
+The total transitional costs depend on the timeframe over which the phase-out takes place. A slow phase-out of coal which prevents new coal-fired generation from being constructed but gives owners of old coal power stations a few years to shut them down, would not entail very high transitional costs, as inefficient plants coming to the end of their duty cycle would probably be shut down anyway. A rapid coal phase-out would cost the owners of these power stations more financial losses than a slow phase-out but is desirable for climate stabilization. 
+
+In order to provide certainty, there would be a schedule in terms of the phase out rate. The scale of the country’s contribution to total global emissions should be considered, within the framework of the total global carbon emissions consistent with staying below the 1.5 degree C target agreed in Paris in 2015.
+
+## Part 3: Metrics and Carbon Pricing
+
+The effectiveness metric is measured in (tCO2/y) per (\$/tCO2) carbon price.
+
+### Political Feasibility Metric
+
+This section outlines political metrics for carbon pricing. Up to now, there have been few quantitative metrics considering political feasibility of generalized carbon taxes. The root of mechanism of political feasibility and infeasibility is via the price mechanism. Generally, authors argue that a tax is more infeasible if it creates *concentrated losers*. Political feasibility is considered to be related to the *proportional change in revenue for agents concerned.*
+
+Households can be concerned to be concerned with the price effect and any direct rebating.
+
+Firms in the relevant sector are interested in the effect on their budgets.
+
+We approximate feasibility by the % change in basic prices. This gives us an unweighted (micro) measure of political feasibility. So, the ‘downstream’ political feasibility of a power price is the % change in power prices.[^4] For example a \$100/tCO2 carbon price in India would raise electricity prices by 54% relative to the baseline (from 11c/kWh to 17c/kWh). The emissions intensity 0.66kg/kWh overall, a 100/tCO2 carbon tax raises the tax by approximately 6.6c/kWh). coal is 0.9kg/kWh assumed, so the difference is 0.9-0.66 = 0.24.
+
+To consider the effect on coal generators, let’s consider the impact on the coal price first. The coal price effect is for India about 117%. Weighting by the proportion of coal in the current fleet, the index would give us 117\* 75%.
+
++------------------------------------------------------------------------------+-----------------------------------------------+------------------------------+-----------------------------+-----------------------------------+
+|                                                                              | **Metric (for reference \$100 carbon tax)**   | **Carbon Tax**               | **Power Feebate**           | **Pooled Feebate with phase out** |
++==============================================================================+===============================================+==============================+=============================+===================================+
+| Political (In)feasibility (% short term change in price less direct rebates) | Coal Price for Generators less direct rebates | 117% (88% when 75% weighted) | 31% (23% when 75% weighted) | 0% (with some variability)        |
+|                                                                              +-----------------------------------------------+------------------------------+-----------------------------+-----------------------------------+
+|                                                                              | Electricity Price (weighted)                  | 54%                          | 1%                          | \~1%                              |
++------------------------------------------------------------------------------+-----------------------------------------------+------------------------------+-----------------------------+-----------------------------------+
+| Economic Effectiveness                                                       | Emissions reduction in 2030                   | -22%                         | -23%                        | Not Known?                        |
+|                                                                              |                                               |                              |                             |                                   |
+|                                                                              |                                               |                              |                             | -23%                              |
++------------------------------------------------------------------------------+-----------------------------------------------+------------------------------+-----------------------------+-----------------------------------+
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------
+  **Country**   **Policy**             **Power Price Change 2023**   **Baseline 2030**   **Policy Scenario 2030**   **Change in Emissions 2030**
+  ------------- ---------------------- ----------------------------- ------------------- -------------------------- ------------------------------
+  India         Carbon Tax             50%                           646                 505                        -22%
+
+  India         Power Supply Feebate   0%                            646                 496                        -23%
+
+  China         Carbon Tax             50%                           3,141               2,578                      -18%
+
+  China         Power Supply Feebate   0%                            3,141               2,410                      -23%
+  ------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Part 4: Discussion and Conclusions
+
+### Conclusions
+
+We have outlined an approach to addressing competitiveness and transitional concerns with Carbon Taxes in the electricity sector: Output Based Rebating (OBR). OBR can be useful as a transitional measure and is superior to sectoral exemptions to carbon taxes and to reduced carbon tax rates (on both environmental and fiscal grounds). OBR is particularly promising for the electricity sector, since this sector has the highest priority for decarbonization, is relatively sensitive to relative carbon prices, and is also the key vector for decarbonization of other sectors.
+
+## Bibliography
+
+German, J., & Meszler, D. (2010). *Best Practices for Feebate Program Design and Implementation*.
+
+International Monetary Fund. (2019). Fiscal Policies for Paris Climate Strategies.
+
+Parry, I., Heine, D., Lis, E., & Li, S. (2014). *Getting Energy Prices Right: From Principle to Practice*. International Monetary Fund.
+
+Parry, I., Mylonas, V., & Vernon, N. (2017). *Reforming Energy Policy in India: Assessing the Options* (WP/17/103).
+
+Parry, I., Veung, C., & Heine, D. (2015). How Much Carbon Pricing is in Countries’ Own Interests? The Critical Role of Co-Benefits (Issue September).
+
+Pigato, M. A. (2018). *Fiscal Policies for Development and Climate Action* (M. A. Pigato (ed.)). The World Bank. https://doi.org/10.1596/978-1-4648-1358-0
+
+Stiglitz, J. E., & Stern, N. (2017). *Report of the High-Level Commission on Carbon Prices*. https://static1.squarespace.com/static/54ff9c5ce4b0a53decccfb4c/t/59b7f2409f8dce5316811916/1505227332748/CarbonPricing_FullReport.pdf
+
+World Bank. (2017). New Carbon Pricing Opportunities in the Paris Agreement Era. *Wbg-Ecofys*. http://clgchile.cl/wp-content/uploads/2017/06/Carbon-Pricing-Watch-Advance-Brief-Jun-2017.pdf
+
+World Bank. (2018). State and Trends of Carbon Pricing (Issue May).
+
+## ![](media/image13.png)Appendix 1: Methodology for Political Feasibility of a Carbon Pricing Scheme
+
+This section describes the methodology for the adoption of a
+
+## Appendix 2: Specific Blueprinted version of Output-Based Rebating
+
+To date, carbon taxes have only been imposed at extremely low levels (\$1 to \$5/tCO2) in a few developing countries (see Chapter 1). However, the report of the High-Level Commission on Carbon Prices (Stiglitz & Stern, 2017) argues that tax rates of at least \$40-\$80/tCO2 this year (2020) and \$50-\$100/tCO2 by 2030, assuming additional complementary policies, are necessary to reach the Paris temperature targets. How can we square this circle with limited funds? One option is to impose a *relative* carbon price in high-priority sectors such as power and industry and *rebate the revenues according to physical output.* In this way an incentive to decarbonize is put in place whilst minimizing the price effect on output and reducing industrial and popular resistance.
+
+Output-Based Rebating, OBR, is an approach to compensating producers of a commodity with the proceeds of a carbon tax levied from their industrial sector. The compensation is based on the output of physical commodity produced: e.g., tons of aluminum or MWh of electricity. OBR could be useful in those sectors that are price-sensitive, internationally competitive, and/or use a lot of coal: the effect of an uncompensated carbon tax on the price of coal is relatively extreme, due to coal’s high carbon intensity and generally low fuel price per GJ.
+
+Such sectors include heavy industry (aluminum, iron, and steel) and the power sector. Exemptions are often put in place to shield these sectors from carbon taxes to protect Export Intensive Trade Exposed (EITE) carbon-intensive industrial sectors. OBR can be a useful alternative to an exemptions-based approach.
+
+### Output-Based Rebating (OBR) in the Power Sector
+
+We focus here on the power sector, where the justification for OBR is to smooth the curve of transitional costs and prevent the passed-through cost of electricity from increasing. A focus on the ‘supply side’ of decarbonization is especially important in the power sector, since electricity generation is often carbon intensive – and yet technologies exist for low- or zero-carbon electricity generation. This means electricity can serve as an energy vector with the potential to achieve full decarbonization of other sectors, such as transportation or heating of buildings.
+
+Output-based rebating (OBR) in the electricity sector focuses on reducing initial political and industrial resistance to a new carbon tax by ensuring transformational incentives are in place early and deprioritizing the revenue-raising effect (at least in the sectors covered by OBR).
+
+The basic idea is to levy a high carbon tax per ton of fossil fuels used, but then return the entire amount of the revenue raised to electricity producers in the form of a payout per MWh of electricity, regardless of whether that electricity is produced from high-carbon or low-carbon generating equipment. The net effect, over a period of several years, is to reward companies that shift their electricity production to low carbon generating equipment more quickly than their rivals – and/or to ensure that the price of electricity to consumers does not rise.
+
+After an initial year or two, OBR subsidies per MWh would tend to decline rapidly, in tandem with the progress of decarbonization (which is likely to be rapid, given the strong financial incentives).
+
+There are two possible simple ways that OBR could be introduced in the power sector as complements to a carbon tax -- i) treat the whole electricity sector as the ‘system boundary’ within which revenues are recycled, or ii) differentiate between types of power plant, and draw a system boundary around each fuel type separately (e.g. existing coal power stations, existing gas, existing renewables, and all new generation are each treated separately, as four distinct systems from which four distinct pots of revenues are recycled).
+
+This proposal is best illustrated by an example. Imagine that we have an electricity generating sector in, say, an Indian state, which is currently 100% powered by dirty brown coal (lignite), producing 1 ton of CO2 per MWh of electricity produced. Let's assume that together, the state's five power producers generate 60 TWh per year, or 15 TWh per quarter, and since 1 TWh = 1 million MWh, given 1 tCO2 /MWh, some 15 million tCO2 are emitted by the sector per quarter. Let's also assume all five power producers are the same size, each generating 20% of the state's electricity. Let's call the power producers Ambo, Bebo, Cebo, Debo, and Eebo.
+
+Let's posit a charge of \$100/tCO2 carbon tax on coal for electricity generation, and that the Electricity Board pays out all the money raised from that carbon tax to the power producers, in proportion to their share of the total electricity produced and supplied to the grid. This corresponds to a rebate for electricity produced of \$100/MWh in the first quarter of the first year. Assume the taxes are levied and rebates paid on a quarterly basis (at the end of every three months).
+
+Producers get the rebate-reward whether they produce electricity by coal or by some other means. If all the producers simply continue to burn lignite, then everyone gets back all the money they paid out in carbon taxes in that quarter. The state electricity board raises
+
+\$100/tCO2 \* 15 million tCO2 = \$1.5 billion
+
+in carbon tax, and it pays out \$1.5 billion in rebates. Let's assume this is the situation during the first two quarters of the first year of the feebate program.
+
+Imagine, however, that one producer, "Ambo Ltd", whose units generate 3.0 TWh per quarter (20% of all the electricity produced in the state), having planned ahead for the new feebate system, shuts down a large coal-fired power plant at the end of the second quarter, which had produced 1.5 TWh (10% of all the electricity produced in the state), and replaces that plant with a solar power park producing just as much electricity (1.5 TWh per quarter) as the now decommissioned coal-fired power plant had previously contributed. Assume that all the other producers continue to run the same equipment as before (i.e. coal power plants) and also produce the same amount of electricity as before (3.0 TWh per quarter). Total electricity generation remains stable at 15 TWh.
+
+At the end of the first and the second quarter, Ambo will have paid \$300 million in carbon taxes. At the end of the third quarter, however, Ambo pays 50% less carbon tax than in the previous quarter, i.e. \$150 million (and hence the total amount of carbon tax harvested by the State's feebate authority in the third quarter would decline by \$150 million). Total carbon tax revenues in the third quarter are now \$1.35 billion (in contrast to \$1.5 billion in the second quarter). When the pooled rebate monies are shared out to power producers at the end of the third quarter, Ambo will receive significantly more rebate money back than Ambo paid out during that quarter (a net gain of \$120 million), whilst all the other producers will receive significantly less rebate money back than they paid out during the quarter (each will have a net loss of \$30 million) (see *Table 3* below). 
+
+Now assume that in the fourth quarter, Bebo Ltd., having realized what the game is, copies Ambo's strategy, and likewise shuts down half its coal-powered generating capacity and replaces it with solar and wind farms that produce an equal amount of power. We see that in Q4, even less carbon tax is raised, and now both Ambo and Bebo are net financial winners, whereas the other three power producers are the losers. The total net amount of gains distributed to the winners is exactly equal to the total net amount of losses levied from the losers.
+
+The dynamic demonstrated by this example shows that under a revenue-neutral system of carbon taxes and per-MWh rebates (i.e., feebate system), producers will have a very strong incentive to switch to renewable electricity as soon as possible. The earliest movers will get the greatest net financial gains from the feebate distributions, and the lamest laggards will rack up the highest losses. Electricity producers will compete to be the fastest to decarbonize, so as to avoid being left holding the proverbial bag. Each of them will, we can expect, shut down their least-profitable coal power assets first, and replace these with the lowest-cost available renewable energy generation equipment.
+
+Note that in order to work properly, the system must stipulate that only newly constructed renewable energy assets will qualify for inclusion in the rebate payment system. Merely buying previously existing solar or wind farms won't help – these won't qualify for inclusion in the rebate calculation.
+
+*Table 3: Electricity Provider Feebate System rewards early movers on decarbonization*
+
+  ----------------------------------------------------------------------------------------------
+                               Q1              Q2              Q3               Q4
+  ---------------------------- --------------- --------------- ---------------- ----------------
+  **Total TWh Produced**       15 TWh          15 TWh          15 TWh           15 TWh
+
+  **Total Emissions tCO~2~**   15 M tCO~2~     15 M tCO~2~     13.5 M tCO~2~    12 M tCO~2~
+
+  **Total C Tax Revenues**     \$1.5 bn        \$1.5 bn        \$1.35 bn        \$1.2 bn
+
+  **Total Rebates Paid**       \$1.5 bn        \$1.5 bn        \$1.35 bn        \$1.2 bn
+
+  **Ambo Emissions tCO~2~**    3.0 M tCO~2~    3.0 M tCO~2~    1.5 M tCO~2~     1.5 M tCO~2~
+
+  **Ambo C Tax Paid**          \$300 million   \$300 million   \$150 million    \$150 million
+
+  **Ambo Power Generated**     3.0 TWh         3.0 TWh         3.0 TWh          3.0 TWh
+
+  **Ambo Rebate Received**     \$300 million   \$300 million   \$270 million    \$240 million
+
+  **Ambo's net gain (loss)**   \$0             \$0             \$120 million    \$90 million
+
+  **Bebo Emissions tCO~2~**    3.0 M tCO~2~    3.0 M tCO~2~    3.0 M tCO~2~     1.5 M tCO~2~
+
+  **Bebo C Tax Paid**          \$300 million   \$300 million   \$300 million    \$150 million
+
+  **Bebo Power Generated**     3.0 TWh         3.0 TWh         3.0 TWh          3.0 TWh
+
+  **Bebo Rebate Received**     \$300 million   \$300 million   \$270 million    \$240 million
+
+  **Bebo's net gain (loss)**   \$0             \$0             (\$30 million)   \$90 million
+
+  **Cebo Emissions tCO~2~**    3.0 M tCO~2~    3.0 M tCO~2~    3.0 M tCO~2~     3.0 M tCO~2~
+
+  **Cebo C Tax Paid**          \$300 million   \$300 million   \$300 million    \$300 million
+
+  **Cebo Power Generated**     3.0 TWh         3.0 TWh         3.0 TWh          3.0 TWh
+
+  **Cebo Rebate Received**     \$300 million   \$300 million   \$270 million    \$240 million
+
+  **Cebo's net gain (loss)**   \$0             \$0             (\$30 million)   (\$60 million)
+
+  **Debo Emissions tCO~2~**    3.0 M tCO~2~    3.0 M tCO~2~    3.0 M tCO~2~     3.0 M tCO~2~
+
+  **Debo C Tax Paid**          \$300 million   \$300 million   \$300 million    \$300 million
+
+  **Debo Power Generated**     3.0 TWh         3.0 TWh         3.0 TWh          3.0 TWh
+
+  **Debo Rebate Received**     \$300 million   \$300 million   \$270 million    \$240 million
+
+  **Debo's net gain (loss)**   \$0             \$0             (\$30 million)   (\$60 million)
+
+  **Eebo Emissions tCO~2~**    3.0 M tCO~2~    3.0 M tCO~2~    3.0 M tCO~2~     3.0 M tCO~2~
+
+  **Eebo C Tax Paid**          \$300 million   \$300 million   \$300 million    \$300 million
+
+  **Eebo Power Generated**     3.0 TWh         3.0 TWh         3.0 TWh          3.0 TWh
+
+  **Eebo Rebate Received**     \$300 million   \$300 million   \$270 million    \$240 million
+
+  **Eebo's net gain (loss)**   \$0             \$0             (\$30 million)   (\$60 million)
+  ----------------------------------------------------------------------------------------------
+
+In reality, things will not be quite as simple as shown in this example. One consideration is that power producers could decide to add new clean energy generation equipment without decommissioning coal-burning equipment (assuming there is rising demand for electricity, e.g., due to vehicle-fleet electrification). To prevent this, state policy-makers could consider placing moratoria on any additional construction of coal-fired power plants, and on expansion of existing plants.
+
+Beyond that, how fast electricity generators actually decarbonize their generator fleets will also depend on what opportunities are available to them to affordably finance the construction of new clean energy assets as well as decommissioning costs. Here, too, states could provide financial incentives, e.g. by means of ultra-low-interest loans from state banks for qualifying investments. Interest rates for clean energy infrastructure investment loans are a variable of key importance, given the highly front-loaded capex involved.
+
+[^1]: In this Note we assume familiarity with a standard upstream carbon tax (see e.g. International Monetary Fund, 2019; Parry, Heine, Lis, & Li, 2014; Pigato, 2018; World Bank, 2017).
+
+[^2]: The coal price assumed in this calculation is \$65 per ton (Australian standard export coal). The proportional increase in the price of locally-mined coal may be even higher – e.g. the same carbon tax of \$70 per ton of CO~2~ would likely cause at least a quadrupling of local Indian coal prices (assuming for example a post-transportation and government extraction royalties cost of around INR 2000 per ton of G11-grade coal).
+
+[^3]: By contrast, since oil prices are much higher per GJ, and oil produces less CO~2~ per GJ, and since existing taxes on oil products such as transport fuels are substantial (unlike those on coal), the price effect of a carbon tax on oil would be much more limited.
+
+    The impacts on the relative price of natural gas are also much lower than coal. While the price per GJ of natural gas is typically between that of coal and of oil, gas’s carbon intensity is yet lower than that of oil. On the other hand, methane leakage from the gas supply chain increases the net climate impact of natural gas production – a leakage of only [ca. 3%](https://www.pnas.org/content/109/17/6435) results in greenhouse warming equivalent to that of coal.
+
+[^4]: For now, we ignore the use of revenue for households.

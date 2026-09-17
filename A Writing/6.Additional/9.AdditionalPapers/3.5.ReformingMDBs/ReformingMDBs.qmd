@@ -1,0 +1,123 @@
+---
+title: "**MDB Reform and Incentives for Paris Agreement Compliance**"
+---
+
+*Stephen Stretton*
+
+# **Abstract**
+
+Multilateral Development Banks (MDBs) play a pivotal role in driving the global green energy transition, yet their evolving responsibilities in this transition require further exploration. This paper examines the various roles MDBs, particularly the World Bank Group (WBG), could and should assume to scale climate action. We explore the dual role of MDBs as financial institutions and policy influencers, with a focus on the WBG’s unique ability to provide both investment lending and policy-transforming support. In addition, we address the WBG’s involvement in the development of critical carbon market instruments. The paper identifies two key issues—scalability and policy incentives—that must be addressed to enhance the effectiveness of MDBs in achieving the goals of the Paris Agreement. Our analysis spans several dimensions: the WBG’s mission, its financing products, the challenges and opportunities for scaling its efforts, and the critical role it plays in creating dynamic policy incentives. We argue that the WBG, given its scale and leadership position, should expand its mandate to prioritize nature protection and significantly increase climate mitigation financing. By addressing these core issues, MDBs can more effectively catalyze the global green transition and drive meaningful progress toward climate goals.
+
+# **Introduction**
+
+Recently many voices have been calling for the WB to take more action on climate change. Al Gore, for example, has called for the WB to be involved in scaling up lending to developing countries. *How can the institution adapt and adjust to the new world?*
+
+There are reasons for hope and optimism. First, the World Bank has the scale and the capabilities to assist as a hub for climate finance. Its global practices provide expertise. Its lending operations have extensive experience in lending to developing countries. The World Bank Group includes several additional institutions relevant to the climate change problem, notably IFC and MIGA. Unlike other development banks, the WB offers policy conditionality; that is, the bank offers ‘Development Policy Financing’ (DPF) loans that offer government money in exchange for policy action (prior actions). Such policy conditionality could be redirected to account for climate change actions.![](media/image10.png)
+
+The financial needs for the green transition are substantial. The IEA estimates about \$4tr per year globally. Roughly that could translate into \$1tr/year in China and \$2tr/year in other EMDEs taken together. That is likewise split into the power sector, public infrastructure, and end-use technologies.
+
+So, we argue that the energy transition needs a *reduction in the risk* of investor funds: to transform a situation where nation-states, power sectors, and end users are *less risky* to the end investors than the way*.*
+
+The critical feature of MDBs is relatively simple: the ability to borrow at low rates and to on-lend to projects in the developing world. This can be seen in terms of the following graph, which describes the debt bomb from financing a big push on climate mitigation at market rates (light blue), as opposed to IBRD (World Bank) rates (maroon).
+
+# **Mission and Mandate**
+
+The World Bank Group has two ambitious goals: to end extreme poverty within a generation and boost shared prosperity on a livable planet.
+
+We believe the World Bank should expand its mission to ensure the necessary investment is undertaken to meet the Paris Agreement’s temperature targets.
+
+The bank can play an increased role in climate mitigation. In particular, because of its low credit rating, it can funnel investment funds into developing countries at low borrowing costs. A scaling up of finance for mitigation could be achieved either with or without adjustments to the formal mandate of the world bank. This mandate should be updated, but it’s not essential. If that mandate were updated, it could be said that the bank has the mandate to promote crucial global public goods. But that may be too broad: it could focus on climate mitigation and critical nature protection for 1-2 decades. This role should not just involve the energy sector but also crucial parts of nature. A potential addition to the mandate would be for the bank “To ensure the scale-up of green investment to meet the Paris temperature targets; and to protect critical natural capital.”
+
+# **Lending Operations of the World Bank Group**
+
+The lending required for climate mitigation and nature protection is composed of different elements that cross the various institutions. IBRD lends money to governments. There are three types of lending: Investment Financing (projects), Policy Financing, and Payment for Results (results-based payments). Currently, the IBRD engages principally in an ‘on balance sheet’ model of credit. This means that it makes loans, and it is subject to the credit risk on those loans, rather than originating and then selling on these loans. In the climate sphere, the bank is also engaged in hosting climate funds and also sometimes in originating carbon market instruments. IDA gives low-interest grants and loans (called ‘credits’) to poorer countries.
+
+The IFC lends to and invests in (equity investments) in the private sector. The private sector is involved in capital markets (local currency bonds). MIGA issues guarantees for political risk and credit enhancement; these guarantees are reinsured on the international reinsurance markets. MIGA engages in an ‘origination only’ model of guarantees. There are important aspects of the MIGA, and IFC business models which we believe are essential, which we cover in the next section.
+
+**Major Capabilities and Issues**
+
+In this section, we deal with five major characteristic features: super seniority, the envelope system, the crucial matter of scale, whether exposure is retained or released from the balance sheet, and whether the institutions lend only or include equity investments.
+
+**‘Super Seniority’**
+
+IBRD issues lending at interest rates that are profitable for IBRD, yet still below the levels that developing countries typically must pay. What explains this? This phenomenon can be explained by ‘super seniority.’ Countries care about their relationship with the WB for many reasons. Default to the WB would lead to other negative consequences, not least reducing the ability to borrow further from the bank and in the international financial markets. Super seniority is a key aspect that could be scaled further.
+
+**The Envelope System**
+
+Lending to developing countries takes place under an ‘envelope’ system. This means that the total quantity of concessional lending is limited by a formula that accounts for the country’s developmental needs, anti-corruption score, and credit rating. This has two challenges:
+
+1.  First, climate mitigation funding needs to be in addition to development financing since its needs are so substantial. Climate-oriented lending is constrained because mitigation needs to be oriented toward fast-growing developing economies. But traditional development banking is oriented toward development rather than climate mitigation. Arguably, climate lending should be extra to development funding and focused on different countries.
+
+2.  Second, the single envelope system severely limits the possibility of policy conditionality and mitigation-oriented climate lending. Policy conditionality is limited because the envelope is pre-set anyway. So, the incentive effect is curtailed as increased possibilities for investment lending compensates for any forgone policy lending and vice versa.
+
+> **Scale**
+
+The critical issue in meeting this target is one of scale. *How do we ensure that the WB has the required scale to achieve this new mission?* This problem may be easier than expected once viewed. Two significant issues need to be resolved. *If we need additional scale, outside the existing envelope system, where should this come from?* A*dditional* low-cost lending could be achieved directly from WB lending, or by the WB or other MDBs enabling or creating other institutions to enable access to the low-cost capital markets.
+
+# **Characteristics of the Financial/Institutional Model**
+
+Here the question is whether the bank should engage in an IBRD-like model of retaining loan risk on its balance sheet or whether it should consider reinsuring risks or selling debt altogether. There are several options:
+
+- Risk transfer: We could scale up the risk transfer as MIGA does with political risk guarantees and credit enhancement products.
+
+- Syndicated lending: Similarly, to the guarantee case, more syndicated lending and loan securitization could be undertaken to recycle the institution’s balance sheet.
+
+- Within the existing institutions, as a separate legal entity in the bank group or as an entirely separate institution?
+
+- Enabling other institutions to achieve scale: for example, enabling financial inclusion by creating developing-country-oriented equity funds and banks for the climate.
+
+- The green banks and funds needed in other countries could set up parallel institutions.
+
+- Parallel capitalization: The WB could set up an institution that fulfills risk transfer and financial structuring of parallel institutions outside the ‘envelope’ system
+
+## **Debt Only or Equity As Well?**
+
+To achieve scale, there must be in some sense, some additional risk-absorbing equity, either in the MDB itself, or in institutions it helps to set up, such as risk-absorbing equity funds. We argue in short, that MDBs could have a crucial role in setting up a sort of equity and insurance structure.
+
+# **Creating Incentives for ‘Strong Paris Compliance’**
+
+# **Weak versus Strong Paris Compliance**
+
+Paris Compliance can be considered in two parts. First, the Paris compliance of an individual project which only needs to be compatible with a low-carbon trajectory. We call this ‘weak’ Paris compliance. A lone solar project in a country can be ‘weakly’ Paris compliant without that country as a whole even having a carbon reduction strategy. In this section by contrast, we consider the case for ‘strong’ Paris compliance, meaning that if all countries implemented Paris-compliant policies, we would meet the Paris temperature target of 1.5C above the pre-industrial level.
+
+## **Challenges**
+
+Climate finance and carbon markets suffer several challenges. Firstly, carbon markets do not create universal and equal incentives for all countries to act. Instead, they often are ad hoc and based on projects with ‘additionality’ requirements, meaning climate finance creates some action that would not otherwise have happened. The ‘additionality’ requirement may encourage ‘waiting’ and even counterproductive responses (keeping high carbon assets open longer to get paid to close them down). If a country expects to be paid for some climate action, that country may wait until being paid before acting.
+
+## **Universal Incentives and Scale**
+
+A universal incentive for policy action in all (or all-developing) countries might be better. For example, policy effort could be defined by the effective carbon price, with low-cost financing allocated to incentivize that policy action. A universal incentive across all countries to make low-cost, long-term borrowing available does not suffer from creating perverse incentives. It can be designed to encourage early action.
+
+But achieving the necessary scale for universal incentives, let alone declining universal incentives (to encourage early action), is tricky. How could it be done? One approach would be to adopt a sectoral approach: focus on one high-impact sector first, then move later to other industries. Another option is to use the limitation of a good-enough policy as a rationing device to ration the limited financing. We could even set a bar, so that policy action above a certain level achieves financing at scale. Another is to explore ways to use synthetic sovereign bonds to scale up low-cost financing. We cover here the policy-rationing approach, and we argue it both achieves rationing, higher effectiveness, and better dynamic incentives. Combined with the other rationing and scale limitations (e.g., sectoral limitation), we may be able to achieve global incentives in a limited sector (e.g., power) for a particular class of countries (e.g., rapidly developing poorer countries) and a specific region (e.g. southern Africa) as a demonstration for further scaling.
+
+## **Proposal for Universal Incentives**
+
+A central institution such as the WB would set some standards for policy strength needed for a 1.5C consistent temperature target (canonically, the carbon price, say a \$100/tCO2 carbon price rising to \$200/tCO2). In exchange for this policy action, there would be finance provided for 1.5C consistent temperature target investment financing (i.e., all the investment needed for net zero). A country committing to 100% of the necessary action for 1.5C action would be allocated 100% of the financing required for this investment needed to meet this target.  This would create a *universal incentive* that is nevertheless strong and **nevertheless affordable**. By setting a ‘price’ for policy action, you *ration* the investment to the available funding.
+
+## **Action Threshold**
+
+There may be a case for only offering funds beyond some action threshold. Traditionally, it’s been assumed that ‘low-hanging fruit’ should be taken first. But if there is little money, it’s clearer that 1.5C-consistent policy is ‘transformative’ than marginal changes. In particular, the demonstration effect and norm-setting effects are essential. Suppose one country has ‘led’ to show benefits from climate action. In that case, other countries may be more convinced that such activity is possible, and other countries joining that country create a norm that eventually becomes standard practice. Net zero pledges are an example of this dynamic in action: now, we also need to demonstrate policy action consistent with those pledges. Therefore, in addition to setting up generous (but declining – act now or expect lower benefits) incentives for radical action, it may be necessary to ration those policies chosen – to create a high bar. For example, only carbon prices over \$50/tCO2 would be included. This also implies the transformative optimizations needed.
+
+## **Double Effectiveness Means High Social Return.**
+
+The investment funding would be doubly adequate (from the respect of the donor countries) because it would have the investment effect and the policy reform effect. And the limited (assumed) uptake (given the policy change needed) allows for a universal incentive available to all countries.
+
+## **Not Part of the Envelope**
+
+The universal incentives for policy would be a new ‘additional’ envelope of climate finance, over and above existing financing and additional to current MDB finance streams. The quantity of that envelope would be conditional on policy strength.
+
+# **Dynamic Incentives and Scalability**
+
+## Act now or lose out! From an analytical perspective, we should bring in the Dixit/Pyndyck ‘real option’ dynamic incentive perspective: how can we create an incentive to act now rather than later? How do we ensure that there is enough financing available and that the terms of the initial financing round start favorable and then become less profitable over time? Grant funding (from international donors) could be used to absorb risks and supplement the use of derisked long-term sovereign bonds for financing at scale. The grants would ensure that early actors have the incentive to move first. Long-term financing is probably cheaper than short-term financing, meaning most debt financing can be achieved by borrowing from the long-term bond markets, where interest rates are more stable. Should there be ‘too much’ response for the available financing, then the countries not given financing could be given priority for later financing rounds?
+
+## **Scalability**
+
+To get the grant & bond & equity funding to work properly, we need the bond & equity part to be very scaleable. One approach to this is a blended equity fund combined with an approved project list; debt financing can be scaled through the creation of synthetic sovereign bonds. See separate papers on these topics available on demand.
+
+There would be a mixture of low-cost financing and grants (e.g., carbon market grants), with contributions enabling the incentive to be dynamic – early actors would get better terms. By combining investment financing with policy financing, we enhance both effectiveness and allow universal incentives for decisive policy action, leveraging the credit rating of international institutions and making full use of capital markets.
+
+By creating a ‘transformative’ high bar (i.e., the most transformative policy and investment package would be financed first) and ‘generous but declining’ terms (i.e., grant funding ensures benefits to first movers), we incentivize early action that transforms the global situation through the demonstration effect.
+
+# **Conclusions**
+
+Incentives for climate action should be universal, not ad hoc. But it is challenging to provide strong universal incentives, as it is challenging to find enough financing or funding. By using policy action as a rationing mechanism, we respect both constraints, i.e., we allocate limited climate financing and funding to the most deserving ends. A double benefit can be gained by offering low-cost investment funding in exchange for climate action. These dual benefits enhance the social return of finance for donors. Incentives for climate action should be generous for early action and decline in time. There may be a role of grant funding to ensure higher attractiveness of early action. The rationing of climate finance according to policy action creates incentives and limits supply of finance. Such financing should be separate from the MDBs’ financing envelope. There are roles for debt (long-term synthetic sovereign bonds organized by MDBs), equity (loss-absorbing and co-investing in projects), and grants (to further limit risks and encourage earlier action, creating dynamic incentives). Using multiple financing methods coordinated with appropriate policy (e.g., renewables reverse auctions) allows for scale.

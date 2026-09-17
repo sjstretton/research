@@ -1,0 +1,136 @@
+---
+title: "The Sollar"
+subtitle: "A solar-backed savings unit, and why it is equity rather than currency"
+author: "Stephen J. Stretton"
+abstract: |
+  The mechanisms elsewhere in this section reduce the cost of borrowing by reallocating risk among lenders, guarantors and governments. The Sollar takes a different route: it removes the borrower. One Sollar is a claim on a defined quantity of installed solar capacity, held as an undivided share across a portfolio of utility-scale parks worldwide. Electricity revenue net of an operator fee is reinvested in further panels, so the capacity behind each unit grows; after an initial period the holder may convert into a fixed claim paying a dollar dividend. A developer can borrow Sollars during construction, pay suppliers in them, and repay by issuing Sollars against the completed park — financing the asset with a claim on what it will produce rather than with debt. This paper sets out the instrument, the design choices that determine its behaviour, and an honest account of what it does not solve. The Sollar avoids credit risk by not creating a credit. It does not avoid payment risk, currency risk or policy risk, and its convertibility promise needs a mechanism behind it. It is best understood as a real-asset equity unit with some monetary properties, and is most useful paired with the payment intermediation described in 2.1.
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  docx:
+    toc: true
+    number-sections: true
+---
+
+*One of the mechanism papers in section 2. The overview in 2.0 places it among the others: unlike them, it does not transfer a risk so much as decline to take one on.*
+
+# Executive summary
+
+**The Sollar finances solar capacity with a claim on output rather than a promise to repay.** One Sollar represents a defined quantity of installed panels, held as an undivided share across dedicated utility-scale parks in several countries — an index fund rather than a stake in any one project. Because the holder owns capacity rather than a debt, there is no borrower whose creditworthiness has to be established, and therefore no country risk premium to be negotiated away.
+
+**The unit is defined by output, not by panel count.** Panels differ in efficiency and sites differ in insolation, so a unit defined as "one panel" would mean different things in Morocco and Mongolia. Defining one Sollar as the capacity producing a given average output — one watt of mean electrical output, or 8.8 kilowatt-hours a year, corresponding to roughly 5 to 10 watts-peak depending on location — makes holdings comparable across the portfolio.
+
+**Capacity per unit grows, which is what makes it a savings instrument rather than an income one.** Revenue from electricity sales, net of an operator fee of around 10 per cent, is reinvested in further panels, which may be installed anywhere in the portfolio. A holder who does nothing accumulates capacity. The instrument behaves like a growth stock with a physical asset underneath it.
+
+**Convertibility is what anchors the value, and it is the feature to get right.** After an initial period — five years is the natural minimum — a holder may convert on a fixed annual date into an instrument representing the capacity accumulated to that point, which then pays a dollar dividend from the electricity it produces. The dividend declines slowly as panels degrade. Without this conversion right the unit is a token whose price is whatever the market says; with it, the unit has a floor set by the discounted value of real electricity.
+
+**A developer can build a park and pay for it in the thing the park will produce.** International institutions hold a reserve of Sollars and lend them to developers, who pay suppliers in them during construction. On completion the developer issues Sollars against the finished capacity and repays. Because the unit appreciates through reinvestment, the interest rate in Sollar terms is low, possibly zero or negative, so the carrying cost of the construction period is small.
+
+**That is not the same as the park being free, and the paper should not claim it is.** Issuing Sollars against completed capacity is an equity issuance: the developer gives up a permanent claim on the output in exchange for the capital. What the structure avoids is *debt*, and with it the cost-of-capital problem that the rest of this section exists to address. In markets where equity is the scarce factor — the argument of 2.2 — trading a claim on output for construction finance is often the right trade, but it is a trade.
+
+**Three risks survive the structure and one is introduced by it.** The electricity still has to be sold to someone who pays, so offtaker payment risk is untouched — which is the argument for pairing the Sollar with the intermediary in 2.1. Policy risk is untouched. And paying dollar dividends out of local-currency electricity revenue reintroduces precisely the mismatch that 2.0 identifies as a distinct risk. The risk the structure adds is redemption pressure: a conversion right exercisable by many holders at once needs a queue, a cap, or a market maker behind it.
+
+**Geographic diversification is the strongest feature of the design.** Panels in a dozen countries mean no single government, grid or currency determines the unit's value. A holder in a country with a weak currency and a poor sovereign rating obtains a claim on a globally diversified real asset — which is precisely what domestic savers in such countries cannot currently buy at any price.
+
+**Who holds the Sollars matters as much as how many are issued.** An instrument that succeeds in attracting international capital at scale ends with foreign investors owning a large share of a country's generating capacity. Retention incentives for domestic and particularly retail holders are not a decoration on the proposal; they determine whether it is a development instrument or an extractive one.
+
+# 1. The problem
+
+**Financing renewable energy in developing countries is expensive for reasons that have nothing to do with the sun.** Capital markets are thin, domestic currency borrowing is costly, international borrowing is costly and risky, currencies are weak, and sovereign ratings price every domestic counterparty. Since renewable generation is capital-intensive and has no fuel cost, the interest rate charged passes almost directly into the cost per kilowatt-hour.
+
+**The instruments in the rest of this section attack that rate by reallocating risk.** A payment intermediary removes counterparty risk from the generator. A tiered guarantee moves loss exposure up a chain of governments and donors. An equity fund supplies the first loss that lets debt be raised cheaply. All of them make a borrower more creditworthy.
+
+**A second problem sits alongside the first and is rarely addressed: savers in these countries have nowhere to put money.** Domestic savings instruments are scarce, often negative in real terms, and denominated in a currency the saver expects to weaken. The capital that could finance domestic infrastructure exists and has no route to it. An instrument that solved this would raise finance and improve household balance sheets at the same time.
+
+# 2. How the Sollar works
+
+## 2.1 The unit
+
+**One Sollar is an undivided share in a defined quantity of installed solar capacity, spread across dedicated parks in several countries.** The holder does not own a panel in a particular place; the holder owns a slice of the whole portfolio, in the way an index fund holder owns a slice of an index.
+
+**Capacity is defined by expected output rather than by nameplate or count.** One Sollar might be defined at launch as the capacity producing one watt of mean electrical output — 8.8 kilowatt-hours a year — which corresponds to something between 5 and 10 watts-peak of panels depending on the insolation where they sit. This keeps a unit issued against a park in Morocco equivalent to one issued against a park in Germany.
+
+## 2.2 The growth phase
+
+**Electricity revenue net of the operator fee is reinvested in further capacity, so the panels behind each unit accumulate.** The new capacity need not be in the same country as the old; reinvestment is an opportunity to diversify the portfolio further.
+
+**The operator fee should be performance-linked, not fixed.** An operator taking roughly 10 per cent of revenue, reduced where the panels produce less than the guaranteed annual output, has a direct interest in maintenance and in honest reporting. This converts what would otherwise be a monitoring problem into a contractual one.
+
+## 2.3 Conversion
+
+**After an initial period the holder may convert into a fixed claim that pays a dividend.** Five years is a sensible minimum, with conversion permitted on one date a year to keep the operation orderly. On conversion the holder's accumulated capacity is fixed: reinvestment stops and the electricity revenue from that capacity is paid out instead, in dollars, declining slowly as the panels degrade.
+
+**This is what gives the unit tangible value, and it is the feature that decides whether the instrument is credible.** A growth unit with no redemption route is worth what the next buyer will pay. A growth unit convertible into a claim on real electricity revenue has a floor: the discounted value of the output it represents. The conversion right is the anchor, not a convenience for holders who want income.
+
+**The life-cycle fit is the reason this structure suits pension saving.** A contributor accumulates capacity during working life and converts at retirement into an income stream. The instrument's two phases map onto the two phases of a pension without requiring the saver to switch products or the fund to rebalance.
+
+# 3. Financing a park with Sollars
+
+**A developer can pay for construction in the units the completed park will generate.** International institutions hold a reserve of Sollars; developers borrow from that reserve and pay suppliers in Sollars during the build. On completion the developer issues Sollars against the finished capacity and repays the reserve.
+
+**The carrying cost of the construction period is unusually low because the unit appreciates.** A lender holding Sollars enjoys the reinvestment growth, so the interest rate demanded in Sollar terms can be low, zero, or slightly negative. The developer borrows only for the construction window.
+
+**What this achieves is the substitution of equity for debt, which should be stated plainly.** The original formulation — that a park might cost nothing to build, since it is financed by borrowed Sollars repaid by issued Sollars — overstates the case. The developer is not financing the park for free; the developer is selling a permanent claim on its output to pay for it. The gain is that this claim carries no fixed repayment obligation, no default risk, and no country risk premium, which is exactly the set of costs that makes conventional project debt expensive in these markets.
+
+**Whether that trade is worth making depends on the alternative.** Where debt is available at 5 per cent, selling permanent equity to avoid it is poor value. Where debt is available at 14 per cent or not at all, it is the difference between the park existing and not existing. The Sollar is an instrument for the second case.
+
+# 4. What the Sollar is, and is not
+
+**Calling it a currency invites objections the instrument cannot answer, and gains nothing.** A currency is a unit of account, a medium of exchange and a store of value. The Sollar is a good store of value and can settle transactions between parties who agree to accept it — a developer and a panel supplier, for instance. It is not a unit of account: prices are not quoted in Sollars, and its value against goods moves with panel prices and electricity revenue.
+
+**It is more accurately described as a real-asset equity unit with monetary properties.** That description loses nothing that matters and avoids the regulatory and conceptual arguments that the word "currency" starts. The properties that make it useful — divisibility, transferability, a value anchored in a physical asset, appreciation without a coupon — survive the reclassification intact.
+
+**The distinction has a practical consequence for who may hold it.** Pension funds, insurers and retail savers can hold an asset-backed investment unit under existing rules in most jurisdictions. A private currency is another matter entirely. Framing determines the addressable investor base.
+
+# 5. Design choices
+
+## 5.1 Reinvestment versus distribution
+
+Reinvesting everything during the growth phase maximises accumulation and gives the unit its savings character. It also means the instrument produces no cash for holders who need income before conversion, which limits its appeal to some institutions. Permitting a partial distribution option would broaden the base at the cost of complicating the unit definition, since two classes with different accumulation rates cannot remain fungible.
+
+## 5.2 The conversion window
+
+An annual conversion date keeps administration tractable and prevents continuous redemption pressure. The initial lock-up should be long enough for the portfolio to season — five years — and the conversion mechanics need a cap or a queue for the case where many holders convert at once. Whether converted units can be reconverted back into growth units is a further choice; allowing it adds flexibility and creates an arbitrage to be managed.
+
+## 5.3 The operator fee
+
+A fee of around 10 per cent of revenue, reduced when output falls short of the guaranteed level, aligns the operator with holders. The guarantee should be annual rather than instantaneous, so that weather variation does not trigger penalties, and the shortfall should be met from the fee rather than from a separate claim, which keeps enforcement simple.
+
+## 5.4 Denomination of the dividend
+
+**Paying dollar dividends from local-currency electricity revenue reintroduces the mismatch this section elsewhere warns against.** Three options exist and each costs something. Dollar dividends leave the currency risk with the operator or the scheme. Local-currency dividends push it to the holder and make the instrument unattractive internationally. A basket denomination reflecting the portfolio's actual revenue currencies is the most honest and the least familiar to investors. The choice should be explicit rather than settled by what is easiest to market.
+
+# 6. What the structure does not solve
+
+**Offtaker payment risk is untouched.** The panels produce electricity that somebody must buy and pay for. A Sollar backed by capacity selling into a financially weak distribution company carries that weakness. This is the strongest argument for combining the Sollar with the payment intermediary described in 2.1: the intermediary makes the revenue reliable, and reliable revenue is what the Sollar capitalises.
+
+**Policy risk is untouched.** Tariff changes, curtailment, grid access rules and retroactive levies all affect the revenue behind the unit. Diversification across countries reduces the variance but does not remove the exposure.
+
+**Currency risk is partially reintroduced by the dividend promise,** as set out in 5.4.
+
+**Redemption pressure is created by the structure itself.** A conversion right that many holders exercise at once requires either a cap, a queue, or a market maker willing to hold growth units. This needs to be designed before issuance, not after the first stressed year.
+
+**Custody and legal title need resolving before any of this operates.** Who legally owns the panels, how output is independently verified, what happens to holders when a park is expropriated or a developer fails — none of these is exotic, but all of them determine whether the instrument is investable. The scheme's early years will require guarantees from international institutions while that track record is established.
+
+# 7. Where it fits
+
+**The Sollar is complementary to the other mechanisms in this section, not an alternative to them.** They make borrowers creditworthy; it declines to create a borrower. A programme could deploy both: the intermediary and the guarantee structures for utility-scale projects financed conventionally, the Sollar for capacity financed by savers directly.
+
+**Administration belongs with an institution that has done this before.** The IFC's local-currency green bond issuance in India is the closest precedent for priming a market of this kind, and either the IFC or the IBRD could administer the scheme and hold the initial reserve.
+
+**Retention matters more than volume.** An instrument that attracts international capital efficiently will, if nothing is done about it, end with foreign investors owning a large share of a developing country's generating capacity. Incentives favouring domestic holders, and retail holders in particular, should be built into the design rather than added if the problem materialises. One option worth exploring is issuing the instrument in developed countries against non-solar generation as well, so that the flow of ownership runs in both directions.
+
+**Policy alongside the instrument raises the return on it.** Solar is already cost-competitive; carbon pricing and feed-in tariffs make the electricity revenue behind the Sollar larger and more predictable, and feebate-style arrangements — a carbon charge paired with a generation payment — are well suited to providing the long-horizon price guarantee the instrument needs. Local manufacturing keeps more of the value in the host country, which strengthens the political case for hosting the parks at all.
+
+# Appendix A: The unit, worked through
+
+At launch, one Sollar is defined as capacity producing one watt of mean output, or 8.8 kilowatt-hours a year. Depending on insolation this is 5 to 10 watts-peak of panels. If electricity sells at 5 cents per kilowatt-hour, the unit generates about 44 cents of revenue a year, of which roughly 40 cents is reinvested after the operator fee.
+
+Whether that 40 cents buys meaningfully more capacity depends on installed cost per watt-peak at the time of reinvestment, which is the single figure the instrument's growth rate turns on. The arithmetic should be redone against current costs before any of these numbers are used; they are here to show the shape of the calculation rather than to state a return.
+
+A holder converting after ten years receives a fixed claim on whatever capacity has accumulated, paying a dividend that declines with panel degradation — conventionally around half a per cent a year — over a remaining life of fifteen to twenty years.
+
+# Appendix B: Guarantees required at each layer
+
+The operator guarantees annual output, backed by its own fee. The electricity purchaser guarantees the price paid, contractually, over the working life of the panels; where a payment intermediary exists, it guarantees that the purchaser pays. The scheme administrator guarantees the conversion mechanism. And in the early years, before any track record exists, international institutions will need to guarantee the scheme itself — which is the normal cost of establishing an instrument that has no history.

@@ -1,0 +1,90 @@
+---
+title: "Research Overview"
+author: "Stephen Stretton"
+format:
+  html:
+    toc: false
+    number-sections: false
+---
+
+This research portfolio focuses on climate policy, climate finance, applied modelling, taxation, and sovereign incentives. The common thread is practical climate statecraft: making climate strategy operational for finance ministries, multilateral development banks, and country teams through better models, diagnostics, policy instruments, and financing structures.
+
+# 1. Climate and Fiscal Policy
+
+Carbon pricing as a finance ministry can actually use it: where the charge lands, what stands in for it when a headline price is unavailable, and where the point of measurement misfires.
+
+### 1.1 Open Economy Carbon Pricing
+
+Carbon pricing in open economies faces a trade-off between strong incentives and competitiveness concerns. This paper separates production-side green incentives from consumption-side carbon pricing. Production incentives could use feebates or benchmarked emissions trading, while destination-based consumption pricing could be implemented pragmatically through VAT-style mechanisms and border rebates. The aim is a more realistic route to comprehensive carbon pricing in open economies.
+
+*Appendix: Carbon Consumption Tax.* The destination-based consumption-pricing argument is developed at length as a substantial appendix, covering the VAT-based implementation route and border rebate treatment in detail.
+
+[Read the paper →](papers/OpenEconomyCarbonPricing.docx)
+
+### 1.2 Feebates and Output-Based Rebating
+
+Governments that cannot sustain a headline carbon tax can often sustain a revenue-neutral benchmark. This paper treats feebates and output-based rebating as one instrument — a sectoral emissions-intensity benchmark plus a price on deviation from it — and sets out its design, revenue properties, and competitiveness advantages relative to a uniform carbon price. The power sector is the worked case, with a parallel treatment of energy-intensive industry.
+
+[Read the paper →](papers/FeebatesAndOutputBasedRebating.docx)
+
+### 1.3 Iron, Steel, CBAM and the Limits of Point-Source Carbon Pricing
+
+CBAM-style border carbon charges can favour scrap-based production in ways that reduce reported emissions without necessarily reducing global emissions. This paper examines the problem in iron and steel, with possible relevance to aluminium, and proposes an opportunity-cost adjustment for scrap-based production. The contribution is to identify a potentially material flaw in point-source carbon pricing and its treatment of primary versus secondary production.
+
+[Read the paper →](papers/IronSteelCBAM.docx)
+
+# 2. Finance and Risk
+
+The cost of capital rather than the cost of technology is what holds back clean power in developing countries, and it is five risks rather than one.
+
+### 2.1 Climate Finance Intermediation for Clean Power
+
+Clean power investment in developing countries is blocked by the cost of capital, and the cost of capital is set by the creditworthiness of the distribution company contracted to buy the power rather than by the project itself. This paper proposes removing that risk at its source through a Renewable Energy Payment Intermediary Facility — national in large markets, regional in small ones — that buys power from generators under a standardised agreement and pays them in full and on time whether or not the distributor has paid, backed by a contracted guarantee waterfall running from the distributor through subnational and national government to a multilateral agency. Contracts underwritten this way support synthetic sovereign bonds: instruments rated at developed-sovereign levels, co-guaranteed by a consortium of developed countries, that reach institutional investors and domestic savings without consuming host-country fiscal space. For countries already in debt distress the same intermediary can sell energy as a pay-as-you-go service rather than financing assets with debt.
+
+[Read the paper →](papers/ClimateFinanceIntermediationForCleanPower.docx)
+
+### 2.2 The Climate Investment Trust: Equity Funds as Climate and Sovereign Lending Collateral
+
+Public interventions often support projects one by one without creating reusable collateral or wider financial leverage, and every instrument for lowering the cost of clean power debt assumes equity underneath it that the countries most needing investment do not have. This paper proposes leveraged equity funds that do two jobs with one pool of capital: they invest in projects, and they stand as collateral for risk reduction and credit enhancement elsewhere, including for climate and sovereign lending structures. Organised regionally with the multilateral and regional development banks, such a fund co-invests at the development stage where participation by a credible institution crowds in others, holds the first-loss position in portfolios of operating assets, which converts the debt raised against them into near risk-free paper, and cross-guarantees bonds of projects it does not own, earning a diversification benefit for doing so. The result is a recyclable public balance-sheet instrument that lowers the cost of capital, multiplies scarce concessional resources, and gives domestic savers a deposit-equivalent green instrument in countries with no local-currency capital market. Governance, the price at which first loss is taken, and whether the fund may recycle capital are the questions that decide whether it works.
+
+[Read the paper →](papers/ClimateInvestmentTrust.docx)
+
+# 3. Sovereign Incentives and MDBs
+
+What would make a government choose differently: what performance is rewarded, how the reward reaches the country, where the money behind it comes from, and which institution can deliver it.
+
+### 3.1 Notional Capitalised Value and Guarantees
+
+Current climate finance mainly rewards marginal emissions reductions against a counterfactual nobody can observe, and says too little about absolute emissions, long-term stock-flow performance, or the value of preserving carbon stocks that were never cut. This paper proposes a sovereign incentive framework in which countries receive a notional climate balance linked to their carbon stocks and long-run emissions performance, translated into guarantee-based support rather than paid out as cash, and gradually used up by business-as-usual emissions. Making the reward a balance rather than a transfer does two things at once: it gives the reward a form that can be borrowed against, and it avoids the fiscal transfer question that makes large climate payments politically impossible in donor capitals. Because the balance degrades if nothing is done, the incentive to act is present from the first year rather than at a distant review point.
+
+### 3.2 Sustainability-Linked Lending and Related Structures at the World Bank
+
+The World Bank has developed several sustainability-linked loans and related structures, but they remain bespoke and hard to replicate. This paper proposes a codified approach with standard key performance indicator menus, simpler verification, and workable pricing. The benefit is a path from one-off transactions to a scalable sovereign incentive instrument.
+
+[Read the paper →](papers/SustainabilityLinkedLending.pdf)
+
+# 4. Modelling
+
+Two requirements for modelling that changes policy — instruments compared by what they do to emissions rather than by their headline rates, and a model a finance ministry can audit.
+
+### 4.1 Policy-Equivalent Carbon Price and Constant Elasticity of Substitution Energy Consumption
+
+Nominal carbon prices often misstate what climate policies actually do to emissions. This paper develops a common carbon-price-equivalent metric for comparing carbon taxes, feebates, subsidies, and other policies based on their emissions effects. It is supported by a nested constant elasticity of substitution demand framework that separates conservation, fuel switching, and heterogeneity within fuels or technologies, providing a low-parameter structure for static comparison and dynamic simulation.
+
+[Read the paper →](papers/PolicyEquivalentCarbonPriceAndCES.docx)
+
+### 4.2 The Climate Policy Assessment Tool: Architecture, Recoding, and Fiscal Application
+
+Policymakers need mitigation models that are detailed enough to capture sectoral policy interactions, but simple enough for real country work — and transparent enough that a finance ministry can audit what the model did. This paper sets out the core mitigation architecture of the Climate Policy Assessment Tool, with particular attention to the power sector, policy interaction, and country applications.
+
+Three strands run through it. The first replaces CPAT's hard renewable-energy investment-flow constraint with a softer treatment based on system-adjusted marginal costs and shadow prices, representing realistic power-sector adjustment. The second reports on rebuilding the core price and demand logic as a transparent, testable kernel, using AI assistance for the translation and verification steps, and asks what that exercise implies for how policy models should be built and maintained. The third carries the output into fiscal strategy, linking long-term mitigation pathways to public and private investment, revenues, fiscal risk, and debt sustainability through a SiSePuede–CCDR–CPAT framing.
+
+# 5. Analytics
+
+Diagnostics built to be run by the people who hold the budget, on data they already hold.
+
+### 5.1 Automated Excise-Fiscal Reports: Instruments, Externalities, and Policy Pathways
+
+Finance ministries often read excise systems instrument by instrument, without seeing whether the tax system as a whole addresses externalities. This paper proposes a standardized three-part diagnostic: an excise diagnostic that categorizes each schedule line and scales rates comparably; an externality diagnostic that brings carbon, air pollution, accidents, congestion, and road damage onto a common spine; and a policy pathways section that converts findings into sequenced reform options. Sierra Leone is the worked application.
+
+[Read the paper →](papers/ExciseFiscalDiagnostic.docx)

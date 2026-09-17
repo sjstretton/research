@@ -1,0 +1,24 @@
+﻿=== Rename folders   separator '.'   2026-09-17 19:14 ===
+Base : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing
+Mode : APPLY - folders will be renamed
+
+2 folders to rename.
+
+--- references
+    no path references needed changing
+
+--- folders
+    0. Overview   ->   0.Overview
+    8. Geoprosperity Intro   ->   8.GeoprosperityIntro
+
+================================================================
+Folders renamed  : 2
+Skipped (target exists)  : 0
+Failed                   : 0
+Files with paths rewritten: 0
+
+NOTE: this script cannot rename its own folder while it is running.
+If the folder holding these scripts still has a space in its name,
+rename it in Explorer. Nothing depends on what it is called.
+
+=== Done ===

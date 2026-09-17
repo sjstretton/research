@@ -1,0 +1,359 @@
+---
+title: "Industrial Feebates and Competitiveness: *Output-Based Rebating, Border Tax Adjustment and Consumption-Based Carbon Taxation*"
+---
+
+This note discusses policy measures to reduce the impacts of carbon taxes on Emissions Intensive Trade Exposed (EITE) sectors (e.g. exporters of aluminum). Traditionally, countries have used tax exemptions to deal with competitiveness issues deriving from the imposition of carbon pricing, but those come at high efficiency cost. It introduces the rationale for adopting Output-Based Rebating (OBR) of carbon taxes – combining a carbon tax with a subsidy based on physical output – as a transitional measure to prioritize supply-side improvements and to allow a higher level of carbon tax to be politically and economically feasible than would be viable without rebating. It also covers other measures such as Border Tax Adjustments (BTAs), and alternative implementation methods to achieve the same outcome as BTA, using OBR and excise duties on consumption of steel and similar commodities.
+
+**Plan of Paper**: Part A introduces the paper and then investigates competitiveness impacts in developing countries at country, sector, and firm level. Part B cover policy options including Output Based Rebating (OBR), Border Tax Adjustments (BTA), and Consumption-Based Carbon Taxation (CBCT).
+
+# Table of Contents
+
+[Part A: Competitiveness Concerns of Carbon Taxation [3](#part-1-competitiveness-concerns-of-carbon-taxation)](#part-1-competitiveness-concerns-of-carbon-taxation)
+
+[1. Introduction [3](#introduction)](#introduction)
+
+[2. A Firm's Response to a Carbon Tax [4](#a-firms-response-to-a-carbon-tax)](#a-firms-response-to-a-carbon-tax)
+
+[Part B: Policy Options to Overcome Competitiveness Concerns [6](#_Toc33364751)](#_Toc33364751)
+
+[1. Introduction [6](#introduction-1)](#introduction-1)
+
+[2. Firm Response Under Different Policies [6](#firm-response-under-different-policies)](#firm-response-under-different-policies)
+
+[3. Exemptions and Reductions [7](#exemptions-and-reductions)](#exemptions-and-reductions)
+
+[4. Output Based Rebating [9](#output-based-rebating)](#output-based-rebating)
+
+[Two Types of OBR: Revenue-neutral rebating and Full-abatement cost offset [10](#two-types-of-obr-revenue-neutral-rebating-and-full-abatement-cost-offset)](#two-types-of-obr-revenue-neutral-rebating-and-full-abatement-cost-offset)
+
+[5. Taxing Consumption-based Emissions rather than Production-based Emissions [11](#taxing-consumption-based-emissions-rather-than-production-based-emissions)](#taxing-consumption-based-emissions-rather-than-production-based-emissions)
+
+[6. Border Tax Adjustments [12](#border-tax-adjustments)](#border-tax-adjustments)
+
+[Two Types of Border Tax Adjustment: Whether to Differentiate by Source Country or not? [12](#two-types-of-border-tax-adjustment-whether-to-differentiate-by-source-country-or-not)](#two-types-of-border-tax-adjustment-whether-to-differentiate-by-source-country-or-not)
+
+[7. Consumption-based Carbon Taxation [13](#consumption-based-carbon-taxation)](#consumption-based-carbon-taxation)
+
+[Bibliography [15](#bibliography)](#bibliography)
+
+# Part 1: Competitiveness Concerns of Carbon Taxation
+
+## 1. Introduction
+
+**Carbon taxes have only been adopted in a few countries and with a carbon price (World Bank, 2018)**[^1] **well below the level of \$40-80/tCO~2~ by 2020 required globally to meet a 2C temperature target, according to the High Level Commission on Carbon Pricing (Stiglitz & Stern, 2017).** Often, major industries or fuels are exempted, or have reduced rates**,** because of concerns that an increase in fuel prices caused by a carbon tax would increase the costs of industrial firms that compete in international markets.
+
+**The implications of carbon taxation on competitiveness can best be demonstrated with an example.** Let’s assume that a country, ‘Carbontaxland’, consumes drinks from cans manufactured from aluminum. Half of the aluminum for the cans is produced domestically and half is imported from another country, ‘Notaxland’. The costs of producing aluminum in the two countries are the same to begin with.
+
+**Carbontaxland now introduces an upstream carbon tax.** What happens? Firstly, manufacturing aluminum is likely to be more costly than previously. Secondly, there are still emissions produced, even if those emissions now have a carbon tax imposed on them.
+
+**Because their costs have gone up, domestic producers of aluminum in Carbontaxland will have to charge higher prices per ton of aluminum produced than aluminum smelters in Notaxland.** However, in a sector that competes internationally, the production of aluminum will likely move away from Carbontaxland and towards Notaxland and other similar countries. This would be perverse, bad for the environment, and also against the industrial interests of Carbontaxland.
+
+**Let’s briefly introduce the main topic of this paper by considering two options for remediating matters: Output-Based Rebating and Border Tax Adjustment.**
+
+**Output-Based Rebating is a method of rebating the revenues from a carbon tax according to the production of a good as measured in physical terms.** For example, in our case, rebates could be calculated per ton of aluminum produced. All the money raised from taxing the fossil fuels used in the production of aluminum would be rebated according to a set price per ton produced, and distributed amongst all domestic aluminum producers in accordance with their total tonnage of aluminum production. If the carbon price is properly calibrated, this will induce a race to decarbonize aluminum production, as each producer seeks financial advantage from the net amount of the rebates received minus carbon taxes paid.
+
+**A Border tax adjustment (BTA) is an instrument meant to ensure competitiveness of domestic firms.** Imports are taxed according to the tax that would have been imposed on the producers of the imported aluminum, had that aluminum been made in Carbontaxland**.** Mirroring this, Carbontaxland aluminum producers that export to global markets have the carbon tax levied at the point of production rebated to ensure they are not at a competitive disadvantage vis-a-vis aluminum producers in jurisdictions that levy no carbon taxes (or those that levy lower carbon taxes).
+
+**An alternative method to achieve the same outcome as BTA is to combine OBR with a tax on *consumption* of aluminum.** We call this Consumption Based Carbon Taxation, and cover this option in later sections.
+
+## 2. A Firm's Response to a Carbon Tax
+
+**Coste et al. (2018) investigate the competitiveness effects of higher energy prices (because of a tax or of other reasons) in developing countries** – whether the cost-competitiveness of domestic firms can be harmed by a carbon tax. The authors define competitiveness as ‘the ability to provide customers with goods or services that are cheaper, of a better quality, or otherwise more attractive than those of its competitors in a given market’.
+
+**There are several different channels through which a carbon tax can affect firm-level and industrial-level competitiveness.** These include input cost rises due to the tax’s effect on the costs of direct fossil fuel use, electricity consumption, and the cost of other supplies such as steel, aluminum or concrete.
+
+**Firms can *respond* to energy price shocks in a few different ways: in the short run,** they can **pass through** higher production costs into higher prices or they can **absorb** the price increase; they can also **substitute** cleaner forms of energy or other cleaner inputs; or increase **efficiency.** Over the long term, firms can **innovate** to introduce more fundamental changes to their production methods. Firms may also choose **other options** such as delaying investments, closing production sites, or relocating abroad.
+
+**In this example we will consider firm-level responses to a carbon tax.** The purpose is to illustrate the sorts of choices and constraints faced, with simplified numbers.
+
+**Let’s introduce SteelCo, a firm which makes steel.** SteelCo has an old blast furnace, and the original investment costs have been paid off. The blast furnace is rather inefficient, but to invest in new, more efficient steelmaking equipment is costly. The blast furnace at normal full capacity utilization can produce 1000 tons of steel per year. It is in good technical condition and could continue to be utilized as-is for another ten years or so.
+
+**One ton of coal is required to make one ton of steel.** At present, the firm purchases coal at \$50 per ton coal (approximately \$2/GJ).[^2] The other costs total \$350/ton of steel. The total cost is \$400 per ton of steel produced. At global prices, a ton of steel sells for \$500. So, SteelCo makes \$100 of profit per ton of steel produced.
+
+**Let’s introduce now a new model of blast furnace that needs half the coal previously required to make a ton of steel**. This new furnace costs \$1m and needs only 0.5 tons of coal to produce one ton of steel. Everything else (apart from the incremental investment cost) stays the same. We assume[^3] that the new blast furnace has a 20-year economic lifetime. With an interest rate of 5% we have to pay \$50,000 for interest (5%x\$1m) and \$50,000 for capital amortization a year. We would need to save \$100,000 on fuel (assuming other costs are the same) to achieve break-even.
+
+**Without a carbon tax, it doesn’t make sense to make the investment.** The saving due to reduced fuel costs is \$25 per year per ton of steel or \$25,000 per year. But our additional costs are \$100,000 per year (\$100/ton steel produced). The prospective investment makes an overall \$75,000 per year loss (\$75 loss per ton steel produced). It doesn’t break even.
+
+**Back to our old blast furnace, let’s now impose a \$70 per ton carbon tax.** Let’s assume that coal produces 0.1 tons CO~2~ per GJ (2.5 tons CO~2~ per ton of coal). The tax increases the coal price by a factor of 4.5, from \$50/ton coal to \$225/ton coal (from \$2 to \$9/GJ). The cost of producing steel goes up from \$400/ton steel to \$575/ton steel.
+
+**So, now under the carbon tax, would it be cheaper overall to produce steel with the new more efficient blast furnace?** Fuel costs would be cut in half: from \$225 to \$112.50 per ton steel produced. The cost per year of our investment is \$100 per ton steel and the savings are \$112.50 per ton steel produced. So, we save \$12.50 overall, and the costs go down from \$575 to \$562.50 per ton of steel produced.
+
+**So, under the carbon tax its cheaper to produce steel with the investment in the new furnace than to use the old furnace.**
+
+**But would *either* approach break even? Perhaps the steel plant should just close down.** It still costs us \$562.50 to produce steel, and the selling price of steel was \$500.00 previously. So, if the price of steel is unchanged, the plant will simply close. So, imposing a carbon tax would induce this new investment to take place, but only if the steel plant is still profitable. If it is not profitable, SteelCo will just close. What happens depends on the policy imposed.
+
+# Part 2: Policy Options to Overcome Competitiveness Concerns
+
+## 1. Introduction
+
+This note discusses ways to prevent negative effects on firms' or EITE sectors' competitiveness from happening even if a country imposes a carbon tax unilaterally, without other countries doing the same. Coste *et al.* outline several policy options for mitigating competitiveness concerns:
+
+- **Exemptions and reduced rates** are common, but have severe costs. They badly damage both the environmental effectiveness and the fiscal effectiveness of a carbon tax. Put another way, they distort the effect of the tax and prevent revenue being raised.
+
+- **Reductions in broad-based taxes** (for example on wages or production) to offset carbon taxes offer much greater economic gains. This allows distorting taxes to be reduced which, in turn, reduces deadweight losses. But in this case, there’s no targeted support for the EITE sectors. This option is covered in other reports.
+
+- **Support mechanisms, including output-based rebating** (OBR; a focus of this paper), and support for energy efficiency and cleaner production are a direct way of maintaining the supply-side incentive to decarbonize whilst offsetting some of the cost and the impact on output prices.
+
+- **Trade-related measures** such as a border tax adjustment (BTA) regime, and consumption-based taxation (combining excise duties with OBR). We further distinguish between BTAs that vary with the country of origin, and those that do not.
+
+- **International cooperation**, for example coordinating a carbon tax between multiple jurisdictions, is highly recommended, but is not covered in this note.
+
+## 2. Firm Response Under Different Policies
+
+**This note focuses on two methods in particular: Output Based Rebating and Consumption Based Carbon Pricing.** The purpose of these instruments is to reduce the impact of a unilateral carbon tax on the industrial competitiveness of emissions intensive trade exposed (EITE) sectors. OBR is also useful when rapid supply-side decarbonization is desired (for example in the electricity sector) but there is an economic or political constraint over the feasible level of carbon tax. OBR and CBCT are helpful in circumstances where a nation wants to raise a carbon tax unilaterally, whilst compensating for international market competitiveness effects on its own industries.
+
+**Output Based Rebating is a method of rebating the revenues from a carbon tax according to the production of a good as measured in physical terms.** There might be a number of different physical outputs that could be thus rebated under an OBR scheme. For example, possible rebates could be calculated per ton of aluminum produced, per kWh of electricity produced, or per airline passenger-km flown.
+
+**A Carbon Tax on consumption is a method of taxing carbon when the goods are consumed.** This can be implemented with border tax adjustments: thus, the greenhouse gas emissions embodied in exported goods are exempted from a carbon tax, whereas imports of carbon-intensive goods are taxed on importation, according to some measure of emissions embodied in their manufacture and transportation.
+
+**Let’s go back to our coal example.** We recall that, under a carbon tax, the cheapest method of producing steel was to invest in a new more efficient blast furnace. However, even under the improved method, it still costs us \$562.50 to produce steel, and the selling price of steel was \$500.00 previously. If the price of steel is unchanged, the plant will simply close. But we weren’t sure whether steel production would entirely close down, because that depends on whether the firm can pass on the price of steel, which in turn depends on the market condition (we assume here that steel is internationally-traded) and the use of revenues or other policy option employed.
+
+**Whether it is profitable depends on the price of steel, which depends in turn on what type of carbon tax has been imposed and how the revenues have been used.** Let’s quickly consider the options:
+
+(i) If a **standard (production-based) carbon tax** has been imposed without any modification, and the steel price is based on international markets, then the plant will simply close and the production move abroad.
+
+(ii) If the steel sector is **exempted**, it is assumed that no abatement will take place, and the firm carries on as before.
+
+(iii) If **Output-Based Rebating** is in place, the production will be subsidized to account for the carbon tax. This subsidy will offset some or all of the cost of the tax. It might not be a full offset: typically, OBR would offset only the residual carbon revenues, associated with emissions after abatement has taken place, the costs of the abatement itself are not typically offset.
+
+(iv) If **Border Tax Adjustments** have been put in place, then the price of domestically produced steel will rise due to the carbon tax and the price of imported steel will increase by a similar amount due to BTA-related import taxes on steel from outside the carbon-tax zone. Thus, profit margins will be maintained and the
+
+## 3. Exemptions and Reductions
+
+**Policymakers may decide to introduce exemptions or reductions for particular uses, to mitigate some of the downside effects of the tax.** For example, a nation's steel manufacturing industry, which is energy-intensive, may be considered to be especially strategically important, but it might be unviable if subject to a carbon tax. One way to deal with this would be to exempt steel manufacture from the carbon tax, or apply the tax at a reduced rate. Similarly, it may be felt that the effect of the carbon tax on retail electricity prices charged to households puts an unacceptable burden on poor households, and they should get special treatment. Reductions and exemptions from a carbon tax are generally not recommended, as they reduce the effectiveness of the tax, and can be fraught with unintended consequences.
+
+**We demonstrate here the calculation for a reduction. We base our example on India’s data.** Our data are based on the International Energy Agency ‘India Energy Outlook’ (IEA, 2015), as per Fiscal Note One. Later on, we do the (much simpler) calculation for a full exemption.
+
+  -------------------------------------------------------------------------
+  2030 usage (PJ/y)   Coal              Oil               Gas
+  ------------------- ----------------- ----------------- -----------------
+  Total               29,475            14,863            4,354
+
+  Industrial          10,676            1,549             1,130
+  -------------------------------------------------------------------------
+
+  : Table 1: Projected 2030 Industrial fuel consumption, India
+
+(PJ/y) = Petajoules per annum
+
+In this exercise, we apply a 50% reduction to the carbon tax for fuel used in industry, calculate it with figures from the International Energy Agency (IEA, 2015), which projects industrial usage rates in India for different fuels and energy sources in 2030. The results of these calculations are shown below.
+
++-------------------------------------------------------------------------------------------------------------------------------------+---+----------+-----------+
+| **Exercise: Effect of 50% reduction in carbon price for industrial coal use**                                                       |   |          |           |
++=================================+===================+===================+===================+===================+===================+===+==========+===========+
+| **Assumptions**                 |                   |                   |                   |                   |                   |   |          |           |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Total Coal Use, BAU, 2030       |                   |                   |                   |                   |                   |   | 29,475   | PJ/y      |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Industrial Coal Use, BAU. 2030  |                   |                   |                   |                   |                   |   | 10,676   | PJ/y      |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Standard Carbon Tax             |                   |                   |                   |                   |                   |   | 70       | \$/tCO~2~ |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Reduced Carbon Tax for industry |                   |                   |                   |                   |                   |   | 35       | \$/tCO~2~ |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| VAT                             |                   |                   |                   |                   |                   |   | 18%      |           |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Coal Emissions Factor (tCO2/GJ) |                   |                   |                   |                   |                   |   | 0.0946   | tCO~2~/GJ |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Coal Price before VAT, 2030     |                   |                   |                   |                   |                   |   | \$1.97   | \$/GJ     |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Coal Price after VAT, 2030      |                   |                   |                   |                   |                   |   | \$2.33   | \$/GJ     |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| CO2 released from coal in main Carbon tax scenario                                          |                   |                   |   | 1,153    | MtCO~2~/y |
++---------------------------------------------------------------------------------------------+-------------------+-------------------+---+----------+-----------+
+| Revenue from Carbon tax in main Carbon tax scenario                                         |                   |                   |   | \$80,705 | million   |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+| Fuel Use Elasticity             |                   |                   |                   |                   |                   |   | -0.6     |           |
++---------------------------------+-------------------+-------------------+-------------------+-------------------+-------------------+---+----------+-----------+
+
+: Table 2: Example of reduced carbon tax rate – assumptions.
+
+The calculations then proceed as described in Fiscal Note One. For details of the methodology, which is based on an isoelastic model, please see that paper.
+
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| **Calculations**           |                        |                     |                     |                     |                     |                     |                     |                     |
++============================+========================+=====================+=====================+=====================+=====================+=====================+=====================+=====================+
+| First, we separate out the non-industrial coal use:                                             |                     |                     |                     |                     |                     |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Non-Industrial Coal, BAU, 2030                      |                     | 29475               | \-                  | 10676               | =                   | 18799               | PJ/y                |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Proportion of coal used in industry in BAU                                | 10676               | /                   | 29475               | =                   | 0.36                |                     |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Proportion of coal used in non-industry             |                     | 18799               | /                   | 29475               | =                   | 0.64                |                     |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| CO~2~ (with C-Tax) released by non-industry sectors                       | 0.64                | \*                  | 1,153               | =                   | 735                 | MtCO~2~/y           |
++---------------------------------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Carbon Tax Revenue from non-industry sectors                              | 0.64                | \*                  | 80,705              | =                   | \$51,473            | million             |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Plus, VAT at 18%           |                        |                     | 0.18                | \*                  | 51,473              | =                   | \$9,265             | million             |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+|                            |                        |                     |                     |                     |                     |                     |                     |                     |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| For industry use, we must recalculate the tax and usage figures, since the lower tax rate means that usage will be greater.                                                                                   |
+|                                                                                                                                                                                                               |
+|                                                                                                                                                                                                               |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------+---------------------+
+| We are assuming a 50% reduction in tax, so the tax rate is \$35/tCO~2~.                                                                     |                     |                     |                     |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Carbon tax per GJ          |                        |                     | 0.0946              | \*                  | 35                  |                     | \$3.31              | \$/GJ               |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| GST on Carbon Tax per GJ   |                        |                     | 0.18                | \*                  | \$3.31              |                     | \$0.60              | \$/GJ               |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| New price incl. Carbon tax | \$2.33                 | \+                  | \$3.31              | \+                  | \$0.60              |                     | \$6.23              | \$/GJ               |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Factor of price increase due to C-Tax               |                     | \$6.23              | /                   | \$2.33              |                     | 2.68                |                     |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Factor of usage reduction due to C-Tax              |                     | 2.68                | \^                  | -0.6                |                     | 0.55                |                     |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Industrial coal use in 2030 with reduced C-Tax                            | 10676               | \*                  | 0.55                |                     | 5911                | PJ/y                |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Total industrial emissions from coal                |                     | 5911                | \*                  | 0.0946              |                     | 559                 | MtCO~2~/y           |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Total industrial C-Tax revenue                      |                     | 559                 | \*                  | 35                  |                     | £19,571             | million             |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Plus, VAT (GST) at 18%     |                        |                     | 0.18                | \*                  | 19571               |                     | £3,523              | million             |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| Thus, in this scenario (with the reduced rate for industrial use):                                                    |                     |                     |                     |                     |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| The total CO~2~ emissions from coal are             |                     | 735                 | \+                  | 559.18434           | =                   | 1,295               | MtCO~2~/y           |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| The total carbon tax take, excluding GST, is        |                     | 51473               | \+                  | 19571               | =                   | \$71,044            | million             |
++-----------------------------------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| This compares to carbon tax take before the exemption of:                                                             |                     |                     | \$80,705            | million             |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+|                            |                        |                     |                     |                     |                     |                     |                     |                     |
++----------------------------+------------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+---------------------+
+| If a total exemption is granted for certain uses, the calculation is simpler.                                                               |                     |                     |                     |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------+---------------------+
+| For exempt uses, the usage and price are simply as in the ‘business as usual’ projection, and of course the carbon tax revenue is zero.                                                                       |
+|                                                                                                                                                                                                               |
+|                                                                                                                                                                                                               |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Table 3: Example of reduced carbon tax rate – calculations
+
+**Revenues are lower and emissions significantly higher under the exemption than without.**
+
+## 4. Output Based Rebating
+
+**An alternative to exempting steel manufacture from the carbon tax would be Output Based Rebating (OBR), whereby the full tax is applied, but manufacturers are paid a rebate according to the amount of steel produced.** This system reduces the potential for fraud (where, for example, untaxed coal intended for steel manufacture is resold for a different use). Even more importantly, it incentivizes more efficient use of fuel in the manufacturing process, compared with a regime where coal is cheap and there is little incentive to use less.
+
+**Under Output Based Rebating (OBR) a carbon tax on fossil fuel inputs of an industrial process is combined with a subsidy on the output per physical unit produced.** For example, in the case of aluminum production, we might rebate the carbon tax according to metric tons of aluminum produced.
+
+**Output based rebating allows for the rebating of a carbon tax according to the physical quantity of output of a particular commodity produced.** It therefore directs targeted relief to affected industries. *Feebate*s refer to any system that charges a more damaging activity in order to subsidize a less damaging one. Thus, OBR is a form of feebate. Under an OBR system, an activity which has a median level of emissions intensity (ratio of emissions to unit output) will face zero net tax (as the tax will be equal to the subsidy). Activities that are ‘dirty’ (emissions per unit output greater than the industry average) will pay net tax. Those that are clean (emissions per unit output lower than the industry average) will get a net subsidy.
+
+### Two Types of OBR: Revenue-neutral rebating and Full-abatement cost offset
+
+**Output-based rebating is an alternative to exemptions and reductions.** The sector concerned does not see net short-term price increases, but the emissions mitigation incentive remains. There are three elements of OBR that have an impact on the output price: the carbon tax on the carbon-based inputs, the subsidy by volume produced of the output good, and any additional resource cost or benefit of the mitigation actions. 
+
+**A revenue-neutral rebate would offset the price effect of the carbon tax, but the price of the good might still rise due to the added cost of any mitigation measures induced by the policy.** If the rebate is set at a full rate which also included the cost of actual abatement induced by the tax, the feebate might be revenue negative, but the competitiveness effect of the measure on output prices would be entirely offset. This is the standard form of OBR.
+
+**With ‘full abatement cost offsetting’, we could rebate the whole of the increase in cost (comprising the additional cost of improved production processes and the residual cost of the remaining emissions under the tax).** Alternatively, with ‘OBR revenue recycling,’ we could just recycle the revenue generated (rebating the residual emissions tax imposed on the remaining emissions under the tax but leaving any costs of improved production processes to be borne by aluminum producers).
+
+**OBR can also increase the rate of carbon tax**[^4] **that is politically feasible.** A larger carbon price incentive is politically and economically feasible for two reasons. Firstly, the output rebate ensures that the cost of the output good (aluminum in the example above; electricity in this section) remains internationally competitive. Second, it ensures that the short-term revenue and output price effect is minimized, especially in sectors that are unresponsive to price incentives in the short run. Thus, a feebate is focused precisely where carbon taxes can provide the most benefit (transforming industrial processes) and minimizes political resistance arising from distributive effects and competitiveness concerns. We deal with these effects in more detail in the final section of the paper.
+
+**In summary, OBR can be extremely effective because it allows regulators to focus carbon taxes on incentivizing transformations of industrial processes, which are generally more price-sensitive compared to demand for end products.**
+
+## 5. Taxing Consumption-based Emissions rather than Production-based Emissions
+
+**Traditional carbon accounting, and traditional concepts of carbon pricing (including carbon taxes), have a *production* basis.** By this we mean that imports and exports are taxed in the places that they are *produced* rather than where they are consumed.
+
+**A production basis tax encourages a country to ‘move’ the location of its production from within its borders to outside.** This has two undesirable manifestations in emissions accounting and in incentives.
+
+**Among developed countries, the United Kingdom is a good case that demonstrates the emissions accounting effect** (UK House of Commons Energy and Climate Change Committee, 2012)**.** The country has reduced its emissions according to the production definition substantially. However, much of this progress is recognized as illusory after accounting for the embedded carbon in imported goods that were produced in countries like China (whose electricity sector remains heavily coal-fired). A production-based carbon taxation also provides an incentive for this 'offshoring' to happen. That’s because under a unilateral carbon tax, there’s an incentive for EITE industries to move abroad.
+
+**Under a standard production-based carbon tax system, it is the responsibility of the *producing* country to tax the emissions arising from the production of the aluminum that goes into making, for example, an aluminum soda can**. But since nation-states are sovereign, it is also currently the responsibility of each country to decide how much, or how little, it wishes to tax carbon. This can lead to leakage. One option to deal with it is to tax consumption rather than production.
+
+**An alternative system consists in taxing the emissions caused by the *consumption* rather than those due to *production.*** In tax parlance, this corresponds to a ‘destination basis’ similar to VAT rather than a ‘source basis’ associated where production takes place.
+
+**By taxing consumption rather than production, we do not discriminate against domestic producers of aluminum.** But the emissions caused by an imported good would in principle be included in the base of the tax, whereas those caused by exported goods would be excluded. There are a couple of possible issues with this idea:
+
+- **Firstly, it is administratively difficult to accurately tax the carbon footprint of imported goods.** In principle, we would need to take the carbon footprint of every subcomponent of all imports (for example, televisions made in China and imported to UK), stretching back into the supply chain of the origin countries and the raw materials that those countries use in every one of the hundreds of separate components that go into a TV set. This would be impossible in practice. In practical terms, however, there are only a few major commodities where we would need to include.
+
+- **Secondly there is** a risk that border tax adjustments might come into conflict with WTO rules.
+
+**There are several options for implementing adjustments towards a carbon tax on consumption rather than production.** First, we could adjust a standard carbon tax ‘at the border’. This option is called a Border Tax Adjustment (BTA). Secondly, we could institute a system of *consumption-based carbon taxation (CBCT)*, for example on steel and aluminum. This system may or may not be combined with a system for incentivizing better *production* (on the lines of the Output Based Rebating considered earlier). We follow the distinctions in Coste et al. (2018) and consider BTA and CBCT as alternative approaches to implement a carbon tax on consumption.
+
+## 6. Border Tax Adjustments
+
+**A border tax adjustment can be made on imports, or exports, or both.** An import border tax adjustment intends to tax the embodied emissions in imports. An export border tax adjustment rebates the carbon tax paid on the manufacture of a particular goods. Border tax adjustments are familiar from the VAT system, where exporters are rebated the VAT that they have paid, and importers pay VAT. A carbon border tax would be based on the same principle.
+
+**Generally, border tax adjustments are considered for few products that are both *emissions intensive* and *trade intensive*** (EITE). These generally are generated in the ‘big five’ industrial sectors: iron & steel, aluminum, concrete, and organic chemicals. For products of a standard emissions intensity, the increases in fuel prices driven by the carbon tax may well be offset by reductions in other costs (for example, due to reductions in taxes).
+
+**The approach to implementing a border tax adjustment is as follows:**
+
+1\. A carbon tax would be levied on domestically produced and consumed aluminum.
+
+2\. Exported aluminum would have this tax rebated per ton of aluminum.
+
+3\. A tax per ton of aluminum would be levied on imported aluminum (at the same rate as the rebate per ton of exported aluminum).
+
+### Two Types of Border Tax Adjustment: Whether to Differentiate by Source Country or not?
+
+**There are in general two types of adjustments that can be made on the rate of a border tax levy on imported goods:**
+
+(i) A tax that distinguishes between the estimated carbon intensity of commodities made in different countries, and
+
+(ii) A tax that does not distinguish between carbon intensity of the production at origin, instead it imposes a standard tariff (for example on steel) based purely on quantity, irrespective of origin.
+
+ 
+
+Charging according to origin is more complex, but it does produce an incentive for countries to decarbonize their supply chains. On the other hand, the standard tariff approach is simpler and may be more consistent with WTO rules. The standard tariff approach can be implemented as an excise duty add-on to Output Based Rebating (OBR) as we describe in the next section.
+
+## 7. Consumption-based Carbon Taxation
+
+**The second approach is a combination of OBR plus excise duties**. Output Based Rebating of carbon taxes is a mechanism to deal with competitiveness concerns. But there are some issues with OBR. Let’s assume we impose an OBR in a few bulk industrial sectors, including aluminum production. This will encourage aluminum producers to become more efficient, and to use low-carbon fuels if possible. Perhaps the cost of aluminum production will increase as the emissions intensity is reduced. But there still are emissions produced by aluminum production under the new setup, and the output-based rebate ensures that the aluminum producer of average emissions intensity pays no net tax.
+
+**One consequence therefore is that there is a *producer* incentive to reduce emissions, but little incentive on manufacturers of aluminum products to use less aluminum, nor on consumers to look for alternatives.** Indeed, the incentives could be perverse. Let’s say that OBR is implemented in the aluminum sector but not the steel sector, and steel cans are a viable alternative that produce fewer emissions than aluminum cans. If, however, aluminum is covered under the OBR scheme, but steel is not, it could be that steel cans are made more expensive by the carbon tax, whereas aluminum cans are not made more expensive. This could, perversely, encourage drinks manufacturers (and hence retail consumers) to switch to the more emissions-intensive type of can.
+
+**While OBR encourages climate-friendly production processes, it does nothing to encourage efficient use of the output (of aluminum in the case above).** What about *consumption* of aluminum, for example in drinks cans? There is still no tax on this. Suppose we want to correct this distortion that tends to encourage excessive aluminum consumption. We could correct this by imposing an additional *tax* on aluminum *consumption*. The original justification was to offset the *international competitiveness* effects of carbon taxes. If we rebate production and tax consumption of aluminum, we have avoided affecting the domestic aluminum producers’ international competitiveness.
+
+**Just like under OBR, average-emissions-intensity aluminum producers are not disadvantaged by the carbon tax, since their carbon tax costs are rebated.** Similarly, importers of aluminum must pay the same consumption tax as domestic producers. We will see that this approach of offsetting OBR and excise duties on consumption is an option for implementing a specific type of Consumption Based Carbon Taxation.
+
+**Compliance with WTO rules is not only a matter of what is taxed, but also *how* it is taxed**. Excise duties and VAT are examples of taxes that are consumption-based and accepted under WTO rules. One way to implement such a consumption-based carbon tax is with Output Based Rebates, combined with an excise tax on the rebated good. 
+
+**Now we have three components of our CBCT:**
+
+1\. A carbon tax on fossil fuel inputs used in the production of aluminum
+
+2\. A subsidy on domestic production of aluminum
+
+3\. An excise tax on domestic consumption of aluminum
+
+**Together, these three elements are equivalent to the border tax approach above and, as argued by Trachtman (2017), combining OBR with consumption taxes in this way has the best chance of satisfying WTO requirements.** The same author also discusses OBR and border tax adjustments, arguing that they are not as compliant with WTO rules. In both cases, adjustments that do not discriminate between place of origin are preferred on legal grounds to those that do. Böhringer et al (2017) set up a partial equilibrium model of OBR and combined it with a consumption tax. They argue that the CBCT-like system that results is second-best optimal and preferred to OBR alone.
+
+# Conclusions
+
+**We have outlined several approaches to addressing competitiveness concerns with Carbon Taxes: Output Based Rebating, two types of Border tax adjustment and Consumption Based Carbon Taxation.** OBR can be useful as a transitional measure and is superior to exemptions and reduced rates (on both environmental and fiscal grounds). CBCT provides a more comprehensive solution to competitiveness concerns and can be implemented in the way most likely to achieve WTO compliance (as described above).
+
+# Bibliography
+
+Böhringer, C., Rosendahl, K. E., & Storrøsten, H. B. (2017). Robust policies to mitigate carbon leakage. *Journal of Public Economics*, *149*, 35–46. https://doi.org/10.1016/j.jpubeco.2017.03.006
+
+Coste, A., Cali, M., Cantore, N., & Heine, D. (2018). Staying Competitive: Productivity Effects of Environmental Taxes. In M. Pigato (Ed.), *Fiscal Policies for Development and Climate Action*.
+
+IEA. (2015). *India Energy Outlook*. https://webstore.iea.org/weo-2015-special-report-india-energy-outlook
+
+International Monetary Fund. (2019). *Fiscal Policies for Paris Climate Strategies*. *May*.
+
+Parry, I., Heine, D., Lis, E., & Li, S. (2014). *Getting Energy Prices Right: From Principle to Practice*. International Monetary Fund.
+
+Pigato, M. A. (2018). *Fiscal Policies for Development and Climate Action* (M. A. Pigato (ed.)). The World Bank. https://doi.org/10.1596/978-1-4648-1358-0
+
+Stiglitz, J. E., & Stern, N. (2017). *Report of the High-Level Commission on Carbon Prices*.
+
+Trachtman, J. P. (2017). WTO law constraints on border tax adjustment and tax credit mechanisms to reduce the competitive effects of carbon taxes. *National Tax Journal*, *70*(2), 469–494. https://doi.org/10.17310/ntj.2017.2.09
+
+UK House of Commons Energy and Climate Change Committee. (2012). Consumption-Based Emissions Reporting Twelfth Report of Session 2010–12. In *The Stationery Office by Order of the House* (Issue April). https://www.publications.parliament.uk/pa/cm201012/cmselect/cmenergy/1646/1646.pdf
+
+World Bank. (2017). New Carbon Pricing Opportunities in the Paris Agreement Era. *Wbg-Ecofys*. http://clgchile.cl/wp-content/uploads/2017/06/Carbon-Pricing-Watch-Advance-Brief-Jun-2017.pdf
+
+World Bank. (2018). *State and Trends of Carbon Pricing* (Issue May).
+
+[^1]: In this Note we assume familiarity with a standard upstream carbon tax, as outlined in Fiscal Note One and the literature referenced therein (e.g. International Monetary Fund, 2019; Parry, Heine, Lis, & Li, 2014; Pigato, 2018; World Bank, 2017).
+
+[^2]: We assume simple round numbers of 25GJ per ton and 0.1tCO2/GJ, or 2.5tonsCO2/ton Coal.
+
+[^3]: A full calculation would involve a full net present value calculation including any tax effects, but we are merely making a ‘back of the envelope’ calculation here.
+
+[^4]: Or rather, the ‘supply-side carbon price incentive,’ since a full OBR does not necessarily raise net revenue, and hence perhaps should not be called a ‘tax’.

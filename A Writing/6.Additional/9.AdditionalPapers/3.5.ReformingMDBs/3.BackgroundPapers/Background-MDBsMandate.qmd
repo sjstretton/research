@@ -1,0 +1,41 @@
+---
+title: "MDBsMandate"
+---
+
+**A Big Push to Respond to the Climate Change Crisis**
+
+**Redefining the Multilateral Development Banks’ Mandate**
+
+**Background**
+
+1.  According to the *Global financial landscape* published by CPI in October 2022, global climate finance flows amounted to USD 850 billion in 2021. However, according to the report, *“At least USD 4.3 trillion in annual finance flows or a 20% year-on-year increase by 2030 is required to avoid the worst impacts of climate change”*. **The observation is now widely shared: climate finance is not yet available at scale.**
+
+2.  In this context, **coalitions of developing countries called at COP 26 and COP27 for a deep paradigm shift in the financing of climate investment needs.** Among others, the Bridgetown initiative calls for (i) the mobilization of all available international financial resources (including SDRs) to finance the transition at scale, (ii) the recognition of the major impact of climate change on public debt accumulation (call for a global public debt restructuring) and (iii) a new role for MDBs in terms of mandate, objectives and financial support. This call cannot be ignored. **Moreover, it can be the starting point for a revision of the way MDBs operate, especially in Middle Income and Emerging countries.**
+
+**Economic consensus**
+
+3.  **The impacts of climate change must be seen as a global threat to the foundations of our development models.** Climate change will have inexorable consequences for global supply chains, labor productivity, geographic location of economic activities, habitability of certain regions, territorial conflicts and associated migrations, health and macroeconomic imbalances. **Climate change must be addressed as a global environmental and economic challenge** (see IPCC 2022).
+
+4.  With increasing global threats (the COVID-19 pandemic, the war in Ukraine, etc.) and their potential impact on energy security and affordability, any delay in scaling up climate finance may cancel past efforts and lead to short-term lock-in effects. In the longer term, according to the NGFS scenarios, delaying the transition will have major consequences in terms of increased GHG emissions but also in terms of GDP losses, budget constraints, increased poverty and financial instability (see [NGFS Scenarios](https://www.ngfs.net/node/459842)). Addressing **these climate finance needs at the right scale is as critical as addressing them in a timely manner.**
+
+5.  On the financial side, the cost of delaying the transition to a low-carbon economy is increasingly well documented. Delaying the transition will accelerate the accumulation of public and private debt to unsustainable ratios in some contexts and generate financial instability (see [July 2022 ECB/ESRB report](https://www.esrb.europa.eu/pub/pdf/reports/esrb.ecb.climate_report202207~622b791878.en.pdf)). **Countries have limited time and fiscal space to act in order to contain the main unbalancing effects of the transition. In this context,** **the role of MDBs is critical.**
+
+6.  Climate change is also by nature a global phenomenon with significant negative externalities and major cross-border effects. **Any effective financing policy to address climate change should be coordinated.** The Paris Agreement provides the legal framework. **The MDBs, as international institutions promoting Global Public Goods, are well positioned to provide the financial underpinnings that remain lacking to transform political commitments into economic and financial trajectories**.
+
+**A New Deal to curve the Global Emissions dynamic**
+
+7.  The Paris Agreement recognizes the principle of “common but differentiated responsibilities” (Article 4) in addressing climate change. It may be also useful to recognize that **within emerging and developing countries, the challenges are differentiated**. A number of emerging countries probably face the greatest challenges in terms of creating new market opportunities in the green economy, but also in terms of reducing their dependence on fossil fuels. It is also important to recognize that in these countries, **these challenges can only be met by significantly lowering the cost of capital in the green economy and by massive private sector involvement**.
+
+8.  **The ODA framework may not be appropriate for building a large-scale response to these challenges**. Indeed, the poorer and more vulnerable the countries, the wider the range of financial instruments available. The rules for providing concessionality follow to the same criteria. On the contrary, **the emerging the country, the fewer financial instruments are available, regardless of whether the country faces critical macroeconomic challenges in adopting a low-carbon trajectory**.
+
+9.  **Because of the systemic importance of some emerging and developing markets in the future global GHG emissions pathway, a New Deal with these countries is needed**. Large amounts of investments are needed in certain strategic sectors to enable these countries to significantly shift their GHG emissions trajectories. **This New Deal may propose to concentrate concessional resources in these strategic sectors in return for achieving ambitious decarbonization goals.**
+
+10. Such an approach targeting developing and emerging countries that (i) are the most dependent to fossil fuels and (i) will become or are already the largest emitters in the coming years may not be consistent with the GDP per capita-based resource management currently in place in the MDBs. The question of whether **such a GDP per capita-based approach is appropriate for dealing with phenomena that, by nature, have strong negative cross-border effects, such as climate change**, may need to be asked.
+
+**Governance and instruments**
+
+11. In the context described above, there is a need to examine ways to promote the financing of Global Public Goods, including the climate priority, within the governance of MDBs. **It is suggested that climate change be collectively adopted as a top priority by MDBs, articulated but independent of geographical priorities, and associated with binding quantitative targets, a renewed intervention framework and an appropriate impact measurement system.** This climate change priority would not be inconsistent with, but not driven by, a country-driven approach.
+
+12. It is also suggested **that concessional financing decisions be articulated with this new top priority** and that **appropriate instruments be established to invest, provide liquidity, release debt burdens, and providing technical assistance and guarantees where and when needed** at the appropriate scale. In particular, we suggest creating a shared set of indicators[^1] to identify countries that can benefit in priority from the MDBs’ climate finance support.
+
+[^1]: These indicators may include the projected future emissions pathway, exposure to the transition and physical risks, level of the cost of capital, amount of climate investment required per capita, dependence on fossil fuels, etc.

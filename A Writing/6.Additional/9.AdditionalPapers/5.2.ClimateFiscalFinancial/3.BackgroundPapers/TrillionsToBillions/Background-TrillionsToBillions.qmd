@@ -1,0 +1,395 @@
+---
+title: "T2B"
+---
+
+## Trillions To Billions Narrative and Plan
+
+## T2B Project Narrative
+
+![](media/image2.png)The \[Trillions to Billions Project\] aims to show **how to close the gap between available finance and needed finance for a Paris-compliant green transition in emerging markets and developing economies**. This analysis is critical because, among other reasons, the critical role of financing costs on debt sustainability in developing countries (See graph – the blue line shows debt ratios when developing countries borrow at market rates for a big push on climate; the red line shows the same big push financed at World Bank borrowing costs).
+
+Up to now, in the scaling up of green finance, two major things have been missing: turning policies into projects into AAA-rated financial products, and scaling up the institutions and instruments that can access AAA-rated credit.
+
+Firstly there’s been little analysis of how to reduce financing costs through the combined use *of credible policies and policy guarantees*, *institutions that reduce the risk for investors (for example, the Solar Energy Corporation of India), and long-term relationships* (for example, the long-term relationship between the World Bank and nation states and the ‘supersenior’ status that the WB has). We show credibly how policy and risk reduction institutions can reduce *credit risk* and thus reduce *financing costs*. Together these policies and institutions provide a strong policy commitment (and may have a role in climate governance), enable green investment, and reduce financing costs. In this initial mini-project, we focus on the power sector since net zero scenarios. Other sectors can be dealt with at a later stage.
+
+The second major piece of analysis is how to achieve the *required scale* of low-cost finance. Capital markets are very large and so the key is to structure ‘vanilla’ financial products into these capital markets (for example AAA-rated bonds). A*chieving the scale* needed requires two things. First, we consider how to *overcome the* *constraints to scale* to issue such low-cost financing products. This can include *recapitalizing existing institutions,* ‘off-balance sheet’ approaches such as Special Purpose Vehicles (SPVs), new institutions such as green equity and reinsurance funds, and risk and credit transfer (loan sales, and risk reinsurance). Second, we consider how to achieve a *scaling dynamic*: meaning a set of dynamic reinforcing loops that ensures scale, a rapid exponential growth associated with profitability.
+
+The outcome of the project would be a mini blueprint for the new institutions needed to leverage the *institutional advantages* that MDBs such as the World Bank have to offer. The critical approach would allow policymakers to deploy risk-free capital from the international bond markets and from domestic savers to the previously-risky context of green investment in developing countries.
+
+The advantage of scaling up green finance through the World Bank, (as opposed to other MDBs) is the possibility of financing involving *policy conditionality.* Such conditionality would give *strong preference* to countries with strong carbon pricing (including revenue-neutral options such as feebates) and/or ‘strong’ Paris compliance (meaning whole-economy emissions trajectory consistent with the Paris temperature targets). Ensuring rapid green scale-up will also have *macroeconomic* benefits and further work could also consider quantifying this.
+
+We mentioned earlier the possible benefits of investible policy guarantees for the architecture of climate governance (an operationalization of ‘conditional NDCs’). There is also a benefit for green macroeconomic policy, namely the structuring of green AAA-rated bonds that could take part in macroeconomic policy frameworks. Furthermore, green investment policy might have positive macroeconomic and development benefits: increasing the reliability of electrical power, where power investment has previously been too low, promoting green growth, and reducing prices through reduced financing costs of investments. Certain policies could also capture enhanced green supply chain benefits to the green investment scale-up. Beyond some analysis of possible supply chain policies, macroeconomic benefits would not be a core part of this mini-project, but we would link closely to other related work.
+
+## Macroeconomics of Investment
+
+Affordable energy with high thermodynamic quality is crucial to the functioning of modern economies. Currently, the majority of this energy is obtained from non-renewable, carbon-emitting fossil fuel sources (IEA, 2019). However, the effect of carbon emissions on the Earth’s climate means that the continued exploitation and use of these energy sources is unsustainable (IPCC, 2018; Lenton et al., 2019).
+
+The transition to low or net zero carbon energy system will require a radical transformation of global energy systems, which will in turn require wholesale changes to the global economy’s capital stock and infrastructures. Other energy transitions have only happened a handful of times in history (e.g., wood to coal, coal to oil) and typically occurred over a period of many decades (Fouquet, 2010; Smil 2010). These transitions also occurred ‘naturally’, due to the discovery of cheaper and more energy-dense sources of energy. The transition to a net-zero carbon economy, by contrast, will have to occur over the space of little more than the next decade or so for advanced economies and before 2050 at the latest, globally (IPCC, 2018). It may also involve a movement towards less efficient and more expensive technologies (Dale et al., 2011; Dale and Benson, 2013; Gagnon et al., 2009; Hall et al., 2014; Lambert et al., 2013).
+
+There are a number of competing narratives as to the potential economic impacts of such a transition. Some, for example, argue the transition is likely to create an economic stimulus due to the significant increases in green investment (e.g., NCE, 2018). Others contend that the increase in investment will crowd out non-energy firms’ investment expenditures and so lead to a reduction in output (e.g., Sers & Victor, 2018; Jackson & Victor, 2020). Others still point out that the energy transition may involve a significant increase in energy prices, and that higher energy prices are likely to have a negative impact on output (Hall et al., 2008; Hamilton, 2009, 2013; Murphy and Hall, 2011). It is, for example, argued that energy companies may need to increase their prices to finance the increase in green investment, and further, that net zero energy systems may have higher costs than fossil fuel based systems (due to lower Energy Return on Energy Invested of zero carbon energy technologies, and the costs associated with renewables intermittency and carbon capture and storage) (Dale et al., 2011; Dale and Benson, 2013; Gagnon et al., 2009; Hall et al., 2014; Lambert et al., 2013; Sers and Victor, 2018).
+
+An alternative research line has argued the transition may lead to the stranding of fossil fuel reserves and capital assets, with more stranding likely the more delayed or disorderly is the transition (e.g. CTI, 2011; 2019). CTI (2015), for example, estimates that \$2 trillion worth of capital assets are at risk of stranding in the oil, gas and mining sectors alone. A significant concern is that these losses could then “spark a pro-cyclical crystallisation of losses and a persistent tightening of financial conditions” (Carney, 2015, p.11), on financial markets, with negative implications for the broader economy (with countries in which fossil fuel firms raise a significant proportion of their capital likely to be particularly exposed). These risks do not necessarily stem from the financial sector's direct exposures to fossil fuel firms, as these exposures are relatively small, but rather they are due to the combined direct and indirect exposures, which are much larger. Battiston et al. (2017), for example, find that although the direct exposure of Eurozone financial actors to “climate relevant sectors” is small (at 3 - 12% of total assets), their indirect exposures are much larger (at 40 - 54% of total assets) and could be further amplified by second round effects and indirect exposures.
+
+To an extent these divisions reflect different points of focus and different theoretical approaches, reflected in different models of the economic effects of energy transitions (Pollitt & Mercure, 2018). They also reflect different assumptions about the type of low carbon energy system that might prevail and uncertainty about its underlying technical characteristics. Whatever the overall impact of the transition, the benefits, risks and shocks are unlikely to be equally distributed throughout the economy (Mercure et al., 2018; Farmer et al., 2019).
+
+## The role of investment 
+
+This proposed project aims to assess the potential economic role of the investments needed to achieve the decarbonization targets. It wishes to assess (a) the investments needed, and their financial and macroeconomic scale and (b) the derisking interventions needed to reduce the cost of capital and also to prevent the investments from taking up scarce fiscal space, the necessary conditions, and institutional approach to situating the needed investments within macroeconomic policy frameworks. (c) the impact of the derisking interventions on the overall system cost and thus on the net cost of the energy system, (d) the macro-financial implications of the needed investment, for example on GDP, genuine wealth formation and development.
+
+**(A): Investments needed.** Techno-economic models, include, the IEA well energy model, the World Bank's electricity planning model (EPM), and the Energy System Transition Model. Also, potential costs minimize trajectories for the decarbonization of the economy.
+
+Needed investments include energy supply technologies, eg: solar power, induced technologies, eg: electric cars, heat pumps, and methods to deal with the intermittency of the renewable power supply, eg: storage and grid investments.
+
+Some of these technologies are already economic, so long as financial costs are low. For example, solar power typically now has a levelized cost lower than the fossil alternatives, so long as those fossil alternatives can provide backup through solar power to allow it to match financial demand profiles.
+
+Other technologies are coming down in cost rapidly and it might be attractive for large countries such as India to invest in these technologies, not only for the purpose of their grid but also because they could achieve strategic advantages in manufacturing these technologies. This part of the project will assess investment needs and the commonalities and differences associated with them.
+
+**(B) Derisking interventions needed**
+
+Derisking is an established strategy for reducing the cost of capital particularly in developing countries. The goal of derisking is not to take private risks in the hands of private contractors, rather it is to reduce the risks associated with the general financial conditions of a country. Derisking interventions can be very cost-effective, for example in India the solar energy corporation of India, SCCI, provides a central counterparty for renewable contracts which ensures that independent power projects can achieve certainty of being paid for the power they produce.
+
+\(C\) We assess the **impact** of derisking interventions for the reduction in the **cost of capital** and pre-condition for the potential for the use of liquidity instruments by either national policymakers or international liquidity instu¡itutions such as the International Monetary Fund, IMF.
+
+\(D\) **Macroeconomic and financial implications** Climate mitigating investments are typically well loaded, eg: there is a high dependence on capital expenditure. Again, consider a solar plant. Most of the expenditure is on the short term, and the ongoing operations nd maintenance costs are small in comparison.
+
+The project aims to bring analytical elements to better help countries face the low-carbon transition, which requires a lot of investments. Following the Covid shock, countries are faced with reduced fiscal space. The war in Ukraine puts even more strain on national budgets with the dramatic spike in energy and food prices. Despite these recent trends that further reduce the space for governments to accelerate the green transition and add complexity to the analyses, several limitations in current analyses pose challenges to the macroeconomic analyses informing policy advice and lending decisions.
+
+Estimates range from x to x – difficult to assess the investment needs
+
+These estimates are taken as exogenous, meaning that assumptions are very often linear considering a simple continuation of what is happening and do not account for network effects or reinforcing loop. Calculations of investment do not take into account policy reforms – e.g. power sector investment needs do not consider the endogeneity of those investments needs in carbon price reforms, so countries cannot see easily how the investment need can be brought down when they complement investments with policy reform.
+
+Investments need very often disregard cascade losses benefits – bringing the cost of adaptation down
+
+Calculations splitting the investment need between the public and private sector to derive the needed fiscal space for public investments use fixed proportions based on operational experience. For example, see pages 52 and 53 attached from a leading CCDR – you see that there are fixed percentages. The World Bank is not taking into account how policy reforms (e.g. opening the grid to feed-in by private operators or reforms in the dispatching rules) can increase the private-sector share. Carbon pricing also does not play a role in these calculations – the private sector share is assumed to be exogenous.
+
+Documents are inconsistent about crowding in. The power sector parts usually do not consider crowding in or crowding out. The macro modeling usually assumes crowding out, but that is just based on the assumption of full capacity utilization for capital and labor in the baseline (loanable funds theory). The parts written by FCI, IFC talk about crowding-in but do not link it to the macro. And for the real world, we would assume that the question whether public investments mobilizes or substitutes private investments depends on the accompanying policy environment (e.g. if a public investments in renewables can serve as a demonstration project mobilizing the private sector to do further private investments in renewables depends on whether the market regulation is conducive to private investments and if the public investment is tackling a market failure), the business cycle (crowding out during booms) and network externalities (where public investments contributes to private opportunities within the market due to external economies of scope). Analysis of finance vehicles consider structures like guarantees to leverage public investments, but they do not take into account how the maximum leveraging of any individual guarantee is endogenous in complementary policy changes.
+
+## Financial Tipping Points in Climate Mitigation 
+
+The last twenty years have seen dramatic reductions in the costs and quality of green technology globally, for example in renewable energy, electric transportation, and meat. The deployment of renewable energy is indeed now at the tipping point and is cheaper than alternatives. This project investigates financial sector tipping points – mechanisms how similar dynamics can apply to climate mitigation. It also explains various reinforcing loops that can develop to tackle climate change.
+
+- Direct Effects
+
+- Systematic effect
+
+The project will identify causative strategies and how to fix them.
+
+- Direct intervention
+
+- Autocatalytic intervention
+
+Current projects, including the Financial sector mitigation tool (FSMT) and T2B project, assess various transmission channels (FSMT) and consider how to overcome fiscal constraints (T2B). But there may be an interest in thinking globally about how various transmission channels (including motivational structures or removal of barriers) and possible financial mechanisms for governmental, financial, and technological dynamics can come together in a ‘reinforcing loop’. A reinforcing loop is, in simple terms, a ‘virtuous cycle’.[^1]
+
+The project would entail a) A mapping of various transmission channels and dynamic processes, including complimentary policies, b) A literature review on those effects, c) In some cases (sequentially) an analysis of rough magnitude, and d) a very simplified modeling approach of how these dynamic processes could be combined with various example financial mechanisms
+
+The aim would be to present the possibility for various ‘tipping points’ in mitigating finance – to assess where those tipping points might be present and what combination of policies and global-MDB interventions. An example of policy combinations would be the combination of planning, targets, de-risking, and monetary funds that could induce a reduction in the cost of capital. In the analysis, governments will be considered agents in their own right, interested in low-cost energy supply and macroeconomic growth and development.
+
+There are a number of possible financial strategies for systemic change. These include
+
+- Uncertainty reduction leading to reduced costs
+
+- Leveraging scarce private risk capital through initial blended financing
+
+- Enabling large scale investment-grade capital through derisking
+
+- Promoting financial-monetary policy in a financially prudent fashion through derisking, reducing interest rates, and fitting the financial constraints of central banks, thus cultivating a better way to do macroeconomic stimulus
+
+- Use the comparative advantages of global institutions such as the world bank group without loading the balance sheet of these institutions
+
+- Financially structure financial assets, so they are suitable for pension funds and macroeconomic interventions
+
+- Globally centralize governance of climate through finance – in particular, through the COP process.
+
+- Demonstrate how multiple financing schemes can work synergistically together
+
+- Enable ‘Public Profitability’ of climate finance, with three benefits:
+
+- Profitable investments are by definition ‘closer’ to being self-sustainingly profitable. Therefore, they constitute the ‘adjacent possible’.
+
+- More equitable sharing in the potentially substantial profit in decarbonization: in the end, the profit provides a fund for everyday people in developing countries. Allow everyday people to participate in the financial assets needed for a low carbon future
+
+- Profitable investments are more scalable than non-profitable funding as there are multiple ‘impact investors’ that may be interested in contributing.
+
+- This scheme helps to coordinate at the international level—a pivotal novelty to other schemes in place.
+
+- Zero carbon development is technically challenging, especially in developing countries. For example, electricity grids have to be designed and balanced. A coordinated approach to planning can show synergies in that standardized high-expertise technical providers can be deployed repeatedly, reducing costs and risks.
+
+**Questions Raised**
+
+What are some existing examples of countries that have moved seriously to shift from fossil to renewables? E.g., Germany, China, Portugal, Costa Rica, Uruguay...?
+
+Do any examples exist? Perhaps not. Germany, for example, has gone to ca. 50% renewables in its electricity supply. Still, its road, ship, and air transport, its building-heating, and much of its industry all remain fossil-fueled.
+
+Different classes of countries, I.e., LDCs, LMICs, UMICs, and advanced industrialized countries, may have different combinations of instruments that lead to a “phase transition,” resulting in a rapid shift toward cleantech infrastructure.
+
+A new context emerges as cleantech becomes cheaper (and less volatile) than fossil tech.
+
+How can multinational/global tools be used to induce individual developing countries to decide on a radical shift to cleantech? Example: trade preferences + concessional finance for clean infrastructure deployment + grants for core infrastructure such as solar PV Gigafactories built on a sunk-cost basis? Can specific packages be offered for LDCs, LMICs, and UMICs to adopt?
+
+Could partnerships between “mentor” countries and “mentee” countries to develop cleantech supply chains be useful? E.g. partner German cleantech industries with German govt support with Morocco, Egypt, Senegal, Kenya, Tanzania, South Africa, India; Japanese cleantech industries with Indonesia, Cambodia...?
+
+Policy instruments
+
+- Feed-in tariffs
+
+- Power purchase agreements
+
+- De-risked green bonds (specifics of who de-risks them and how, bear consideration for each category of developing countries)
+
+- Equity investments in cleantech production infrastructure or large RE power plants backed by an equity investment fund set up by an international consortium of industrial countries for early-stage investments, coupled with an insurance fund for de-risking individual RE projects, with the resulting ownership stakes on-sellable to risk-averse institutional investors once the projects are up and running
+
+## Technoeconomic Modelling Approach
+
+Purpose: First draft of what the first version of the technoeconomic modelling (including for the purpose of T2B) aims to achieve and how we would achieve it.
+
+These models include:
+
+A\) An overall demand model for physical quantities (e.g., electricity, steel, aluminum, and concrete): using elasticities but in terms of the physical
+
+B\) A supply model where the options for meeting that demand are assessed.
+
+C\) A cost model both different options (for supply model) and how that reaches overall costs (for demand model)
+
+The purpose of this modelling is to
+
+A\) Explicitly model the capital stock
+
+B\) Model a wider range of policies than just carbon pricing.
+
+Phase out of coal, phase in of electric vehicles
+
+Financial policies reducing cost of credit
+
+Output based rebating and where appropriate trade related measures (CBAM/BTA)
+
+We have a model already of the power sector. We are developing a model of heavy industrial sector. For Industry
+
+Costs from two Techo-economic Models that we already knew of: E3ME model and the LUT-ESTM model
+
+Physical production quantities from British Geological Survey
+
+Capital stock, the ratio of capacity to production and the composition of different types of production, we have aggregated data globally.
+
+We also have spatial data on the actual installations but that’s incomplete.
+
+How the stock turns over – retirement rate etc.
+
+**Required public investment.**
+
+Table 1 Example of data needed and strategies for the modelling exercise
+
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| **Transport (passengers and freight)**                                                                                                      | **Residential**                                       |
++=============================================================================================================================================+=======================================================+
+| *Demand model*                                                                                                                                                                                      |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Capital stock                                                                                                                               | Capital stock                                         |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Current number of vehicles/buses/rail transportation/trucks                                                                                 | Number of new buildings                               |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Road and rail infrastructure (e.g. Kms of paved roads per Km2 of land, Kms of unpaved roads per Km2 of land, Kms of rail per 1,000 persons) |                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Projection growth of the population                                                                                                         | Projection growth of the population                   |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Forecast demand                                                                                                                             | Forecast demand                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Lifetime of the engine                                                                                                                      | Lifetime                                              |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Depreciation rate                                                                                                                           | Depreciation rate                                     |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| One-off cost                                                                                                                                | One-off cost                                          |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Maintenance                                                                                                                                 | Maintenance                                           |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Investments both public and private                                                                                                         | Investments both public and private                   |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| *Supply model*                                                                                                                                                                                      |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Option 1: Two/three wheelers electric cars with removable batteries                                                                         | Option 1: Heat pumps, Solar panels, Storage           |
+|                                                                                                                                             |                                                       |
+|                                                                                                                                             | Ground source heat pumps                              |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Average cost of a two/three wheeler vehicle                                                                                                 | Levelized cost per unit for each of the               |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Cost of charging points (with removable batteries that could be charged at home this cost could decrease under this option)                 | Option 2: Better isolation (e.g. three-layers window) |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Option 2: Connected public transportation                                                                                                   |                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| Could reduce the need to purchase a car, especially in urban area.                                                                          |                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| *Cost model: assessing the impacts of the different policies considered*                                                                                                                            |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1\. Phase out of say coal, phase in of electric vehicles                                                                                                                                            |
+|                                                                                                                                                                                                     |
+| 2\. Financial policies reducing cost of credit                                                                                                                                                      |
+|                                                                                                                                                                                                     |
+| 3\. Output based rebating                                                                                                                                                                           |
+|                                                                                                                                                                                                     |
+| 4\. Where appropriate trade related measures                                                                                                                                                        |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+High-level Plan
+
+**=**
+
+Assemble overall indicators for investment needs, risk/governance scores and better policy needs.
+
+Identify strategies (governance, mitigation and financial)
+
+Model possible outcomes after those strategies are implemented.
+
+Write up in this report (outline below)
+
+**Addressing Those Knowledge Gaps**
+
+We propose to address those knowledge gaps as follows:
+
+Endogeneity of investment needs in policy reform: CPAT-based modelling (with Paolo)
+
+Finance tipping points: initial analysis (with Roberto)
+
+Cost of capital and derisking: initial analysis
+
+**Analysis:**
+
+- What effect policy has on needed investment in the power sector
+
+- What effect does policy have on deployable finance?
+
+- What the overall cost of finance is and therefore the cost of the energy system
+
+- Pillar I – Policy reforms that could create fiscal space 
+
+- Carbon tax – mitigating demand and increasing fiscal space 
+
+- Feebate
+
+Power sector reforms
+
+- Pillar II – How to increase the financing available 
+
+- Structures that reduce in cost of capital
+
+- Proper accounting of return of projects
+
+- Adequate accounting for risk of projects
+
+- Pillar III – Mapping reinforcing loops
+
+- Network diagrams illustrating how it could be helpful
+
+Analytics:
+
+- Total power sector needs on a global basis
+
+- Total power sector costs.
+
+- Role of risk reduction in reducing costs of capital.
+
+Scope
+
+  -----------------------------------------------------------------------------------------------------------
+  **Area**   **Topic Area**                                                          **In or out of scope**
+  ---------- ----------------------------------------------------------------------- ------------------------
+  Report     Fiscal Risk Analysis                                                    In
+
+  Report     Policy Taxonomy                                                         In
+
+  Report     Green Investment Needs and Cost Literature Review                       In
+
+  Report     Key role of LT credit relationships (SECI, MDB, PACE)                   In
+
+  Report     Sectoral: Electricity Supply                                            In
+
+  NA         Other Emissions Sectors and Adaptation                                  Out
+
+  Tool       Derisking Simple Model (Based on UN)                                    In
+
+  Tool       Basic system dynamics model of scaling up finance (Only illustrative)   In
+
+  Tool       Investment Needs Calculator incl Endogeneity                            In
+  -----------------------------------------------------------------------------------------------------------
+
+Phase 1
+
+Complete Report. Cover only the power sector. What are the financing tools to expand solar wind and storage, cost-effectively and with low corruption? What policy is needed to do this? How do we analyze the effect on fiscal risk? How do long-term lending relationships and specialized agencies allow a reduction in financing costs: PACE, MDB-Nation State, SECI. How do we create a reinforcing loop of actual climate funds? Model of key analytics: cost of the energy system;
+
+Tool Functionality: A Global Knowledge Product Supporting CCDRs
+
+Decarbonisation Policy design Tool
+
+Investment needs calculator
+
+How that investment need is endogenised in policy: ie how does policy change needed investment?
+
+Derisking tool: Cost of capital and the cost of energy system (UN tool)
+
+Dynamic effects approach: how derisking combines.
+
+Tipping points application (bringing together finance and financial structures)
+
+**References**
+
+Battiston, S., Mandel, A., Monasterolo, I., Schütze, F., Visentin, G., 2017. A climate stress-test of the financial system. Nat. Clim. Chang. 7 (4), 283–288.
+
+Carney, M., 2015. Breaking the Tragedy of the Horizon – Climate Change and Financial Stability (Speech given at Lloyd’s of London, 29th September 2015)
+
+CTI (2019). Carbon Tracker Annual Review 2018-2019. Online at: <https://www.carbontracker.org/reports/carbon-tracker-annual-review-2018-2019/>.
+
+CTI, 2011. Unburnable Carbon–Are the world’s Financial Markets Carrying a Carbon Bubble. Carbon Tracker Initiative.
+
+CTI, 2015. The \$2 trillion stranded assets danger zone: How fossil fuel firms risk destroying investor returns. *London: Carbon Tracker Initiative, November*.
+
+Dale, M., Krumdieck, S., Bodger, P., 2011. Net energy yield from production of conventional oil. Energy Policy 39 (11), 7095–7102. Dale, M., Krumdieck, S., Bodger, P., 2012. Global energy modelling—a biophysical approach (GEMBA) part 2: methodology. Ecol. Econ. 73, 158–167.
+
+Dale, M., Benson, S.M., 2013. Energy balance of the global photovoltaic (PV) industry-is the PV industry a net electricity producer? Environ. Sci. Technol. 47 (7), 3482–3489.
+
+Farmer, J. D., Hepburn, C., Ives, M. C., Hale, T., Wetzer, T., Mealy, P., Rafaty, R., Srivastav,
+
+S., and Way, R. (2019). Sensitive intervention points in the post-carbon transition. Science,
+
+364(6436):132 – 134.
+
+Fouquet, R., 2010. The slow search for solutions: lessons from historical energy transitions by sector and service. *Energy Policy 38*, 6586–6596.
+
+Gagnon, N., Hall, C., Brinker, L., 2009. A preliminary investigation of energy return on energy investment for global oil and gas production. Energies 2 (3), 490–503.
+
+Hall, C.A., Powers, R., Schoenberg, W., 2008. Peak oil, EROI, investments and the economy in an uncertain future. In: Biofuels, Solar and Wind as Renewable Energy Systems. Springer, Dordrecht, pp. 109–132.
+
+Hall, C., Balogh, S., Murphy, D., 2009. What is the minimum EROI that a sustainable society must have? Energies 2 (1), 25–47.
+
+Hall, C.A., Lambert, J.G., Balogh, S.B., 2014. EROI of different fuels and the implications for society. Energy Policy 64, 141–152.
+
+Hamilton, J.D., 2009. Causes and Consequences of the Oil Shock of 2007-08. Working Paper No. w15002. National Bureau of Economic Research.
+
+Hamilton, J.D., 2013. Historical oil shocks. In: Parker, R.E., Whaples, R. (Eds.), Routledge Handbook of Major Events in Economic History. Routledge, Abingdon.
+
+IEA, 2013. World Energy Outlook 2013. International Energy Agency.
+
+IPCC, 2018. Special Report: Global Warming of 1.5◦C. Intergovernmental Panel on Climate Change. Online at: <https://www.ipcc.ch/sr15/>.
+
+Jackson, T., & Victor, P. A., 2019. *LowGrow SFC – A stock-flow-consistent ecological macroeconomic model for Canada.* CUSP Working Paper No 16. Centre for the Understanding of Sustainable Prosperity. Online at: <https://www.cusp.ac.uk/themes/aetw/wp16/>
+
+Lambert, J.G., Hall, C.A.S., Balogh, S., Poisson, A., Gupta, A., 2013. EROI of global energy resources: status, trends and social implications. In: Report to Division of Foreign Investment, United Kingdom.
+
+Lambert, J.G., Hall, C.A., Balogh, S., Gupta, A., Arnold, M., 2014. Energy, EROI and quality of life. Energy Policy 64, 153–167.
+
+Lenton, T.M., Rockström, J., Gaffney, O., Rahmstorf, S., Richardson, K., Steffen, W., Schellnhuber, H.J., 2019. Climate tipping points—too risky to bet against. Nature 575, 592–595.
+
+Mercure, J.-F., Pollitt, H., Viñuales, J. E., Edwards, N. R., Holden, P. B., Chewpreecha, U., Salas, P., Sognnaes, I., Lam, A., and Knobloch, F. (2018). Macroeconomic impact of stranded fossil fuel assets. Nature Climate Change, 8(7):588–593.
+
+Murphy, D.J., 2014. The implications of the declining energy return on investment of oil production. Philos. Trans. R. Soc. A Math. Phys. Eng. Sci. 372 (2006), 20130126.
+
+Murphy, D.J., Hall, C.A., 2010. Year in review—EROI or energy return on (energy) invested. Ann. N. Y. Acad. Sci. 1185 (1), 102–118.
+
+Murphy, D.J., Hall, C.A., 2011. Energy return on investment, peak oil, and the end of economic growth. Ann. N. Y. Acad. Sci. 1219 (1), 52.
+
+NCE 2018. *Unlocking the inclusive growth story of the 20^th^ Century – accelerating climate action in urgent times. 2018 Report of the Global Commission on Economy and Climate*. New Climate Economy. Online at: <https://newclimateeconomy.report/2018/>.
+
+Pollitt, H., & Mercure, J. F. (2018). The role of money and the financial sector in energy-economy models used for assessing climate and energy policy. *Climate Policy*, *18*(2), 184-197.
+
+Sers, M. R., & Victor, P. A., 2018. The energy-emissions trap. Ecological economics, 151, 10-21.
+
+Smil, V., 2010. *Energy transitions: history, requirements, prospects*. ABC-CLIO
+
+[^1]: For example, policy combinations including derisking, planning and concessional lending could lead to reduced cost of capital leading to increased profitability and therefore increased scale up of green technology, leading to further technological optimization and reduced cost of capital\>

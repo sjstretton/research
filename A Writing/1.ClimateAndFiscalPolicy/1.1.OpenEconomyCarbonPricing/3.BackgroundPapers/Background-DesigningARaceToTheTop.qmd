@@ -1,0 +1,35 @@
+---
+title: "DesigningARaceToTheTop"
+---
+
+**Designing a Race to the Top**
+
+*International Norms for the Base of Emissions, Emissions Taxation, and Profit Taxation to Promote Better Game-Theoretic Outcomes*
+
+**Abstract**
+
+Both greenhouse gas (GHG) emissions and corporate profit taxation face a similar challenge: when taxed at the source (where production occurs), competition between jurisdictions leads to lower tax rates—a "race to the bottom." Source-based taxation incentivizes firms to move to low-tax regions, undermining efforts to regulate emissions and profits.
+
+We argue for a **destination-based approach**—taxing emissions and profits where final consumption takes place rather than where production occurs. This shift could reverse the current trend, leading to a "race to the top" with higher tax rates on carbon and corporate profits. Given today’s geopolitical landscape, where major economies aim to reshore industries, this approach offers a pragmatic way forward. It balances economic realism with a structured, rules-based international system that prevents tax and emissions policies from being undermined by global competition.
+
+**Non-Technical Summary**
+
+Who should be responsible for emissions—the country that produces a product or the country that consumes it? This question matters for both emissions accounting and taxation. There are two main ways to tax emissions and corporate profits:
+
+1.  **Source-based taxation** (where production happens). This encourages offshoring.
+
+2.  **Destination-based taxation** (where consumption happens). This encourages reshoring.
+
+Taxing emissions and profits based on consumption, rather than production, is a practical middle ground. It avoids the overly ambitious pre-Trump norms, which often backfired, while still maintaining clear international trade rules. Just like land taxes, this approach works because consumer locations are pretty much fixed, unlike firms that can relocate to avoid taxes. Shifting to a destination-based system could create a "race to the top"—higher tax rates on corporate profits (especially for digital monopolies) and emissions—rather than the usual race to the bottom.
+
+Non-technical summary:
+
+**Introduction**
+
+The current time of writing in early 2025 is a time of very high stress for international institutions, free trade, and climate change mitigation. The incoming Trump administration has withdrawn from the Paris Agreement on climate change and imposed tariffs on nearby trading partners. American demand has helped to develop Chinese industry, which, despite an impressive renewable expansion, still uses a predominantly coal-based approach to electricity generation and fueling its industry.
+
+Carbon prices are generally low, and the international approach to climate change agreements, focused trying to achieve global agreements through the United Nations FCCC, has achieved little, beyond the Paris Agreement, which commits the world to limiting climate change to 2C above the preindustrial level, with efforts to achieve 1.5C target. Even 1.5C threatens climatic tipping points such as the Greenland ice sheet. The 1.5C target appears now out of reach, and nothing in political dynamics of the current situation suggests that 2C is feasible either, at least on current norms and trends. If it is to be achieved, massive cuts of emissions are needed this decade, associated with large investments in emissions-reducing technologies, as well as policies to incentivize emissions reductions further.
+
+Next: explain bases of emissions. The standard way that emissions are accounted for (as per the Kyoto) is with a ‘source’ basis. This means that the emission for some steel that is manufactured in Vietnam and used in France would be accounted for in Vietnam.
+
+An alternative approach would be to use the *destination* basis for the emissions accounting. This approach has been pioneered in the UK for example by Dieter Helm. It shows that while source basis UK emissions have been falling, destimation-based emission have been rising. The first argument then for a destination basis is that consumers should face moral responsibility for the emissions of consumption. If I purchase more electronic items than I really need the country of residence of the consumer should bear responsibility for these emissions. (The second reason is related, there should be joint responsibility in taxation for the incidence of the emissions *taxation*). Once given moral responsibility, represented in targets and so on, the country would naturally both take account of the consumption behaviour, both in terms of the level of consumer electronics consumption, and the sourcing country (and its emissions intensity).Explain bases of taxing emissions.

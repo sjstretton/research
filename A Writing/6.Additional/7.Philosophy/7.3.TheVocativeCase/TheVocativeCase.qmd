@@ -1,0 +1,495 @@
+---
+subtitle: On what atheism argues with, what it leaves standing
+title: The Vocative Case
+---
+
+# Table of Contents
+
+[Abstract [1](#abstract)](#abstract)
+
+[The map [2](#the-map)](#the-map)
+
+[I. What is being argued against [2](#i.-what-is-being-argued-against)](#i.-what-is-being-argued-against)
+
+[II. The inherited fall [5](#ii.-the-inherited-fall)](#ii.-the-inherited-fall)
+
+[III. The rupture, taken seriously [7](#iii.-the-rupture-taken-seriously)](#iii.-the-rupture-taken-seriously)
+
+[IV. Does the word do any work? [11](#iv.-does-the-word-do-any-work)](#iv.-does-the-word-do-any-work)
+
+[V. Relation without comprehension [13](#v.-relation-without-comprehension)](#v.-relation-without-comprehension)
+
+[VI. Is this a religion? [15](#vi.-is-this-a-religion)](#vi.-is-this-a-religion)
+
+[Appendix: Two ways of attending [17](#appendix-two-ways-of-attending)](#appendix-two-ways-of-attending)
+
+# Abstract
+
+Most arguments against the existence of God are aimed at one picture: a powerful intelligence who exists apart from the world and made it, roughly as a watchmaker makes a watch. Against that picture the arguments are strong. But several of the oldest traditions do not hold it, and some explicitly reject it. Spinoza’s God is identical with nature. The Brahman of Advaita Vedanta is not a maker standing outside creation. The Dao is not an agent at all. Pointed at these, the usual arguments pass through without touching anything.
+
+The standard reply is that such conceptions are evasions — too vague to hit, and therefore not real claims. This essay disagrees. It argues that these traditions were largely answering a different question: not what the world contains, but what it is to live inside it. That second question is easy to dismiss as sentiment. An appendix argues that it is not, and the main text assumes the result.
+
+The essay then makes three further moves. First, that modern unbelief inherited a mood from the religion it left — the sense of a world that has let us down. Second, that the Christian intuition of a fall is not superstition but an accurate report of something that did happen, and can be restated in secular terms: the human capacity for language, categories, and self-reference cut us out of immediate participation in the world. That cut was enormously productive. It is also the wound. And third, that this is why an external God cannot be the remedy — because a world whose problem is separation cannot be repaired by adding one more separate thing.
+
+What follows from that is a position with an unusual shape: it keeps the Christian diagnosis, the Nietzschean respect for what the wound produced, the Vedic refusal to treat the ego as a sin, and the immanent conception of the divine, while conceding to the atheist every argument he actually made. The essay ends by asking whether that hybrid is a religion, and gives the reasons to doubt it alongside the reasons to want it.
+
+A word on method. Nothing here asks you to accept a mystical claim on trust. Where a tradition makes a claim I cannot check, I say so.
+
+# The map
+
+**I.** What the argument against God is aimed at, and what it therefore misses.
+
+**II.** Whether unbelief kept the idea of a fallen world.
+
+**III.** The rupture, taken seriously — and why the cure cannot be a second rupture.
+
+**IV.** Whether calling the world “God” adds anything to calling it “nature.”
+
+**V.** Whether you can be related to what you cannot understand.
+
+**VI.** Whether the result is a religion.
+
+**Appendix.** The distinction everything rests on, defended at length.
+
+# I. What is being argued against
+
+Start with an ordinary observation. When people argue about whether God exists, they nearly always have the same God in mind. He is a person, or something like one. He has intentions. He made the world on purpose, as an engineer makes a bridge. And he is not the same thing as the world; he stands outside it, as a maker stands outside the thing he has made.
+
+Two words are useful here and I will keep using them.
+
+A **transcendent** God is one who is beyond the world and separate from it. An **immanent** God is one who is not separate — who is present in the world, or is the world, rather than standing apart from it. The distinction is old and both traditions have both strands, but the popular picture in the West is overwhelmingly transcendent.
+
+Call that picture the **separate God**. It is the God of most Sunday schools, most pub arguments, and nearly all the books.
+
+Richard Dawkins, in *The God Delusion*, is admirably clear that this is his target. He names it the God Hypothesis and defines it as a superhuman intelligence that deliberately designed the universe. His central argument against it is worth stating carefully, because everything here depends on its shape.
+
+The argument runs: complexity is exactly what needs explaining. If you explain complex things by appealing to an intelligent designer, you have explained nothing, because the designer must be at least as complex as what he designed, and so needs explaining in turn. You have moved the problem one step back and called it an answer. Dawkins calls this the “ultimate Boeing 747.”
+
+It is a good argument. Now look at what it requires.
+
+It needs God to be a **thing**, with parts and properties, of the sort that can be more or less complex.
+
+It needs him to be **contingent** — that is, the sort of thing that might not have existed, so that asking why he is there makes sense. (Contrast a necessary thing, which by its nature could not fail to be. Whether anything is really like that is disputed, but the distinction is the one the argument turns on.)
+
+And above all it needs him to be **outside** the world he explains, because the whole force of the argument is that he is one extra item added to the inventory of what exists, and extra items must earn their place.
+
+Remove any of the three and the argument has nothing to grip.
+
+Now consider three conceptions that lack all three.
+
+**Spinoza**, writing in Amsterdam in the 1660s, argued that there is only one substance, and that it may be called either God or Nature. His Latin phrase is *Deus sive Natura* — “God, or in other words, Nature.” Not the maker of the world: the world itself, taken as a whole and considered under its most general aspect. Not contingent, because he held this substance to be the kind of thing that could not fail to exist. And not an extra item on the inventory, because it *is* the inventory.
+
+Positions of this general kind are called **pantheism**, from the Greek *pan* (all) and *theos* (god): the view that God and the totality of what exists are the same thing, rather than two things standing in a relation.
+
+**Advaita Vedanta**, an Indian philosophical tradition systematized by Shankara around the eighth century, holds that ultimate reality — Brahman — is one, and that the self at your center is not separate from it. *Advaita* means “not two.” The traditional formula is *tat tvam asi*, “that thou art.” Again, no maker standing apart from a made thing.
+
+**Daoism**, in the *Dao De Jing* and after, speaks of the Dao — usually translated “the way” — as that from which things arise and to which they return. But it is not an agent, forms no intentions, and is said to lie beyond naming. The book’s first line makes the point: the way that can be spoken is not the constant way.
+
+Dawkins knows such positions exist. He handles them in a phrase, calling pantheism “sexed-up atheism” — a God identical with nature being, on his view, no God at all but a poetic name for the universe.
+
+That is a dismissal, not a refutation, and the difference matters. Whether he is *right* that the word adds nothing is a serious question, and Part IV takes it up at length. But the arguments in the book do not settle it. They cannot: they were built for a target these conceptions do not present.
+
+So the question is not who wins. It is: **what is the argument about, once the separate God is set aside?**
+
+The usual answer is that nothing is left, because the immanent conceptions are too vague to say anything. That answer rests on an assumption worth bringing into the open — that everyone involved was doing the same job, describing what exists, and that the Indian and Chinese traditions were simply worse at it.
+
+Alan Watts, who spent the middle of the twentieth century explaining Asian thought to Western audiences, denied this. He argued that those traditions were mostly asking a different question, and that Europeans arriving with the existence question in hand systematically misheard the answers. Watts was a popularizer and his reputation has suffered for it, but the observation holds. The Upanishads do not open by establishing that a supreme being exists. They open by asking what *you* are, and why the answer is not already obvious to you.
+
+Two questions, then, not one.
+
+The **descriptive** question asks what exists and how it is arranged. It aims at an account that would be the same whoever gave it, and that would remain true if nobody gave it. That aim is not a defect; it is the great achievement of the sciences.
+
+The second — call it **orientational**, from “orientation,” meaning how you are positioned and facing — asks what it is to be a creature living inside the world, and what difference it makes to that creature to understand the world one way rather than another.
+
+There is a weak version of this distinction that deserves the contempt it gets: *there are the facts, and then there is how the facts make us feel, and feelings matter too.* True, trivial, and irrelevant to what exists. The claim I need is stronger — that for a creature situated inside the world rather than surveying it from outside, how the world shows up is not a coating applied to what the world is. It is part of the situation, because the creature is part of the situation.
+
+That is the load-bearing claim of this essay, and you should not accept it on the strength of a paragraph. **The appendix argues it properly**, using cliffs, hammers, hands, and the reason an abstraction cannot coherently declare its own source unreal. The main text assumes the result.
+
+One consequence is worth stating now. The God Hypothesis is a construction of the detached, analytical mode, and so is its refutation. Neither the positing nor the demolishing happens in the mode where religious life actually goes on. That is why the debate can be won so cleanly and settle so little.
+
+# II. The inherited fall
+
+Now a question that cuts against unbelief rather than for it.
+
+**Did modern atheism keep more of Christianity than it noticed?** Specifically, did it keep the idea of a fallen world — a world that is insufficient, that has let us down, that ought to have been better than it is?
+
+## The pedigree of the suspicion
+
+Nietzsche put it first and hardest: European morality is Christian morality with the metaphysics quietly removed, and people are still living in the building without having noticed that the foundations were taken out.
+
+Karl Löwith, a German-Jewish philosopher writing in exile in the 1940s, made the historical version in *Meaning in History*. The modern idea of progress, he argued, is Christian providence in secular dress — a line running from a fallen past, through struggle, toward a redeemed future. Delete the supernatural agent, leave history to do the redeeming by itself, and you have the nineteenth century.
+
+John Gray has pressed this against political utopians for a career. Tom Holland, in *Dominion*, made the popular case that even the secular liberal instincts we take as self-evident — that the weak have dignity, that power is suspect — are historically strange and Christian in origin.
+
+## The strongest version
+
+Consider the familiar lament: the universe is vast, cold, indifferent, and meaningless.
+
+That is not a neutral report of the findings.
+
+Indifference is only a wound if you expected attention. Meaninglessness is only a loss if meaning was owed to you. The tone of the sentence is **disappointment** — and disappointment always looks backward. It requires a prior expectation that has failed.
+
+A cat is not disappointed by the size of the universe.
+
+Only someone raised to expect a creator who counts the hairs on your head experiences an impersonal cosmos as a *bereavement* rather than as simply how things are. Dawkins’ well-known line about blind, pitiless indifference is not a result in physics. Physics has no view about pitilessness. It is a bereaved man’s physics, and the bereavement was inherited from the tradition he takes himself to have left.
+
+The pattern repeats once you look for it. Utopian politics keeps the last judgment and the new earth and drops only the judge. Some strands of transhumanism keep the resurrection body and the abolition of death, and replace grace with engineering. The shape persists. Only the agent is swapped out.
+
+## Two objections that deserve answering
+
+**The thesis may be unfalsifiable** — that is, framed so that no evidence could count against it, which is a serious defect in an argument. Hans Blumenberg, in *The Legitimacy of the Modern Age*, attacked Löwith on exactly this ground: you can find a Christian ancestor for any modern idea if you are willing to squint, because structural resemblance is cheap and real derivation is expensive to prove. His own account was that modernity inherited real *questions* from late medieval theology — questions the theologians raised and then abandoned — and filled the empty positions with genuinely new answers. Same slot, new content, nothing smuggled.
+
+This is a real objection and cannot be fully answered. But notice that it is aimed at ideas, whereas the claim here is about a *mood*. Moods transmit far more reliably than doctrines, precisely because nobody inspects them. A child can lose every belief his parents held and keep the disappointment intact.
+
+**The shorthand is unfair to Christianity.** This matters and is usually skipped. Genesis has God pronounce the creation good, emphatically and repeatedly. The doctrine of the Incarnation — God becoming a body — is an explicit refusal of contempt for matter, and the second-century Gnostics who held the material world to be the botched work of an inferior deity were fought and defeated on precisely that ground. The promised end is not escape from the world but a resurrected body in a renewed earth. The world-fleeing strain in Christianity is mostly Platonic sediment, not bedrock.
+
+Hold onto that, because Part III depends on it.
+
+## Where the real difference lies
+
+Watts’ own contrast — world-denying West, world-affirming East — does not survive inspection, and it is worth saying so plainly.
+
+The Asian traditions are not uniformly cheerful about existence. *Dukkha*, the first of the Buddha’s noble truths, is usually rendered “suffering” and is closer to “unsatisfactoriness”; it is not a warm assessment. And *māyā*, the Advaitic term for the status of the world as it appears to us, is a harder word about the world than anything in Genesis. Genesis says the world is good but damaged. Advaita says the world as you perceive it is not, in the end, how things are. That is not the more affirming position.
+
+So relocate the contrast. It belongs here: **not affirmation against denial, but where each tradition locates the fault.**
+
+**In the Christian picture, something went wrong, and it went wrong morally.** There was a rupture. It involves guilt. And it requires rescue from outside, because the damage is of a kind you cannot repair yourself.
+
+**In the Advaitic picture, nothing went wrong at all.** No rupture, no guilt. Only *avidyā*, translated “ignorance” but closer to a persistent misreading. The traditional image is a coiled rope on a dim path, taken for a snake. The fear is entirely real. The snake never existed. Nothing needs repairing; something needs seeing correctly — and the correction is available from where you already stand, because the misreading is the only thing wrong.
+
+**In the Daoist picture there is not even an error.** No fall, no illusion. Only departure from ease, from *ziran* — “self-so,” things being as they spontaneously are. The remedy is not knowledge but a return to attunement.
+
+This is not decorative. A civilization organized around a world that needs **redeeming** behaves very differently from one organized around a world that needs **recognizing**, or one that needs only to be **left alone**. Guilt and rescue; misperception and clear sight; strain and ease.
+
+## Three positions, not one
+
+It also lets us hold the immanent conceptions apart, which is worth doing, since they are routinely lumped together as “Eastern mysticism” and are not the same thing.
+
+**The Dao is the inside of process.** Not a substance underneath change, but the way change goes. The ten thousand things — the classical Chinese phrase for the world’s contents — genuinely arise and genuinely return. Nothing is illusory. For a Western handhold, Whitehead is better than Spinoza: he rebuilt metaphysics out of events rather than things, holding that reality is made of happenings, each with an inside.
+
+**Brahman is the inside of awareness.** Advaita’s term is *cit*, consciousness, and it is essential to what Brahman is, not one property among others. This is a substantive and contestable claim — that awareness is fundamental rather than produced by arrangements of matter. It is *more* exposed to objection than Spinoza, not less. It is also being argued today in the philosophy of mind, mostly by people who do not know the Sanskrit precedent exists.
+
+**Spinoza’s substance is neither.** Thought and extension are two attributes of one substance, but that substance is not itself aware in the way Advaita means. He is closer to what would now be called a dual-aspect view: one reality, two ways it presents.
+
+Grouping these as “the mystical option” is a failure of attention.
+
+# III. The rupture, taken seriously
+
+Now I want to defend the Christian intuition, and then say why its remedy fails on its own terms.
+
+## McGilchrist’s fall
+
+In the appendix I use Iain McGilchrist for a modest purpose: to establish that there are two modes of attention. But that undersells him, and the fuller version is what this essay actually needs.
+
+McGilchrist is not merely describing two modes. He is telling a story about how one of them took charge, and it is a fall narrative in every structural respect. His title says so: *The Master and His Emissary*. The master is the broad, open, contextual mode that receives the world as a living whole. The emissary is the narrow, targeted mode, dispatched to do specific work — to isolate, to grasp, to name. The emissary is indispensable. It is also, in the story, the one that came back and claimed to be the master, and then rebuilt the world in its own image.
+
+What did the emissary have that let it usurp? Three things, and they are the same three the Christian story puts in the garden.
+
+**Language.** Words are not the things they name. To say “tree” is to lift a category off a particular living thing and set it beside a thousand others that are not this one. This is a colossal gain — you can now plan, warn, teach, and think about what is not in front of you. It is also the first step out of immediate contact. Something now stands between you and the tree, and the something is useful, and it is not the tree.
+
+**Categories.** Once you have names you have classes, and once you have classes you can *re-present* the world to yourself — hold a version of it in mind, apart from the thing. Almost everything we call knowledge lives in that version. So does almost everything we call detachment.
+
+**Self-reference.** The same trick applied to yourself gives you an “I” — a model of the one doing the modeling. This is the strangest and most consequential of the three, because it is what makes it possible to stand apart from your own life and evaluate it.
+
+McGilchrist’s claim is that these three, taken together, produced almost everything we admire about Western civilization and simultaneously cut us out of participation in the world we were describing.
+
+Set that beside Genesis and the resemblance is hard to miss. The fruit is from the tree of the *knowledge* of good and evil — knowledge, not disobedience in the abstract, and knowledge that arrives as a *distinction*. What immediately follows is self-consciousness: they knew that they were naked. And what follows that is exile — not a change in the garden, but a change in the relation to it.
+
+I am not claiming the authors of Genesis were doing cognitive science. I am claiming they were accurate phenomenologists — careful describers of experience — and that they noticed something real about the human condition and encoded it in the only medium available. The story reports that the very capacity that makes us human also removes us from something. That is not superstition. It is a good observation about a strange animal.
+
+**So the Christian intuition of a rupture is right.** This essay does not need to patronize it. Something did happen, it is ongoing, and everyone who has ever felt separate from their own life has felt it.
+
+## The rupture was productive
+
+And now the part that both the Christian and the wistful romantic tend to skip.
+
+The rupture built everything.
+
+The detached mode gave us the sciences, which required exactly the operation the appendix describes: removing the observer from the description, deliberately, in order to get an account that holds for anyone. It gave us law, which is the application of a category to a case regardless of who stands in front of you. It gave us the individual as a moral unit, which requires precisely that self-model — you cannot have rights without a self to bear them. It gave us the novel, which is self-reference turned into an art form.
+
+Nietzsche understood this better than anyone, and it is worth being precise about what he said, because he is routinely misread as an enemy of self-overcoming.
+
+His term is **sublimation** — a word borrowed from chemistry, where a solid turns directly into a vapor without passing through liquid. Applied to human life it means an impulse that is not destroyed but *transformed*, converted into a higher form without losing its energy. Nietzsche’s view was that European culture at its best is sublimated ego: the drive for distinction, refined and redirected until it produces cathedrals, symphonies, mathematics, scientific rigor. He thought Christianity had produced this by accident, disciplining the self so severely that the self became an instrument of extraordinary precision — and had then turned that instrument on Christianity itself, which is what he meant by the death of God being a Christian achievement.
+
+The point for this essay is: **the ego is not the villain.** Something that produced Bach and calculus does not get called a disease.
+
+## The remedy is where it fails
+
+Here, though, is where I part from the Christian answer, and the reason can be put in one sentence.
+
+**If the wound is separation, the cure cannot be one more separate thing.**
+
+The transcendent God is not a healing of the split. He is the split projected upward and made permanent. He stands outside the world exactly as the detached observer stands outside what he observes; he relates to it as maker to made, subject to object; and he mends the breach by an act performed *on* you from *elsewhere*.
+
+That is the emissary’s own solution to a problem the emissary created. It is separation applied to the divine. However tenderly the story is told, its structure asks you to be repaired by a further instance of the very operation that did the damage.
+
+The Christian mystics saw this, which is why the tradition’s own deepest voices break the frame. That is what Part IV’s sequence — Augustine, Eckhart, Cusa, Tillich — turns out to be. They are not softening the doctrine. They are refusing the geometry.
+
+And there is a second failure, which is the more damaging of the two.
+
+The Western handling of ego became **moral**. Pride was named the first of the deadly sins. The self became something to be humbled, broken, crucified. But the self is a *faculty*, and moralizing a faculty is a category mistake — like calling eyesight sinful because you can use it to covet. What follows is predictable: you cannot get rid of it, so you get shame, and shame drives the thing underground, where it operates unobserved.
+
+The result is a well-known figure: the man whose humility is his proudest possession. The person who has made an achievement out of renunciation. It was said of Gandhi — affectionately, by Sarojini Naidu, who knew him well — that it cost a great fortune to keep him living in poverty. The remark is not an accusation. It is a precise observation that the ego does not vanish when it is attacked; it relocates, and it is hardest to see when it has taken up residence in one’s own virtue.
+
+## The Vedic alternative: the ego as a faculty
+
+Set against this, the classical Indian treatment is startlingly unmoralized.
+
+In Vedic psychology, the inner instrument has four functions: *manas*, the sensory-processing mind; *buddhi*, the discriminating intellect; *chitta*, memory and impression; and **ahamkara** — literally “the I-maker,” the function that generates the sense of being a distinct someone.
+
+Notice the word. Not a sin. Not a fall. A *function*, listed alongside memory and intellect as one of the things the mind does. You would no more want to be without it than to be without memory. It is what allows an organism to distinguish itself from what it is eating.
+
+The problem in this account is never that *ahamkara* exists. It is that it gets its scope wrong — the I-maker, which should identify a body and a history, ends up claiming to be the whole of what you are. That is a misplacement, not a crime. And you do not correct a misplacement by punishment.
+
+Sri Sri Ravi Shankar, in the Art of Living tradition, teaches this in a form which is worth reporting accurately: fighting the ego is itself an act of ego, so the fight cannot work. What dissolves it is not attack but a set of conditions — service that takes attention off oneself, knowledge that reveals the misplacement, and practices that produce enough ease that the self stops needing to defend a border. The tone is unmistakably kind toward the very thing the West spent centuries scourging.
+
+That kindness is not softness. It is a better engineering assessment. You cannot remove a load-bearing component; you can only relieve the load.
+
+## What this gives us
+
+Four claims, from four sources, that fit together without strain:
+
+1.  **There was a rupture.** (Christianity, McGilchrist.) Language, category, and self-reference cut us out of immediate participation. The intuition of exile is accurate reporting.
+2.  **The rupture was productive.** (Nietzsche.) It built the sciences, the law, the individual, the arts. Sublimated ego is not a pathology.
+3.  **The healing cannot be a second separation.** (Advaita, Daoism.) A world whose problem is separateness is not repaired by adding one more separate thing to it, however large.
+4.  **The ego is a faculty, not a sin.** (Vedic psychology.) It needs right placement, not punishment — and the attempt to punish it drives it into hiding, where it does the most damage.
+
+Whether these four amount to a religion is the question of Part VI. First, two pieces of unfinished business.
+
+# IV. Does the word do any work?
+
+Now the hardest objection — not Dawkins’, and sharper than anything in his book.
+
+**If God simply is nature, the word “God” is idle.** Two words for one thing. Occam’s razor — the principle that you should not multiply things beyond necessity — cuts vocabulary as well as entities. Say “nature,” and be done.
+
+There is an answer, and it depends on the appendix.
+
+The objection assumes something about how words work: that they are labels attached to a finished inventory, so that if two labels pick out one item, one of them is redundant.
+
+But words also carry **posture**. They encode where the speaker is standing in relation to what is named.
+
+Grammar makes this visible, and it is the clearest tool I know for the job. Some languages mark the role a noun plays in a sentence by changing its form. These forms are called **cases**, and two of them matter here.
+
+The **accusative** is the case of the object — the thing something is done to, the thing examined. In “I study the mountain,” *the mountain* is accusative. It sits in front of you at the distance that study requires.
+
+The **vocative** is the case of address — the form a noun takes when you are speaking *to* it rather than *about* it. English has almost lost it, but you use it every day: the difference between “Mary came in” and “Mary, come in.” Latin kept it visible; Caesar’s supposed last words, *et tu, Brute*, use the vocative form of *Brutus* because Caesar is speaking to him.
+
+Now the point. To call the whole of things **“nature”** is the accusative. To call it **“God”** is the vocative. Same referent, different placement of the speaker — and the vocative does something the accusative cannot: it puts the speaker *inside* the relation, as one addressing rather than surveying.
+
+And here is the step that matters.
+
+If the speaker stood outside the system, the choice of case would be idle, and Dawkins would be right that only the packaging has changed. But on Spinoza’s own account the speaker does not stand outside. You are a mode of the very substance you are naming. So the relation between speaker and referent is *part of the situation being described*. A change in that relation is a change in the described situation, not a decoration laid over a fixed one.
+
+This is why Part V of the *Ethics* is not sentiment tacked onto a dry system. Spinoza ends the book with what he calls the *amor Dei intellectualis*, the intellectual love of God, and treats it as the destination of everything that came before. It is unavailable in the accusative. You cannot love an object of study *as* an object of study; the relation is the wrong shape.
+
+Zen makes the same point without any metaphysics at all, which is why it is useful here. Zen offers no rival account of what a tea bowl is made of and contains no doctrine a chemist would dispute. What it changes is how the bowl is met. Nothing has moved in the descriptive register. Something has moved.
+
+## Can you choose a word for its effects?
+
+Here the argument must be kept from going soft, and the skeptic is right to press.
+
+Suppose someone reasons: the vocative is better for me, so I shall adopt it, while privately holding “God exists” to be false. That position has a name — **religious fictionalism**, the use of religious language as a useful fiction, knowingly.
+
+My objection is not moral but structural. **It is not stable.** The consolation depends on your not remembering that you selected it for its consolation. The moment you can see your own hand on the lever, the lever stops working. It is the same reason you cannot decide to be surprised, and cannot tickle yourself.
+
+So the move is legitimate only for someone who can say the sentence flatly, in the indicative — the ordinary declarative form, “this is how things are” — and defend it. Spinoza can. “God is substance” is a claim he argues at length and would defend against objection. For him the vocative is not a chosen posture but the correct posture toward what he takes to be the case.
+
+The test is therefore not “does this word help me.” It is **“can you assert it.”** That excludes a great deal of what currently passes for spirituality, and it should. Part VI will point the same test at this essay’s own conclusion.
+
+## Where is God?
+
+One observation, easily checked and surprisingly consequential.
+
+Ask a thoughtful Christian where God is and you will not be given a location. You will be given omnipresence — and then, if the person knows the tradition, something like this.
+
+Augustine, in the *Confessions*, writes that God is more inward to him than his own innermost part, and higher than his highest. He breaks the spatial frame in both directions at once, deliberately.
+
+Meister Eckhart, a Dominican preacher in fourteenth-century Germany, says the ground of God and the ground of the soul are one ground — not two things in contact.
+
+Nicholas of Cusa argues that God is neither inside nor outside the world, because both words presuppose a boundary that God does not have.
+
+Paul Tillich, in the twentieth century, refuses to say that God exists at all. Not from atheism: his point is that to exist is to be one being among others, and a being among others is an idol however large you make it. His phrase is “the ground of being.”
+
+At that altitude the distance from *tat tvam asi* is short.
+
+Short, but not zero, and the remainder matters. The Christian mystics preserve a *relation*: however deep the union goes, there remain two, and what joins them is love rather than identity. Advaita has no two. Both traditions have punished people over precisely this gap. Eckhart was tried for heresy at the end of his life. The Sufi al-Hallāj was executed in Baghdad for saying “I am the Real” — a sentence an Advaitin would find unremarkable.
+
+But here is the result worth carrying away. The separate God — the discrete engineer standing outside his universe — is not only Dawkins’ target. It is a position that the most serious theologians within each of these traditions explicitly reject, and that some were prepared to be tried and killed for rejecting.
+
+The argument therefore does not land on these traditions at their best. It lands on the folk version. Against the folk version it is decisive — which is why it feels like a victory, and why it changes so little for anyone standing further in.
+
+# V. Relation without comprehension
+
+## Is a greater intelligence unknowable in principle?
+
+The formal case is short. A greater intelligence is one whose reasoning a lesser intelligence cannot reconstruct. If it could be reconstructed, the gap would not be a gap in intelligence.
+
+So the unknowability, if there is anything of that kind, is not a temporary limitation to be chipped away as we learn more. It follows from the setup. Understanding is bounded by the understander.
+
+This is the **apophatic** tradition, from the Greek for “unsaying” — the practice of approaching the divine by denying descriptions rather than offering them. Pseudo-Dionysius, in the sixth century, held that we approach God best by successive denial: not this, not that, and finally not even “being,” as we use the word. The Upanishadic formula is *neti neti* — “not this, not this.” Advaita distinguishes *saguna* Brahman, the ultimate described with attributes for the sake of devotion, from *nirguna* Brahman, without attributes, which is what those descriptions approximate.
+
+There is a modest point to add from Part III, and I want to keep it modest, because it is easy to overdraw.
+
+Narrow, grasping attention can only take hold of what it can encompass. That is not a flaw; it is the method. It works by cutting a thing down to a size that can be handled. Open attention can receive what exceeds it — that is what it is for.
+
+It follows that if anything greater than us can be met at all, it can only be met in the second mode. Not because of any claim about brains, and not as evidence that anything is there. Simply because the first mode’s entire technique is to reduce, and you cannot meet what is larger than you by reducing it.
+
+## What kind of relation is possible?
+
+The skeptic’s response is obvious: if you cannot say anything about it, you cannot have anything to do with it.
+
+I think the strangeness runs the other way, and that the demand for comprehension as a *precondition* of relation is the thing that needs explaining.
+
+You have a relationship with your daughter. You cannot model her interior life. You cannot reliably predict her. You will never have a complete account of what it is like to be her, and if you claimed one she would be right to be alarmed. The relationship was never waiting on any of that.
+
+The same holds elsewhere. You are related to a language you cannot formalize — no fluent speaker of English can state the rules governing the order of adjectives, and every fluent speaker applies them without error. You are related to a landscape you have never surveyed. You are related to music that reliably does something to you that you cannot put into words.
+
+In none of these does the shortfall in comprehension register as a defect in the relation.
+
+## Two guardrails
+
+Unknowability is easy to abuse, and a skeptical reader is right to expect these.
+
+**It cannot be summoned selectively.** If you have spent three paragraphs making confident claims about the divine nature, you do not then get to reach for ineffability when the objection arrives. Apophasis has to be load-bearing throughout, or it is a debating trick. A great deal of loose religious talk fails this immediately.
+
+**Distinguish knowing-that from knowing-how.** Gilbert Ryle drew the line, and the example is his: you can know *that* a bicycle stays upright because the rider steers into the fall, and be unable to ride one. You can ride perfectly and be unable to state the mechanism. Neither kind of knowledge reduces to the other.
+
+What the apophatic traditions deny is knowing-*that*. They say no true proposition about the divine essence is available to us.
+
+What they emphatically do not deny — what they exist in order to transmit — is knowing-*how*: knowledge that is participatory, embodied, cumulative, acquired through practice, showing up as a changed capacity rather than a new belief. Which is why every one of these traditions is, at bottom, a set of instructions rather than a set of doctrines. Sit like this. Attend to that. Do it daily for years.
+
+That is not an evasion. It is the appropriate epistemology for a relation in which you are the smaller party and are standing inside the thing you are related to.
+
+# VI. Is this a religion?
+
+Put the pieces on the table.
+
+**The atheist keeps everything he argued for.** There is no separate designing intelligence. There is no supernatural agent intervening in the world. Every argument in Part I stands, unrefuted, because nothing here contradicts it.
+
+**The Christian keeps the diagnosis.** There was a rupture, it is real, it is ongoing, and it is the source of the specific human ache that no amount of comfort resolves. The intuition of exile is not a mistake to be therapized away. It is accurate.
+
+**Nietzsche keeps the achievement.** The rupture produced the sciences, the individual, the law, and the arts, and none of that is to be regretted or undone. Sublimated ego is one of the great facts about human beings.
+
+**Vedanta keeps the ego.** Not as a sin to be crucified but as a faculty that has overstepped its brief. The correction is placement, not punishment — and the moralizing of it was a mistake with visible costs.
+
+**Advaita and Daoism supply the shape of the remedy.** Not rescue from outside, which repeats the injury, but recognition from within: seeing correctly, and returning to ease.
+
+**Spinoza supplies the license.** You may say “God” of the totality, in the vocative, without lying — provided you can also say it in the indicative and defend it.
+
+**And the practical traditions supply the method.** Whatever is on offer is knowing-how, transmitted by instruction and practice, not knowing-that, transmitted by assent to propositions.
+
+That is a coherent position. It has a diagnosis, an anthropology, a remedy with the right shape, a criterion of honesty, and a practice. Very few things called religions have more.
+
+## What is genuinely attractive about it
+
+It ends a false quarrel. The atheist and the believer have been fighting about the existence of an object that the best minds in the believer’s own tradition already rejected. That fight can simply stop, without anyone being humiliated, because nobody has to give up what they were actually attached to.
+
+It restores an inheritance without requiring assent to what cannot be asserted. Somebody raised inside the Christian world, who can no longer say the creed and does not want to be a tourist in someone else’s tradition, is currently offered a choice between pretending and losing everything. This position offers a third door, and the door is not a fudge — it runs straight through the tradition’s own mystics.
+
+And it takes practice seriously as a form of knowledge rather than as therapy, which is what the popular debate cannot do at all, because the popular debate has no category for knowing-how.
+
+## Four honest objections
+
+I would not present this without the objections, and I think the first is close to fatal to the ambition, though not to the position.
+
+**Traditions are not modular.** The strongest objection to any synthesis is that you cannot take the Christian diagnosis, the Vedic anthropology, and the Daoist remedy off their respective shelves, because none of them is a component. Each is embedded in a language, a body of practice, a community, a history of correction, and a set of failure modes that the tradition learned about the hard way over centuries. Detached from all that, what you have is not a synthesis. It is a summary. And summaries do not transmit knowing-how, which by the essay’s own argument is the only thing that was on offer.
+
+**Designed religions have a poor record.** Comte’s Religion of Humanity, with its calendar of secular saints, is the standard example, and it is a warning rather than a precedent. What tends to survive designed traditions is the intellectual content; what fails to appear is the thing that makes people get up at five in the morning for thirty years.
+
+**The essay’s own test cuts here.** I argued in Part IV that you may not choose a religious vocabulary for its effects while privately holding it false — that this is unstable, because the consolation depends on forgetting you selected it. A *designed* religion is the purest possible case of selecting for effects. If this position is to survive its own test, every load-bearing claim in it must be assertable flatly, in the indicative, by someone who believes it is true. Some are: the rupture, the productivity of the rupture, the faculty status of the ego, the failure of the external remedy. One is not obviously so, and it is the important one — whether the vocative is tracking something real or is a very sophisticated way of arranging one’s own experience. That was already the open question in Part V and I have not closed it here.
+
+**And there is a fifth party who has been quiet.** Nothing in this position gives you a moral law, a community obligated to you, or anyone to answer to but yourself. Historically, those are what religions were largely *for*. A position with a diagnosis, a practice, and no congregation and no commandment may be a philosophy of life, and a good one, but the word “religion” is doing work it may not have earned.
+
+## What I actually think
+
+Not a new religion. A rehabilitation.
+
+What is described here is not something to be founded. It is closer to a reading — an account of what the deepest strands in these traditions were already saying, which had been obscured by an argument conducted for two hundred years about a picture none of them held.
+
+Sri Sri did not invent the treatment of *ahamkara* as a faculty; it is in the *Sāṃkhya* categories. Eckhart did not invent the ground of the soul; he was preaching Christianity. McGilchrist is not proposing a religion; he is describing an imbalance and noting that it is the imbalance the contemplative traditions were addressing.
+
+If they converge, the honest description is not that a new thing has been built but that an old thing has been recovered from an argument it was never in.
+
+Which leaves the question I cannot settle from an armchair, and it is the one the skeptic will still want answered: whether the practices attached to the vocative are *tracking* something, or are simply very good at producing a state that feels like tracking.
+
+The traditions answer by pointing at fruits rather than arguments — look at what happens to people who do this for thirty years. That is either exactly the right epistemology for knowing-how, or an elegant way of declining the question.
+
+I lean toward the first. I hold it loosely.
+
+# Appendix: Two ways of attending
+
+The main text rests on a claim stated there in a paragraph: that for a creature situated inside the world rather than surveying it from outside, how the world shows up is part of the situation rather than a coating applied to it. This appendix argues for it.
+
+The claim needs distinguishing from a weaker one. The weak version says there are the facts, and then there is how the facts make us feel, and the feelings matter too. That is true and useless. Feelings have no bearing on what exists, and if that were the claim the skeptic would be right to walk away.
+
+Four things support the stronger version, from four unrelated directions.
+
+## A cliff
+
+Describe a cliff in the descriptive register and you get an angle of inclination, a rock composition, a set of coordinates. Nothing in that mentions danger.
+
+Now put a person on the path above it. For them the cliff is not an angle to which fear has been added. It is a place you could fall from — that is what they see, immediately, before any reasoning.
+
+The psychologist James Gibson called this an **affordance**. His claim was that animals do not perceive neutral shapes and then work out what to do with them. They perceive what things afford — what those things permit and forbid to a body of that kind. A surface affords walking. A gap affords passage, or does not. A cliff affords falling.
+
+Two things to notice, and the second is the important one.
+
+The affordance is not invented by the observer. It depends on real properties of the rock. Change the angle and it changes. The same cliff affords landing to a gull and affords nothing at all to a stone. There is no arbitrariness here.
+
+And when you remove the creature from the description, you do not arrive at a truer account of the cliff. You arrive at a more abstract one — and you obtain the abstraction by deleting the very thing you were trying to describe.
+
+That is the whole point in miniature. The view from nowhere is not the world with the distortions removed. It is the world with the observer removed, which is a different operation and has a cost.
+
+## A hammer
+
+Heidegger made a related point about tools, and his example is easier to check than most of his writing.
+
+When you are hammering well, you are not aware of the hammer. It has disappeared into the work; your attention is on the nail and the line you are following. Heidegger calls the hammer in that condition **ready-to-hand** — available, transparent, absorbed into an activity.
+
+Now the head flies off. The hammer appears: an object, with a weight, a broken joint, properties you could list. **Present-at-hand** — the thing standing over against you, inspectable.
+
+His argument concerns which of these comes first. The natural assumption is that the second shows the hammer as it really is, and the first is a half-attentive version of the same. Heidegger says the reverse. The object with properties is what appears *when the engaged activity breaks down*. Detachment is not the base state; it is what happens when something goes wrong — or when you deliberately arrange for something to go wrong, which is roughly what a laboratory is for.
+
+You can test this without accepting anything else he says. Try to type while attending to your fingers. The performance degrades at once. The knowledge involved in typing is not stored as a description of finger positions; it lives in the doing, and inspecting it interferes with it.
+
+## A hand
+
+Merleau-Ponty extended this to the body. Watch someone reach for a glass: the hand pre-shapes to the width of the glass before it arrives, continuously, and without thought.
+
+His argument is that this cannot be the output of an internal calculation about glasses — there is no time for one and no evidence of one. The body already understands the world. It is not a camera delivering images to a mind that then works out what to do.
+
+He distinguishes the **lived body** from the body as object. Both are your body. But the body a surgeon examines and the body you inhabit are not accessible in the same way, and only one of them is the one from which you are reading this sentence.
+
+## A bird
+
+Iain McGilchrist argues that the division runs through attention itself, and his example is useful.
+
+A bird pecking for seed on gravel needs narrow, precise, targeted attention that isolates the seed from everything around it. At the same time it needs the opposite: broad, open attention to the whole field, alert to anything that might be a hawk. These are not two degrees of one thing. They are incompatible, and a creature needs both.
+
+McGilchrist argues that this is why brains are divided into hemispheres, and that Western culture has allowed the narrow, grasping mode to take charge of everything, so that a useful abstraction now presents itself as the only route to what is real. Part III of the main text takes that larger claim seriously.
+
+Here I want to be straight, because this is the point where a great deal usually gets smuggled in. His description of the two modes is valuable and agrees with what the philosophers reached independently. His mapping of them onto the left and right hemispheres is contested, is not the consensus view in neuroscience, and has been criticized by people who know the anatomy well. **Nothing in this essay depends on the brain claim.** It depends only on there being two modes of attention, which Gibson, Heidegger, and Merleau-Ponty establish without any neuroscience at all. If the hemisphere story turns out to be wrong, the argument is unaffected.
+
+## Mood
+
+One more piece, because it is the one most likely to be mistaken for sentiment.
+
+Heidegger’s word for mood is *Stimmung*, which in German also means the tuning of an instrument. He does not mean how you happen to feel this morning. He means the condition under which a world is available to you at all.
+
+Precision again. The claim is *not* that mood colors a neutral world, adding warmth or coldness to something really gray. The claim *is* that there is no encounter with a world that is not under some attunement, and that different attunements make different things available.
+
+Boredom is the clearest case. In boredom nothing calls to you. Objects do not lose their color; they stop offering anything. The room is unchanged and the possibilities have gone flat. Anxiety does something related and worse: the whole structure of what matters goes slack at once — which is why anxiety, unlike fear, has no object.
+
+Neither is a distortion of a mood-free world underneath, because for a creature always in some attunement, there is no mood-free world underneath to compare them with.
+
+## Why the abstraction cannot swallow its parent
+
+Wilfrid Sellars ties this off. He described the **manifest image** — the world as it presents itself to persons, containing colors, purposes, obligations, and other people with minds — and the **scientific image**, the world as postulated by theory, containing fields and particles and nothing else.
+
+The tempting move is to call the scientific image the real world and the manifest one a convenient fiction. Sellars resisted, and the reason is decisive. The scientific image was constructed *from inside* the manifest one — by persons, using reasons, for purposes, checking their results against one another. It is a magnificent achievement of the manifest world. It cannot coherently turn round and declare the ground it stands on unreal.
+
+Whitehead named the error: the **fallacy of misplaced concreteness**, which is mistaking a successful abstraction for the concrete thing it was abstracted from. His example was treating the physicist’s account of matter as more real than the afternoon in which the physicist worked it out.
+
+## The conclusion the main text assumes
+
+The orientational register is not the lesser one. If anything the priority runs the other way: it is where situated creatures live, and the view from nowhere is a specialized abstraction constructed inside it. Enormously powerful. Not more fundamental.

@@ -1,0 +1,79 @@
+---
+title: "Excise_Externalities_Pathways_Summary_v0_6"
+---
+
+**WORKING PAPER · SUMMARY**
+
+# Excise, Externalities and Pathways
+
+*A three-part diagnostic for country fiscal teams — and its fiscal bottom line*
+
+**The problem.** Finance ministries set excise and fuel-tax rates on revenue and political grounds; externality reasoning arrives late, if at all. The analytical tools exist — excise schedules, CPAT, the Climate and Health Program, IMF Getting Energy Prices Right — but sit in separate silos at the wrong unit of analysis. No single product brings them together for a country team to act on.
+
+**The proposal.** A recurring Excise-Externality-Pathways Diagnostic in three parts. It is not a new model and needs no new modelling capacity — it is a synthesis layer. Its headline output is fiscal: what excises raise now, what better design could raise, and the social costs that revenue also addresses. It covers all excises but concentrates on six priority categories — fuel, vehicle, tobacco, alcohol, sugar-sweetened beverages and gambling — and feeds the PFR Visualization tool with standardised data.
+
+## The three parts — one fiscal question in sequence
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   **Part**  **What it asks**                                                                   **The fiscal bottom line**
+  ---------- ---------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------
+    **A**    **Excise Diagnostic.** Is each instrument set correctly?                           What every excise line raises now, and where erosion, gaps and anomalies are leaking revenue.
+
+    **B**    **Externality Diagnostic.** Does the system price the externalities that matter?   The revenue left on the table where external costs are underpriced — the implicit subsidy — and what closing the gap would yield.
+
+    **C**    **Policy Pathways.** What to do, and in what order?                                A sequenced reform calendar with a revenue trajectory a ministry can budget against.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## The key questions — and the climate–health link
+
+The diagnostic is organised around **28 key questions**. The crucial point: **20 of the 28 are inherited from the climate and health programs’ existing capacities** (CPAT, the Climate & Health Program, IMF GEPR). The diagnostic harmonises them onto one valuation spine — a single value of statistical life, one carbon shadow price, one accident-cost set — rather than reinventing them. Eight questions, mostly the Part A schedule reads and the Part C sequencing, are added by the diagnostic. Eight are answerable in a simplified (“Easy”) version from the schedule alone; sixteen need the comprehensive treatment.
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Group (Q)**      **Origin**     **Version**     **What it covers**
+  ----------------- ------------ ------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------
+  **A · Q1–Q7**        Mixed      **Mostly Easy**   Coverage, structure, intensity, benchmarking, erosion, coherence, price tracking — read from the schedule.
+
+  **B · Q8–Q14**        Spec         **Comp.**      Joint benchmarking, tax per unit of harmful content, share of price from excise, tax gaps vs social cost, consumption, disease burden, affordability.
+
+  **B · Q15–Q21**       Spec      **Both / Comp.**  Reform effects — revenue, prices, product use, disease averted, distributional incidence, macro, informality — from CPAT and health-program modules.
+
+  **B · Q22–Q23**       Spec          **Easy**      Design: specific vs ad valorem; indexation of specific rates.
+
+  **C · Q24–Q28**      Added         **Mixed**      Sequencing, tractability, compensation, framing, comparators.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+***Origin:** “Spec” = from the climate/health programs’ capacities; “Added” = introduced by the diagnostic. **Version: Easy** = schedule alone; **Comp.** = full data + integration; **Both** = core, deepened in the comprehensive version. Full mapping in the working paper’s master table (executive summary) and Appendix D.*
+
+## What the pilots show
+
+**Part A (Uganda, Sierra Leone).** Priority-sector excise raises \~1.5–1.7% of GDP in Uganda against \~0.7–0.9% in Sierra Leone, the gap mostly fuel. Three revenue-relevant anomalies surface that are invisible on the schedule: Sierra Leone’s wine excise reads as essentially zero (un-redenominated since 2022); Uganda’s kerosene rate has eroded below 5% of pump price since 2018; and both countries show an erosion-and-restoration cycle that indexation would fix.
+
+**Part B (Tier 2 worked example).** Implicit subsidies — undercharged external costs — of \~USD 410m a year exceed direct fuel-tax revenue of \~USD 320m, driven by local air pollution (43%) and accidents (31%); diesel is substantially undertaxed. Closing two-thirds of the diesel gap over three years raises \~USD 230m a year (≈+70% of fuel-tax revenue, approaching 1% of GDP), and with 30% recycled into a per-household transfer the bottom quintile is better off.
+
+**Part C.** Sequences these into a three-year package with one anchor reform a year, grounded in comparators (Rwanda, Ghana, Kenya raised diesel tax in steps without disruption when paired with social protection) and framed on health and road safety — which polls better than climate in most LICs and is the larger share of the gap.
+
+## Next steps
+
+**Start with a simplified Part A.** It needs no new modelling, parameters or cross-team data — a fixed template and parameter sheet, a minimum-viable diagnostic answering the schedule-only questions (Q1–Q3, Q5), reusing the two pilots, with output surfaced through a light dashboard or the PFR Visualization tool. A third country should be reproducible in two to three weeks.
+
+**Build Part B into existing processes.** Part B is not a quick rollout: its value is harmonizing CPAT, the Climate & Health Program and IMF GEPR onto one spine, which is an institutional task. Agree the valuation spine across teams, connect the input pipelines, settle the equity and tooling questions, and sequence Part B behind a Part A pilot — Tier 1 (Colombia or Chile) and Tier 2 (Uganda).
+
+*The diagnostic does not require new institutional architecture. It sits between existing products as a synthesis layer — producing, in two to three weeks, a draft a country team can act on.*
+
+## Appendix: Prompts (Using Claude Opus 4.7)
+
+See: <https://claude.ai/share/>[*237eaeb7-3e36-47e8-9236-277adb0da18b*](https://claude.ai/share/237eaeb7-3e36-47e8-9236-277adb0da18b)
+
+1.  For Uganda, give a detailed representation of Excise starting point (2020) and Excise changes in 2020-2026, and end point (feel free to choose the last finance act). Give a concise description of the starting point across different sectors of excises, and then the changes and then the final point. Summarize this in a table at the end.
+
+2.  "Same for Sierra Leone"
+
+3.  "OK could you give me a typology of excises. Start with env/energy related taxes and health related then others. Give the main categories."
+
+4.  "Construct a table for the current rates for Uganda, and a second one for Sierra Leone. Give consistent columns. Also include 'recent changes' in addition to the cross-cutting dimensions above."
+
+5.  "Now give me a paper 'Excise diagnostic'. Introduce what it is, what it is for (this section — quite short) and then give appendix which is the diagnostic for Uganda and Sierra Leone. Then give as a second appendix the recent changes."
+
+6.  "Could you provide a summary section that now scales up this into some measure that is comparable, e.g. for a few priority sectors (energy/vehicle and health) % of GDP, \$/standardized unit, and % of value?“ \[Button selection\] Add new section to existing docx
+
+7.  "Could you reorder this and put the systematic part into the main text. Please make it fully consistent — make sure there's a methodology part if needed.“ \[Button selection\] "What is it, three measures, methodology, results, conclusion, appendices (as you wish)"

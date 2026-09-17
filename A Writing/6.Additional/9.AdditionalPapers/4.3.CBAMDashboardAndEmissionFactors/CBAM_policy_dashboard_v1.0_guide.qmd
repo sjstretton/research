@@ -1,0 +1,591 @@
+---
+title: "CBAM_policy_dashboard_v1.0_guide"
+---
+
+**CBAM Policy Dashboard**
+
+Version 1.0 \| User Guide
+
+*Carbon Border Adjustment Mechanism — fiscal policy modelling tool*
+
+World Bank — Climate Fiscal Team
+
+May 2026
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **About this document**                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                                                                               |
+| This guide explains the CBAM Policy Dashboard — a spreadsheet model that calculates the fiscal impact of the EU Carbon Border Adjustment Mechanism (CBAM) on five countries: Egypt, Albania, Uzbekistan, Azerbaijan, and India. The document covers the purpose and scope of the tool, the data sources used, how to navigate the spreadsheet, how the model works, and how to update inputs. |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+# Terms of Reference
+
+This section sets out the purpose, scope, and limits of the CBAM Policy Dashboard.
+
+## Purpose
+
+The dashboard was built to support the World Bank Climate Fiscal Team's advisory work on carbon pricing and CBAM exposure in developing and emerging economies. It serves three purposes:
+
+- **Policy analysis:** estimating the fiscal costs and revenue opportunities that CBAM creates for exporting countries, and identifying the domestic carbon price that fully captures CBAM revenue.
+
+- **Country diagnostics:** comparing a country's actual emission intensity (computed from local energy data) with the EU's default assumptions, to assess whether submitting verified MRV data would reduce costs.
+
+- **Scenario testing:** changing country, year, coverage scope, and carbon price to understand how results change under different assumptions.
+
+## Scope
+
+The model covers:
+
+- Five countries: Egypt, Albania, Uzbekistan, Azerbaijan, India.
+
+- Ten product categories in the CBAM-covered sectors: four steel routes, cement, three nitrogen fertilisers, ammonia, and primary aluminium.
+
+- Twelve years: 2024 to 2035.
+
+- The definitive phase of CBAM, which began on 1 January 2026 under Regulation (EU) 2023/956 as amended by Regulation (EU) 2025/2083.
+
+## What the tool does not do
+
+The following are outside the scope of this version:
+
+- Hydrogen and electricity, which are covered by CBAM but not modelled here.
+
+- Downstream CBAM products (CN codes for vehicle parts, machinery, and other derivatives) proposed in COM(2025)989 — not yet adopted as of May 2026.
+
+- Facility-level MRV calculations. The model works at country-sector level. Egypt has a separate facility tab, but it is not yet integrated into the main revenue calculations.
+
+- Dynamic trade responses. Export and import shares are fixed inputs; the model does not estimate how trade volumes change when carbon prices shift.
+
+- Revenue recycling or distributional effects within a country.
+
+## Intended users
+
+The dashboard is designed for World Bank economists and country counterparts with a basic understanding of carbon pricing. It is not a legal compliance tool and should not be used to calculate actual CBAM certificate obligations for a specific company or shipment.
+
+## Limitations and caveats
+
+- **Energy intensity data** is sourced from public databases and industry benchmarks. Country-specific data has varying quality, and the inputs for smaller or less-documented producers (Albania, Azerbaijan) are based on analogues and should be treated with more caution than the Egypt or India inputs.
+
+- **Production projections** grow GDP-linked at a fixed elasticity. They do not reflect announced capacity changes, plant closures, or policy-driven technology transitions.
+
+- **EU ETS price path** is a working assumption, not a forecast. The actual ETS price may diverge significantly.
+
+- **CBAM default values** were taken from IR 2025/2621 (December 2025). They are subject to revision by December 2027 at the latest.
+
+- **No independent audit** of the model formulas has been conducted. Results should be cross-checked against external estimates before being cited in official policy documents.
+
+# Executive Summary
+
+## What CBAM means for exporting countries
+
+The EU's Carbon Border Adjustment Mechanism requires importers of steel, cement, fertilisers, aluminium, hydrogen, and electricity to buy certificates proportional to the carbon embedded in their goods. The mechanism is fully in force from January 2026 and phases in gradually until 2034, when 100% of embedded emissions must be covered.
+
+For exporting countries, CBAM creates a choice: set a domestic carbon price and keep the revenue at home, or leave it for the EU to collect. The optimal strategy — from a national fiscal perspective — is to set a domestic price that exactly matches the CBAM certificate cost, so that importing country companies pay a carbon price but the money stays in the exporting country.
+
+## Key findings for the five countries (2030)
+
+  ------------------------------------------------------------------------------------------------------------------------
+  **Country**     **Optimal CP (\$/tCO₂)**   **CBAM gross (USD m)**   **Total revenue (USD m)**   **EU retained (USD m)**
+  -------------- -------------------------- ------------------------ --------------------------- -------------------------
+  Egypt                     \$94                     \$376                     \$8,134                      \$0
+
+  Albania                   \$71                      \$43                      \$130                       \$0
+
+  Uzbekistan                \$69                      \$37                     \$1,588                      \$0
+
+  Azerbaijan                \$68                      \$11                      \$323                       \$0
+
+  India                     \$92                    \$3,055                   \$120,794                     \$0
+  ------------------------------------------------------------------------------------------------------------------------
+
+*At the optimal domestic carbon price, EU retained revenue is zero for all countries — the domestic price fully offsets the CBAM obligation. Total country revenue includes EU-export revenue, non-EU export revenue, and domestic consumption.*
+
+> **Key point** The CBAM gross obligation is a small fraction of the total revenue a domestic carbon price would raise. For Egypt in 2030, the CBAM gross is \$376 million but the optimal domestic carbon price generates \$8.1 billion — mainly from taxing domestic consumption and non-EU exports. CBAM is the trigger that makes the domestic carbon price financially optimal, not the main source of revenue.
+
+## Emission intensity: model vs EU default
+
+For every product, the dashboard compares the model's computed intensity with the EU's conservative default assumption. Where the model intensity is below the EU default, verified MRV data submission reduces the importer's certificate cost.
+
+  ---------------------------------------------------------------------------------------------------------------------------------
+  **Product**          **Model CBAM-eligible (tCO₂/t)**   **EU default pre-markup (tCO₂/t)**   **Gap**        **MRV helps?**
+  ------------------- ---------------------------------- ------------------------------------ --------- ---------------------------
+  DRI-EAF steel                      1.66                                1.82                   -0.16       Yes — below default
+
+  Scrap-EAF steel                    0.16                                0.72                   -0.57    Yes — well below default
+
+  BF-BOF steel                       2.17                                2.80                   -0.64       Yes — below default
+
+  Cement                             0.85                                1.58                   -0.73    Yes — well below default
+
+  Ammonia                            2.06                                1.83                   +0.23       No — above default
+
+  Urea                               0.62                                1.88                   -1.26    Yes — well below default
+
+  Ammonium nitrate                   3.05                                0.97                   +2.08    Verify N₂O abatement data
+
+  Primary aluminium                  2.31                                2.06                   +0.25     Check direct emissions
+  ---------------------------------------------------------------------------------------------------------------------------------
+
+*Model intensities shown for Egypt, 2030. EU default values are the 'other countries' global fallback from IR 2025/2621, pre-10% markup.*
+
+## Data sources — summary
+
+The model draws on four categories of data. A full description of each source appears in Section 9.
+
+  --------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Production & trade**      IEA World Energy Balances; World Steel Association; UN Comtrade; national statistics for each country. Production projections use GDP growth rates from IMF World Economic Outlook (April 2026).
+
+  **Energy intensities**      IEA World Energy Balances; Worldsteel; Cement Sustainability Initiative / Global Cement and Concrete Research Network; International Aluminium Institute; IFA / EFMA for fertilisers. Country-specific values are cross-checked against the global_data companion spreadsheet.
+
+  **Emission factors**        IPCC 2006 Guidelines for National Greenhouse Gas Inventories, Volume 2 (combustion emission factors). IPCC AR6 GWP100 values for N₂O and PFCs. Process emission factors (calcination, anode consumption) from IPCC 2006 Vol. 2 Chapters 2A, 2C, 3C, 3G.
+
+  **EU regulatory inputs**    Benchmarks: Commission Implementing Regulation (EU) 2025/2620 (16 December 2025). Default values: Commission Implementing Regulation (EU) 2025/2621 (16 December 2025). CBAM factor schedule: same. EU ETS price path: working assumption based on ICE EUA futures (May 2026).
+
+  **Grid emission factors**   IEA Electricity Information; country-specific grid decarbonisation trajectories from national energy plans and IEA Net Zero Roadmap country profiles.
+  --------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 1. What the tool covers
+
+## Countries and products
+
+The dashboard models five countries and ten product categories.
+
+  ------------------ ----------------------------------------------------------------------------------
+  **Countries**      Egypt (egy), Albania (alb), Uzbekistan (uzb), Azerbaijan (aze), India (ind)
+
+  **Steel routes**   DRI-EAF (stl.drg), Scrap-EAF (stl.scr), BF-BOF (stl.bof), Other (stl.oth)
+
+  **Cement**         Dry-process grey clinker (cmt.dry)
+
+  **Fertilisers**    Ammonia (frt.amc), Urea (frt.ure), Ammonium nitrate (frt.nit), Other N (frt.otn)
+
+  **Aluminium**      Primary smelted (alu.prp)
+
+  **Time horizon**   2024 – 2035 (12 years)
+  ------------------ ----------------------------------------------------------------------------------
+
+Each country-product pair has its own set of energy intensity inputs, emission factors, production projections, and trade shares. Where a country does not produce a given product, the emission intensity is still calculated from the energy data — so the EU default comparison is always meaningful.
+
+## What the tool calculates
+
+For each country and year, the tool produces:
+
+- **Emission intensities —** six scope components per product: fuel combustion (S1.fc), process fuels (S1.fp), non-fuel process CO₂ (S1.np), non-CO₂ GHGs such as N₂O and PFCs (S1.no), electricity (S2), and upstream ammonia chain (NH₃). These sum to the holistic intensity.
+
+- **CBAM-eligible intensity —** the same total minus S2 for products where electricity is out of scope (steel and aluminium). For cement and fertilisers, S2 is included.
+
+- **Optimal domestic carbon price —** the price at which a country captures the full CBAM revenue that would otherwise flow to the EU.
+
+- **Revenue breakdown —** country revenue from EU exports (creditable against CBAM), non-EU exports, and domestic consumption; and EU CBAM retained.
+
+- **Price impact by product —** the domestic price wedge and EU CBAM wedge per tonne for the selected detail year.
+
+# 2. The sheets
+
+  -------------------------------------------------------------------------------------------------------------------------------------------
+  **Sheet**                                                 **What it does**                                               **Edit it?**
+  ------------------ ----------------------------------------------------------------------------------------------- ------------------------
+  dashboard                  Main control panel: country selector, policy switches, and all results tables.           Yes — blue input cells
+
+  ef_benchmarks       Executive comparison of intensities vs EU benchmarks and defaults. Pulls live from dashboard.         Read only
+
+  input_data             All raw inputs: production, trade shares, energy intensities, prices, emission factors.       Yes — to update data
+
+  calculations           Full model engine: production, emissions, CBAM obligations for all entities and years.         No — formulas only
+
+  ref_data                        Reference energy intensities and EU default values from IR 2025/2621.                     Read only
+
+  explainer                            Background on the CBAM regulation and how the model works.                           Read only
+
+  egypt_facilities                                   Facility-level data for Egypt.                                         Read only
+
+  version                                            Version history and changelog.                                    Update each release
+  -------------------------------------------------------------------------------------------------------------------------------------------
+
+# 3. How to use the dashboard
+
+## Step 1 — Choose a country
+
+Go to cell B5 (named CountrySelector) and type one of: **egy, alb, uzb, aze, ind**. Every formula in the workbook updates immediately.
+
+> **Tip** The workbook uses named ranges throughout. CountrySelector (B5), DetailYear (B6), YearIdx (P6), and Theta (B7) are all named — you can reference them by name in any formula you add.
+
+## Step 2 — Set the detail year
+
+Cell B6 (DetailYear) controls which year is shown in the emission intensity matrix (Section 6) and price impact table (Section 5). The 12-year revenue tables always show all years regardless.
+
+## Step 3 — Set policy choices (Section 2)
+
+  ------------------------------ --------------------------------------------------------------------------------------------------------
+  **Coverage flags (B11–B15)**   Set to 1 to include a scope in the calculation, 0 to exclude. Default is all on.
+
+  **MRV flag (B19)**             1 = exporter submits verified data (Pathway A). 0 = EU default values apply (Pathway B). Default is 1.
+
+  **S2 CBAM scope (B20)**        Read-only. YES for cement and fertilisers; NO for steel and aluminium. Set by regulation.
+
+  **Exports only (B22)**         Set to 1 to apply the carbon price only to exports. Default is 0 (all production covered).
+  ------------------------------ --------------------------------------------------------------------------------------------------------
+
+## Step 4 — Read the results
+
+### Section 3 — Carbon price time series
+
+Row 26: EU ETS price (USD/tCO₂) per year. Row 27: CBAM phase-in factor (2.5% in 2026, rising to 100% from 2034). Row 28: optimal domestic carbon price — the level that fully offsets CBAM. Row 29: domestic carbon price applied — defaults to optimal but can be overridden.
+
+### Section 4 — Headline revenues
+
+Shows for each year: CBAM gross obligation; country revenue on EU exports (and the creditable share); EU retained (zero at optimal CP); country revenue on non-EU exports; country revenue on domestic consumption; total country revenue.
+
+> **Example (Egypt, 2030)** At the optimal carbon price of \$94/tCO₂, Egypt collects \$8,134 million in total revenue. EU retained is \$0. CBAM gross exposure is \$376 million.
+
+### Section 5 — Price impact by product
+
+For the selected detail year, shows the domestic price wedge and EU CBAM wedge per tonne for each product.
+
+### Section 6 — Emission intensity matrix
+
+The core diagnostic table. Shows every scope component for every product, side by side with the EU default and free allocation equivalent.
+
+  ---------------------------------------------------------------------------------------------------------------------
+  **Column**                                                  **What it shows**
+  -------------------- ------------------------------------------------------------------------------------------------
+  S1.fc                                Scope 1 combustion CO₂ (tCO₂/t): burning fuel for heat or power
+
+  S1.fp                 Scope 1 process fuels (tCO₂/t): fuel used as a chemical reactant (e.g. coke in iron reduction)
+
+  S1.np                        Non-fuel process CO₂ (tCO₂/t): calcination in cement, carbon anode in aluminium
+
+  S1.no                           Non-CO₂ GHGs (tCO₂e/t): N₂O from nitric acid; PFCs from aluminium smelting
+
+  S2                             Electricity emissions (tCO₂/t): grid emission factor × electricity intensity
+
+  NH₃ chain                                 Upstream ammonia embedded in urea and ammonium nitrate
+
+  Holistic                                   Sum of all components: the full lifecycle intensity
+
+  CBAM-eligible                  Holistic minus S2 for steel/aluminium; full holistic for cement/fertilisers
+
+  EU default                  IR 2025/2621: what the EU assumes if no verified data is submitted (+10% in 2026)
+
+  Free alloc. equiv.                     IR 2025/2620: the deduction in the CBAM certificate formula
+
+  Excess                           CBAM-eligible minus free allocation equivalent: gross exposure per tonne
+  ---------------------------------------------------------------------------------------------------------------------
+
+*Where production is zero, intensity is calculated directly from energy intensity inputs so the EU default comparison still works.*
+
+# 4. The ef_benchmarks sheet
+
+This sheet is for decision-makers who do not need to see the full model. It shows a single comparison table and regulatory reference material.
+
+## Executive comparison table
+
+- **Model CBAM-eligible intensity —** what the model computes for the selected country and year
+
+- **EU default value (pre-markup) —** what the EU assumes if no verified data is submitted
+
+- **Free allocation equivalent —** the deduction in the CBAM certificate formula
+
+- **Gap vs default —** negative means model is below the EU assumption: submitting actual MRV data reduces the importer’s cost
+
+> **Reading the gap column** Negative gap (green): actual emissions are lower than the EU's conservative assumption — submitting real data helps. Positive gap (amber/red): the product is more intensive than the EU assumes — CBAM costs will be material and data accuracy is critical.
+
+## What else is on the sheet
+
+- How the +10% mark-up on default values works in 2026 (rising to +30% from 2028)
+
+- Column A vs Column B benchmarks: Column A applies with actual data; Column B with defaults. The difference is largest for urea (Column A = 0.053, Column B = 0.902 tCO₂/t)
+
+- Full benchmark table by CN code and production route from IR 2025/2620
+
+- CBAM factor schedule 2026–2034
+
+- The CBAM formula and how Article 9 crediting works
+
+# 5. How CBAM works — the formula
+
+CBAM requires importers to purchase certificates equal to the net carbon embedded in their goods.
+
+> Certificates to surrender = max( SEE − SEFA, 0 ) × CBAM factor
+
+  ----------------- ------------------------------------------------------------------------------------------------------------------------------------
+  **SEE**           Specific Embedded Emissions (tCO₂e/t): either verified actual data (Pathway A) or EU country-specific default (Pathway B).
+
+  **SEFA**          Specific Embedded Free Allocation: CBAM factor × benchmark × CSCF. Mirrors the free allocation an equivalent EU producer receives.
+
+  **CBAM factor**   Phase-in fraction: 2.5% in 2026, rising to 100% from 2034.
+
+  **CSCF**          Cross-Sectoral Correction Factor: 1.0 for all CBAM sectors in 2026–2030.
+
+  **Crediting**     Under Article 9, certificates are reduced by any carbon price effectively paid in the country of origin.
+  ----------------- ------------------------------------------------------------------------------------------------------------------------------------
+
+## Why the optimal carbon price matters
+
+When the domestic carbon price equals the optimal level, the country collects the full CBAM revenue domestically and the EU keeps zero. For Egypt in 2030, the optimal price is \$94/tCO₂ and total revenue is around \$8.1 billion. At a lower domestic price, that revenue flows to Brussels instead.
+
+# 6. Inputs and how to update them
+
+All raw data lives in the input_data sheet. Each entry has a structured code in column A (e.g. egy.in.enc.stl.drg.nga = Egypt, energy intensity, combustion, DRI-EAF steel, natural gas). Changing a value in input_data flows immediately through to all results.
+
+## Key inputs
+
+  -------------------------------------------------------------------------------------------------
+  **Input type**                      **Code pattern**                    **Example**
+  ------------------------------- ------------------------- ---------------------------------------
+  Production base (Mt)             cty.in.prb.sec.prc.---       egy.in.prb.stl.drg.--- = 5.1 Mt
+
+  EU export share                  cty.in.exe.sec.prc.---        egy.in.exe.stl.drg.--- = 0.18
+
+  Energy intensity — combustion    cty.in.enc.sec.prc.fuel      egy.in.enc.stl.drg.nga = 5 GJ/t
+
+  Energy intensity — process       cty.in.enp.sec.prc.fuel     egy.in.enp.stl.drg.nga = 24 GJ/t
+
+  Electricity intensity            cty.in.ele.sec.prc.elc      egy.in.ele.stl.drg.elc = 2.5 GJ/t
+
+  Non-fuel process CO₂             cty.in.efn.sec.prc.---    egy.in.efn.cmt.dry.--- = 0.526 tCO₂/t
+
+  Non-CO₂ GHGs                     cty.in.efo.sec.prc.---    egy.in.efo.frt.nit.--- = 2.5 tCO₂e/t
+
+  Grid emission factor             cty.in.gef.---.---.---    egy.in.gef.---.---.--- (time series)
+
+  GDP growth rate                  cty.in.grw.---.---.---        egy.in.grw.---.---.--- = 5.5%
+  -------------------------------------------------------------------------------------------------
+
+## Emission factors
+
+Fuel emission factors are global IPCC 2006 constants. They use the prefix all.in.eff.---.---.\[fuel\].
+
+  ---------------------------------------------------------------------
+  **Fuel**                      **Code**               **kgCO₂/GJ**
+  -------------------- --------------------------- --------------------
+  Coal                   all.in.eff.---.---.coa            96.1
+
+  Natural gas            all.in.eff.---.---.nga            56.1
+
+  Diesel                 all.in.eff.---.---.die            74.1
+
+  Gasoline               all.in.eff.---.---.gso            69.3
+
+  Kerosene               all.in.eff.---.---.ker            71.9
+
+  LPG                    all.in.eff.---.---.lpg            63.1
+
+  Biomass                all.in.eff.---.---.bio        0 (biogenic)
+
+  Self-gen renewable     all.in.eff.---.---.ren             0
+  ---------------------------------------------------------------------
+
+## EU regulatory inputs
+
+- bnk — benchmarks from IR 2025/2620, Column B. E.g. all.in.bnk.stl.drg.--- = 0.481 tCO₂/t for DRI-EAF steel.
+
+- dfv — default values from IR 2025/2621, ‘other countries’ fallback, pre-markup. E.g. all.in.dfv.stl.drg.--- = 1.82 tCO₂/t.
+
+- ets — annual USD ETS price. Currently \$85 in 2024 rising to \$140 in 2035.
+
+- cbf — annual CBAM factor. 0.0 in 2024–2025, rising from 0.025 in 2026 to 1.0 from 2034.
+
+# 7. Versions and maintenance
+
+The version tab records the full change history. Cell A3 holds the current version string. The dashboard title pulls from it automatically via the named range Version.
+
+## Releasing a new version
+
+- Make your changes to input_data or model formulas.
+
+- Update cell A3 in the version tab (e.g. v1.1).
+
+- Add a row to the version history table with the date, description, and your name.
+
+- Save as CPAT_policy_dashboard_v\[version\].xlsx.
+
+## Named ranges
+
+  --------------------- ----------------------------------------------------------------------------
+  **CountrySelector**   dashboard!\$B\$5 — active country code
+
+  **DetailYear**        dashboard!\$B\$6 — year shown in Section 6
+
+  **YearIdx**           dashboard!\$P\$6 — column index for DetailYear in the time series
+
+  **Theta**             dashboard!\$B\$7 — pass-through parameter (share of wedge to buyer prices)
+
+  **ExportsOnly**       dashboard!\$B\$22 — restrict carbon price to exports only
+
+  **CovS1fc–CovS2**     dashboard!\$B\$11–\$B\$15 — scope coverage flags
+
+  **MRVmaster**         dashboard!\$B\$19 — MRV flag (1 = actual data, 0 = default values)
+
+  **Version**           version!\$A\$3 — current version string
+  --------------------- ----------------------------------------------------------------------------
+
+# 8. Regulatory background
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Regulation**                                                                              **What it sets**
+  ------------------------------------- -----------------------------------------------------------------------------------------------------------------------------
+  Regulation (EU) 2023/956                                          The CBAM Regulation: sectors, products, and overall legal framework.
+
+  Regulation (EU) 2025/2083 (Omnibus)    Amended CBAM from October 2025. Quarterly obligation reduced to 50% of estimated exposure. Fertiliser mark-up capped at 1%.
+
+  IR 2025/2620 (16 Dec 2025)                            Sets CBAM benchmarks (free allocation equivalents, Columns A and B) for all covered products.
+
+  IR 2025/2621 (16 Dec 2025)                         Sets country-specific default values (SEE). In force from 1 Jan 2026. Next review by December 2027.
+
+  IR 2025/2547                                                                   Calculation methods for embedded emissions.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> **Mark-up schedule on default values** Default values carry a mark-up above the country average: +10% in 2026, +20% in 2027, +30% from 2028. Exception: fertilisers carry only +1% under the Omnibus simplification. Values in this workbook are pre-markup.
+
+# 9. Data sources
+
+This section describes every external source used in the model, what it provides, and how it enters the spreadsheet. Where possible, direct URLs or publication details are given so inputs can be verified or updated.
+
+## A. Production data
+
+Production data sets the base-year output for each country-product pair and determines scale of all emission and revenue calculations.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                                                                                           **What it provides**                                                                     **Where used in model**
+  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------ -----------------------------------------------------
+  World Steel Association (WSA) — Steel Statistical Yearbook 2024                                                                             Crude steel output by production route (EAF, BOF, DRI) for Egypt, India. Historical series 2019–2023.                 stl.drg, stl.scr, stl.bof production base (prb)
+
+  IEA World Energy Balances 2024 Edition                                                                                             Iron and steel sector energy consumption; cement kiln output; ammonia and fertiliser production for all five countries.      prb for cmt.dry, frt.amc, frt.ure, frt.nit, alu.prp
+
+  International Aluminium Institute (IAI) — World Aluminium Statistics                                                                                     Primary aluminium smelting output; smelter-level data for Egypt (Egyptalum).                                         alu.prp production base
+
+  Fertilizer International / IFA Production & Trade Database                                                                                             Ammonia, urea, and ammonium nitrate capacity and output for all five countries.                               frt.amc, frt.ure, frt.nit production base
+
+  National statistics: CAPMAS (Egypt), INSTAT (Albania), Uzstat (Uzbekistan), SSCA (Azerbaijan), Ministry of Statistics (India)          Cross-check of production figures and trade shares. Used where IEA or WSA data are unavailable at country level.                prb and trade share cross-validation
+
+  UN Comtrade HS-2022                                                                                                              Bilateral trade flows by CN code for steel, cement, fertilisers, aluminium. Provides EU export share and total export share.     exe (EU export share), ext (total export share)
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## B. Energy intensities
+
+Energy intensity (GJ per tonne of product) is one of the two main drivers of emission intensity. It varies by country, production route, and fuel mix.
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                                                                                                    **What it provides**                                                                                                  **Where used**
+  ------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------
+  IEA World Energy Balances 2024 + IEA Industrial Energy Technology and Policies                                                       Sector-level energy consumption divided by output for each country. Used to derive GJ/t for combustion and process energy by fuel type.                           enc (combustion GJ/t), enp (process GJ/t)
+
+  World Steel Association — Energy Use in the Steel Industry (2023 update)                                              Route-specific energy intensities for EAF, BOF, and DRI steelmaking. Covers coal, natural gas, electricity, and other fuels separately for combustion and reduction.             enc and enp for stl.drg, stl.scr, stl.bof
+
+  Cement Sustainability Initiative / Global Cement and Concrete Research Network (GCCA) — Getting the Numbers Right                        Plant-level and country-average specific thermal energy consumption (GJ/t clinker) and electricity intensity for cement kilns.                                         enc and ele for cmt.dry
+
+  International Aluminium Institute — Aluminium Sector Greenhouse Gas Pathways to 2050                                          Smelter energy intensity by country (GJ/t Al): anode baking, electrolysis electricity, and casting. Egyptalum-specific data from IAI country reports.                              enc, ele for alu.prp
+
+  IFA / EFMA — Best Available Techniques for Pollution Prevention and Control in the European Fertiliser Industry       Natural gas feedstock and fuel consumption per tonne of ammonia, urea, and ammonium nitrate for different process configurations (SMR, urea synthesis, HNO₃ routes).      enp (SMR process NG), enc for frt.amc, frt.ure, frt.nit
+
+  JRC BREF documents (Best Available Techniques Reference)                                                              Cross-check for energy intensities in cement (CLM BREF 2013) and non-ferrous metals (NFM BREF 2017). Used to validate country-specific inputs against EU benchmarks.                         Cross-validation
+
+  Country-specific operator data (Egypt)                                                                               Facility-level energy data for Ezz Steel (DRI and EAF), Helwan Cement, Abu Qir Fertilisers, and Egyptalum, from company sustainability reports and World Bank missions.   egypt_facilities tab; cross-validation of national inputs
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## C. Emission factors
+
+Emission factors convert energy consumption and process activity into tonnes of CO₂ or CO₂e. The model uses three types: combustion EFs (fuel-based), process EFs (activity-based), and GHG GWP factors.
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                                                                                                            **Factors used**                                                                                                                                                           **Value in model**
+  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------
+  IPCC 2006 Guidelines for National Greenhouse Gas Inventories — Volume 2, Energy (Table 2.2)                                                                      Default emission factors for stationary combustion by fuel type, net calorific value basis.                                                                     Coal 96.1 kgCO₂/GJ; Natural gas 56.1; Diesel 74.1; Gasoline 69.3; Kerosene 71.9; LPG 63.1; Biomass 0; Renewables 0
+
+  IPCC 2006 Guidelines — Volume 2, Chapter 2A (Cement)                                                                                              Calcination emission factor for grey clinker production: CO₂ released per tonne of clinker from limestone decomposition.                                                                                             0.526 tCO₂/t clinker (efn for cmt.dry)
+
+  IPCC 2006 Guidelines — Volume 2, Chapter 2C (Metal production)                                                                                                      Carbon anode consumption emission factor for primary aluminium Hall–Héroult process.                                                                                                                  1.5 tCO₂/t Al (efn for alu.prp)
+
+  IPCC 2006 Guidelines — Volume 2, Chapter 3G (Chemical industry: N₂O)                                                                        N₂O emission factor for nitric acid (HNO₃) production, per tonne of HNO₃. Range 0.3–9.0 kg N₂O/t; model uses midpoint with abatement.                                                                                    2.5 tCO₂e/t AN midpoint (efo for frt.nit)
+
+  IPCC AR6 WG1 Annex II, Table AII.1.2 — GWP100 values                                                                                                                    Global warming potentials for PFCs used in aluminium smelting: CF₄ and C₂F₆.                                                                                                        PFC factor 0.70 tCO₂e/t Al (efo for alu.prp); N₂O GWP = 273
+
+  IPCC 2006 Guidelines — Volume 2, Chapter 2C.1 (Iron and steel, BOF)                                                                                Carbon dissolution and emission in basic oxygen furnace: CO₂ from carbon dissolved in pig iron released during blowing.                                                                                           0.25 tCO₂/t crude steel (efn for stl.bof)
+
+  IFA / EFMA — Urea synthesis convention (CO₂ uptake)                                            Net CO₂ absorbed during urea synthesis reaction (CO₂ + 2NH₃ → urea). This reduces the process emission factor for urea — the CO₂ is re-emitted when urea is applied to soil but that is outside the production system boundary.                                          −0.733 tCO₂/t urea (efn for frt.ure)
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## D. Grid emission factors
+
+Grid emission factors (tCO₂e/MWh) vary by country and year. They drive the S2 (electricity) component of emission intensity.
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                                                      **What it provides**                                                                                                          **Coverage**
+  ------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------
+  IEA Electricity Information 2024                                                                                    Annual average CO₂ intensity of electricity generation by country, 2010–2023.                                                               Base year grid EF for all five countries
+
+  IEA Net Zero Roadmap: A Global Pathway to 2050 — country annexes                                 Decarbonisation trajectories for electricity grids by country and year. Used to project grid EF from 2024 to 2035.                                                    Grid EF time series (gef)
+
+  EU IR 2025/2621, Annex II — indirect emission default values        Country-specific default electricity emission factors for CBAM purposes (average of most recent five years of IEA data). Used for the EU default comparison in ef_benchmarks.   Cross-validation of model grid EF against EU regulatory defaults
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## E. Trade data
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                                                                **What it provides**                                                                                                               **Where used**
+  ------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------
+  UN Comtrade HS-2022 (accessed via WITS portal, March 2026)    Annual bilateral trade flows in USD and tonnes for steel (HS 72), cement (HS 2523), fertilisers (HS 28, 31), and aluminium (HS 76). Used to calculate each country’s EU export share and total export share.   exe (EU export share), ext (total export share)
+
+  Eurostat COMEXT                                                                                                      EU import statistics by origin country and CN code. Cross-check for Comtrade EU trade volumes.                                                                         Cross-validation
+
+  World Steel Association — Steel Trade Monitor                                           Monthly and annual steel trade data disaggregated by product form and route. Used to split steel exports between DRI-EAF, scrap-EAF, and BF-BOF output.                                  Trade share split for steel sub-routes
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## F. EU regulatory inputs
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                                                                                       **What it provides**                                                                                                **Where used**
+  -------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------
+  Commission Implementing Regulation (EU) 2025/2620 of 16 December 2025 (OJ L 2025/2620)                    CBAM benchmarks (free allocation equivalents) for all covered products, Columns A and B. Column A applies with actual verified data; Column B with default values.       bnk (benchmark) in input_data; ef_benchmarks sheet
+
+  Commission Implementing Regulation (EU) 2025/2621 of 16 December 2025 (OJ L 2025/2621)                               Country-specific default embedded emission values (SEE) for all covered products. In force 1 Jan 2026. XLS version published February 2026.               dfv (default value) in input_data; ref_data sheet section B
+
+  Commission Implementing Regulation (EU) 2025/2547                                                                                                          Calculation methods for embedded direct and indirect emissions.                                                                        Methodology reference
+
+  Regulation (EU) 2023/956 as amended by Regulation (EU) 2025/2083                                                                          CBAM Regulation: covered sectors, CBAM factor schedule, Article 9 crediting, S2 scope (Annex II).                                       cbf (CBAM factor), act (active flag), cs2 (S2 scope)
+
+  EU ETS price: ICE EUA front-month futures (daily close, May 2026); World Bank Carbon Pricing Dashboard                   EU ETS allowance price in EUR/tCO₂ converted to USD at 1.10 USD/EUR. Used as the reference price in the CBAM obligation calculation.                             ets (ETS price series) in input_data
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## G. Macroeconomic inputs
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Source**                                                                                                           **What it provides**                                                                                                 **Where used**
+  -------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------
+  IMF World Economic Outlook Database, April 2026     GDP growth rate projections for Egypt, Albania, Uzbekistan, Azerbaijan, and India to 2030. Extended to 2035 using IMF long-run convergence assumptions.   grw (GDP growth rate), used to scale production forward from base year
+
+  World Bank Commodity Markets Outlook, April 2026              Commodity price assumptions for steel, cement, fertilisers, and aluminium (USD/tonne). Used in Section 5 price impact calculations.                               ppx (product price) in input_data
+
+  IMF Exchange Rate database                                                                    USD/EUR exchange rate. Used to convert ETS prices from EUR to USD.                                                                   fxr (FX rate) in input_data
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## H. Egypt facility data
+
+The egypt_facilities tab contains plant-level data for Egypt's main industrial installations in CBAM-covered sectors. Sources include:
+
+- **Ezz Steel** (Al-Dikheila and Suez: DRI-EAF route): facility sustainability reports 2023; World Bank Egypt Industrial Decarbonisation Assessment 2024.
+
+- **Helwan Portland Cement and other Egyptian cement plants:** Cement industry sectoral data from the Egyptian Cement Export Council and Cimsa/LafargeHolcim operating data.
+
+- **Abu Qir Fertilisers and KIMA:** company disclosures; Egyptian Fertilisers Company production data; IFA member data portal.
+
+- **Egyptalum (Nag Hammadi):** IAI country report; facility-level electricity consumption from EETC (Egyptian Electricity Transmission Company) records cited in World Bank ESMAP reports.
+
+Facility data is stored in the egypt_facilities tab for reference but is not yet directly wired into the main model calculations. Integration with the main model is planned for v1.1.
+
+## I. Limitations of the data
+
+> **Important caveat** All input data involves estimation and cross-referencing across sources with different methodologies, reference years, and levels of disaggregation. Users should treat the model as an order-of-magnitude tool for policy analysis, not a precise audit of individual producer emissions.
+
+- **Vintage differences:** IEA World Energy Balances data is typically 2–3 years lagged. The most recent full-year data in the 2024 edition covers 2022. Production base years and energy intensities therefore reflect 2022 conditions, projected forward.
+
+- **Route-level granularity:** For Albania, Uzbekistan, and Azerbaijan, production route splits within steel (EAF vs BOF) are estimated from company-level information and may not match national statistics.
+
+- **Fertiliser chain complexity:** The ammonia-urea-AN chain involves several co-production steps. The model treats each as a separate entity with its own energy intensity; in practice, many plants produce multiple products from shared ammonia feedstock.
+
+- **N₂O abatement:** The ammonium nitrate N₂O factor (2.5 tCO₂e/t) is a midpoint assumption. Actual values depend heavily on whether N₂O abatement catalysts are installed (range: 0.3–5.0 tCO₂e/t). This is the largest single source of model uncertainty for any fertiliser-producing country.
+
+- **PFC factors for aluminium:** PFC emissions from Hall–Héroult cells depend on anode effect frequency and duration, which varies by smelter age and operational practice. The model uses 0.70 tCO₂e/t as an intermediate value.
+
+*Full source references: IPCC 2006 Guidelines for National Greenhouse Gas Inventories, Volume 2 (EGRD 2006); IPCC AR6 Working Group I, Annex II (2021); Regulation (EU) 2023/956 (OJ L 130, 16.5.2023); IR 2025/2620 and IR 2025/2621 (OJ L, 22.12.2025); IEA World Energy Balances 2024; WSA Steel Statistical Yearbook 2024; IAI World Aluminium Statistics; UN Comtrade HS-2022; IMF WEO April 2026.*

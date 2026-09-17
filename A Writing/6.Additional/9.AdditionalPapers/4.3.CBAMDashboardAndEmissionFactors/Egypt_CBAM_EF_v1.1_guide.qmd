@@ -1,0 +1,227 @@
+---
+title: "Egypt_CBAM_EF_v1.1_guide"
+---
+
+**Egypt CBAM Emission Factor Spreadsheet**
+
+User Guide & Methodology
+
+*How to read and use Egypt_CBAM_EF_v1.0.xlsx — the combined aggregated + disaggregated emission factor matrix*
+
+World Bank — Climate Fiscal Team
+
+May 2026 \| Companion to Egypt_CBAM_EF_v1.0.xlsx
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **What this spreadsheet does**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| It sets out the carbon emission factors for every product Egypt exports that falls under the EU Carbon Border Adjustment Mechanism (CBAM): steel, cement, fertilisers, and aluminium. For each product it shows how the emissions break down by source, compares them with the latest EU default values, and tracks Egypt's export volumes to 2035. The same figures are shown twice — once aggregated to eight headline products, and once disaggregated to twenty-four individual customs (CN) codes — on a single common set of columns so the two views reconcile exactly. |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+> **1. Purpose and structure**
+
+CBAM requires importers of carbon-intensive goods into the EU to pay for the embedded emissions of those goods. The cost depends on the emission factor (tonnes of CO₂ per tonne of product) assigned to each shipment. This spreadsheet provides a rigorous, fully-sourced set of emission factors for Egypt's CBAM-covered exports, so that the fiscal exposure can be estimated and compared against the EU's own default values.
+
+**The single-sheet design**
+
+Everything sits on one worksheet, organised top to bottom into four sections that all share the same columns:
+
+  -------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Section A — Aggregated**       The eight headline products as values: primary steel, secondary steel, reference steel, cement, ammonia, urea, ammonium nitrate, and primary aluminium. This is the summary view.
+
+  **Section B — Disaggregated**    The same products broken into twenty-four individual CN codes (e.g. hot-rolled coil 7208, rebar 7214, clinker 2523 10, urea 3102 10). Each CN line carries a weight — its share of the parent product's EU exports.
+
+  **Section C — Reconstruction**   A check block: it rebuilds each Section A product from its weighted Section B lines using a SUMPRODUCT formula, confirming the two views agree.
+
+  **Quality assurance**            One row per product summarising data confidence, the biggest uncertainty, an external cross-check, and the recommended verification action.
+  -------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A column called **Level** marks every row as either **AGGREGATE** or **CN line**, so the two views can be filtered apart instantly while living in the same table.
+
+> **2. How to read the columns**
+
+Reading left to right, each row tells a complete story for one product or CN code.
+
+**Identity**
+
+Level, number, product name, unit, CN codes, and production route. The route matters because the same product made by different processes has very different emissions — this is why steel is split into three routes.
+
+**Scope 1 — direct emissions (the core of the table)**
+
+Scope 1 covers emissions released at the production site itself. It is broken into four components so the source of every tonne of CO₂ is visible:
+
+  ----------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **S1.fc**         Fuel combustion CO₂ — burning fuel for heat or power (e.g. natural gas in a furnace, coal in a cement kiln).
+
+  **S1.fp**         Process fuel CO₂ — fuel used as a chemical reactant rather than for heat. In direct-reduced iron the natural gas chemically reduces the iron ore; in ammonia it is the hydrogen feedstock. This is the single largest term for steel and ammonia.
+
+  **S1.np**         Non-fuel process CO₂ — CO₂ from chemical reactions, not combustion. Cement calcination (limestone breaking down), aluminium carbon-anode consumption, and the urea synthesis reaction (which absorbs CO₂, giving urea a negative value here).
+
+  **S1.no**         Non-CO₂ greenhouse gases — nitrous oxide from nitric acid (the dominant emission for ammonium nitrate) and PFCs from aluminium smelting, expressed as CO₂-equivalent.
+  ----------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+These four sum to **S1 own**. For urea and ammonium nitrate the table then adds **embedded NH₃** — see Section 4 — to give **S1 incl NH₃**, the full direct intensity.
+
+**Scope 2 and the totals**
+
+  ----------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **S2**                  Electricity emissions — the grid power used in production.
+
+  **S2 in CBAM scope?**   A flag: YES for cement and fertilisers, NO for steel and aluminium. CBAM only counts electricity for some sectors. This is set by EU regulation, not a choice.
+
+  **S1+S2 total**         The full holistic intensity — everything added together.
+
+  **CBAM-equivalent**     The number that actually matters for CBAM: the S1+S2 total, but with electricity removed for steel and aluminium (where it is out of scope). This is what gets compared to the EU default.
+  ----------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> **The key number** The CBAM-equivalent column is the bottom line. It is what an importer's certificate cost is based on. Everything to its left explains how it is built up; everything to its right compares it against the EU and against export volumes.
+
+**The latest EU comparison**
+
+The next block compares Egypt's actual emission factors with the EU's official figures, updated to the latest May 2026 values:
+
+  -------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **EU default base**              The EU's assumed emission factor for Egypt when no verified data is submitted, before any markup.
+
+  **Markup**                       The penalty added to the default to encourage real data: +10% for steel, cement and aluminium in 2026 (rising to +30% by 2028); +1% for fertilisers.
+
+  **EU default 2026**              The base with markup applied — the figure actually used in 2026.
+
+  **EU benchmark**                 The free-allocation level deducted in the CBAM cost formula (what an efficient EU producer would receive free).
+
+  **Gap vs default / benchmark**   Egypt's CBAM-equivalent minus the EU figure. A negative gap (good) means Egypt is below the EU's assumption — submitting real data lowers the importer's cost.
+  -------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Volumes, growth and projections**
+
+Then the volume block: 2024 net production, **EU exports**, **total exports** (all destinations), and a GDP-linked growth rate. Twelve columns project EU exports annually from 2024 to 2035. Finally a memo block on the far right holds raw reference figures (gross ammonia, the ammonia emission factors, and the pre-integration standalone values).
+
+> **3. Why the products are split this way**
+
+The eight aggregate products were chosen so that each row has a genuinely distinct emission profile. Combining them would hide the differences that drive CBAM cost.
+
+**Steel — three routes**
+
+Steel is split by how it is made, because the emission factors differ by an order of magnitude. Primary steel (direct-reduced iron + electric arc furnace, the Ezz Steel route) is around 1.6 tCO₂/t. Secondary steel (scrap melted in an electric arc furnace) is only about 0.16 — ten times lower — because it skips the chemical reduction step. Blast-furnace steel is included as a reference even though Egypt no longer produces it, so the EU default can be compared.
+
+**Fertilisers — three products, kept separate**
+
+Ammonia, urea and ammonium nitrate are not merged because their emission structures are fundamentally different. Ammonia is almost all process-fuel CO₂. Urea absorbs CO₂ during synthesis, so its own-process figure is negative. Ammonium nitrate is dominated by nitrous oxide, a non-CO₂ gas. Averaging them would be meaningless.
+
+**Cement and aluminium — one each**
+
+Cement is a single dry-process clinker row; its defining feature is calcination, which produces around 60% of its emissions regardless of fuel. Aluminium is a single primary-smelting row; its electricity use is enormous but out of CBAM scope, so its CBAM-equivalent rests on the carbon anode and PFC emissions only.
+
+> **4. The ammonia chain — the most important methodology choice**
+
+Urea and ammonium nitrate are both made from ammonia. The ammonia carries its own large emissions, and the question is how to account for them. The spreadsheet follows the EU's own approach.
+
+**Integration by default**
+
+Under the EU rules (Implementing Regulation 2025/2547), ammonia is a precursor to urea and ammonium nitrate. The emissions of producing that ammonia are integrated into the downstream product's embedded emissions by default. So the headline figure for urea and ammonium nitrate includes the ammonia behind it.
+
+The calculation is: each tonne of urea contains a known amount of ammonia (0.567 tonnes), and each tonne of ammonium nitrate contains 0.213 tonnes. That ammonia content is multiplied by ammonia's full emission factor (1.889 tCO₂/t, including its electricity, since electricity is in CBAM scope for fertilisers) and added to the product's own emissions. This appears in the **Embedded NH₃** column.
+
+> **Why this matters** Without integration, urea's CBAM-equivalent looks like −0.583 — implausibly favourable, because it ignores the emissions of making the ammonia. With integration it becomes 0.488, a realistic figure. For ammonium nitrate the effect is even more telling: it rises to 3.057, which actually exceeds the EU default — the honest picture once the ammonia feedstock is counted.
+
+**Net versus gross ammonia**
+
+Because the ammonia used in urea and ammonium nitrate is now counted inside those products, counting all of Egypt's ammonia production again as a standalone product would double-count it. So the production figure for ammonia is the net merchant figure — gross production minus the ammonia consumed by urea and ammonium nitrate:
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Net ammonia =** 3,500 (gross) − 1,588 (into urea) − 128 (into AN) = 1,785 kt                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                   |
+| *This is the ammonia actually sold as ammonia. The gross figure (3,500) is kept in the memo block for reference. Every tonne of nitrogen chemistry is counted exactly once, at its final traded product — consistent with EU mass-balance logic.* |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+> **5. How aggregation and disaggregation fit together**
+
+Sections A and B show the same emissions at two levels of detail. The link between them is the weight column.
+
+**Weights**
+
+Each CN line in Section B carries a **% of parent** weight — its share of the parent product's 2024 EU exports. For example, hot-rolled coil (CN 7208) is 55% of primary steel's EU exports, so it takes 55% of that product's export tonnage. The weights within each product sum to 100%.
+
+**Reconstruction**
+
+Section C rebuilds each aggregate product from its CN lines using a SUMPRODUCT of the weights and the line emission factors, divided by the sum of the weights. A check cell confirms the weights total 100% and flags “OK”.
+
+At present every CN line under a product inherits that product's emission factor — the disaggregation is by product form and customs code, not by emissions — so the reconstruction returns the parent value exactly. This is deliberate: it verifies the two views are consistent. The SUMPRODUCT machinery is already live, so if and when individual CN codes are given their own distinct emission factors (for instance, flat versus long steel products), the aggregate will automatically become a genuine weighted average.
+
+> **Reading tip** Use Section A for the headline numbers. Drop into Section B when you need to know which customs codes make up a product and how the tonnage splits. Use Section C only to confirm the two reconcile.
+>
+> **6. The headline results**
+
+The table below is the core of Section A: Egypt's emission factor for each product, the latest 2026 EU default, and the gap between them. A negative gap means Egypt is below the EU assumption and benefits from submitting verified data.
+
+  -------------------------------------------------------------------------------------------------------------------------------------
+  **Product**                    **CBAM- equivalent**   **EU default 2026**   **Gap vs default**               **Reading**
+  ----------------------------- ---------------------- --------------------- -------------------- -------------------------------------
+  Primary steel (DRI-EAF)               1.627                  2.002                −0.375         Below default — verified data helps
+
+  Secondary steel (Scrap-EAF)           0.155                  0.792                −0.637          Well below — strongly favourable
+
+  Reference steel (BF-BOF)              2.172                  3.080                −0.908           Reference only (no production)
+
+  Cement & clinker                      0.871                  1.738                −0.867               Well below — favourable
+
+  Ammonia (net merchant)                1.889                  2.071                −0.182               Modestly below default
+
+  Urea                                  0.488                  1.404                −0.916         Below — favourable (NH₃ integrated)
+
+  Ammonium nitrate                      3.057                  2.666                +0.391             Above default — see caution
+
+  Primary aluminium                     2.356                  2.266                +0.090            Slightly above — verify PFCs
+  -------------------------------------------------------------------------------------------------------------------------------------
+
+*All figures in tonnes CO₂-equivalent per tonne of product. EU defaults from Implementing Regulation 2025/2621 with the 2026 markup applied.*
+
+> **Two products to watch** Ammonium nitrate (3.057) exceeds the EU default because of nitrous oxide emissions — but that figure depends entirely on whether the KIMA and Helwan plants have abatement equipment, which is unconfirmed. The true value could range from 0.21 to 1.91 for the nitrous oxide component alone. Aluminium (2.356) slightly exceeds its default; this rests on a PFC estimate that should be verified against Egyptalum's own data. These two are the priority items in the quality-assurance section.
+>
+> **7. Data confidence and sourcing**
+
+Every emission factor cell carries a confidence flag so the reliability is visible at a glance:
+
+  ------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **🟢 Auth (authoritative)**    Taken directly from a published authoritative source for Egypt — IPCC stoichiometric constants, the EU regulations, or sector data. Example: cement calcination (0.526) and aluminium anode consumption (1.500) are IPCC constants.
+
+  **🟡 Est (estimated split)**   The total is authoritative but the breakdown between components uses a standard engineering ratio. Example: the split of natural gas between combustion and chemical reduction in direct-reduced iron.
+
+  **🔴 Prox (proxy)**            No Egypt-specific data; a value from a comparable context is used. Example: the blast-furnace reference row, since Egypt has no such production.
+  ------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The confidence columns in the spreadsheet spell out the basis for each component. The quality-assurance block at the bottom adds, for each product, the data vintage, the single biggest uncertainty, an external cross-check, and the recommended verification action.
+
+**Main sources**
+
+Emission factors: IPCC 2006 Guidelines (combustion, calcination, anode, urea, nitric acid) and IPCC AR6 global warming potentials. Energy intensities: World Steel Association, the International Fertilizer Association, the International Aluminium Institute, and the IEA. Trade volumes: Eurostat COMEXT and UN Comtrade for 2024. EU regulatory values: Implementing Regulations 2025/2620 (benchmarks) and 2025/2621 (default values), as finalised in December 2025 and in force from January 2026.
+
+> **8. Using and updating the spreadsheet**
+
+**Colour conventions**
+
+The spreadsheet follows standard financial-model colour coding so you can see at a glance which cells are inputs and which are calculated:
+
+  ----------------- ----------------------------------------------------------------------------------------
+  **Blue text**     An input you can change — energy intensities, emission factors, volumes, growth rates.
+
+  **Black text**    A formula. Do not overwrite; it recalculates from the inputs.
+
+  **Green text**    A cross-reference pulling from another cell or section.
+  ----------------- ----------------------------------------------------------------------------------------
+
+**Common updates**
+
+- **New EU default values:** edit the EU default base column; the marked-up figure and both gap columns update automatically.
+
+- **Revised emission factors:** change the raw input cells (GJ/t and kgCO₂/GJ); every total recalculates.
+
+- **Updated trade volumes:** edit the 2024 production and export cells; the projections reflow.
+
+- **Different growth assumptions:** edit the growth-rate column or the underlying GDP and elasticity assumptions.
+
+- **CN-specific emission factors:** enter distinct factors on individual CN lines in Section B, and the Section C reconstruction becomes a genuine weighted average.
+
+> **If you change a formula** After editing, the spreadsheet should be recalculated so all derived values refresh. The model is built to contain zero formula errors; if an error appears after editing, check that any cell references you changed still point to valid cells.
+
+*This document accompanies Egypt_CBAM_EF_v1.0.xlsx. Prepared by the World Bank Climate Fiscal Team, May 2026.*
