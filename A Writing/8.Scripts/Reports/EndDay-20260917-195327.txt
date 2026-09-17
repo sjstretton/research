@@ -156,3 +156,287 @@ Website : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Web
     0.Overview\ResearchOverview.docx written, links pointing at https://climatefiscalfinance.org
 
 --- render
+PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+
+======================================================================
+  Summary  [APPLY]
+======================================================================
+  #  Step             Result       Secs  Note
+---  ---------------- ----------  -----  --------------------
+  1  Build-Pdfs       not wanted      0  site uses .docx
+  2  Publish-Site     ok              8
+
+Both steps completed. Read _PdfReport.txt and _SiteReport.txt for the detail.
+
+Log: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Reports\RunWebsite-APPLY-20260917-195333.txt
+
+======================================================================
+  step 5 of 5   Tidy-Scripts.ps1   -   put the scripts folder back in order
+======================================================================
+
+Spring clean: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts
+
+  BIN    Run\Flatten-Overviews.bat   [a one-off that has already run]
+  BIN    Run\Remove-TwinFolders.bat   [a one-off that has already run]
+  BIN    Steps\Flatten-Overviews.ps1   [a one-off that has already run]
+  BIN    Steps\Remove-TwinFolders.ps1   [a one-off that has already run]
+  BIN    Reports\_RenameFilesIndex.csv   [report older than the newest few]
+  BIN    Reports\_RenameFilesReport.txt   [report older than the newest few]
+  BIN    Reports\_ReorganizeReport.txt   [report older than the newest few]
+  BIN    Reports\_FlattenReport.txt   [report older than the newest few]
+
+8 item(s) to the Recycle Bin, 0 moved to Reference\.
+Deleted items are recoverable from the Recycle Bin.
+
+  binned: Flatten-Overviews.bat
+  binned: Remove-TwinFolders.bat
+  binned: Flatten-Overviews.ps1
+  binned: Remove-TwinFolders.ps1
+  binned: _RenameFilesIndex.csv
+  binned: _RenameFilesReport.txt
+  binned: _ReorganizeReport.txt
+  binned: _FlattenReport.txt
+
+Kept 0, binned 8, failed 0.
+
+<number>.Scripts now holds:
+   Engine\
+   Reference\
+   Reports\
+   Run\
+   Steps\
+
+======================================================================
+  Summary  [APPLY]
+======================================================================
+  #  Step                   Result         Secs  Note
+---  ---------------------- ------------  -----  --------------------
+  1  Rename-Folders.ps1     ok                0
+  2  Sync-Masters.ps1       ok                0
+  3  Convert-Documents.ps1  ok                5
+  4  Run-Website            ok                9
+  5  Tidy-Scripts           ok                0
+
+Every step completed.
+
+Each step's own report is in C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Reports
+Log: C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Reports\RunAll-APPLY-20260917-195328.txt
+
+======================================================================
+  step 2 of 3   commit, pull, push
+======================================================================
+   repository : C:\Users\sjstr\Documents\OneDrive\Documents\A Research
+   branch     : main
+
+-- 59 change(s) to commit
+    M "A Writing/0.Overview/ResearchOverview.docx"
+    D "A Writing/6.Additional/6.Books/9.Archive/Archive.zip"
+    M "A Writing/6.Additional/9.0.OverviewAdditional.docx"
+    M "A Writing/7.Website/_site/papers/OverviewAdditional.docx"
+    M "A Writing/7.Website/papers/OverviewAdditional.docx"
+    D "A Writing/9.Scripts/Engine/End-Day.ps1"
+    D "A Writing/9.Scripts/Engine/README.md"
+    D "A Writing/9.Scripts/Engine/Run-All.ps1"
+    D "A Writing/9.Scripts/Engine/Run-Website.ps1"
+    D "A Writing/9.Scripts/Engine/Start-Day.ps1"
+    D "A Writing/9.Scripts/Engine/Tidy-Scripts.ps1"
+    D "A Writing/9.Scripts/Reference/README.md"
+    D "A Writing/9.Scripts/Reference/_PaperFolderLayout.md"
+    D "A Writing/9.Scripts/Reference/_PaperIndex.csv"
+    D "A Writing/9.Scripts/Reference/_ftp.txt.example"
+    D "A Writing/9.Scripts/Reports/RunAll-APPLY-20260917-191414.txt"
+    D "A Writing/9.Scripts/Reports/RunWebsite-APPLY-20260917-191418.txt"
+    D "A Writing/9.Scripts/Reports/_ConvertIndex.csv"
+    D "A Writing/9.Scripts/Reports/_ConvertReport.txt"
+    D "A Writing/9.Scripts/Reports/_EncodingReport.txt"
+   ... and 39 more
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Combined_Manuscript_Archive.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Peer_Review_Time_and_Chance.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Peer_Review_Time_and_Chance.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Response_to_Peer_Review.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Response_to_Peer_Review.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/The_Right_Policy_TOC.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/The_Right_Policy_TOC.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Time_and_Chance_TOC.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Time_and_Chance_TOC.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/6.Additional/6.Books/Archive/Time_and_Chance_Working_Papers.qmd', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Engine/End-Day.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Engine/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Engine/Run-All.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Engine/Run-Website.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Engine/Start-Day.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Engine/Tidy-Scripts.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Reference/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Reference/_PaperFolderLayout.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Reference/_ftp.txt.example', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Audit-Papers.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/End-Day.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Final-Check.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Master-All.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Master-Website.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Organise.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Purge-Strays.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Run/Start-Day.bat', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Audit-Papers.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Build-Pdfs.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Convert-Documents.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/ConvertOne-Pdf.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Publish-Ftp.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Publish-Site.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Purge-Strays.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/README.md', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Rename-Files.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Rename-Folders.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Reorganize-Papers.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Repair-Encoding.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Sync-Masters.ps1', LF will be replaced by CRLF the next time Git touches it
+   warning: in the working copy of 'A Writing/8.Scripts/Steps/Verify-Setup.ps1', LF will be replaced by CRLF the next time Git touches it
+   [main 68651e7] Update 2026-09-17
+    111 files changed, 10610 insertions(+), 556 deletions(-)
+    create mode 100644 A Writing/6.Additional/6.0.CombinedOverview.docx
+    delete mode 100644 A Writing/6.Additional/6.Books/9.Archive/Archive.zip
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Combined_Manuscript_Archive.docx
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Combined_Manuscript_Archive.qmd
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Peer_Review_Time_and_Chance.docx
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Peer_Review_Time_and_Chance.md
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Peer_Review_Time_and_Chance.qmd
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/README.md
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Response_to_Peer_Review.docx
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Response_to_Peer_Review.md
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Response_to_Peer_Review.qmd
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/The_Right_Policy_TOC.docx
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/The_Right_Policy_TOC.md
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/The_Right_Policy_TOC.qmd
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/The_Right_Policy_at_the_Wrong_Time.pdf
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Time_and_Chance.pdf
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Time_and_Chance_TOC.docx
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Time_and_Chance_TOC.md
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Time_and_Chance_TOC.qmd
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Time_and_Chance_Working_Papers.docx
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/Time_and_Chance_Working_Papers.qmd
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId130.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId143.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId146.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId22.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId248.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId258.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId295.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId298.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId301.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId333.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId366.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId379.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId382.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId484.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId59.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId62.png
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId65.jpg
+    create mode 100644 A Writing/6.Additional/6.Books/Archive/media/rId97.png
+    create mode 100644 A Writing/7.Website/_site/papers/CombinedOverview.docx
+    create mode 100644 A Writing/7.Website/papers/CombinedOverview.docx
+    rename A Writing/{9.Scripts => 8.Scripts}/Engine/End-Day.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Engine/README.md (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Engine/Run-All.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Engine/Run-Website.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Engine/Start-Day.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Engine/Tidy-Scripts.ps1 (98%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Reference/README.md (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Reference/_PaperFolderLayout.md (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Reference/_PaperIndex.csv (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Reference/_ftp.txt.example (100%)
+    create mode 100644 A Writing/8.Scripts/Reports/EndDay-20260917-194422.txt
+    create mode 100644 A Writing/8.Scripts/Reports/EndDay-20260917-195327.txt
+    rename A Writing/{9.Scripts => 8.Scripts}/Reports/RunAll-APPLY-20260917-191414.txt (100%)
+    create mode 100644 A Writing/8.Scripts/Reports/RunAll-APPLY-20260917-194422.txt
+    create mode 100644 A Writing/8.Scripts/Reports/RunAll-APPLY-20260917-195328.txt
+    rename A Writing/{9.Scripts => 8.Scripts}/Reports/RunWebsite-APPLY-20260917-191418.txt (100%)
+    create mode 100644 A Writing/8.Scripts/Reports/RunWebsite-APPLY-20260917-194425.txt
+    create mode 100644 A Writing/8.Scripts/Reports/RunWebsite-APPLY-20260917-195333.txt
+    create mode 100644 A Writing/8.Scripts/Reports/_ConvertIndex.csv
+    create mode 100644 A Writing/8.Scripts/Reports/_ConvertReport.txt
+    rename A Writing/{9.Scripts => 8.Scripts}/Reports/_EncodingReport.txt (100%)
+    create mode 100644 A Writing/8.Scripts/Reports/_PurgeReport-preview.csv
+    create mode 100644 A Writing/8.Scripts/Reports/_PurgeReport-preview.txt
+    create mode 100644 A Writing/8.Scripts/Reports/_PurgeReport.csv
+    create mode 100644 A Writing/8.Scripts/Reports/_PurgeReport.txt
+    rename A Writing/{9.Scripts => 8.Scripts}/Reports/_RenameReport.txt (90%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Reports/_SyncReport.txt (88%)
+    create mode 100644 A Writing/8.Scripts/Reports/_TwinFolderReport-preview.txt
+    create mode 100644 A Writing/8.Scripts/Reports/_TwinFolderReport.txt
+    create mode 100644 A Writing/8.Scripts/Reports/_VerifyReport.txt
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Audit-Papers.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/End-Day.bat (100%)
+    create mode 100644 A Writing/8.Scripts/Run/Final-Check.bat
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Master-All.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Master-Website.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Organise.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Preview-All.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Preview-Website.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Purge-Strays.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/README.md (82%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Spring-Clean.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Run/Start-Day.bat (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Audit-Papers.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Build-Pdfs.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Convert-Documents.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/ConvertOne-Pdf.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Publish-Ftp.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Publish-Site.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Purge-Strays.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/README.md (93%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Rename-Files.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Rename-Folders.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Reorganize-Papers.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Repair-Encoding.ps1 (100%)
+    rename A Writing/{9.Scripts => 8.Scripts}/Steps/Sync-Masters.ps1 (100%)
+    create mode 100644 A Writing/8.Scripts/Steps/Verify-Setup.ps1
+    delete mode 100644 A Writing/9.Scripts/Reports/_ConvertIndex.csv
+    delete mode 100644 A Writing/9.Scripts/Reports/_ConvertReport.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/_FlattenReport.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/_RenameFilesIndex.csv
+    delete mode 100644 A Writing/9.Scripts/Reports/_RenameFilesReport.txt
+    delete mode 100644 A Writing/9.Scripts/Reports/_ReorganizeReport.txt
+    delete mode 100644 A Writing/9.Scripts/Run/Flatten-Overviews.bat
+    delete mode 100644 A Writing/9.Scripts/Run/Remove-TwinFolders.bat
+    delete mode 100644 A Writing/9.Scripts/Steps/Flatten-Overviews.ps1
+    delete mode 100644 A Writing/9.Scripts/Steps/Remove-TwinFolders.ps1
+
+-- pulling before pushing
+   error: unable to unlink old 'A Writing/8.Scripts/Reports/EndDay-20260917-195327.txt': Invalid argument
+   fatal: could not reset --hard
+   Created autostash: 7a82f8d
+
+   THE PULL DID NOT FINISH - nothing has been pushed.
+   Your work is committed locally and is not lost.
+      git status            where you are
+      git rebase --abort    put it back as it was
+
+======================================================================
+  step 3 of 3   upload the site
+======================================================================
+   source : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Website\_site   (58 file(s))
+   winscp : C:\Program Files (x86)\WinSCP\WinSCP.com
+
+   Reference\_ftp.txt not found - falling back to 7.Website\deploy.bat
+   (that file holds the password inline and is inside the repository;
+    moving it to Reference\_ftp.txt is worth doing)
+
+   deploy.bat finished.
+
+======================================================================
+  Summary
+======================================================================
+Step       Result     Note
+---------- ---------- ------------------------------
+Workflow   ok
+Git        FAILED     pull/rebase did not finish - nothing pushed
+FTP        ok
+
+1 step(s) need attention - see above.
+**********************
+Windows PowerShell transcript end
+End time: 20260917195354
+**********************

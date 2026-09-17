@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20260917191418
+Start time: 20260917195511
 Username: STEPHENGRAM\sjstr
 RunAs User: STEPHENGRAM\sjstr
 Configuration Name: 
 Machine: STEPHENGRAM (Microsoft Windows NT 10.0.26200.0)
-Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\9.Scripts\Run\..\Engine\Run-All.ps1 -Apply
-Process ID: 14212
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\8.Scripts\Run\..\Engine\End-Day.ps1 -NoPause
+Process ID: 16004
 PSVersion: 5.1.26100.9444
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
@@ -18,7 +18,7 @@ SerializationVersion: 1.1.0.1
 **********************
 
 ======================================================================
-  Run-Website  [APPLY]   2026-09-17 19:14
+  Run-Website  [APPLY]   2026-09-17 19:55
 ======================================================================
 
 -- prerequisites
@@ -32,17 +32,15 @@ SerializationVersion: 1.1.0.1
 ======================================================================
   step 2 of 2   Publish-Site.ps1   -   copy, render, check
 ======================================================================
-=== Publish site  [APPLY]   2026-09-17 19:14 ===
+=== Publish site  [APPLY]   2026-09-17 19:55 ===
 Website : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Website
 
 --- publish
     (PDF-only paper: SustainabilityLinkedLending.pdf)
-0 file(s) copied, 31 paper(s) published in total.
+0 file(s) copied, 32 paper(s) published in total.
 
 --- papers folder
-    STALE  : Overview.pdf   (no paper publishes this any more)
-    STALE  : OverviewRetainedWork.docx   (no paper publishes this any more)
-    2 stale file(s) sent to the Recycle Bin
+    nothing stale
 
 --- link targets
     already correct
@@ -50,7 +48,6 @@ Website : C:\Users\sjstr\Documents\OneDrive\Documents\A Research\A Writing\7.Web
 --- research index
 
     0.Overview\ResearchOverview.docx written, links pointing at https://climatefiscalfinance.org
-    BIN    : Research.docx at the root - superseded by 0.Overview\ResearchOverview.docx
 
 --- render
 PS>TerminatingError(quarto.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
@@ -62,10 +59,10 @@ PS>TerminatingError(quarto.exe): "The running command stopped because the prefer
   #  Step             Result       Secs  Note
 ---  ---------------- ----------  -----  --------------------
   1  Build-Pdfs       not wanted      0  site uses .docx
-  2  Publish-Site     ok              9
+  2  Publish-Site     ok              7
 
 Both steps completed. Read _PdfReport.txt and _SiteReport.txt for the detail.
 **********************
 Windows PowerShell transcript end
-End time: 20260917191427
+End time: 20260917195518
 **********************
