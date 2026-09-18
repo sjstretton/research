@@ -1,15 +1,25 @@
 #requires -Version 5.1
 <#
     Push-Repo.ps1
-    Commit what has changed, pull, push. Nothing else.
+    Commit what has changed, then push. Nothing else.
 
-    The order is the whole point. A rebase will not run on a dirty working copy,
-    so the commit has to come first; and pulling before pushing means your
-    commits end up on top of anything that arrived from another machine rather
-    than in a merge bubble.
+    WHY IT LOOKS AT GITHUB IN BETWEEN
+    Not because the pull is wanted for its own sake. It is there because a push
+    is refused outright when the remote holds a commit you do not have - from
+    another machine, from an edit made on github.com, from a clone you forgot
+    about - and then you are pulling anyway, halfway through, with the push
+    already failed. So this asks first: git fetch, then a count of what is on
+    GitHub and not here. On the ordinary day that count is zero and no rebase
+    runs at all - it says so and goes straight to the push. The rebase only
+    happens when there is genuinely something to rebase onto, and then it is
+    doing the job that stops the push being rejected.
 
-    Nothing is ever force-pushed. If the pull stops on a conflict, so does this,
-    and it says what to type. Your work is committed locally either way.
+    The commit comes first because a rebase will not run on a dirty working
+    copy, and --rebase rather than a merge so your commits sit on top of
+    whatever came from elsewhere instead of making a merge bubble.
+
+    Nothing is ever force-pushed. If the rebase stops on a conflict, so does
+    this, and it says what to type. Your work is committed locally either way.
 
     Usage
         Run\Push-Repo.bat
@@ -24,6 +34,20 @@ param(
 )
 
 $ErrorActionPreference = 'Continue'
+
+# git writes ordinary progress to stderr. With 2>&1 PowerShell wraps those lines
+# as error records, which print as "System.Management.Automation.RemoteException"
+# unless they are turned back into strings first. Everything git says goes
+# through here.
+function Show($lines) {
+    foreach ($l in @($lines)) {
+        $t = if ($l -is [System.Management.Automation.ErrorRecord]) { $l.Exception.Message } else { [string]$l }
+        $t = ($t -replace "\x1b\[[0-9;]*[A-Za-z]", '') -replace "\r", ''
+        foreach ($one in ($t -split "`n")) {
+            if ($one.Trim() -ne '') { Write-Host ('     {0}' -f $one.TrimEnd()) }
+        }
+    }
+}
 
 # --- where is the repository? -------------------------------------------------
 # It is the first folder at or above the scripts folder that holds a .git.
@@ -69,7 +93,7 @@ try {
         if (-not $Message) { $Message = 'Update {0}' -f (Get-Date -Format 'yyyy-MM-dd') }
 
         & git add -A
-        & git commit -m $Message | ForEach-Object { Write-Host ('     {0}' -f $_) }
+        Show (& git commit -m $Message 2>&1)
         if ($LASTEXITCODE -ne 0) {
             Write-Host ''
             Write-Host '   The commit did not go through. Nothing has been pushed.'
@@ -77,29 +101,45 @@ try {
         }
     }
 
-    # --- 2  pull --------------------------------------------------------------
+    # --- 2  is there anything on GitHub that is not here? ---------------------
+    # Asking first means the rebase only runs when it has something to do. On
+    # the normal day - one machine, nothing pushed from anywhere else - there is
+    # nothing to bring down and this step just says so.
 
     Write-Host ''
-    Write-Host '2. Pulling (rebase, with your uncommitted work set aside and put back):'
-    & git pull --rebase --autostash 2>&1 | ForEach-Object { Write-Host ('     {0}' -f $_) }
+    Write-Host '2. Checking GitHub:'
+    Show (& git fetch --quiet 2>&1)
 
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host ''
-        Write-Host '   The pull stopped, so nothing has been pushed. Your work is committed'
-        Write-Host '   here and is not lost. Usually this is a conflict with a change made'
-        Write-Host '   on another machine.'
-        Write-Host ''
-        Write-Host '     git status            see where you are'
-        Write-Host '     git rebase --abort    put everything back as it was'
-        Write-Host '     git stash list        if --autostash set something aside'
-        exit 1
+    $behind = (& git rev-list --count ("HEAD..origin/" + $branch) 2>&1 | Out-String).Trim()
+
+    if ($behind -notmatch '^\d+$') {
+        Write-Host '     could not reach GitHub - trying the push anyway.'
+    }
+    elseif ([int]$behind -eq 0) {
+        Write-Host '     nothing there that is not here. No rebase needed.'
+    }
+    else {
+        Write-Host ('     {0} commit(s) here to bring down first - rebasing your work on top.' -f $behind)
+        Show (& git pull --rebase 2>&1)
+
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host ''
+            Write-Host '   The rebase stopped, so nothing has been pushed. Your work is'
+            Write-Host '   committed here and is not lost. This means the same lines were'
+            Write-Host '   changed here and on another machine, and only you can say which'
+            Write-Host '   version wins.'
+            Write-Host ''
+            Write-Host '     git status            see where you are'
+            Write-Host '     git rebase --abort    put everything back as it was'
+            exit 1
+        }
     }
 
     # --- 3  push --------------------------------------------------------------
 
     Write-Host ''
     Write-Host '3. Pushing:'
-    & git push 2>&1 | ForEach-Object { Write-Host ('     {0}' -f $_) }
+    Show (& git push 2>&1)
 
     if ($LASTEXITCODE -ne 0) {
         Write-Host ''
