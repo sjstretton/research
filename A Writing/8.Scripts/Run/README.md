@@ -13,9 +13,10 @@ The only files you double-click.
 - `Master-Website.bat` — PDFs and website only. This is the one to use after editing papers.
 - `Preview-All.bat`, `Preview-Website.bat` — the same two, reporting without changing anything.
 - `Organise.bat` — `Master-All` with the three structural steps put back (Reorganize-Papers, Rename-Files, Repair-Encoding). After importing a batch of new material, not otherwise.
-- `Spring-Clean.bat` — puts `9.Scripts` back to its five folders and bins the rest. It asks first.
+- `Spring-Clean.bat` — puts the scripts folder back to its five folders and bins the rest. It asks first.
+- `Push-Repo.bat` — the GitHub part on its own: commit, pull, push. What `End-Day` runs for step 2.
 - `Final-Check.bat` — reads the tree, the site, the scripts folder, the tools and the repository and says whether anything will break. Changes nothing.
 - `Audit-Papers.bat` — reads the paper folders and reports duplicates, twins and files in the wrong place. It changes nothing.
 - `Purge-Strays.bat` — acts on what the audit found. Deliberately aggressive: where there are two of something it keeps one and bins the rest, and moves loose files into their slot. Previews, then asks you to type PURGE. Everything removed is in the Recycle Bin.
 
-Nothing else in `9.Scripts` is meant to be run by hand.
+Nothing else in the scripts folder is meant to be run by hand.

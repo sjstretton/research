@@ -8,11 +8,13 @@
                     The site has to be rebuilt before it can be uploaded, and
                     the files have to be settled before they are committed.
 
-      2  GIT        commit what changed here, then pull, then push. That order
-                    matters: a rebase will not run on a dirty working copy, so
-                    the local commit has to come first. The pull is
-                    --rebase, so your commits end up on top of anything that
-                    came from another machine rather than in a merge bubble.
+      2  GIT        Steps\Push-Repo.ps1 - commit what changed here, then pull,
+                    then push. That order matters: a rebase will not run on a
+                    dirty working copy, so the local commit has to come first.
+                    The pull is --rebase, so your commits end up on top of
+                    anything that came from another machine rather than in a
+                    merge bubble. The same script runs on its own from
+                    Run\Push-Repo.bat.
 
       3  FTP        upload the rendered _site to the web server. Last, because
                     it is the only step that puts anything in front of the
@@ -89,83 +91,23 @@ if ($SkipWorkflow) {
 }
 
 # --- 2  git -------------------------------------------------------------------
+# One copy of this logic: Steps\Push-Repo.ps1, which also runs on its own from
+# Run\Push-Repo.bat.
 
-function Find-RepoRoot([string]$start) {
-    $d = $start
-    for ($i = 0; $i -lt 6; $i++) {
-        if (Test-Path -LiteralPath (Join-Path $d '.git')) { return $d }
-        $p = Split-Path -Parent $d
-        if (-not $p -or $p -eq $d) { break }
-        $d = $p
-    }
-    return $null
-}
-
+$push = Join-Path $scripts 'Steps\Push-Repo.ps1'
 if ($SkipGit) {
     Note 'Git' 'skipped' '-SkipGit'
+} elseif (-not (Test-Path -LiteralPath $push)) {
+    Note 'Git' 'missing' 'Push-Repo.ps1 not in Steps\'
 } else {
     Banner 'step 2 of 3   commit, pull, push'
-    $git = Get-Command git -EA SilentlyContinue
-    $repo = if ($git) { Find-RepoRoot $base } else { $null }
-
-    if (-not $git) {
-        Write-Host '   git is not on PATH.'
-        Note 'Git' 'missing' 'git not on PATH'
-    } elseif (-not $repo) {
-        Write-Host ('   no .git at or above {0}' -f $base)
-        Note 'Git' 'missing' 'no repository'
-    } else {
-        Push-Location -LiteralPath $repo
-        try {
-            $branch = (& git rev-parse --abbrev-ref HEAD 2>&1 | Out-String).Trim()
-            Write-Host ('   repository : {0}' -f $repo)
-            Write-Host ('   branch     : {0}' -f $branch)
-
-            # -- commit
-            $status = @(& git status --porcelain 2>&1 | Where-Object { $_ -ne '' })
-            Write-Host ''
-            if ($status.Count -eq 0) {
-                Write-Host '-- nothing to commit'
-                $committed = $false
-            } else {
-                Write-Host ("-- {0} change(s) to commit" -f $status.Count)
-                foreach ($s in ($status | Select-Object -First 20)) { Write-Host ("   {0}" -f $s) }
-                if ($status.Count -gt 20) { Write-Host ('   ... and {0} more' -f ($status.Count - 20)) }
-                $msg = if ($Message) { $Message } else { ('Update {0}' -f (Get-Date -Format 'yyyy-MM-dd')) }
-                & git add -A 2>&1 | ForEach-Object { Write-Host ("   {0}" -f $_) }
-                & git commit -m $msg 2>&1 | ForEach-Object { Write-Host ("   {0}" -f $_) }
-                $committed = ($LASTEXITCODE -eq 0)
-                if (-not $committed) { Write-Host '   commit did not run - see above' }
-            }
-
-            # -- pull
-            Write-Host ''
-            Write-Host '-- pulling before pushing'
-            & git pull --rebase --autostash 2>&1 | ForEach-Object { Write-Host ("   {0}" -f $_) }
-            $pulled = ($LASTEXITCODE -eq 0)
-
-            if (-not $pulled) {
-                Write-Host ''
-                Write-Host '   THE PULL DID NOT FINISH - nothing has been pushed.'
-                Write-Host '   Your work is committed locally and is not lost.'
-                Write-Host '      git status            where you are'
-                Write-Host '      git rebase --abort    put it back as it was'
-                Note 'Git' 'FAILED' 'pull/rebase did not finish - nothing pushed'
-            } else {
-                Write-Host ''
-                Write-Host '-- pushing'
-                & git push 2>&1 | ForEach-Object { Write-Host ("   {0}" -f $_) }
-                if ($LASTEXITCODE -eq 0) {
-                    $n = (& git rev-list --count ("origin/" + $branch) 2>&1 | Out-String).Trim()
-                    Note 'Git' 'ok' $(if ($committed) { 'committed and pushed' } else { 'nothing new, pushed anything pending' })
-                } else {
-                    Write-Host '   the push was refused - the usual cause is no network or no credentials.'
-                    Note 'Git' 'FAILED' 'push refused'
-                }
-            }
-        } finally {
-            Pop-Location
-        }
+    try {
+        if ($Message) { & $push -Message $Message } else { & $push }
+        if ($LASTEXITCODE -eq 0) { Note 'Git' 'ok' 'committed and pushed' }
+        else { Note 'Git' 'FAILED' 'see the messages above' }
+    } catch {
+        Write-Host ("   FAILED: {0}" -f $_.Exception.Message)
+        Note 'Git' 'FAILED' $_.Exception.Message
     }
 }
 

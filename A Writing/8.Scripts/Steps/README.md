@@ -28,6 +28,11 @@ launches one copy per paper. That separation is what makes a per-document
 timeout possible: a Word COM call cannot be interrupted from inside PowerShell,
 so the only way to limit it is to run it in a process that can be killed.
 
+`Push-Repo.ps1` is the GitHub part: commit, pull with `--rebase --autostash`,
+push. `End-Day.ps1` calls it for its step 2 and `Run\Push-Repo.bat` runs it on
+its own, so there is one copy of that logic. It never force-pushes, and it
+stops on a conflict rather than resolving one.
+
 `Verify-Setup.ps1` is the pre-flight check, run from `Run\Final-Check.bat`. It
 has no `-Apply`: it reads the tree, the site, the scripts folder, the tools and
 the repository, and marks every line OK, NOTE or PROBLEM.

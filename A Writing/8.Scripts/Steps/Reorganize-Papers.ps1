@@ -36,7 +36,7 @@
         A Writing\
             research.qmd                  left alone
             0.Overview\  1..5 themes\  6.Additional\  7.Website\
-            9.Scripts\                    everything to do with organising
+            <n>.Scripts\                  everything to do with organising
                 Preview-Rename.bat / Run-Rename.bat / Rename-Folders.ps1
                 Preview-Reorganize.bat / Run-Reorganize.bat / Reorganize-Papers.ps1
                 Tidy-Scripts.bat / Tidy-Scripts.ps1
@@ -143,7 +143,7 @@ if ($PSScriptRoot -eq $base) {
     $found = @(Get-ChildItem -LiteralPath $base -Directory -EA SilentlyContinue |
                Where-Object { $_.Name -match '[.\s_-]*Scripts$' } | Select-Object -First 1)
     if ($found.Count -gt 0) { $organiseDir = $found[0].FullName }
-    else { $organiseDir = Join-Path $base '9.Scripts' }
+    else { $organiseDir = $PSScriptRoot }
 } else {
     $parent = Split-Path -Parent $PSScriptRoot
     if ($parent -and (Split-Path -Leaf $parent) -match 'Scripts') { $organiseDir = $parent }

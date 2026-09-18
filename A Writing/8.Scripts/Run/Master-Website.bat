@@ -19,7 +19,7 @@ echo.
 echo   A PDF newer than its .docx is not rebuilt, so re-running is quick
 echo   and an interrupted run picks up where it left off.
 echo.
-echo   Reports: 9.Scripts\Reports\_PdfReport.txt and _SiteReport.txt
+echo   Reports: the scripts folder's Reports\_PdfReport.txt and _SiteReport.txt
 echo.
 set /p go=Type Y then Enter to run, anything else to cancel: 
 if /i not "%go%"=="Y" goto cancel

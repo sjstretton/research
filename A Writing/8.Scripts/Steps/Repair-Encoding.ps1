@@ -86,7 +86,7 @@ Log ''
 # locked while this runs - reading it used to abort the whole step - and nothing
 # in there is content that needs repairing anyway. Build output is skipped too.
 # The scripts folder's number changes, so match it by name rather than by
-# number: 9.Scripts, 11.Scripts, Scripts - all excluded.
+# number: 8.Scripts, 11.Scripts, Scripts - all excluded.
 $skip = '[\\/](\d*[.\s_-]*Scripts|_site|\.quarto|_freeze|node_modules)[\\/]'
 $files = @(Get-ChildItem -LiteralPath $base -File -Recurse -EA SilentlyContinue |
            Where-Object { $Exts -contains $_.Extension.ToLower() -and $_.FullName -notmatch $skip })

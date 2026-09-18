@@ -28,9 +28,9 @@ echo   ---------------- PREVIEW: nothing is changed ----------------
 echo.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0..\Steps\Purge-Strays.ps1" <NUL
 echo.
-echo   The same list is in 9.Scripts\Reports\_PurgeReport-preview.txt
+echo   The same list is in the scripts folder's Reports\_PurgeReport-preview.txt
 echo.
-set /p go=Type PURGE then Enter to do it, anything else to stop:
+set /p go=Type PURGE then Enter to do it, anything else to stop: 
 if /i not "%go%"=="PURGE" goto stop
 echo.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0..\Steps\Purge-Strays.ps1" -Apply <NUL

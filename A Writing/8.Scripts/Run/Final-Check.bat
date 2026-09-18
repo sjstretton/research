@@ -17,6 +17,6 @@ echo.
 pause
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0..\Steps\Verify-Setup.ps1" <NUL
 echo.
-echo   The same list is in 9.Scripts\Reports\_VerifyReport.txt
+echo   The same list is in the scripts folder's Reports\_VerifyReport.txt
 echo.
 pause
