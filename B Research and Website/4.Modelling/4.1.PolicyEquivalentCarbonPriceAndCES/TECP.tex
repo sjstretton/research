@@ -1,0 +1,230 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{parskip}
+
+\title{Total Effective Carbon Price}
+\author{Stephen Stretton}
+\date{September 2026}
+
+\begin{document}
+
+\maketitle
+
+%==============================================================
+\section{Introduction}
+%==============================================================
+
+Every climate policy changes fuel prices. Some policies make dirty fuels more expensive relative to clean ones (\textbf{fuel switching}). Some raise the overall cost of energy (\textbf{demand reduction}). Most do both, and the effects vary across sectors and fuels.
+
+The \textbf{total effective carbon price} $\tau^*$ answers one question: \emph{what single economy-wide carbon tax would reduce emissions by the same amount as the actual policy mix?} The answer is
+\begin{equation}\label{eq:main}
+\boxed{\;\tau^{*} = \frac{1}{\Lambda}\sum_{s}\sum_{f} E_{fs}\,\big[\,\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}\,\tau^{\mathrm{int}}_{fs} + \tilde{\varepsilon}^{\,\mathrm{ext}}_{s}\,\tau^{\mathrm{ext}}_{s}\,\big]\;}
+\end{equation}
+The first term in the brackets is the switching channel and the second is the demand channel. Each is a semi-elasticity times a carbon price: the more responsive the economy and the stronger the price signal, the larger the emissions reduction. The numerator sums these reductions over every fuel $f$ and sector $s$. The normalization constant $\Lambda$, the emissions reduction from a \$1/tCO$_2$ uniform carbon tax, converts the total into equivalent dollars of carbon tax.
+
+The formula has one key property. If the policy \emph{is} a uniform carbon tax at rate $\tau$, then $\tau^{\mathrm{int}}_{fs} = \tau^{\mathrm{ext}}_s = \tau$ for all $f,s$, and~\eqref{eq:main} returns $\tau^* = \tau$ exactly. For other instruments, $\tau^*$ shows how much abatement each delivers per dollar and allows instruments to be added together.
+
+The rest of this note proceeds as follows. Section~\ref{sec:setup} sets out notation. Section~\ref{sec:behavior} derives the semi-elasticities from a CES model of fuel demand. Section~\ref{sec:decomp} decomposes any policy into intensive and extensive carbon prices. Section~\ref{sec:ecp} assembles the effective carbon price, and Section~\ref{sec:special} works through special cases. Section~\ref{sec:dynamics} extends the framework to gradual adjustment over time.
+
+\newpage
+%==============================================================
+\section{Setup and notation}\label{sec:setup}
+%==============================================================
+
+Each sector $s$ uses a set of fuels $f$ to deliver energy services. Throughout, $\Delta E$ denotes an emissions \emph{reduction}, so positive values mean emissions fall.
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{lll}
+\toprule
+\textbf{Symbol} & \textbf{Definition} & \textbf{Units} \\
+\midrule
+$q_{fs}$ & Baseline consumption of fuel $f$ in sector $s$ & GJ \\
+$Q_s = \sum_f q_{fs}$ & Total energy in sector $s$ & GJ \\
+$w_{fs} = q_{fs}/Q_s$ & Energy share of fuel $f$ in sector $s$ & --- \\
+$p_{fs}$ & Pre-tax fuel price & \$/GJ \\
+$e_f$ & Emission factor of fuel $f$ & tCO$_2$/GJ \\
+$\bar{e}_s = \sum_f w_{fs}\,e_f$ & Mean emission factor in sector $s$ & tCO$_2$/GJ \\
+$E_{fs} = q_{fs}\,e_f$ & Baseline emissions from fuel $f$ in sector $s$ & tCO$_2$ \\
+$E_s = \sum_f E_{fs}$ & Baseline emissions in sector $s$ & tCO$_2$ \\
+$\sigma_s$ & CES substitution elasticity & --- \\
+$\eta_s$ & Service demand elasticity & --- \\
+$C_s$ & CES unit cost index & \$/GJ \\
+$\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}$ & Intensive (switching) semi-elasticity & (\$/tCO$_2$)$^{-1}$ \\
+$\tilde{\varepsilon}^{\,\mathrm{ext}}_{s}$ & Extensive (demand) semi-elasticity & (\$/tCO$_2$)$^{-1}$ \\
+$\Delta p_{fs}$ & Price change on fuel $f$ from the policy & \$/GJ \\
+$\tau^{\mathrm{int}}_{fs}$ & Intensive carbon price (relative price signal) & \$/tCO$_2$ \\
+$\tau^{\mathrm{ext}}_{s}$ & Extensive carbon price (average cost signal) & \$/tCO$_2$ \\
+$\Lambda$ & Reduction from a \$1/tCO$_2$ uniform tax & tCO$_2$ per \$/tCO$_2$ \\
+$\tau^{*}$ & Total effective carbon price & \$/tCO$_2$ \\
+$\lambda_s$ & Partial adjustment speed & per year \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\newpage
+%==============================================================
+\section{The behavioral model}\label{sec:behavior}
+%==============================================================
+
+\subsection{The CES form}
+
+The CES (constant elasticity of substitution) model is structural. Each sector chooses a bundle of fuels to deliver energy services at minimum cost, subject to a CES aggregator. Fuel demand then depends on all prices at once:
+\begin{equation}\label{eq:ces}
+q_f = q_f^0\,\big(p_f/p_f^0\big)^{-\sigma}\,\big(C/C^0\big)^{\sigma+\eta}
+\end{equation}
+The cost index $C$ couples all fuels together: changing the price of one fuel affects every other fuel through $C$. The index is computed from calibrated share parameters $\alpha_{fs}$:
+\begin{equation}\label{eq:costindex}
+C_s = \Big(\textstyle\sum_f \alpha_{fs}\,p_{fs}^{\,1-\sigma_s}\Big)^{1/(1-\sigma_s)}
+\end{equation}
+
+\subsection{The isoelastic form and local equivalence}
+
+The isoelastic model is a reduced form. It writes each fuel's response directly in terms of own- and cross-price elasticities:
+\begin{equation}\label{eq:iso}
+\Delta q_f/q_f \approx \varepsilon_{ff}\,\Delta p_f/p_f + \textstyle\sum_{g\neq f}\varepsilon_{fg}\,\Delta p_g/p_g
+\end{equation}
+The CES generates a specific pattern of these elasticities. Log-differentiating~\eqref{eq:ces} gives
+\begin{equation}\label{eq:own}
+\varepsilon_{ff} = -\sigma(1-s_f) + (\sigma+\eta)\,s_f = -\sigma + (\sigma+\eta)\,s_f
+\end{equation}
+\begin{equation}\label{eq:cross}
+\varepsilon_{fg} = (\sigma+\eta)\,s_g \qquad (g \neq f)
+\end{equation}
+where $s_f$ is the \emph{cost} share of fuel $f$. The own-price elasticity splits into a substitution effect, $-\sigma(1-s_f)$, and a cost-index effect. Every cross-price elasticity is proportional to the other fuel's cost share.
+
+So the CES is a \emph{disciplined} isoelastic model. It generates an entire $n\times n$ elasticity matrix from two parameters plus observed cost shares, where an unconstrained model needs $n^2$ parameters. Symmetry, proportionality, and the Engel and Cournot aggregation conditions all hold automatically.
+
+For small price changes, under about 20\% of the base price, the isoelastic form approximates the CES closely. For large changes the two diverge, because the CES tracks the nonlinear reallocation of shares while the isoelastic form holds shares fixed.
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{lcc}
+\toprule
+& \textbf{CES} & \textbf{Isoelastic} \\
+\midrule
+Spreadsheet implementation & Needs cost index $C$ & Direct per-fuel formulas \\
+Large price changes & Accurate & Approximation degrades \\
+Consistent cross-elasticities & Guaranteed & Must be imposed \\
+Number of parameters & $2+{}$shares & $n^2$ (or $2+{}$shares from CES) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The effective carbon price uses the isoelastic form, linearized around the baseline. This is exact for small policy perturbations and keeps $C$ out of the formula itself. The elasticities come from the CES, so the CES supplies the discipline and the isoelastic form supplies the simplicity.
+
+\subsection{From elasticities to semi-elasticities}
+
+A standard elasticity $\varepsilon = \partial\ln q/\partial\ln p$ gives the proportional response to a proportional price change. A semi-elasticity $\tilde{\varepsilon} = \partial\ln q/\partial p$ gives the proportional response to an \emph{absolute} price change. Since $\partial\ln p = \partial p/p$, the two are related by
+\begin{equation}\label{eq:semi}
+\tilde{\varepsilon} = \varepsilon/p
+\end{equation}
+Semi-elasticities are the natural form here because the policy variable, a carbon price in \$/tCO$_2$, is an absolute price.
+
+\textbf{Intensive margin.} Holding total sectoral energy fixed, the CES own-price elasticity of fuel $f$ is $-\sigma_s(1-w_{fs})$. Here the energy share $w_{fs}$ stands in for the cost share; the two coincide when fuels have equal prices per GJ. The $(1-w_{fs})$ term reflects that a dominant fuel has less room to be substituted. A carbon price $\tau$ raises fuel $f$'s price relative to the sector average by $\tau(e_f-\bar{e}_s)$, a proportional change of $\tau(e_f-\bar{e}_s)/p_{fs}$. The intensive semi-elasticity is therefore
+\begin{equation}\label{eq:semi-int}
+\tilde{\varepsilon}^{\,\mathrm{int}}_{fs} = \sigma_s\,(1-w_{fs})\,(e_f-\bar{e}_s)/p_{fs}
+\end{equation}
+Fuels dirtier than the sector average ($e_f > \bar{e}_s$) are displaced, and cleaner fuels gain share.
+
+\textbf{Extensive margin.} Total sectoral energy demand responds to the cost index with elasticity $\eta_s$. A carbon price $\tau$ raises the cost index by approximately $\tau\,\bar{e}_s$ per GJ, so the extensive semi-elasticity is
+\begin{equation}\label{eq:semi-ext}
+\tilde{\varepsilon}^{\,\mathrm{ext}}_{s} = |\eta_s|\,\bar{e}_s/C_s
+\end{equation}
+Here the cost index $C_s$ plays the role of the price in~\eqref{eq:semi}.
+
+\newpage
+%==============================================================
+\section{Decomposing a policy into carbon prices}\label{sec:decomp}
+%==============================================================
+
+Any policy that changes fuel prices by $\Delta p_{fs}$ can be split into two components. The \textbf{extensive carbon price} is the energy-weighted average price increase in a sector, converted to carbon-price units:
+\begin{equation}\label{eq:tau-ext}
+\tau^{\mathrm{ext}}_s = \textstyle\sum_f w_{fs}\,\Delta p_{fs}\,/\,\bar{e}_s
+\end{equation}
+The \textbf{intensive carbon price} is each fuel's price change relative to that average, normalized by its emission factor relative to the mean:
+\begin{equation}\label{eq:tau-int}
+\tau^{\mathrm{int}}_{fs} = \big(\Delta p_{fs} - \textstyle\sum_{f'} w_{f's}\,\Delta p_{f's}\big)\,/\,(e_f-\bar{e}_s)
+\end{equation}
+
+Both decompositions check out for a pure carbon tax. With $\Delta p_{fs} = \tau e_f$, equation~\eqref{eq:tau-ext} gives $\tau^{\mathrm{ext}}_s = \tau$ and~\eqref{eq:tau-int} gives $\tau^{\mathrm{int}}_{fs} = \tau$ for every fuel.
+
+Equation~\eqref{eq:tau-int} is undefined for a fuel with $e_f = \bar{e}_s$. This causes no difficulty: the semi-elasticity~\eqref{eq:semi-int} for that fuel is zero, and the product $\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}\tau^{\mathrm{int}}_{fs}$ is well defined in general, since the $(e_f-\bar{e}_s)$ terms cancel.
+
+\newpage
+%==============================================================
+\section{The effective carbon price}\label{sec:ecp}
+%==============================================================
+
+\subsection{Emissions reduction and the benchmark}
+
+Combining the semi-elasticities with the policy's carbon prices, the linearized emissions reduction from fuel $f$ in sector $s$ is
+\begin{equation}\label{eq:dE}
+\Delta E_{fs} = E_{fs}\,\big[\,\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}\,\tau^{\mathrm{int}}_{fs} + \tilde{\varepsilon}^{\,\mathrm{ext}}_{s}\,\tau^{\mathrm{ext}}_{s}\,\big]
+\end{equation}
+Total reduction is $\Delta E = \sum_s\sum_f \Delta E_{fs}$.
+
+Under a uniform \$1/tCO$_2$ carbon tax, every fuel's price rises by $e_f$, so $\tau^{\mathrm{int}}_{fs} = \tau^{\mathrm{ext}}_s = 1$. The benchmark reduction is the normalization constant:
+\begin{equation}\label{eq:lambda}
+\Lambda = \textstyle\sum_s\sum_f E_{fs}\,\big[\,\tilde{\varepsilon}^{\,\mathrm{int}}_{fs} + \tilde{\varepsilon}^{\,\mathrm{ext}}_{s}\,\big]
+\end{equation}
+The effective carbon price is the ratio $\tau^* = \Delta E/\Lambda$, which is equation~\eqref{eq:main}.
+
+\subsection{Weighted-average form}
+
+Define the weights
+\begin{equation}\label{eq:omega-int}
+\Omega^{\mathrm{int}}_{fs} = E_{fs}\,\tilde{\varepsilon}^{\,\mathrm{int}}_{fs}
+\end{equation}
+\begin{equation}\label{eq:omega-ext}
+\Omega^{\mathrm{ext}}_{s} = E_{s}\,\tilde{\varepsilon}^{\,\mathrm{ext}}_{s}
+\end{equation}
+The effective carbon price is then a weighted average of the policy's carbon prices:
+\begin{equation}\label{eq:omega-form}
+\tau^{*} = \frac{\sum_s \big[\,\Omega^{\mathrm{ext}}_s\,\tau^{\mathrm{ext}}_s + \sum_f \Omega^{\mathrm{int}}_{fs}\,\tau^{\mathrm{int}}_{fs}\,\big]}{\sum_s \big[\,\Omega^{\mathrm{ext}}_s + \sum_f \Omega^{\mathrm{int}}_{fs}\,\big]}
+\end{equation}
+
+The $\Omega$ weights are \emph{properties of the economy}, not of the policy. They depend only on the energy balance, fuel prices, emission factors, and elasticities, and are computed once per country. The policy enters only through $\tau^{\mathrm{int}}_{fs}$ and $\tau^{\mathrm{ext}}_s$.
+
+\subsection{Computation}
+
+The inputs are energy consumption $q_{fs}$, prices $p_{fs}$, and emission factors $e_f$ from the energy balance; elasticities $\sigma_s$ and $\eta_s$ from CES calibration; and price changes $\Delta p_{fs}$ from the policy description. The computation runs as follows:
+\begin{enumerate}[nosep]
+\item Compute shares $w_{fs}$, mean emission factors $\bar{e}_s$, and emissions $E_{fs}$.
+\item Compute the cost index $C_s$ from~\eqref{eq:costindex}.
+\item Compute semi-elasticities from~\eqref{eq:semi-int} and~\eqref{eq:semi-ext}, then weights from~\eqref{eq:omega-int} and~\eqref{eq:omega-ext}.
+\item Decompose the policy into $\tau^{\mathrm{ext}}_s$ and $\tau^{\mathrm{int}}_{fs}$ using~\eqref{eq:tau-ext} and~\eqref{eq:tau-int}.
+\item Compute $\tau^*$ from~\eqref{eq:omega-form}.
+\end{enumerate}
+
+\newpage
+%==============================================================
+\section{Special cases}\label{sec:special}
+%==============================================================
+
+\textbf{Pure carbon tax at rate $\tau$.} All intensive and extensive prices equal $\tau$, so $\tau^* = \tau$. The formula is self-consistent.
+
+\textbf{Revenue-neutral feebate.} The average cost change is roughly zero, so $\tau^{\mathrm{ext}}_s \approx 0$ and only the switching channel survives. The effective carbon price equals the feebate's implicit carbon price, scaled by the intensive margin's share of total carbon-tax effectiveness.
+
+\textbf{Uniform energy tax.} The same \$/GJ applies to every fuel, so $\tau^{\mathrm{int}}_{fs} = 0$ and only the demand channel survives.
+
+\textbf{Single sector, single fuel.} No switching is possible, so $\sigma$ is irrelevant. The effective carbon price reduces to the extensive component, $\tau^* = \Delta p/e$.
+
+%==============================================================
+\section{Dynamics: partial adjustment}\label{sec:dynamics}
+%==============================================================
+
+Both the CES and isoelastic forms describe \emph{long-run} equilibrium responses. In practice, adjustment takes time: capital stocks turn over, infrastructure is built, and habits change. A partial adjustment model captures this. Each year, actual quantities move a fraction $\lambda_s$ of the way toward the equilibrium target $q^*_{fs,t}$ implied by that year's prices:
+\begin{equation}\label{eq:pa}
+q_{fs,t} = q_{fs,t-1} + \lambda_s\,\big(q^*_{fs,t} - q_{fs,t-1}\big)
+\end{equation}
+This is an exponential smoothing filter with half-life of roughly $\ln 2/\lambda_s$ years. The effective elasticity in the first year after a price change is about $\lambda_s\sigma_s$ on the intensive margin and $\lambda_s|\eta_s|$ on the extensive margin, rising toward the long-run values over time. Given short- and long-run elasticities from the literature, $\lambda \approx \sigma^{\mathrm{SR}}/\sigma^{\mathrm{LR}}$.
+
+Partial adjustment operates on quantities, so it sits on top of either form. The difference lies in how the target is computed. The CES re-linearizes each year at the current fuel mix, recomputing $C$ from actual prices so that substitution possibilities evolve with shares. The isoelastic form uses a fixed linearization. For year-to-year steps with moderate price changes the difference is small. For transformational scenarios, such as near-complete electrification, the CES is substantially more reliable.
+
+The adjustment speed can vary by sector (power adjusts faster than buildings) and by fuel pair (gasoline-to-diesel is fast; gas-to-electricity requires new infrastructure). It can also differ between margins: total sectoral energy and fuel shares can be adjusted separately at speeds $\lambda^{\mathrm{ext}}_s$ and $\lambda^{\mathrm{int}}_s$. In every case the effective carbon price still applies year by year, using the partially adjusted quantities in place of the equilibrium ones.
+
+\end{document}
