@@ -2,35 +2,28 @@
 setlocal enabledelayedexpansion
 
 REM ============================================================
-REM  SyncRepo.bat  -  fiscal-climate-ai-tools
+REM  SyncRepo.bat
 REM
-REM  Lives in the ROOT of the repo it syncs. Reads RepoDirectory.csv
-REM  from the same folder, pulls the latest main, then stages, commits
-REM  and pushes local changes back to main.
+REM  Generic: drop an identical copy of this file into the ROOT of
+REM  every repo. It works out which repo it is in by asking git for
+REM  the "origin" remote URL (git remote get-url origin), so nothing
+REM  in the file needs editing per repo.
 REM
-REM  CSV columns: FolderName,RepoName,Pull,Add-Commit-Push
-REM
-REM  FolderName is "." because this script sits inside the repo rather
-REM  than beside a set of repo folders. Do NOT leave it truly empty:
-REM  cmd's "for /f" collapses leading delimiters, so an empty first
-REM  field shifts every column and the URL lands in FolderName.
-REM  "." , "" and a real folder name are all handled.
+REM  Double-click it to switch to main, pull the latest changes, then
+REM  stage, commit and push your local changes back to main.
 REM
 REM  Usage:
-REM    SyncAllRepos.bat                    prompt for the commit message
-REM    SyncAllRepos.bat "fixed the join"   use that message, no prompt
+REM    SyncRepo.bat                    prompt for the commit message
+REM    SyncRepo.bat "fixed the join"   use that message, no prompt
+REM
+REM  To sync ALL your repos in one go, use SyncAllRepos.bat, which
+REM  sits one level up in your Repos folder (C:\Users\<username>\Repos)
+REM  and reads the list of repos from RepoDirectory.csv next to it.
 REM ============================================================
 
-set "SCRIPT_DIR=%~dp0"
-set "CSV_FILE=%SCRIPT_DIR%RepoDirectory.csv"
+set "REPO_PATH=%~dp0"
+set "REPO_PATH=%REPO_PATH:~0,-1%"
 set "ARG_MSG=%~1"
-
-if not exist "%CSV_FILE%" (
-    echo ERROR: Could not find RepoDirectory.csv next to this script.
-    echo Expected at: %CSV_FILE%
-    pause
-    exit /b 1
-)
 
 where git >nul 2>&1
 if errorlevel 1 (
@@ -39,9 +32,29 @@ if errorlevel 1 (
     exit /b 1
 )
 
+if not exist "%REPO_PATH%\.git" (
+    echo ERROR: Not a git repository: %REPO_PATH%
+    echo This script must sit in the root folder of the repo it syncs.
+    pause
+    exit /b 1
+)
+
+REM Detect the GitHub address of this repo from its "origin" remote
+set "REPO_URL="
+for /f "delims=" %%U in ('git -C "%REPO_PATH%" remote get-url origin 2^>nul') do set "REPO_URL=%%U"
+if not defined REPO_URL (
+    echo ERROR: This repo has no "origin" remote, so there is nothing to pull from or push to.
+    echo Clone it from GitHub, or add a remote with:  git remote add origin ^<url^>
+    pause
+    exit /b 1
+)
+if /i "%REPO_URL:~-4%"==".git" set "REPO_URL=%REPO_URL:~0,-4%"
+
 echo ============================================================
 echo  Repo Sync - Pull / Add / Commit / Push
 echo ============================================================
+echo  Repo:   %REPO_URL%
+echo  Folder: %REPO_PATH%
 if defined ARG_MSG (
     echo  Commit message: "%ARG_MSG%"
 ) else (
@@ -51,47 +64,7 @@ if defined ARG_MSG (
 echo ============================================================
 echo.
 
-for /f "usebackq skip=1 tokens=1-4 delims=," %%A in ("%CSV_FILE%") do (
-    call :ProcessRepo "%%A" "%%B" "%%C" "%%D"
-)
-
-echo.
-echo ============================================================
-echo  Done.
-echo ============================================================
-pause
-exit /b 0
-
-REM ------------------------------------------------------------
-:ProcessRepo
-set "FOLDER=%~1"
-set "REPO_URL=%~2"
-set "PULL_FLAG=%~3"
-set "PUSH_FLAG=%~4"
-
-REM "." or "" both mean "the folder this script is in"
-if "%FOLDER%"=="." set "FOLDER="
-if "%FOLDER%"==""  (
-    set "REPO_PATH=%SCRIPT_DIR:~0,-1%"
-    set "LABEL=this repo"
-) else (
-    set "REPO_PATH=%SCRIPT_DIR%%FOLDER%"
-    set "LABEL=%FOLDER%"
-)
-
-echo ------------------------------------------------------------
-echo Repo: !LABEL!  (%REPO_URL%)
-
-if not exist "!REPO_PATH!" (
-    echo   [SKIP] Folder not found: !REPO_PATH!
-    goto :eof
-)
-if not exist "!REPO_PATH!\.git" (
-    echo   [SKIP] Not a git repository: !REPO_PATH!
-    goto :eof
-)
-
-pushd "!REPO_PATH!"
+pushd "%REPO_PATH%"
 
 for /f "delims=" %%G in ('git rev-parse --abbrev-ref HEAD 2^>nul') do set "BRANCH=%%G"
 echo   Current branch: !BRANCH!
@@ -103,63 +76,61 @@ if !errorlevel! equ 0 (
         git checkout main
         if !errorlevel! neq 0 (
             echo   [ERROR] Could not switch to main - commit or stash your changes first.
-            popd
-            goto :eof
+            goto :done
         )
     )
 ) else (
     echo   [WARN] No local "main" branch found, staying on !BRANCH!.
 )
 
-if /i "%PULL_FLAG%"=="Y" (
-    echo   Pulling latest changes...
-    git pull
-    if !errorlevel! neq 0 (
-        echo   [ERROR] git pull failed. Skipping commit/push.
-        popd
-        goto :eof
-    )
+echo   Pulling latest changes...
+git pull
+if !errorlevel! neq 0 (
+    echo   [ERROR] git pull failed. Skipping commit/push.
+    goto :done
 )
 
-if /i "%PUSH_FLAG%"=="Y" (
-    echo   Staging all changes...
-    git add -A
+echo   Staging all changes...
+git add -A
 
-    git diff --cached --quiet
-    if !errorlevel! equ 0 (
-        echo   No changes to commit.
-    ) else (
-        echo.
-        echo   Changes to be committed:
-        git --no-pager diff --cached --stat
-        echo.
-
-        set "COMMIT_MSG=%ARG_MSG%"
-        if not defined COMMIT_MSG set /p COMMIT_MSG="  Commit message: "
-        if "!COMMIT_MSG!"=="" (
-            echo   [SKIP] No commit message entered - nothing committed.
-            popd
-            goto :eof
-        )
-
-        echo   Committing...
-        git commit -m "!COMMIT_MSG!"
-        if !errorlevel! neq 0 (
-            echo   [ERROR] git commit failed.
-            popd
-            goto :eof
-        )
-
-        echo   Pushing to main...
-        git push origin HEAD:main
-        if !errorlevel! neq 0 (
-            echo   [ERROR] git push failed.
-            popd
-            goto :eof
-        )
-        echo   Pushed.
-    )
+git diff --cached --quiet
+if !errorlevel! equ 0 (
+    echo   No changes to commit.
+    goto :done
 )
 
+echo.
+echo   Changes to be committed:
+git --no-pager diff --cached --stat
+echo.
+
+set "COMMIT_MSG=%ARG_MSG%"
+if not defined COMMIT_MSG set /p COMMIT_MSG="  Commit message: "
+if "!COMMIT_MSG!"=="" (
+    echo   [SKIP] No commit message entered - nothing committed.
+    goto :done
+)
+
+echo   Committing...
+git commit -m "!COMMIT_MSG!"
+if !errorlevel! neq 0 (
+    echo   [ERROR] git commit failed.
+    goto :done
+)
+
+echo   Pushing to main...
+git push origin HEAD:main
+if !errorlevel! neq 0 (
+    echo   [ERROR] git push failed.
+    goto :done
+)
+echo   Pushed.
+
+:done
 popd
-goto :eof
+echo.
+echo ============================================================
+echo  Done.
+echo ============================================================
+pause
+exit /b 0
